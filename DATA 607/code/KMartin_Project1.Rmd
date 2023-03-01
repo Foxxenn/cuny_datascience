@@ -1,0 +1,151 @@
+---
+title: 'Project #1'
+author: "Kory Martin"
+date: "2/15/2023"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(readr)
+library(tidyverse)
+
+knitr::opts_chunk$set(echo = TRUE)
+
+file_name = 'tournamentinfo.txt'
+
+```
+
+## Create Player DF
+
+My initial focus is on importing the text file and then storing the relevant data into a dataframe that can be used for additional pre-processing
+```{r Create Player DF}
+
+data_string = readLines(file_name, warn = F)
+
+cols = c('pair_num', 'player_name','player_points', 'player_state', 'pre_rating',
+         'round1_opponent', 'round2_opponent', 'round3_opponent', 'round4_opponent',
+         'round5_opponent', 'round6_opponent', 'round7_opponent', 'avg_opponent_rating')
+
+player_matrix = matrix(nrow=64, ncol=length(cols))
+colnames(player_matrix) = cols
+player_df = as_tibble(player_matrix)
+
+
+player_index = 1
+sub_index = 2
+
+while(player_index<=64) {
+  row1 = data_string[2*player_index+sub_index+1]
+  row2 = data_string[2*player_index+sub_index+2]
+  
+  row1_string_vect = str_split(row1,'[|]')
+  row2_string_vect = str_split(row2,'[|]')
+  
+  
+  
+  player_df$pair_num[player_index] = row1_string_vect[[1]][1]
+  player_df$player_name[player_index] = row1_string_vect[[1]][2]
+  player_df$player_points[player_index] = row1_string_vect[[1]][3]
+  player_df$player_state[player_index] = row2_string_vect[[1]][1]
+  player_df$pre_rating[player_index] = row2_string_vect[[1]][2]
+  player_df$round1_opponent[player_index] = row1_string_vect[[1]][4]
+  player_df$round2_opponent[player_index] = row1_string_vect[[1]][5]
+  player_df$round3_opponent[player_index] = row1_string_vect[[1]][6]
+  player_df$round4_opponent[player_index] = row1_string_vect[[1]][7]
+  player_df$round5_opponent[player_index] = row1_string_vect[[1]][8]
+  player_df$round6_opponent[player_index] = row1_string_vect[[1]][9]
+  player_df$round7_opponent[player_index] = row1_string_vect[[1]][10]
+  
+  #print(pre_rating)
+  player_index=player_index+1
+  sub_index = sub_index+1
+}
+
+```
+
+## Clean Up Dataframe
+
+In this data cleaning chunk I want to complete the following pre-processing steps for the following columns:
+
+1. pair_num - remove the extra white space; no need to convert it into an integer since there will be no mathematical computation performed on it
+2. player_name - remove the front and ending white space characters
+3. player_points - remove the front and ending white space characters
+4. player_state - remove the front and ending white space characters
+5. pre_rating - remove the front and ending white space characters; extract just the pre-rating portion of the character string
+6. roundx_opponent - extract only the numeric portion of the field (for each opponent in rounds 1 through 7)
+
+
+```{r Clean Up Dataframe}
+
+#Clean up the white space in the first four columns
+player_df = player_df %>% mutate(pair_num = str_squish(pair_num),
+                     player_name = str_squish(player_name),
+                     player_points = str_squish(player_points),
+                     player_state = str_squish(player_state),
+                     pre_rating = str_squish(pre_rating))
+
+#Capture the player's pre-rating
+player_df = player_df %>% mutate(pre_rating = str_extract(str_extract_all(player_df$pre_rating,'R:\\s+[\\d]+'),'[\\d]+'))
+
+#Capture the player's opponent number for each round
+
+player_df = player_df %>% mutate(round1_opponent = str_extract(round1_opponent, '[\\d]+'),
+                     round2_opponent = str_extract(round2_opponent, '[\\d]+'),
+                     round3_opponent = str_extract(round3_opponent, '[\\d]+'),
+                     round4_opponent = str_extract(round4_opponent, '[\\d]+'),
+                     round5_opponent = str_extract(round5_opponent, '[\\d]+'),
+                     round6_opponent = str_extract(round6_opponent, '[\\d]+'),
+                     round7_opponent = str_extract(round7_opponent, '[\\d]+'))
+
+  
+```
+
+## Calculate the Average Pre-Chess Rating of Opponents
+
+This block of code loops through the player dataframe and calculates the average pre-chess rating of the opponents for each player
+
+```{r Calculate Average Pre-Chess Rating of Opponents}
+
+#Create a function that takes a row and calculates the average pre-match ranking for each opponent
+calc_average = function(df_row) {
+
+  
+  round1_opponent_score = (player_df %>% filter(player_df$pair_num == df_row$round1_opponent))$pre_rating
+  round2_opponent_score = (player_df %>% filter(player_df$pair_num == df_row$round2_opponent))$pre_rating
+  round3_opponent_score = (player_df %>% filter(player_df$pair_num == df_row$round3_opponent))$pre_rating
+  round4_opponent_score = (player_df %>% filter(player_df$pair_num == df_row$round4_opponent))$pre_rating
+  round5_opponent_score = (player_df %>% filter(player_df$pair_num == df_row$round5_opponent))$pre_rating
+  round6_opponent_score = (player_df %>% filter(player_df$pair_num == df_row$round6_opponent))$pre_rating
+  round7_opponent_score = (player_df %>% filter(player_df$pair_num == df_row$round7_opponent))$pre_rating
+  
+  pre_rating_scores = c(round1_opponent_score,round2_opponent_score,round3_opponent_score,
+                        round4_opponent_score,round5_opponent_score,round6_opponent_score,
+                        round7_opponent_score)
+  
+  average_opponent_pre_rating = mean(as.numeric(pre_rating_scores))
+  
+  
+  
+  return(average_opponent_pre_rating)
+  
+}
+
+for(i in 1:nrow(player_df)) {
+  avg_score = calc_average(player_df[i,])
+  player_df[i,]$avg_opponent_rating = round(avg_score,0)
+}
+
+
+```
+## Simplify the Dataframe and export the output
+
+This block of code creates a simplified dataframe with only the requested fields and then exports it to a .csv file.
+
+```{r Simplify Dataframe and Export Output}
+
+simple_df = player_df %>% select(c('player_name','player_state','player_points','pre_rating', 'avg_opponent_rating'))
+
+knitr::kable(head(simple_df))
+write_csv(simple_df, 'KMartin_project1_output.csv')
+
+```

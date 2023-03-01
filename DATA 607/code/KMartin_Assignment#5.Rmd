@@ -1,0 +1,183 @@
+---
+title: 'Assignment #5'
+author: "Kory Martin"
+date: "2/24/2023"
+output: 
+  html_document:
+    toc: true
+---
+## Assignment - Tidying and Transforming Data
+
+This assignment is focused on demonstrating a knowledge and ability to work with untidy data by doing the necessary transformations to the data to convert it into Tidy data that is then more functionally capable of being used for data analysis purposes.
+
+The main steps in this assignment include:
+(1) Create a .CSV file (or optionally, a MySQL database!) that includes the untidy data provided, using a “wide” structure similar to how the information appears above, so that you can practice tidying and transformations as described below.
+(2) Read the information from the .CSV file into R,and use tidy rand dplyr as needed to tidy and transform the data.
+(3) Perform analysis to compare the arrival delays for the two airlines.
+
+## Setup
+
+This step imports the libraries that will be used to clean and analyze the data
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(dplyr)
+library(scales) #Used for showing percents for y-axis labels below
+```
+
+
+## Import Data
+
+The data from the homework file was manually duplicated in a .CSV file and then we import that sample data in the code below
+
+```{r Import Data}
+untidy_data = read.csv('../input/assignment5_sample_data.csv')
+
+untidy_data
+```
+
+## Clean and Tidy Data
+
+Next we will perform the following steps on the untidy dataset to prepare it for conversion to a tidy dataset. 
+
+(1) Name the first two columns 
+(2) Collect the names of the destination cities for future use when shifting our data from wide to long
+(3) Remove any rows with NAs (in this case this applies to Row 3)
+(4) Convert all numerical strings to be of numeric type by removing large numbers that have a comma
+(5) Use the destination names to convert the data from wide to long
+(6) Fill in the airline names for newly created rows that have a blank airline name
+(7) Spread out the on time and delayed values so that each record is for one airline and one destination city
+(8) Standardize the column names using the janitor library's clean_names function
+(9) Revmoe the "." in the names for the destination cities
+
+```{r Clean and Tidy Data}
+colnames(untidy_data)[1] = "Airline"
+colnames(untidy_data)[2] = "Arrival Status"
+
+destination_names <- colnames(untidy_data[3:length(untidy_data)])
+destination_names
+
+#Remove row of blanks and NA values
+untidy_data <- untidy_data %>% na.omit()
+
+print(untidy_data)
+
+#Remove the comma from the large number strings, and convert all numeric strings into numeric values
+untidy_data[destination_names] <- untidy_data[destination_names] %>% apply(MARGIN = 2, FUN = function(x) as.numeric(str_remove(x,",")))
+
+print(untidy_data)
+
+#Change data from wide to long, by taking destination columns names and putting them into a "Destination" field, and the values for these columns into a "Num Flights" field
+long_data <- untidy_data %>% pivot_longer(cols=destination_names,names_to = "Destination", values_to = "Num Flights")
+
+print(long_data)
+
+#Change blanks in Airlines field to an NA value
+long_data <- long_data %>% mutate(Airline = ifelse(Airline == "", NA, Airline))
+
+print(long_data)
+
+#Fill the missing Airlines values with the previous Airline name
+long_data <- long_data %>% fill(Airline)
+
+print(long_data)
+
+#Use janitor::clean_names function to standardize column names
+long_data <- long_data %>% janitor::clean_names()
+
+print(long_data)
+
+#Spread the arrival status field
+tidy_data <- long_data %>% spread(key=arrival_status, value=num_flights)
+
+print(tidy_data)
+
+#Clean column names
+tidy_data <- tidy_data %>% janitor::clean_names()
+
+print(tidy_data)
+
+#Remove the "." from the destination city names
+tidy_data <- tidy_data %>% mutate(destination = str_replace(destination, "\\.", " "))
+
+print(tidy_data)
+```
+## Prepare Data for Analysis
+
+Now that we have the data structured in a tidy data format, we are just about ready to conduct various analyses on the data. To assist in the analysis process, we first adjust our tidy data to include the following fields:
+
+(1) num_flights = the total number of flights to the destination city, per airline
+(2) pct_delayed = percent of times a flight is delayed for a specific destination, per airline
+(3) pct_ontime = percent of times a flight is on time for a specific destination, per airline
+
+Additionally, to account for differences in the number of flights that a particular airline may have to a specific destination, we also created a separate data table that is summarized by each airline, and has the following additional fields:
+
+(1) total flights = total number of flights across all destinations for particular airline
+(2) total_delayed = total number of delayed flights for particular airline across all destinations
+(3) total ontime = total number of on time flights for particular airline across all destinations
+(4) pct_delayed = percent of total flights that were delayed for a particular airline
+(5) pct_ontime = percent of total flights on time for a particular airline
+
+```{r Prepare Data for Analysis}
+
+flight_df <- tidy_data
+
+
+flight_df <- flight_df %>% mutate(num_flights = delayed+on_time,
+                                  pct_delayed = delayed/num_flights,
+                                  pct_ontime = on_time/num_flights)
+
+print(flight_df)
+
+
+airline_summary <- flight_df %>% group_by(airline) %>% summarize(total_delayed = sum(delayed),
+                                              total_ontime = sum(on_time),
+                                              total_flights = sum(num_flights),
+                                              pct_delayed = (total_delayed/total_flights),
+                                              pct_ontime = (total_ontime/total_flights))
+
+print(airline_summary)
+
+#Average difference in pct of delayed flights by destination between the two airlines
+mean(flight_df[flight_df$airline == 'AM WEST',]$pct_delayed - flight_df[flight_df$airline == 'ALASKA',]$pct_delayed)
+```
+
+## Visualizing Data
+
+As a final step in our analysis process, we will create visualizations to help us compare the arrival delays for the two airlines
+
+```{r Visualizing Data}
+
+
+ggplot(data=airline_summary, aes(x=airline, y=total_delayed, fill=airline)) +
+  geom_bar(stat='identity') +
+  labs(title = "\n Number of Delayed Flights by Airline", y="Total Number of Delayed Flights", fill="Airline") +
+  theme(axis.title.x = element_blank()) + 
+  geom_text(aes(label=total_delayed), vjust = 1.5,position = position_dodge(.9), size = 3)
+
+
+
+ggplot(data = airline_summary, aes(x=airline, y=pct_delayed, fill=airline)) + 
+  geom_bar(stat='identity') +
+  labs(title = "\n Pct of Flights Delayed by Airline", y="\n Pct of Flights Delayed", fill="Airline") +
+  scale_y_continuous(labels=percent) +
+  theme(axis.title.x = element_blank()) + 
+  geom_text(aes(label=paste0(format(pct_delayed*100, digits=2),"%")), vjust = 1.5,position = position_dodge(.9), size = 3)
+
+
+ggplot(data = flight_df, aes(x=destination,y=pct_delayed, fill=airline)) +
+  geom_bar(stat='identity', position = position_dodge()) +
+  geom_text(aes(label=paste0(format(pct_delayed*100, digits=2),"%")), vjust = 1.5,position = position_dodge(.9), size = 3) +
+  labs(x="\nDestination City", y="\nPct of Flights Delayed", title="\n Percent of Flights Delayed by Airline and Destination", fill="Airlines") +
+  theme(axis.title.x = element_blank()) +
+  scale_y_continuous(labels=percent)
+
+
+  
+```
+
+## Conclusion
+
+Based on the analysis, we find the Am West Airlines has 286 - or 57% - more delayed flights than Alaska Airlines. However, AmWest had 97% more total flights than Alaska. To better understand the propensity for each airline to have delayed flights, we instead look at the percent of their total flights that are delayed. When we view the data in this way, we find that approximately 13.3% of flights are delayed at Alaska Airlines, vs 10.9% of flights at AmWest. Finally, when we further distill the data to view the percent of flights delayed for each airline based on their destination, we find that Alaska Airlines outperforms AmWest across each of the destination cities. Across each of the destination cities, AmWest had an average of 6.6% more delayed flights per destination compared to Alaska Airlines
