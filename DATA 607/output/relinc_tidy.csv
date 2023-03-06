@@ -1,0 +1,181 @@
+religion,income,num_respondents
+Agnostic,under_10k,27
+Agnostic,10k_to_20k,34
+Agnostic,20k_to_30k,60
+Agnostic,30k_to_40k,81
+Agnostic,40k_to_50k,76
+Agnostic,50k_to_70k,137
+Agnostic,75k_to_100k,122
+Agnostic,100k_to_150k,109
+Agnostic,over_150k,84
+Agnostic,refused,96
+Atheist,under_10k,12
+Atheist,10k_to_20k,27
+Atheist,20k_to_30k,37
+Atheist,30k_to_40k,52
+Atheist,40k_to_50k,35
+Atheist,50k_to_70k,70
+Atheist,75k_to_100k,73
+Atheist,100k_to_150k,59
+Atheist,over_150k,74
+Atheist,refused,76
+Buddhist,under_10k,27
+Buddhist,10k_to_20k,21
+Buddhist,20k_to_30k,30
+Buddhist,30k_to_40k,34
+Buddhist,40k_to_50k,33
+Buddhist,50k_to_70k,58
+Buddhist,75k_to_100k,62
+Buddhist,100k_to_150k,39
+Buddhist,over_150k,53
+Buddhist,refused,54
+Catholic,under_10k,418
+Catholic,10k_to_20k,617
+Catholic,20k_to_30k,732
+Catholic,30k_to_40k,670
+Catholic,40k_to_50k,638
+Catholic,50k_to_70k,1116
+Catholic,75k_to_100k,949
+Catholic,100k_to_150k,792
+Catholic,over_150k,633
+Catholic,refused,1489
+refused,under_10k,15
+refused,10k_to_20k,14
+refused,20k_to_30k,15
+refused,30k_to_40k,11
+refused,40k_to_50k,10
+refused,50k_to_70k,35
+refused,75k_to_100k,21
+refused,100k_to_150k,17
+refused,over_150k,18
+refused,refused,116
+Evangelical Prot,under_10k,575
+Evangelical Prot,10k_to_20k,869
+Evangelical Prot,20k_to_30k,1064
+Evangelical Prot,30k_to_40k,982
+Evangelical Prot,40k_to_50k,881
+Evangelical Prot,50k_to_70k,1486
+Evangelical Prot,75k_to_100k,949
+Evangelical Prot,100k_to_150k,723
+Evangelical Prot,over_150k,414
+Evangelical Prot,refused,1529
+Hindu,under_10k,1
+Hindu,10k_to_20k,9
+Hindu,20k_to_30k,7
+Hindu,30k_to_40k,9
+Hindu,40k_to_50k,11
+Hindu,50k_to_70k,34
+Hindu,75k_to_100k,47
+Hindu,100k_to_150k,48
+Hindu,over_150k,54
+Hindu,refused,37
+Historically Black Prot,under_10k,228
+Historically Black Prot,10k_to_20k,244
+Historically Black Prot,20k_to_30k,236
+Historically Black Prot,30k_to_40k,238
+Historically Black Prot,40k_to_50k,197
+Historically Black Prot,50k_to_70k,223
+Historically Black Prot,75k_to_100k,131
+Historically Black Prot,100k_to_150k,81
+Historically Black Prot,over_150k,78
+Historically Black Prot,refused,339
+Jehovah's Witness,under_10k,20
+Jehovah's Witness,10k_to_20k,27
+Jehovah's Witness,20k_to_30k,24
+Jehovah's Witness,30k_to_40k,24
+Jehovah's Witness,40k_to_50k,21
+Jehovah's Witness,50k_to_70k,30
+Jehovah's Witness,75k_to_100k,15
+Jehovah's Witness,100k_to_150k,11
+Jehovah's Witness,over_150k,6
+Jehovah's Witness,refused,37
+Jewish,under_10k,19
+Jewish,10k_to_20k,19
+Jewish,20k_to_30k,25
+Jewish,30k_to_40k,25
+Jewish,40k_to_50k,30
+Jewish,50k_to_70k,95
+Jewish,75k_to_100k,69
+Jewish,100k_to_150k,87
+Jewish,over_150k,151
+Jewish,refused,162
+Mainline Prot,under_10k,289
+Mainline Prot,10k_to_20k,495
+Mainline Prot,20k_to_30k,619
+Mainline Prot,30k_to_40k,655
+Mainline Prot,40k_to_50k,651
+Mainline Prot,50k_to_70k,1107
+Mainline Prot,75k_to_100k,939
+Mainline Prot,100k_to_150k,753
+Mainline Prot,over_150k,634
+Mainline Prot,refused,1328
+Mormon,under_10k,29
+Mormon,10k_to_20k,40
+Mormon,20k_to_30k,48
+Mormon,30k_to_40k,51
+Mormon,40k_to_50k,56
+Mormon,50k_to_70k,112
+Mormon,75k_to_100k,85
+Mormon,100k_to_150k,49
+Mormon,over_150k,42
+Mormon,refused,69
+Muslim,under_10k,6
+Muslim,10k_to_20k,7
+Muslim,20k_to_30k,9
+Muslim,30k_to_40k,10
+Muslim,40k_to_50k,9
+Muslim,50k_to_70k,23
+Muslim,75k_to_100k,16
+Muslim,100k_to_150k,8
+Muslim,over_150k,6
+Muslim,refused,22
+Orthodox,under_10k,13
+Orthodox,10k_to_20k,17
+Orthodox,20k_to_30k,23
+Orthodox,30k_to_40k,32
+Orthodox,40k_to_50k,32
+Orthodox,50k_to_70k,47
+Orthodox,75k_to_100k,38
+Orthodox,100k_to_150k,42
+Orthodox,over_150k,46
+Orthodox,refused,73
+Other Christian,under_10k,9
+Other Christian,10k_to_20k,7
+Other Christian,20k_to_30k,11
+Other Christian,30k_to_40k,13
+Other Christian,40k_to_50k,13
+Other Christian,50k_to_70k,14
+Other Christian,75k_to_100k,18
+Other Christian,100k_to_150k,14
+Other Christian,over_150k,12
+Other Christian,refused,18
+Other Faiths,under_10k,20
+Other Faiths,10k_to_20k,33
+Other Faiths,20k_to_30k,40
+Other Faiths,30k_to_40k,46
+Other Faiths,40k_to_50k,49
+Other Faiths,50k_to_70k,63
+Other Faiths,75k_to_100k,46
+Other Faiths,100k_to_150k,40
+Other Faiths,over_150k,41
+Other Faiths,refused,71
+Other World Religions,under_10k,5
+Other World Religions,10k_to_20k,2
+Other World Religions,20k_to_30k,3
+Other World Religions,30k_to_40k,4
+Other World Religions,40k_to_50k,2
+Other World Religions,50k_to_70k,7
+Other World Religions,75k_to_100k,3
+Other World Religions,100k_to_150k,4
+Other World Religions,over_150k,4
+Other World Religions,refused,8
+Unaffiliated,under_10k,217
+Unaffiliated,10k_to_20k,299
+Unaffiliated,20k_to_30k,374
+Unaffiliated,30k_to_40k,365
+Unaffiliated,40k_to_50k,341
+Unaffiliated,50k_to_70k,528
+Unaffiliated,75k_to_100k,407
+Unaffiliated,100k_to_150k,321
+Unaffiliated,over_150k,258
+Unaffiliated,refused,597
