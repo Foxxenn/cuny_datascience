@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<favorite_books>
+  <book>
+    <title>Predictive Marketing</title>
+    <subtitle>Easy Ways Every Marketer Can Use Customer Analytics and Big Data</subtitle>
+    <author>Omer Artun PhD., Dominique Levin</author>
+    <publisher>Wiley</publisher>
+    <subject>Marketing Analytics, Marketing</subject> 
+  </book>
+
+  <book>
+    <title>Hooked</title>
+    <subtitle>How to Build Habit-Forming Products</subtitle>
+    <author>Nir Eyal, Ryan Hoover</author>
+    <publisher>Portfolio/Penguin</publisher>
+    <subject>Product Development, Consumer Behavior, Marketing</subject>
+  </book>
+
+  <book>
+    <title>Targeted</title>
+    <subtitle>How Technology is Revolutionizing Advertising and the Way Companies Reach Consumers</subtitle>
+    <author>Mike Smith</author>
+    <publisher>AMACOM</publisher>
+    <subject>Marketing Analytics, Marketing</subject>
+  </book>
+</favorite_books>

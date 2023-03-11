@@ -478,7 +478,6 @@ For this dataset we will answer the following:
 
 ```{r}
 
-length(unique(df3$zip))
 
 df3 <- df7_partc 
 

@@ -1,0 +1,85 @@
+---
+title: "Week 7 Assignment"
+author: "Kory Martin"
+date: "3/8/2023"
+output: html_document
+---
+
+## Week 7 Assignment - Working with XML and JSON in R
+For this assignment, I began by picking three of my favorite books related to one of my favorite topics, Marketing. For each book, I created a data structure that included the following:
+
+(a) Title
+(b) Subtitle
+(c) Author(s)
+(d) Publisher
+(e) Subject(s)
+
+I created the data structures to hold this information in the following three formats: 
+
+(a) JSON
+(b) XML
+(c) HTML
+
+Finally, for this assignment, I wrote the code necessary to import the data from each of these separate files, and load them into R data frames using the appropriate libraries and associated methods. 
+
+## Load Libraries
+In addition to the main standard libraries, for this assignment we are using the "XML" and "rjson" libraries to aid in the process of loading in XML and JSON files respectively. The method needed to read in the HTML table, is included in the XML library. 
+
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE)
+
+library("tidyverse")
+library("rjson")
+library("XML")
+library("methods")
+library("knitr")
+library("kableExtra")
+
+```
+
+
+## JSON Data
+
+In this step we are loading the .json file into a data frame using the **rjson** library and the **fromJSON** function. Given that the .json is created in a nested structure, the ingested data is initially setup in a multi-dimensional array. To import it into the data frame, I wrote lines of code to create separate data frames for each book and then append them to a newly created data frame. 
+
+```{r}
+
+books_json = fromJSON(file='../input/books.json')
+
+json_df = data.frame()
+json_df = rbind(json_df,as.data.frame(books_json[1]))
+json_df = rbind(json_df,as.data.frame(books_json[2]))
+json_df = rbind(json_df,as.data.frame(books_json[3]))
+json_df %>% kbl(col.names = c("Title", "Subtitle", "Author(s)", "Publisher", "Subject(s)"))
+```
+
+## XML Data
+
+In this step we are loading the .xml file into a data frame using the **XML** library and the **xmlParse** function. The **xmlToDataFrame** function was used to convert the ingested data directly into a data frame named **xml_df**. 
+
+```{r}
+
+books_xml = xmlParse(file = "../input/books.xml")
+xml_df = xmlToDataFrame(nodes=getNodeSet(books_xml, "//book"))
+
+xml_df %>% kbl(col.names = c("Title", "Subtitle", "Author(s)", "Publisher", "Subject(s)"))
+```
+
+## HTML Data
+
+In this lat step, we are loading the table created in our .html file by using the **readHTMLTable** function, which is also included in the **XML** library. 
+
+```{r}
+books_html <- readHTMLTable("../input/books.html")
+
+books_html %>% kbl(col.names = c("Title", "Subtitle", "Author(s)", "Publisher", "Subject(s)"))
+```
+
+## Conclusion
+
+In this instance the three HTML files are identical. However, initially, when creating my JSON data structure, I used a list to hold the Authors and the Subjects. When converting this data into data frames, the result was a data frame that had multiple entries associated with each book, to hold the different values for author and subject, which was not the intended outcome. Therefore, I modified the underlying source data. While this was a necessary hack, I would expect to find a different solution for solving this challenge if this happened with data that was coming from a different source. But once I made this fix, then each of the data frames were identical. 
+
+However, one observation was that only the .html data was imported directly into a data frame without requiring any additional steps. 
+
+This was a fun exercise that allowed me to gain additional practice working with different data formats that can be found across the web. While I've done this type of work in the Python programming language, this was the first time I wrote code in R to import data from these various data structures. 
