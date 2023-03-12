@@ -36,6 +36,10 @@ library("methods")
 library("knitr")
 library("kableExtra")
 
+json_file = 'http://www.korymartin.com/books.json'
+xml_file = 'http://www.korymartin.com/books.xml'
+html_file = 'http://www.korymartin.com/books.html'
+
 ```
 
 
@@ -45,7 +49,7 @@ In this step we are loading the .json file into a data frame using the **rjson**
 
 ```{r}
 
-books_json = fromJSON(file='../input/books.json')
+books_json = fromJSON(file=json_file)
 
 json_df = data.frame()
 json_df = rbind(json_df,as.data.frame(books_json[1]))
@@ -60,7 +64,7 @@ In this step we are loading the .xml file into a data frame using the **XML** li
 
 ```{r}
 
-books_xml = xmlParse(file = "../input/books.xml")
+books_xml = xmlParse(file = xml_file)
 xml_df = xmlToDataFrame(nodes=getNodeSet(books_xml, "//book"))
 
 xml_df %>% kbl(col.names = c("Title", "Subtitle", "Author(s)", "Publisher", "Subject(s)"))
@@ -71,7 +75,7 @@ xml_df %>% kbl(col.names = c("Title", "Subtitle", "Author(s)", "Publisher", "Sub
 In this lat step, we are loading the table created in our .html file by using the **readHTMLTable** function, which is also included in the **XML** library. 
 
 ```{r}
-books_html <- readHTMLTable("../input/books.html")
+books_html <- readHTMLTable(html_file)
 
 books_html %>% kbl(col.names = c("Title", "Subtitle", "Author(s)", "Publisher", "Subject(s)"))
 ```

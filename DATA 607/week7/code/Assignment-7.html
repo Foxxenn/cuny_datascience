@@ -186,7 +186,7 @@ pre code {
 <li>XML</li>
 <li>HTML</li>
 </ol>
-<p>Finally, for this assignment, I wrote the code necessary to import the data from each of these separate files, and load them into R Dataframes using the appropriate libraries and associated methods.</p>
+<p>Finally, for this assignment, I wrote the code necessary to import the data from each of these separate files, and load them into R data frames using the appropriate libraries and associated methods.</p>
 </div>
 <div id="load-libraries" class="section level2">
 <h2>Load Libraries</h2>
@@ -215,11 +215,14 @@ library(&quot;kableExtra&quot;)</code></pre>
 ## The following object is masked from &#39;package:dplyr&#39;:
 ## 
 ##     group_rows</code></pre>
+<pre class="r"><code>json_file = &#39;http://www.korymartin.com/books.json&#39;
+xml_file = &#39;http://www.korymartin.com/books.xml&#39;
+html_file = &#39;http://www.korymartin.com/books.html&#39;</code></pre>
 </div>
 <div id="json-data" class="section level2">
 <h2>JSON Data</h2>
-<p>In this step we are loading in a</p>
-<pre class="r"><code>books_json = fromJSON(file=&#39;../input/books.json&#39;)
+<p>In this step we are loading the .json file into a data frame using the <strong>rjson</strong> library and the <strong>fromJSON</strong> function. Given that the .json is created in a nested structure, the ingested data is initially setup in a multi-dimensional array. To import it into the data frame, I wrote lines of code to create separate data frames for each book and then append them to a newly created data frame.</p>
+<pre class="r"><code>books_json = fromJSON(file=json_file)
 
 json_df = data.frame()
 json_df = rbind(json_df,as.data.frame(books_json[1]))
@@ -303,7 +306,8 @@ Marketing Analytics, Marketing
 </div>
 <div id="xml-data" class="section level2">
 <h2>XML Data</h2>
-<pre class="r"><code>books_xml = xmlParse(file = &quot;../input/books.xml&quot;)
+<p>In this step we are loading the .xml file into a data frame using the <strong>XML</strong> library and the <strong>xmlParse</strong> function. The <strong>xmlToDataFrame</strong> function was used to convert the ingested data directly into a data frame named <strong>xml_df</strong>.</p>
+<pre class="r"><code>books_xml = xmlParse(file = xml_file)
 xml_df = xmlToDataFrame(nodes=getNodeSet(books_xml, &quot;//book&quot;))
 
 xml_df %&gt;% kbl(col.names = c(&quot;Title&quot;, &quot;Subtitle&quot;, &quot;Author(s)&quot;, &quot;Publisher&quot;, &quot;Subject(s)&quot;))</code></pre>
@@ -384,7 +388,8 @@ Marketing Analytics, Marketing
 </div>
 <div id="html-data" class="section level2">
 <h2>HTML Data</h2>
-<pre class="r"><code>books_html &lt;- readHTMLTable(&quot;../input/books.html&quot;)
+<p>In this lat step, we are loading the table created in our .html file by using the <strong>readHTMLTable</strong> function, which is also included in the <strong>XML</strong> library.</p>
+<pre class="r"><code>books_html &lt;- readHTMLTable(html_file)
 
 books_html %&gt;% kbl(col.names = c(&quot;Title&quot;, &quot;Subtitle&quot;, &quot;Author(s)&quot;, &quot;Publisher&quot;, &quot;Subject(s)&quot;))</code></pre>
 <table class="kable_wrapper">
@@ -472,7 +477,9 @@ Marketing Analytics, Marketing
 </div>
 <div id="conclusion" class="section level2">
 <h2>Conclusion</h2>
-<p>In this instance the three HTML files are identical. However, initially, when creating my JSON data structure, I used a list to hold the Authors and the Subjects. When importing the dataframe values, it resulted in their being multiple rows associated with each book, which was not the intended outcome. Therefore, I modified the underlying source data. While this was a necessary temporary hack, I would expect to find a different solution for solving this challenge if this happened with data that was coming from a different source. But once I made this fix, then each of the dataframes were identical.</p>
+<p>In this instance the three HTML files are identical. However, initially, when creating my JSON data structure, I used a list to hold the Authors and the Subjects. When converting this data into data frames, the result was a data frame that had multiple entries associated with each book, to hold the different values for author and subject, which was not the intended outcome. Therefore, I modified the underlying source data. While this was a necessary hack, I would expect to find a different solution for solving this challenge if this happened with data that was coming from a different source. But once I made this fix, then each of the data frames were identical.</p>
+<p>However, one observation was that only the .html data was imported directly into a data frame without requiring any additional steps.</p>
+<p>This was a fun exercise that allowed me to gain additional practice working with different data formats that can be found across the web. While I’ve done this type of work in the Python programming language, this was the first time I wrote code in R to import data from these various data structures.</p>
 </div>
 
 
