@@ -1,0 +1,797 @@
+Job Board,Post URL,Company Name,Industry,Location,Position/Title,Skills,Seniority Level,"Job Type (i,e. Remote, Hybrid, On Premise)",Minimum Years Experience
+LinkedIn,https://www.linkedin.com/jobs/view/3516925104,Apple,Computers and Electronics Manufacturing,"Cupertino, CA ",Data Scientist,"Advanced statistics and modeling knowledge.
+
+Strong data visualization skills (e.g., Tableau).
+
+Programming skills in Python.
+
+Detail-oriented, can identify and fix own bugs, and write code that runs efficiently.
+
+Good experience with applying Big Data technologies (e.g., MapReduce, Hadoop, Spark) to large quantities of data.
+
+Good experience using relational databases and SQL.",,,
+LinkedIn,https://www.linkedin.com/jobs/view/3511294206,Storm3,Staffing and Recruiting,,Head of Data Science,"MSc/PhD in Computer Science or Engineering
+8+ years of industry experience in the field of health sensing and health technologies
+Experience building out ML infrastructure
+Expert proficiency with ML and deep learning frameworks
+Expert level Python, PyTorch and Tensorflow
+Experience working with Signal Processing and Time-Series Data",,Remote,
+LinkedIn,https://www.linkedin.com/jobs/view/3511786933,Engtal,Staffing and Recruiting,"Los Angeles, CA",Senior Data Scientist (Credit Risk),"Master’s Degree in related discipline preferred (math, physics, finance, economics), or a bachelor's degree in the fields listed (or equally quantitative field).
+Minimum three years of experience in credit risk analytics, including model development, underwriting strategies, and reporting/analytics.
+Advanced proficiency with statistical analytical packages such as Python, SAS, Spark, Stata, MATLAB, Tableau, and/or R, and SQL required. Python is a hard requirement.
+Experience with loss forecasting, credit underwriting, default management and credit risk modeling, reporting and analytics to include credit scoring models that produce Probability of Default.
+Familiarity with credit scoring modeling techniques including logistic regression, multivariate analysis, and Monte Carlo (and more advanced ML algorithms).
+Excellent analytical and problem solving skills.
+Proficient verbal and written communication skills to effectively communicate and provide customer service required.
+Ability to communicate complex issues/ideas with clarity, and implications to Deserve strategy and value creation.
+Ability to interact with management officials at all levels, as well as other risk, product, and finance management personnel throughout Deserve.
+Ability to analyze and reconcile large volume of data so that it can be summarized and eventually used for management decisions.",Mid-Senior level,Remote,
+LinkedIn,https://www.linkedin.com/jobs/view/3504973318,Booz Allen Hamilton, IT Services and IT Consulting,"Columbia, MD","Data Scientist, Mid","Experience with quantitative analysis or modeling
+Experience developing requirements and building statistical or simulation models
+Experience with scripting or scientific languages and software, including Python, R, MATLAB, @RISK, ARENA, or SAS
+TS/SCI clearance with a polygraph
+Bachelor’s degree
+Experience with Free Open-Source Software and Commercial Off-The Self Software products in statistics, Monte Carlo or discrete event simulation, Extract, Transform, and Load processes, and quantitative workflow automation
+Experience working in Windows and Linux OS environments
+Ability to consult with non-technical audiences on technical problems, work in a highly collaborative, team-oriented environment, and balance long- and short-term tasking
+Ability to take poorly defined problems and convert them into questions for which practical quantitative solutions can be defined
+Ability to be flexible, take initiative, and innovate to succeed in an ambiguous and fast-paced environment, composing client deliverable quality documentation, analysis, and reports
+Ability to be detail-oriented and organized
+Possession of excellent verbal and written communication skills
+Master's degree preferred; Doctorate degree a plus",,,
+LinkedIn,https://www.linkedin.com/jobs/view/3513273647,PayPal,"Technology, Information and Internet","San Jose, CA",Data Scientist,"Design, develop and maintain data-driven solutions for PayPal consumer risk management. Makes sound decisions that balance risk, user experience and financial performance.
+
+ Develop automated system/process and algorithms that could streamline strategy/solution building process and generate good business results.
+
+ Identify and address problems and issues during normal course of work and respond to risk mitigation needs quickly to solve issues.
+
+ Develop and automate tracking functionality that monitors volume and solution efficacy. Regularly evaluate and communicate performance of solutions to management.
+
+ Participate in the formulations and implementation of departmental processes, procedures, policies and standards.
+
+ Exercise judgment in selecting methods, techniques and evaluation criteria for obtaining results on matters of significance to the business.
+
+ Look for improvement and innovation opportunities with business impact. Provide a source of high quality ideas.
+
+Job Requirements:
+
+ Strong in analytics and problem solving. Experienced with predicative modeling, data mining and analytical tool. Proficient with SQL, SAS, Python, Unix etc.
+
+ Proven experience in employing analytics solution on real world problems.
+
+ Good business sense and logical thinking. Ability to synthesize information and generalize the pattern.
+
+ Proven ability to work proficiently on well-defined projects; Focuses primarily on how to achieve overall business objectives of a project with speed and quality
+
+ Effective inter-personal skills. Manage relationship with key partners. Able to collaborate with remote teams effectively.
+
+ Skilled in Presenting – can effectively communicate in large or small group settings.",,,3 yeara
+LinkedIn,https://www.linkedin.com/jobs/view/3512035346,Sam's Club,Retail,"Dallas, TX",Principal Data Scientist,"Experience in the development of large-scale production systems, Knowledge of Search, information retrieval and ranking systems
+6 years+ of experience in applied machine learning, familiar with one or more of the algorithms such as Collaborative Filtering, Matrix Factorization, Factorization Machines, Word2vec, Deep Neural Networks, Wide and Deep etc
+Skilled in Programming language (Python, Java, R or Scala) and Large-scale training using data structures and algorithms
+Extensive experience with machine learning and deep learning packages (scikit-learn, lightGBM, Tensorflow or PyTorch).
+Experience with cloud environments including Azure, Google Cloud, etc.
+Solid MLOps practices including good design documentation, unit testing, integration testing and source code control (git).
+Experienced with agile methodologies using project planning and tracking management tools e.g., JIRA
+Naturally curious on how things work and excited by solving challenges at the scale of a Fortune 1 Retailer.",Entry level,,
+LinkedIn,https://www.linkedin.com/jobs/view/3509680654,Warner Bros. Discovery,Entertainment Providers,"Culver City, CA",Principal Data Scientist,"Technical education in Computer Science, Statistics, Physics, Mathematics, and other quantitative fields (Masters/Phd preferred).
+Has 10+ years of relevant hands-on experience in machine learning algorithm development and research with a track record of processing, enriching, and extracting value from large datasets.
+The candidate demonstrates strong problem-solving and interpersonal skills.
+Strong mathematical skills and familiarity with standard statistical methods including commonly used supervised and unsupervised ML techniques.
+Experience with user representation learning techniques, deep learning techniques and sequence modeling (in particular language models) is strongly preferred.
+Experience using advanced ML topics such as deep Learning, Bandits, Probabilistic Graphical Models, Reinforcement Learning, optimization algorithms preferred.
+Proficiency with the following technologies and frameworks is a plus: Spark, Pytorch, TensorFlow, Scikit-Learn, Snowflake, Python",Entry level,On-Site,
+LinkedIn,https://www.linkedin.com/jobs/view/3505987135,Fidelity Investments,Financial Services,"Boston, MA",Principal Data Scientist,"PhD in Computer Science with extensive research papers on Natural Language Processing, OR Master’s Degree in Computer Science, Statistics, Data Science or similar technical discipline with at least 5 years relevant professional experience
+Deep understanding of Machine Learning & Deep Learning algorithms
+Knowledge of most of the following quantitative fields: Natural Language Processing, Information Retrieval, Machine Comprehension, Question Answering/Conversational AI, Reinforcement Learning, Knowledge Graph, Causal Inference, and Design of Experiment
+Statistical and data science programming skills, such as Python and R
+Experience in Big Data, search, NLP, and chatbot technologies such as Elasticsearch and Solr
+Knowledge of Deep Learning and related tools such as TensorFlow, Keras, MXNET, or H2O is preferred
+Experience deploying NLP solutions in a commercial environment",,Hybrid,
+LinkedIn,https://www.linkedin.com/jobs/view/3504938999,T-Mobile,Telecommunications,"Atlanta, GA",Principal Data Scientist,"Excellent knowledge of ML algorithms (e.g., Linear Regression, Logistic Regression, Clustering/Segmentation, Decision Tree, Random Forest Algorithm, GBM, Naive Bayes, Support Vector Machines, Deep Neural Networks (DNN), Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Long Short Term Memory (LSTM) networks, Transformers, etc.)
+Expertise in applying statistical, advanced analytics, machine learning, and/or AI, deep learning concepts, and techniques to solve business problems. Strong programming skills using Python, SQL, PySpark
+Expertise in one or more areas among Natural Language Processing (NLP), deep learning, recommender systems, and related fields is highly preferred.
+Experience with Python libraries such as Pandas, NumPy, SciPy, Scikit-Learn
+Strong analytical, critical-thinking skills with demonstrated ability to identify/analyze/synthesize data and use the data to drive decisions
+Superior communication and persuasion skills with executives and non-technical stakeholders, talent for storytelling, visualization, and creating insights from data to deliver practical recommendations for business action
+Good knowledge of calculus, linear algebra, statistics, and probability",Entry level,,
+LinkedIn,https://www.linkedin.com/jobs/view/3507107670,Deloitte,Business Consulting and Services,"Denver, CO",Senior Data Scientist,"Design, develop and apply state-of-the-art methods within AI and machine learning, including the utilization of GANs, CNNs, RNNs, LSTMs, BERT, and other models to solve complex problems
+Act as an AI thought leader, including the creation of whitepapers, presentations, executive briefings, reports, and other materials to support AI solutions and services
+Guide federal clients with high autonomy in AI strategy and development, including understanding agency needs, performing exploratory data analysis, building and validating models, and deploying models into both on-prem and cloud environments
+Act as a subject matter expert to GPS clients and global AI partner ecosystem
+Iterate on and/or create repeatable, reusable processes and scalable data systems that meet technical and deployment challenges
+Maintain and uphold data science best practices on new methodologies, technologies, industry trends, and open source packages
+Work cross-functionally with other scientists & data engineers, federal account manager and leadership to help ensure project delivery and success",,Hybrid,
+LinkedIn,,Moloco,Advertising Services,"Redwood City, CA",Senior Data Scientist,"Master's degree in a quantitative discipline (e.g. Statistics, Operations Research, Bioinformatics, Economics, Computational Biology, Computer Science, Mathematics, Physics, Electrical Engineering, Industrial Engineering) or equivalent research experience.
+5+ years of work experience in data science related fields.
+Distinctive problem-solving skills, good at articulating product questions, pulling data from large datasets and using statistics to arrive at a recommendation.
+Excellent verbal and written communication skills, with ability to present information and analysis results effectively.
+Ability to build positive relationships within DSA and with our stakeholders, and work effectively with cross-functional partners in a global company.
+Statistics: must have strong knowledge and experience in experimental design, hypothesis testing, and various statistical analysis techniques such as regression or linear models.
+Machine Learning: must have deep understanding of ML algorithms (i.e. deep learning, random forest, gradient boosted trees, k-means clustering, etc.) and its development, validation, and evaluation.
+Programming: experience with Python, R or other scripting language, and database language (e.g. SQL) or data manipulation (e.g. Pandas, Dplyr) are required.
+PhD degree in a quantitative discipline.
+Ability to manage multiple projects at the same time while paying attention to detail and translate analysis results into business recommendations.
+Proven ability to own projects end-to-end, even when you have to get creative: you do more than completing delegated tasks.
+Demonstrated leadership and self-direction. Willingness to both teach others and learn new techniques.",Mid-Senior level,,
+LinkedIn,https://www.linkedin.com/jobs/view/3514753142,Citi ,Financial Services,"Irving, TX",Lead Data Scientist –Credit Risk Modeler,"Excellent knowledge and understanding of a variety of model development and validation testing techniques covering risk models, including but not limited to linear regression models, logistic regression, generalized additive models, decision and regression trees, information gain and related segmentation statistical tools. Previous familiarity with models such as default, delinquency, loss severity modelling, PD, LGD, EAD models etc. is preferred.
+With 5+ years of relevant model development experience in Finance or related field.
+Relevant and recent experience with statistical analysis, modeling techniques and numerical implementations (Python, R, Java, SAS, or Oracle SQL).
+Sound problem-solving skills, ability to think creatively.
+Ability to meet deadlines for product deliverables in a timely, proactive and entrepreneurial manner.
+Working knowledge of credit data reliability analysis, quality controls and data processing.
+Experience in developing and maintaining detailed technical documentation for models, model validation, project plans and processes.
+Strong interpersonal skills and the ability to foster a collaborative environment.
+Excellent written and verbal communication skills, and ability to discuss technical issues with clients, peers, auditors, regulators and senior management.",,Hybrid,
+LinkedIn,https://www.linkedin.com/jobs/view/3513162637,T-Mobile,Telecommunications,"Parsippany, NJ",Data Scientists,"Experience using database technologies including MSSQL, Teradata, Oracle, and Snowflake to develop and execute database queries and conduct analyses by acquiring data from an array data sources to provide ongoing reports and develop fact-based recommendations.
+Experience in Data Engineering and workflow design tools including Alteryx to develop processes and scheduling to automate the processes and make data readily available for leaders and Google Analytics to understand customer behavior patterns on the web and identify drop out points in the web application process, provide recommendations and measure effectiveness of changes being made to further optimize customer experience on the web.
+Experience using data visualization/ BI tools including Excel and PowerBI to conceptualize dashboards which present information using advanced data visualization techniques for strategy building and core business decision making.
+Experience in Financial Analytics, Customer churn, and forecasting to report Revenue Metrics and provide forecast of expected payments to be included in the CLV model.
+Experience in the Lifeline and Telecom industry to help influence go to market strategic roadmap initiatives including new markets, device upgrades based on historical data patterns, competitor, and consumer market research.
+Experience in presenting analysis and strategies to stake holders and leadership to Collaborate with the Digital and Sales team to provide strong decision support and robust recommendations based on data-driven analysis and delivering data narratives.
+Experience in cross functional team collaboration and communication to Lead planning and requirements for new initiatives from a reporting perspective.",Entry-Level,,
+LinkedIn,https://www.linkedin.com/jobs/view/3511400003,Federal Home Loan Bank of Topeka,Financial Services,"Topeka, KS",Data Scientist,"Bachelor’s degree in Computer Science, Data Science, Analytics, Statistics, or related field.
+Five to seven years of experience transforming and analyzing data from multiple sources to drive business insights and using statistical computer languages (R, Python, SQL, etc.).
+Two to five years of experience with visualization tools and data spreadsheets, including Cognos, Power BI and Excel.
+Knowledge and experience with data science toolkits such as Matplotlib, Pandas, NumPy, and GitHub.
+Knowledge of a variety of machine learning techniques, algorithms, and their real-world advantages/drawbacks.
+Knowledge of advanced statistical techniques and concepts and experience with applications.
+Excellent analytical and problem-solving skills.
+Working knowledge of statistical models and business intelligence.
+Self-starter and intellectual curiosity to seek solutions without direction.
+Excellent communication skills and experience successfully partnering with both technical and non-technical stakeholders within the FHLBank to drive improved outcomes for the business through analytics.
+Proven ability to perform with a high degree of accuracy and detail orientation.
+Proven ability to deliver presentations to stakeholders that tell a compelling story using analytics relevant to the audience.
+Passion for continuous learning.
+Strong project management skills and ability to work on multiple projects simultaneously.
+Prefer two or more years’ experience with Agile development methodologies.
+Must be able to work and travel independently and use general office equipment.",Mid-Senior level,Hybrid,
+LinkedIn,https://www.linkedin.com/jobs/view/3511643028,eBay,"Technology, Information and Internet","Austin, TX","Sr. Manager, Data Science","Master’s or PhD’s in computer science or related fields with 10+ years of relevant experience
+5+ years of managerial experience
+Background in Natural Language Processing, Artificial Intelligence or Machine Learning
+Strong track record of innovation with publications
+Deep technical and problem-solving skills
+Deep knowledge in Machine Learning model building and its applications
+Experience building solutions using rules engines, ML and AI technology
+Experience leading a technology team
+Experience in agile development
+Experience in web technologies and architecture
+Experience with database backend technologies and architecture
+Background in customer service field is strongly desired
+Experience in implementing technical solutions for customer service is a plus
+Strong written and oral communication skills",Mid-Senior level,Hybrid,
+LinkedIn,https://www.linkedin.com/jobs/view/3515871826,AutoZone,Motor Vehicle Manufacturing,"Memphis, TN",Data Scientist,"To be successful in this position, a solid statistical skill set is required like multiple linear regression, multivariate adaptive regression spline, cluster analysis, time series modeling, etc. A strong data skill set is also needed-- like SQL programming and SAS data step programming to get the data prepared for analysis and modeling
+Bachelor’s degree in Statistics, applied Mathematics, Economics or related discipline; Master’s degree preferred
+2 to 4 years’ experience in data science
+Advanced pattern recognition and predictive modeling experience
+Experience with Excel, PowerPoint, SQL, SAS, and experience with other programming languages (i.e., R, Python,)
+Comfort working in a dynamic, research-oriented group with several ongoing concurrent projects",,On-Site,
+LinkedIn,https://www.linkedin.com/jobs/view/3520439276,Invesco US,Investment Management,"Houston, TX",Senior Data Scientist (Tech Strategy and Innovation),"3-5 years of experience with machine learning
+3-5 years of experience in a role entailing statistical or quantitative analysis
+Financial services experience or degree a big plus either in financial or economic analysis
+Solid understanding of machine learning techniques and algorithms, such as k-NN, Naive Bayes, SVM, Decision Forests, etc.
+Excellent applied statistics skills, such as distributions, statistical testing, regression, etc.
+Strong predictive analytics experience with Python or R
+Experience with data and machine learning services using Azure, Amazon Web Services (AWS), and / or Google Cloud",Mid-Senior level,,
+LinkedIn,https://www.linkedin.com/jobs/view/3505424951,Humana,Wellness and Fitness Services,"San Antonio, TX",Principal Data Scientist,"Bachelor's Degree
+10 or more years technical experience
+2 or more years project and/or people leadership experience
+Experience in using mathematics, statistics, modeling, business analysis, and technology to transform high volumes of complex data into advanced analytic solutions
+Experience with providing strategic advice and guidance to functional teams
+Experience in developing, maintaining, and collecting structured and unstructured data sets for analysis and reporting
+Experience in creating reports, projections, models, and presentations to support business strategy and tactics
+Successful demonstrated experience in working with senior executives to develop and drive segment or enterprise-wide functional strategies
+Ability to advise one or more areas, programs or functions
+Ability to work at very high levels in multiple knowledge and functional areas across the enterprise
+Experience working with and analyzing various types of data using Python and PySpark
+Strong analytical and critical thinking skills
+aster's Degree
+Prior consulting experience
+3 - 5 years project and/or people leadership experience
+Prior experience with Microsoft Azure and the Azure data ecosystem
+Prior experience with work focused on operational efficiency and/or growth",,Remote,
+LinkedIn,https://www.linkedin.com/jobs/view/3513508984,Hyatt Hotels Corporation,Hospitality,"Chicago, IL",Senior Data Scientist,"At least 7 years of professional experience as a Data Scientist.
+Expertise in Python and SQL, additional software experience preferred ie Docker, Spark.
+Experience in machine learning modeling (classification, regression, reinforcement) across a variety of implementations (linear, neural networks, SVM, tree-based, bandits, etc) and frameworks (Tensorflow, PyTorch, Sagemaker, Prophet, etc).
+Experience applying statistical tests (t-test, chi-squared, non-parametric, etc), experiment design, and causal inference models to real-world problems.
+Experience with IP/MIP/QP optimization.
+Experience deploying ml-driven solutions to production with a focus on measurable impact and outcomes.
+Experience operating in a cloud environment (AWS, GCP) with large datasets.
+Experience with streaming data architectures.
+Experience operating in an Agile Methodology environment.
+Experience with DevOps and CI/CD concepts.
+Excellent communication and teamwork skills.",,On-Site,
+LinkedIn,https://www.linkedin.com/jobs/view/3505936934,"Burlington Stores, Inc.",Retail,"Edgewater Park, NJ",Data Scientist,"Bachelors/Masters Degree or a Foreign Equivalent
+3+ years Information Technology experience
+3+ years practical experience with SaaS, ETL, data processing, database programming and data analytics
+Experience in writing SQL code to access data from the data warehouse
+Experience in coding using R/Python
+Experience ulizing Data Bricks/Snowflake
+3+ years extensive background in data mining and statistical analysis
+Able to understand various data structures and common methods in data transformation
+Excellent pattern recognition and predictive modeling skills
+Working knowledge with Analytical tools like Power BI, MicroStrategy, Tableau, Looker, etc.
+Knowledge of automation tools to schedule jobs
+Retail experience preferred",Entry level,Remote,
+LinkedIn,https://www.linkedin.com/jobs/view/3518431948,Dave,Financial Services,"Dallas, TX","Lead Data Scientist, Credit","Minimum 6+ years of experience in credit risk management and predictive analytics
+Master degree in Computer Science, Mathematics/Statistics and other STEM majors is required; PhD is a plus
+Deep domain knowledge in unsecured consumer lending or credit cards
+Proficiency with SQL, Python; Cloud computing is a plus
+Detailed, results oriented operator
+Curious and creative problem-solver
+Clear communication style to guide working teams and report out credit performance to executive stakeholders",Mid-Senior level,Remote,
+LinkedIn,https://www.linkedin.com/jobs/view/3491963025,National Basketball Association (NBA),Spectator Sports,"New City, NY",Basketball Data Scientist and Scheduling Analyst,"2-5 years of experience in strategy, project management, and/or data analytics, ideally related to the sports industry
+Self-starter with exceptional problem-solving skills and ability to communicate with a non-technical audience and deal effectively with senior management
+A passion for sports and a strong interest in the NBA, its teams and affiliated leagues
+Applied knowledge of statistical regression methods
+Supervised and unsupervised learning techniques in machine learning (e.g. dimensionality reduction and clustering)
+Experience with modeling (e.g., Excel), scripting languages (e.g. R or Python) and data visualization tools (e.g. Shiny or Tableau)
+Confident individual, able to work in a fast-paced environment and manage short term deliverables along with long-term projects
+Proven self-management, problem identification and solution capabilities
+Must exercise good judgement and be able to maintain confidentiality with sensitive projects
+Ability to work well in a team environment and independently
+Strong communication skills (verbal & written)",Mid-Senior level,Hybrid,
+LinkedIn,https://www.linkedin.com/jobs/view/3476793561,Five Below,Retail,"Philadelphia, PA","Principal, Data Scientist","Master’s Degree required (Ph.D. preferred) in relevant technical field (e.g. Computer Science, Engineering, Mathematics, Physical Sciences, or Economics).
+5+ years of previous data science experience, with a strong emphasis on answering complex business questions and developing practical solutions.
+Extensive experience with large data sets, statistical analyses, and visualization as well as related tools (e.g. SQL, Python, SAS, R, Matlab, Tableau, Power BI, Spotfire).
+Proven track record of leading teams to deliver measurable business impact.
+Excellent communication skills to convey complex analyses clearly in order to improve decisions and enhance processes.
+Experience partnering with technology and business stakeholders to deliver analytical capabilities.
+Desire to both contribute to and provide leadership of analytical efforts.",Mid-Senior level,Remote,
+LinkedIn,https://www.linkedin.com/jobs/view/3509112436,Waymo,"Technology, Information and Internet","Mountain View, CA",Product Data Scientist,"At least 6+ years of experience
+Ability to extract actionable insights from data
+Expertise performing detailed statistical analysis and modeling
+Expertise using SQL to extract, clean, and transform data in large, complex, nested databases
+Excellent written and verbal communication skills and strong intellectual curiosity
+Experience with mapping and/or process optimization
+Experience with Python or R
+An advanced degree in Statistics, Economics, Mathematics, Computer Science or similar field",Mid-Senior level,,
+LinkedIn,https://www.linkedin.com/jobs/view/3498030732,HP,IT Services and IT Consulting,"New York, United States ",Master Data Scientist,"Extensive experience using statistics, mathematics, algorithms and programming languages to solve big data challenges.
+Demonstrated innovation in the domain
+Fluent in structured and unstructured data, its management, and modern data transformation methodologies.
+Ability to define and create complex models to pull valuable insights, predictions and innovation from data.
+Effectively and creatively tell stories and create visualizations to describe and communicate data insights.
+Strong analytical and problem-solving skills.
+Excellent written and verbal communication skills; mastery in English and local language.
+Ability to effectively communicate data product architectures and/or algorithm design proposals and negotiate options at senior management levels, BU and executive levels.",Mid-Senior level,Remote,
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=101&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_3dd8f6f8&cb=1678920214450&jobListingId=1008130011556&cpc=A5A1FAFC3DFA52A8&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-43b80c33930f486e--6NYlbfkN0C8AGG1D6CUkV8vzWS9eswnJTt337Htwhj2A0sUpTxnTVYeNAnI2UAXPMOFOYfJpuuixSxvDqdjiYjsqKxz-ZnAeVEltP8I7KZwnEqjm2g8UXprmw7i0xGPZhtEPBm76mzCe9eDm950fCqAHTk6Nxq9tf6zFMSvWC-PluXjFhbZjccw-BOxMjzU88hpIg2_JqgE2iVDhaDoOQGElVvZKGny-ZJv09uiGs3zElXZ9HavA0OesdWUAaNapiBOw4yRaZLCSuqLkhiaodPlq2A_1W6lO7DFm0ekcXE1uqcDKXZ_NmDglv0TPL9IbTkNFtdW299mFCJMVXNwMZwsqY3-h_OdEdPAsmjlW5HMKWPSiTTSE8wsDKgU_2scMUj1nx66wfsQVDdeTNdIl85BnCoCPh1NT3fhVHnYicIWAEFPCqkXgWktnVJE0frupNXHiIf3rasXSiSEnQWyNFfmMATjQdEVzvxMIGar9QvFFM-1YxQAN3IF8RevscwFm2w-tJCazCDgcQ_fAm6EJxs__UwCFpGXBI48brZzWycPZQjdQiCriVhjEC9sw02cVz7TgXelfd6XFRFuV9lUuFDwcYB311j1iY7-leU2u3VOZgFcIIrLGVVt9nzyviqldOMyx2Cg7pcew_bqm8Kl-aBEzvKxgQJ_,VERUS CLAIMS SERVICES LLC,,"Princeton, NJ",Analytics Manager,"Bachelor’s degree in Statistics, Data Science, or a related field. Master’s or higher degree preferred.
+5 years of experience in a position working with and drawing insights from data.
+2 years of experience leading a team.
+Proficiency in modern programming languages such as Python and R. Strong experience in Excel.
+Understand sampling, data collection, and metrics.
+Strong understanding of data organization/data warehousing and relational databases. Understanding of modern databases desired.
+Ability to present quantitative analysis in an easy and understandable way (written and spoken).
+Ability to convert analytics into actions.
+Solid knowledge of classical statistics methods and data science. Knowledge of machine learning desired.
+Strong statistical engineering skills (design of reports and dashboards, visualization, and processes).
+Project management skills are highly desirable.",Manager,"c(""Hybrid"", ""remote"")",
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=102&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&cs=1_e17ecc4e&cb=1678920214450&jobListingId=1008445231183&cpc=EE7F0D06914A6BE7&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-0bb0f758b9f7dc46--6NYlbfkN0ATKcDG7uKu-HzE7G0Rbx-rO7IixqtbOcMq1Ypzrxa53ONfJFcpPAwiFJ8YNQL-_Ny-b-caHq3Monw5lX2ArcBsTFU53jDltiMwCceJ7opqHT0v9XHFQF2MbgcI3DhFWVpVkSfm9qnQIwx6deCdwpXuZjpJNdDjoL9iAlaoiNkW222VEb6jYuOQgD9B0uBt4dFlZG0p2qpleS8tbFMgGmCvTuZUpDMdydZ-F1d3PeU3XWEMfUSfOIb615-KlS851V3BrdReBbZbv9kUMcxHAY2I6iQD_msmhKbOnFLgtWjmibLZUsrTIn8glo4EN7BNwQ7XKPj2T0S5iRvxC8HKUPCx8xTlAq2P_I4y7NcJXkmtCRM4lhy5aPT8wZ4XSItpjLJrNCY-lZFfh1eLdnpo1jpmg-8oTDMABP8hk1_o6FzdiwNBqAruxw4Gbx1_vhiL_eIYugFfoVxdX5G6C-4oB3z1k27SXMJD0xL-VeikCe-yuGy0_LpboJ0vSssB-pD-Qy-YnbuYksMKSHRQKzI_kv6z49tLhNwP0Lo-I3ibxjT1PQ%3D%3D,Hamilton College,,"Clinton, NY",Data Science/Analysis Research Librarian,"Uses advanced skills with data analysis, data cleaning/wrangling/normalization, regular expressions, web scraping, and APIs to support and collaborate with researchers on data-related research.
+Retrieve/manipulate complex data from a variety of sources; transfer data between platforms for use in multiple computing environments.
+Work closely with and provide direct assistance to students in data science/analysis including workshops or other instruction.
+Assists with in-class instruction of statistic-based labs in the social sciences.
+Assist students with research projects and course assignments that require data analysis.
+Works collaboratively with others in LITS and with LITS partners such as the Quantitative & Symbolic Reasoning Center (QSR), Oral Communication Center (OCC), and the Writing Center.
+Assist in the choice, application, and interpretation of quantitative research methods, and with the use of statistical software needed to implement these methods.
+Works consistently to enhance technical skills and develop proficiency with new data analysis tools and techniques.
+Develops services in response to needs of faculty and students in the social sciences, LITS priorities, and diverse Hamilton populations.
+Build effective working relationships with faculty and students.
+Identifies, evaluates and recommends new and emerging data analysis research tools and methods for social science students and faculty, and LITS.",character(0),character(0),
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=103&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_8596667f&cb=1678920214450&jobListingId=1008530848182&cpc=71D4EE06E32D485A&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-932f8f0230618787--6NYlbfkN0DsBOlmEAMqZtav1V1WKZO3RUElpafjggtWvxyDQ3xFSlwwv6KjuyvHelEgU14lCeLjPzNP2XDznMrR1rOuR7V3-Mm2kLyA_71p8wz2A-fxVqVZEJA7-qwq66DaTNzOP88302oYxwcP4i1s0DPrwtQ0BSZfXfUiN0SaJpOHbT9S1ySjRTLgCqUDOHAgNZTb51gOhkD0bM50rgJfzP51Jt2aJdD6P6ci2lUDzZwfym9I3kqgb_ROI9wt5Ncx4AZW7DH0bqQJHySEx5zHuJKuBnivKq_eyyGh4LdhrhTWmijoKS9L7AkSwMLbOMvXtagA1jVDvOxKAP3N-DEmpQAqHLBfiTL0Zrj9PhNOw91K9IgBWhqg2iMhAkzEmymU2Zxow-zSW-_D5w6SffJqHttT7olBxp1rwtatuzhw0PiZsgbkqCh4zSzRgRTGCMxbw967EcoFan6T5ioLpgQXi6VjK5N18QnBGmE9gM5wYAVB4323-LsR1XBlvske-vjOnHUFaRlfw5YTat8FegLU5A8SkdjIxoYFGetyMmvWuaY_FHO7H4zTqlWNsGAHQZzIKF2FZ1IhDaqLSrZrW15DuctQfLtJ,INNOVATIVE DATA SOLUTIONS,,"Springfield, VA",Data Scientist (TS/SCI),"2+ years of experience as a Data Scientist, Data Engineer, ML Engineer, or Data Analysts and Bachelor's Degree in Computer Programming, Science, Engineering or a related technical discipline, or the equivalent combination of education, technical training, or work/military experience
+3+ years of experience in a Linux environment
+Direct experience and demonstrated proficiency with Python programming to build containerized microservices that use message queues such as activemq or rabbitmq.
+Experienced in ML Model performance testing and hyperparameter tuning (Tensorboard, wandb, mlflow)
+Experience training ML models with GPU acceleration in a containerized environment using common AI frameworks such as Tensorflow or Torch.
+Experience with workload managers (SLURM, Argo Workflow, Airflow)
+Strong problem solving and troubleshooting skills
+Strong communication and interpersonal skills
+Must possess excellent time management skills and the drive to work unsupervised
+Active TS/SCI clearance required and eligibility to obtain a CI poly
+Prior experience working with or within the Intelligence Community or a military intelligence unit
+Understanding of access management and security groups (i.e. IAM, S3 bucket, SSH, VPN, etc.)
+Computer vision related experience with torchvision or tensorflow object detection APIs.
+Additional languages on top of Python preferred (C++, Julia, Go, R)
+Familiarity with Cloud Platform AI-ML toolsets (e.g. AWS Sagemaker, GCP Vertex)
+Experience building data pipelines with spark, kafka, or nifi",character(0),"c(""Hybrid"", ""In person"")",
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=104&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_7556c2f5&cb=1678920214450&jobListingId=1008530830477&cpc=0F120DD93C91FC85&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-1f658d527443b9f9--6NYlbfkN0C2ruSLbldHgJRxGqX58M4ekFWuaOJ1Xy3nZgzYPyc2K8EA9EJ6xvB7ke-6BRFuJu-D9nKabMWzbgZ-Zg7TwIuKiNrJ9nQuf7y_-nLsvk9uQGQbjeOUUNScKN9bRR1QvJYxII0Oyf3jFphLqPOsroJiNGsEQiiHn2ujPox1-zDhxi3RW0TFmwnngTTlObpBSVxYZJK3I-FCarO065eDqwjGm5nksXmxYZzMtcS3p5GmHGIrUIw436_3Bo0WOWuJq7yUr_X6XkrGcvsYABlw4ZK961CE2UI96MZWTyRZyxMXjC4xZPUifdA22VM_vwGVDwT03zdM7T8OkIeCBo1NQku4QqpM-Hkwd3yMDCgh5rnVzTTRBv8AK5nM_Oxy2MXrARCKirk3K7QGd6EwW1cYlVWji_BuBjXQc1d3m6qJALAeyDgSoH0CkjI6GBUlYg1FOtLOUxNo2fdpFUBTXLsdzzrXH7mCbLph0sQeG4FEiZ9jI4QCNGKnNhErCiqZQyDSwbWkwFOfQ1uHCnSgswJLTG8CygM2O-3p2bOTOPZnGX5wtgcooLPRMUFHA7D5YEFHE1Dj4VwJGqq4lWqCMXM2Vlzr,Diamond C Trailers,,"Mount Pleasant, TX",Senior Data Analyst,"5+ years of report writing experience. 5+ years experience in SQL (Oracle DB2 preferred). Fluency in writing SQL queries from scratch, creating stored procedures, creating views, and so forth.
+2+ years of Tableau experience.
+Bachelor's degree in Computer Science, Information Technology, or related field. In lieu of degree, an additional 4 years of relevant experience may be considered.
+Ability to interface and communicate with all levels of employees, from welders to C-level executives.
+Excellent communication skills. Both verbal and written.
+Database maintenance experience (Oracle DB2 preferred). Experience in managing table security permissions and performance analysis tools.
+ETL pipeline experience.
+Crystal Report Writer experience.
+Experience in a manufacturing environment is a plus. We use DelmiaWorks (formerly IQMS).
+Machine Learning and Big Data experience.
+Python.
+Spanish.",Senior,"c(""Hybrid"", ""Hybrid"", ""remote"")",
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=105&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_ebbe60fd&cb=1678920214450&jobListingId=1008476776550&cpc=0AC337DC849E2726&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-a00d745bbd0c1fb5--6NYlbfkN0DWtRa9NJfjQIs4MWRRqD4F41esfMsK79cV24t80VXfzdTap1Gt6_dC_9JB3XLomADWAWIdC-dM3TUigieJ3lTMSC7MRJulPOBdGIehXeToHmiV0ALxxlpCk1WVZyMoKtzIebdvtNUUoXwqmJZFZUaTQMBIWKHo_yGsnoJ0IleZBx5UyIjD0g__1UeZfpWUkDnfFORusH3x4W6P5X9lGGg9oLK_urp7LLXvvrSs-m40UmmMcbDGjw_1HBT2HsXU6iPI0D6B_f_3UJrO1KvKKXTQO9m7ZZeK0XLpLTuQaI1Ll-blTAe9umkCvPZW0POk1LFenm69xaUxSTcW6Emt1FfWeHJ0iAhBoFG7PhQnA1M7T_pDA77pCsBwrCYdW9u_hcHRusfP9IjgNudHFCTaVvscGRb8EFY65ymphduP3EqHK2pd4XGr4kNwkLFC4L6BOxFgf_0f8iKC9f80CjfnsAJbwNjnh6pQZ2x24M7gPOKatuzV-MvoeszBSzt8aauNGsi4I3umIoUq8r74-Spz8tbmWs7G3F1fSQeKtis51SKVjsj8JetXMOrjy1dTAq9PYf244PsTDdoTUBN2hLqSfnXU,"THE CALIBER GROUP, INC.",,"Tucson, AZ",Media Planning Supervisor,"n-depth understanding of media planning, negotiation, implementation, and performance analysis
+Proven experience and leadership skills managing the work of others in the media department
+Experience and ability to meet both client and agency objectives
+Strong analytical skills and ability to relate results to client business objectives
+Excellent verbal and written communication skills, and attention to detail, accuracy
+Excels at developing and presenting integrated media strategies and detailed budgets
+Ability to organize ideas and information logically and sequentially
+Experience developing media presentations and tactical POVs
+Ability to develop client plans and reports that are clear, compelling, and persuasive
+Will ensure key information is provided to team regarding client, agency or media issues, changes in account status, etc.
+Demonstrated ability to plan, meet multiple deadlines, and perform under deadline pressures",Supervisor,"c(""Hybrid"", ""remote"")",
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=106&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_0ecd3290&cb=1678920214451&jobListingId=1008519365595&cpc=D1854919426062D1&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-6bf783b66ccd10d3--6NYlbfkN0CrCc-ZyMkHPvmvxhjWYdzgrrfD27jglJlha28Z4j1qDXW5FKJB0tJbqRgXHMM13t4i6AUBxq8XLjbPSydVUxyIUHYai6dmzDato_uH1FlKIollNS6MVRhyAJGTVMEuoFifsvuSykx57s4o1_2tM9wHrp3X2Q2cCnSCvL1rBQnPl13KNOeWrRBtFtz1a9wyiVYISK1PX4lgdkmrDhKRLVLEE5LneAh5wr10ZFvIdFPxC2jorlMgSgjsf3hiJvh3_K_7VY1cT0cCdSFzD0erTQp5VoMjDYqNaw0GsxM87rWe_-0svAMe6tSoTcgjkSkE98Ur21GtrbjpWRTjjfeB4JCp6FldjzmMG4odSEcAqyKprmPPpcWG3pWr6kbHSDYds-O2SZ5qBRAMoPGy_OnfQBJuRaeXt_aFdwfGYBzaSNm7ZjuuzkPTj3X_xBFAB3D3PMPt8bpWAqt5PlcovkQae_SWTmcut31ts0EBKfi3skhPsXky1o7FRi9BrfoztjE48iIclINJvxV8eoEZov4rEp9wj4wmCN5HsqW1Filw6yRAMGX3ph7l7XFsRM86vrwIgjLpS1Nx52fKI0IqpLZPbIBRLi8FlCg0CHs%3D,"Walmart Supply Chain North Platte, NE #7018",,"North Platte, NE",Asset Protection & Safety Manager,,Manager,In person,
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=107&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_b57731da&cb=1678920214451&jobListingId=1007577002262&cpc=7C4254ED5020F855&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-3b128a5afa22c89b--6NYlbfkN0BbyS3g3l0OnpNvA1X8G22NJOCiqpCoEy0AiiwsVTMfNBaFMWeF3X8dlVNw6yk3xT_nLM_fUi7_NbmF7x1yD3y-a-yWq3naJIhRTwCN04r85KZCQJM1s7Byda76nrR95ZGgH4Wi3FZEMTpmjSg5a_bUy5pNVYy_VIOfVhWd7DB7ir6kNf11NjECwlBJwWlKKS6TqqXD5XPo1LnmRCPDQJKZY-W4kxDnzwoaxjv_lAvCUbHOgUMxw-BiPmRql1P0bnFge1KbWu-5hKZNdKyjD98r-S7bsLYcWoX8tbxIdzQIgMcf_W3x9zGShK_NCOry5krEp0225nYkJsGDcAODmAPONaGsAwcOM_c9d6h-CkBczDMNdT3_hitT5Nr62U_Cn_anv9thvAgjC71Iq7Hj_8YhrnVnVtKxSp8QVcS0zU_n6zX1-_hWWvOdGZoHmwapjdgtnU3vpWUANabYPXptSLudXod6l3mpeqRDyCJyf_f3jx4wrPEic-xPJBdZO_Fl1ocZV-4SuxUSumSd6u6nke_A35H6xvDVMS4aBsek3PpsFYRRPnr1Hp3vqmmIaS15um6MCZm6i0ThNn_aj28zBEjTU1zSRx4x_69nMjRZN3EIYTMd8FynZhs60PMWyy5pXxw%3D,Cenergy International Services,,"Boston, MA",Senior Systems Engineer - Systems Modeling & Controls Expert,"Bachelor’s degree in science or engineering. A Master’s degree is a positive.
+
+· At least 7 years of work experience with 2 years focused on System Modeling or Control Development
+
+o Experience in systems modeling for concept development, simulation of dynamic systems and trade-off analysis is desirable
+
+o Experience with advanced and distributed control systems. Design, develop, test and deployment of new control architectures
+
+· Knowledge in the following subject areas:
+
+o The ability to create detailed mathematical models to express functional dependencies when system elements can be isolated, and their behavior can be well represented by mathematical constructs
+
+o The ability to experiment with numerical computation techniques with a software model of a physical system, or a function or a process
+
+o Familiarity with PLC and SCADA systems, digital signal processing and microcontrollers would be an added asset
+
+o Experience performing analysis with large datasets
+
+· Experience with the following is a significant asset:
+
+o Coding Languages: Python, R, MATLAB Simulink, SQL, etc.
+
+o Analytics & visualization tools (Tableau, ggplot/matplotlib or equivalent)
+
+Desired Personality Traits and Abilities
+
+· Excels in “grey areas” with the ability to take ambiguous stakeholder challenges and establish an actionable project execution strategy that satisfies their needs
+
+· Strong collaborative and interpersonal skills with the ability to manage complex stakeholder relationships
+
+· Enthusiastic individual with a continuous improvement mindset that has a willingness to contribute to and enhance the culture and our ways of working at STW
+
+· Ability and drive to deliver on time, while working in a semi-autonomous environment
+
+· Willingness to travel up to 20% domestically and internationally",Senior,character(0),
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=108&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&cs=1_9d17114b&cb=1678920214451&jobListingId=1008526726752&cpc=F1F9710DED3F09F8&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-57e519d15eee1f76--6NYlbfkN0DXkh61CBKLAbWGthCj1ez4QfJvZu0_FGYLh-4zLvFOdTUcajp-3BY__6JvHmF-Tgry9IYOwxJITyNBOrZBzFDNyDp9047XcTWhQjIVDPtfz4A1ZDwh-wh-_A8Fqd-QdJTlGNpBUvgbhyeAtkOGyFW5xeqOuS-SHultoro668NbATHaCYf7dRTDk6uQFTbnaonMTc4lFWg53AFmorPuVDog9tCPuRpQepZlAawrBOOflejL7iANkxmfStQHGnoKRcKJ9GfqGCkWm4oQ5yrpdQECcvIKlSyTeK_FwtAQKC65LV-EFtncKWX4K2HH5SyD6ruTyGD0Ok6fOpzr1qvFC6FiL2XOUkx8eqR9dX9Tl3ikFVnp9Wd4Epf4qb14y1yNGppCWsAOgYmBtbcgW7nhJepI3kfGWdmcQDwbg3iBiesSbzkcVGgXwHcClsRhYWy3N1-RrIMd0VT-vkQ4RLs8lytczcTWpzeLxoy7OjRj5GGrG1pPktaK3P5oLYZeDVQLoHk20yC_Ic05U9XK47M3RPRr4rHLqKF0K0vKTHpH1gAwiXybuBZejbv7-36en9xN0hHATF-XhAghtqiJESH7TSrAllLeBI0CtnMWp4zEfZrT9D56AiBdWBaSdhHLdUf0cZ8wOfYDZuTG0EhyKhIoq5u3,Enbridge,,"Houston, TX","Data Head, Technology + Innovation Lab","Experience leading a team of Data Scientists; Minimum of 5 years of experience in data science.
+Master’s or PhD Degree in Information Technology, Computer Science, or a related quantitative discipline.
+Understanding of high performance algorithms and R statistical software.
+Experience in industry data science (e.g., machine learning, predictive maintenance) preferred.
+Capability to architect highly scalable distributed systems, using different open source tools.
+Demonstrated experience with agile or other rapid development methods.
+Demonstrated experience with object oriented design, coding and testing patterns as well as experience in engineering software platforms and largescale data.
+Excellent problem solving, critical thinking, and communication skills.
+Experience in developing presentations and communications to be shared with internal and external stakeholders.
+Able to build a sense of trust and rapport that creates a comfortable & effective workplace.",character(0),"c(""Hybrid"", ""Hybrid"")",
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=109&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&cs=1_86210f8a&cb=1678920214451&jobListingId=1008398370140&cpc=90FB925E786A2860&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-b00c5bc583b118f1--6NYlbfkN0AYsXq9S3pwm_KTYbr_wj-GFU49KjCDAut0wcGhdmJBIfSXxakgvZCiSLxSDw_SprqqI6KZQmQz35sOq9tVB-CWLJnmeQ5QhFgdggSoXbya0S5Yuw2zCfQork6_XI9BOM9MG1OHe78kzvvvMfBtPj5vXzNLlVmtZ9j3I6TJMINokDg2q83LjOpzyvCPlhq9EfE0eDLzBG2ndQClKg2ywH98foEj9CXwLIxHagSg81T9H7o0km-q9q5IYY0C7kCyLyYgyB0WxWzBi-j1oK-9-JgU93WiEYuy2n-gb1cOXyiskEP16AdrcEdtn5bRo_NsF9tGVre_Tsrqz6c7FiDdSv1Gn-dNCxowr1V0DhWlD772p5d5oMzt-I2ifEuMeBKPA3h7q7r64uHQiSwp3eYDk3Hvk2DMQKFCgprnUw5w2aJf1j43CAbsBq8gCXBdzjKuiMQRjBX4Xrr3tgh3AljgT6myMxxUQMHKlD_uCpLfPD3poCd97QTjAu-KfnC4GNIiOzihjr5fA7L5XJ7MoO2R1wJUi-D4LZTcQnhTlldUyfc4z0HObq4LQJ4-i_DsjPsUu04w8jkof-qCeEfQqj_AhnN-i9amqvcNbw5gtT4q8MVjqt-Vfh9yZbO6U1UnVxMpLJ7TkCxqdRZKu5Gh2RfAwItz,Americo,,"Kansas City, MO",BI Analytics and Integration Manager,"Must have a proven track record in information management/governance, data management, data analytics, data architecture, and team and project management.
+Strong communication and presentation skills.
+Ability to manage multiple priorities, multi-task across projects, and effectively prioritize.
+Experienced in mentoring and coaching more junior resources.
+Proven experience understanding cloud and emerging analytics data structure and schemas, especially data vault, AWS S3, etc.",Manager,character(0),
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=110&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&cs=1_0e1fdbbb&cb=1678920214451&jobListingId=1008506591909&cpc=A1E2D04CAB10975F&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-e28120472f475741--6NYlbfkN0DJ9JRso26i2D4tQcfl1gtFXJkAeNCKWTrBM27lH9GOblpLlfXdLf9Oa44B845qjccHTsMMOanVNMK4eR27phpKoauLXiW64x_g4evaCbQiincFRWGbehhBtKYoe9w2GX_fFA8Dt1qdwsDRPaIzJg9Xx2ok1xdPWZE0Gs1O-8pMmVnM0rBNbpLXcuaVbLK6FxnbM9-uaqo4BCJv1ygIIxpoc4Rd-tUJFeFOMwLIjqkUv2KINvtxVzTpcuqG7Hf6i0a1mt5EX7DkK1VkqPyOyTMJ8Bw306hqeVIHLoXeOL7ZQ90XFDJqOnFjzvYr8XIMp2pPYPhQu7Kx9j4wN8Y3hVD48bWa5dZA9Oc6IKlSqfO8c1DVBK30NaSjkMUYYEG48PrQ-w0IRi_s2YZLZ8UuUHxX_n21ycmqJsh2xyLBgxW2pN_uqjZ19gPNoq0Uila2INVfwo2HGXk2_r0Ltr7hRIzCDQYSgydp5SpWwQvpCuNAjgu7wwK0jF2zQnJPr5J_QvgkqNJPbogfwibiLgeh09XiqXoQ84-dkMZv7_5MYFQ0vIjMcDBKdI98IV1QSjjSsw2qpogE-ihlM8XjDyPOKc8NgE9bK4Tmx_k3Y2PkYAY63tFfMggwoKGVCXM-vTtu0A9sqjrBSZonS8aebbiPjynr,Christus Health,,"Irving, TX",Talent Insights Analyst,"Bachelor’s degree in business, human resources, psychology, statistics, or related field required.
+Master’s degree in industrial/organizational psychology, statistics, human resources, data analytics or a related discipline preferred.
+Strong statistical analysis skills.
+4+ years of experience analyzing data to produce actionable insights and recommendations.
+Experience with data visualization tools.
+Demonstrated experience working effectively with Associates at all levels of the organization.
+Demonstrated experience in getting things done through networking and collaboration in a complex, matrixed environment.
+Knowledge of content area including theory, methods and concepts. Ability to transform theory, methods, and concepts into understandable, tangible designs and measurable results.",character(0),character(0),
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=111&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&cs=1_ef1b5903&cb=1678920214451&jobListingId=1007784538116&cpc=987D8AFE463DF687&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-f18a9d664939d3d6--6NYlbfkN0Bhr8CzNXk_kq8VbOnaegUXV7MSXFkQREdFtn5A2jDwRArKtI5GiFp3ChOKtWnLwC_OW6vYX-cTxth2ADoFbA2dKzNxoaFfW1vg9-p0vw1bHt1G3GKsFJXl94f3iDe5arrvfxgftQQB6WuRE1zqT_PsUSjq_1V3FBtGYePol5NEK-FPChXNsA0cAx6YFUMEP7mcVxs4CClAQxh4tmeRyiWlZsUB0UWZPvH4bYaWLCol3KFO5qpgSPPCuKwqpf0oaUUb1-aKN4d_Uc5SwoLdLK3XsA-ItUIaX2XkeVewX4TRxv8i3zr9eW3mGfpGuaLCD_MCaxKX3etyTR8SdM7pE9ze3r7G0k-AzmPbYsti-uSc7YrgpSklmjc8fRU2bi3Ssix0LmADu4adEF4mHPvthIymw6sTt8eELpibRE6TiuB2YDNETN9VZsvukBly86D7fbf7PmatK8T3rZ-inUnKl5x5XTvSwOyuFxlY-Ju5DnJBL9x0ULemxzRiWp6mA7kdc3fjE41GZIKFkJIOLqeuJWwMOuLwOHLPi0Ta3davAZRc-19MIUz3pOsjaUUivS54qUTwyGsykzeC16hyRSuUecj5uKtOYQzJ0Jv-ZyfODn9-y_hQYqqLUTKbrpC_BbmDyNe4okJQiZpEbcUEv7FONaph-SsfUlzc_I9GBXymjwsZBTF3WMSKDTeg85gMYYxiR6I%3D,Boston Children's Hospital,,"Boston, MA",Natural Language Processing Research Assistant II,"Bachelor's degree
+Experience in NLP feature engineering and modeling (e.g., text classification, entity recognition, entity extraction, question answering)
+Experience with SoTA modeling techniques (such as transformers, BERT, etc)
+Experience taking an NLP project from concept to production
+Building deep neural networks with modern tools, such as PyTorch or Tensorflow
+Expertise with Python
+One Journal publication or peer-reviewed conference paper or projects with public code repositories
+Research experience and practical knowledge of research principles is required whether through previous internship, work experience, or coursework. Experience with healthcare datasets is a plus
+Excellent critical thinking skills are required.
+Work requires the ability to communicate effectively both orally and in writing.
+",Assistant,character(0),
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=112&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_d44b30d9&cb=1678920214451&jobListingId=1008428688354&cpc=C433947A107EB3A8&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-e150557bba8ec2b1--6NYlbfkN0DdhE0GJ1OLpp1dBADwNsb9mCEdAPVKR2XSG2R8U4D79hucf7w9HM-mtHTLlsXyFfhXqeZvlB9QoPVwac2TGF-W1zcKjj_I3s6mLeQMNxHYf9B-BvD660j9j_l-R59Z7AvxkwS8r1mUPFK8AaFZedaYiKDWukiF1L7WCBx48W2coMRFFHXwnfOtEa5RnpE6QnuiuLk6qiWyGtTQMaXwRq4gZzmw8-VktSTmpvb5GxPhKuK5MKf7iCIi_zY8QSQO3TsosKod2EjMFJB2Em8QXiIfZAig98xe6g3qEF-YLZ3BJEJNEuOma2yKitU7cxoGeHLAdISAbEINZoT0QzSKWjIABgPRMdIgri-fs2-P8Z_qTx2wdJQ3FGR0YH7-KSnF2X7XILpiU7K7aAjxx9gPMNP29qMZVgLpqdbAg7ClbIi4CRUrv1So8z9Lg4i6oIJ6j9VwgXZVC4XewJEL7WcuSB10DM6-F0jIqIcxoVcCniGyGSlPStrenIriwADfqwEs-ls0-hS5noNj7tJZuRb8OD-giNQo7k4YqxZiA7coS7-z_kZCgqpN736DCf6nHvLQmO2TN4hbNRR2eenjtgscOTXsj-XgNfJnlUYJOZdvX4mT4Q%3D%3D,Slim Chickens,,"Fayetteville, AR",Senior Data Analyst - Finance,"· Inquisitive, out-of-the box thinker who is continually on the lookout for opportunities to improve and innovate data science solutions.
+
+· Consistently high standards and a passion for quality in everything you do.
+
+· Proven ability to automate data extraction and consolidation at scale.
+
+· Experienced with languages used to manipulate data and draw insights (e.g. Python, R, etc.)
+
+· Service oriented, Guest First mentality
+· 3-5 years’ experience in analytics
+
+· Proficient with SQL
+
+· Hands on experience creating visualizations in BI tools such as Tableau, Power BI, etc.
+
+· Ability to explain/present complicated, advanced analytical methodologies and results to non-technical audiences.
+
+· Excellent communication skills
+· Bachelor’s Degree in Computer Science, Information Technology, Operations Research, Applied Mathematics or other relevant field, or equivalent, proven experience.
+
+· Proficient in Python, R, etc.
+
+· Experience in quantitative modeling and statistics in a restaurant environment
+
+· Experience leading complex projects from beginning to end.
+
+Job Type: Full-time",Senior,In person,
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=114&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&cs=1_9d6c4754&cb=1678920214451&jobListingId=1008502856439&cpc=03F67E1B243A1AE3&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-c47576ad66fe4b50--6NYlbfkN0AMofH_6zXbiqn6xehDj89HQNfpf30LHk40Y3Yl5cZTpm-EXukPQNet_K9MQV9Co4xFZ7gbN1gbxQ8LIVzVzGT3fUE3hFiQh0V27VGSIiR80KWQcupshnQHuzUimXI3lC6q6mu2TdXBcS0A1ga8MR0GoB1_BVWeF5XC2ZLP5M5Em8JPFF6g9y3FyPfnegwYtL155Ab3nEv62pWHy8W6nnQYT-AjQ-ZNSdXrr1jpkegcMBN2HHFlXy0X-Kx-sQLVbfSHhQ2oRSc1KFPdIBhFY2Db-Yj1_uj_xtJ6KxfQwIAkb-LjFDgWSa60riOwIRcgXYG7t_vB7a8eohyuOC1qt3PRy0d33rkbwetaSX5CU-ZD29Wmv-cmyDpyd0FIprZsMsSDoAf-CJUrJLrEsb0UtwRdCzQFjkC9Sa6Av97uyfjkkdDTOn34fe3aUYV2qkdHb9bvHvw8PHqnqcVe0vTx7vQrj6awGzulBRBGrFdLTM5sN_cb1WNKb1nrDnmHcZtX5AOtpkgv7VeH53etKo4Tl7bviKoD-3uAdX3S2UmcRf6bObwqo7eQGhR4_aJasX9OjPPC41BIu4HdbXoMC0OV3-uVlLt00bnowa8Y4MEGOT8J_bQ8DJ8K51sTak-mYLR2XlxO1LXGIai6DwLQTiv6DRB4R-mEixR4o87bpFK0Qc_QY_rm2cOHvvNZmkmVCM_LF98-591zjSyPN0dfQdk1uiEOxBMjDa4LCjVc9uveeZ7eCaaYQzkk57-DCUBORxuAPVfTFUuvl0EU8ii-VLCzOEFyrbU9-S9FxityEhbR4XKfw7aFYJe6ObPKH4CVxKviABwYRSCHZ21qSTRtQBSBdO1Vy8RmtdVlInD7jAOB7Qy9DgCdX7IK-5zNMXdweJMs2CHnYX9LgX4xMhgtsxFtGfN4ruwjRMEFLsjtJzi6zrO72i0x4V6E7DXMjIre3MDP2aj-94zKPxRnXFuxxEHULnQP6Nj2zDxHLvOhmLNvx5fXgIH-pyGfgMKJ0IgYc-bYjpe7rDDcxuYM88RkIkbUxaS0ndf_7i43FjNN4l8bz-3UlVFFTewewtuzD-4i0czoIxC-oxISsgcP2NjdoHpDAvstYxBZYofnI8lEB2wWz4b2Cz0EhBfSm48tvLogkoZFNokhho2bmThPbzwlk1xxFlnTI1i7T_hkHwMgdjga8wy3kQ%3D%3D,PNC Financial Services Group,,"Pittsburgh, PA",Data Scientist Sr,"Data Architecture – Knowledge and ability to create models and standards to govern which data is collected, and how it is stored, arranged, integrated, and put to use in data systems and in organizations.
+
+Data Mining – Knowledge of tools, techniques and practices in data mining technologies used to acquire essential business information.
+
+Disruptive Innovation – Knowledge of concepts, principles, and approaches of disruptive innovation; ability to adopt the knowledge into related processes and practices.
+
+Information Capture – Knowledge of the processes and the ability to identify, capture and document relevant business information in an auditable, organized, understandable and easily retrievable manner.
+
+Machine Learning – Knowledge of principles, technologies and algorithms of machine learning; ability to develop, implement and deliver related systems, products and services.
+
+Modeling: Data, Process, Events, Objects – Knowledge of and the ability to use tools and techniques for analyzing and documenting logical relationships among data, processes or events.
+
+Prototyping – Knowledge of and ability to implement prototyping disciplines, tools and techniques in evolutionary models within the target environment.
+
+Query and Database Access Tools – Knowledge of and the ability to use, support and access facilities for extracting and formatting a database management system.",character(0),remote,
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=115&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_2d14c4d8&cb=1678920214452&jobListingId=1008528195920&cpc=BAB9AA3F436D8911&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-2a14eff4acf8ee66--6NYlbfkN0D5EoDI19pzLD_ZoAvoqM1-O9qeTV9KvYbDAr1-bMzVcd2lvG0W58dCLjFvANlrn_qMBytIGMqqWOWJ2N-f5bblhtoAlbbt8p_bt3KB3ntKclEbqXI1-9TgpykPXJirfQBTahsPD10BWoWIwkUCocU_55y4C2mkwbYCxHECa225jMHJyrPk06XZVs1Poo6lT7xXUoL5C_GxzwCxW8UIzdv-HWCF29yJUiTx1dIcFzxT7WDPXm7JLuyBBR_ivp8FzKnms52L0h-L9lwcs9ki-KFsCVFtdrG-IwwBrk4cN841piAdQUzHanvKyiF0sAMmh24vSyncCMx4LKSP3KCzkp8jFbIlAbmrSq0ppc8to-vWWs5FXmGSE1NiSPns_ymF-A4FeE3TvK-_EIGyXf3MzgDoIOG7cMX0h66k24362G3EKLfyejGI6OiYftLG7kCbYQfvajH2AGgxIkzuz9FfhMaMvrKuGxJozIbTBc9IeX9On68lO35bef0jtBRkqVMGS1U0tVaD6mxJ0J39Sz1A_VXqK_EzcqdE2j1fDVMs_q1qCLCdd0Dr_c2gSNCIJYRvJi_krxBrneE3RQ%3D%3D,All In Solutions,,"Washington, DC",Data Scientist,"A minimum of 3 – 10 years of relevant experience in an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract or extrapolate knowledge and insights from structured and unstructured data, and apply knowledge from the data across a broad range of application domains.
+
+Experience in utilizing automation and scripting techniques as well as presenting results to management and non-technical personnel for consideration.
+
+Specialized Experience: Tableau; R Programing",character(0),character(0),
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=116&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_d33a57ef&cb=1678920214452&jobListingId=1008134857812&cpc=B576E40E3A51D23B&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-5cb56083b4f8aa75--6NYlbfkN0BFCX_qm-F1XnhEgluT3cIbhJuaQBpqkOVnToNFkH43A4WFbfIUri4bfGlifpEk_Ew9l8QQy3FM6kqhfwT1hP-l4U9NZt8ip2_hiUmmf6c5GV2Vvg_rYZfVn4aIeX4PL3MnTZm3OGm7uBYHhjkcFXiAs4_bp6dP-TvMDaxICUD67yITbJE81aFxeHvW0QtTD0mi2Tok_JpzmofKEdQjZy82E3GNjboR1DGwuTMXW8bC3b9AGU_ZLobhmObuI9eEH4DOccqnkaIb2EfjgoItrSDIPqC_JPAxGq-cXOY1y5Sxb2uKVNr4hRbChodjseHPvKMQCSC4K-wgSuDhO75ZRBAahmfVvYs54u3HxlPg2IZUrdkmULC_-6r95CSYmjws_-fyCXwwAIR6HG_MPYUJbQw-E-ICAM8laveVbQ8dmJ18UzuYN__47FH5uYdwUJpIrdI86X8yXB7Z5feqyuFXI5JtwrhAfSWFNtBKJTNRw8hdDcs4CNkYF5NRjIx54IsvWKtX2CRWTk9uJx5rZ7W6rhv0z0MbTP7Xpab_zj9Nntugqa7Q-cMdbVoPDdTIZ9B40n0NwBjllxX0XezDcp1UP_f5i0T2AvM_Iid9WMSBbGPvmg%3D%3D,Inland Empire Health Plans,,"Rancho Cucamonga, CA",Data Scientist (Telecommute CA. Resident),"Four or more (4+) years of experience in analytics, data science, and business intelligence. Experience in developing algorithms, predictive analytics, or statistical models. Experience in analyzing large data sets that have complex designs that are unstructured, structured, and semi-structured. Proven ability to facilitate cross-functional projects that depend on the contributions of others in a variety of disciplines. Fluency with data warehouse design practices, analytics, and visualization technologies. Experience in the use of statistical packages.
+
+",character(0),In person,
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=117&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&cs=1_83706fe1&cb=1678920214452&jobListingId=1008437713897&cpc=1AD9FB1E01C94A37&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-6ab217538d3e89a2--6NYlbfkN0CMBS5B041_Y8ZzbX96acfEwfe9nE43utDAET7SJzUSwSPEKzpXxrHRW0OtO8XNqizd_pqE3vWHo1-74rEkaezmPu_vOOu23D7Krw3z1cqQVmMk1ZTrwHzzcHgkT7-xaQ1Qy6DrISzD0Hx2Hth4h-q3hIXJ85qnvPMuW6yS2cYGM-wcnSnNzKYVu8dq1zPTf3H56o-juZi2icKCL7fG30EoFpzZ6oLD7UnUlPNCulUkEX-EqVPruxIyQ3WXKzSZRRVwh6-xCxT2jz7nyOR6Mj65-ccKTlQdQ6sL4xHCeG5GkryWMiA6JG6ThEwAdkgLb2mp3OJRayHn8-xd93acu9dmCAmJbHe64-vnGHTG5yfGrd4rjB4VaP7OPZf9YQcsJbFqnW05rHISVQ_5q0-Z4bSvZ_IhXI_jIRxZ76wcH77iSGv6TrDIXv_5FSe1PdPuNop9fwsAd9Rc_zEc-TsM-8MOqku557Kj_3o5xu4dmSPDnNWj9TqJ9Yd8gqRiHgPdSN2M8ia8IMeufMD1P_uI0cq5iA2T0HJzrqjMAqbqoSSUIb2GB3kQa9jgarN-5FOcT_rnTcGsxusxNt3K5EvDKZn0IX8yIDKjH7zpWggBybuxtFS1ARMyIUI5XB3gvUZEhkk_QB9LT1FvUA%3D%3D,Textron Aviation,,"Wichita, KS",Machine Learning Operations Engineer,"Excellent oral, interpersonal, and written communication skills
+Strong programming skills in SQL and Python (other OOP languages also preferred)
+Ability to create and schedule data pipelines (i.e. Apache Airflow, Azure Data Factory, MLFLow, etc)
+Experience with cloud data lake/warehouse tech (i.e. Azure, Databricks, AWS, Snowflake, etc)
+Experience with Python based ML libraries such as Scikit-Learn, Pandas, Numpy, Keras/Tensorflow, Pytorch, etc.is preferred
+Experience with container-based software delivery through technologies such as Docker and Kubernetes
+Familiarity with machine learning and deep learning concepts
+Familiarity with big data parallel processing frameworks such as Apache Hadoop, Spark, Dask, is preferred
+Linux and Windows OS experience including the command line
+Comfortable with CI/CD processes in Github, Azure DevOps, etc.
+Familiar with software development lifecycle, including waterfall, agile, DevOps, and DevSecOps methodologies
+Action oriented and seizes opportunities
+Strong analytical and problem-solving skills
+Quickly grasps new concepts when faced with unfamiliar tasks
+Professional and diplomatic demeanor",character(0),character(0),
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=119&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&cs=1_d2da3e7d&cb=1678920214452&jobListingId=1008232376713&cpc=496C5EE6B32F83EE&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-c1e97b9a618170b7--6NYlbfkN0Ary0qFmdCB0fJzP6yo20VSBnMHiEDzxnbj6p900ThwXbFG10Fys7JX6oTMBjonedWC2cbaQjOF_Q1D8llFZtuBxdK51yfvAPOLkE01xEPtTAlN5DaF5j8x0bONPpDnmsHWonew0ZevUOt1KIV_hHT1PRUA6IIgEHJTzakMw51YMs2nyA3CIJL7szgwGTsoDcCnU9UxwxEMXVL-ioBx7Gws4qJk2xj-FLUPRhGWSrig-cTu233WwJzo37ob_k3YSca0AgN0HOgTLyTcRtTq-8o4u9eco0J6SWlqnE5FgAb0i7kndNMZKzgsf67W97foDeMmc8HH4bUjSw5cuUvHJk3IEM-wf9FnCvWFp4T1Nx4p6MSkwGgYaDiQP7Tm9ts26yzcJ4LIG8CgjMh5sFHkH8A-VPFcNbPX3BtshOzRGMqDVQTWx5T-lnvjeh0RuXXfkJvFPzp2rILEJJ5KQrKzqWHZzmc1O6ht4TwOao6yYxaHE9TsWbiajg-oYWYy3nklDkcTIUYVd2eHSm7wC_7cwWMqa5qCgvNJMzxX7PM1ODBh2_EJWLPUxHrVXoSIHDNr-3ou8HaZmrWO7np3TMxTA4LMIwVbNbe-qN4WMUNIiMJ5Qw9rgEjw5OpeGD7p30iUOptCU8Iu7eWDasnDZMnnp434Y_fNbIslsXdhFAm4PyGG4EhjrmKyRGNyPBCM2IXvJDuUAky5LAiLf-a66BhNXR5bfYgxay8ugVQwryPNqhsjmAMmsrDr-6HjJoCWDvfXll5MOsFK9bFG5euQPJMDlUuy2SrBeOXnfXtcHe9QHuL7fhsUdkCEv8U25ygtUQ54Mkcgu6ZqH0ZCtT3AuPLJ-EbzGHPLiTFaJVF6WOlLUoWaZKVk7JVkx7wiuGNWV7ccPPU%3D,Kum & Go,,"Des Moines, IA",Senior Data Analyst,"Excellent analytical, critical thinking, and problem-solving skills
+
+High attention to detail and quality
+
+Ability to manage multiple projects that are at various stages
+
+Comfortable working both independently and collaborating in a team atmosphere
+
+Strong desire to provide quality work while meeting critical deadlines
+
+Highly skilled with statistical software and programming languages such as R, Python, SQL, and SAS and enabling statistical/data science packages such as pandas, scikit learn, H2O, caret, ggplot, and Spark.
+
+Advanced knowledge of statistical (e.g., sampling, regression, PCA, time-series forecasting, hypothesis testing, design of experiments) and machine learning (e.g., neural network, random forest, GBM) techniques
+
+Advanced knowledge of relational databases such as MS SQL Server, Oracle, and Teradata
+
+Working knowledge of cloud technologies such as Azure or AWS",Senior,character(0),
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=122&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&ea=1&cs=1_eda58fd2&cb=1678920214452&jobListingId=1008104107052&cpc=03F67E1B243A1AE3&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-77e9072776e0640e--6NYlbfkN0A1UtxlOJl6Y6F02-oTF9zwI-Nb9Dq9qDYX5XseiH9toUfXu3a75OfVg9vFsqgscdNWuA9QSsgLggEpbZOeGcgjoCNh6IyjuwII5gDY3c2uZXeJk0mDPN-fbvUQ6DFMH4Stj-AGiFz8UXPNAgeka_JN86_Ydem9U3K0ukw3cbplsXx0A8oMBmyTyDVOvj0o8Rg2-E-rpSnqDwbG7DEhQ5iLM74lNXVO5e1eks7KuPDVaj3xsNjIzemCbnS7kbuTPk7Jm_gFnEBtjzVGcGPzPk0jef8iqkoJRNL2-e4TL0O8Q5Z4tMBccYseZsLvcPJXIH-JOnPMsOI3zydO3T0jLGDeYaRJhWFgTQQpY8h7vvF81wnZrAcknNk2jBO_xgKRr1oWTsR7UsqOm6YPqcWCD-WNa4IyO_xToBakJVTFA6OL3vx4J6eRKb-cUdXfzTcZDcuYdmtkJiuZm7c-HGKNPDhP1ffWN8s8Wdm9C9KCpRqktXbdpB4FvTEPIEz_GYEn0puuNA6YVgpuuKFkRyf_P5kDczlRfLJMUDf_HMc7w3d9p67rzHxA9rRhUu79kwp05_IqJGANTUa8aRlS32Kt6UPPoMqwWlavaZY%3D,Novateur Research Solutions,,"Ashburn, VA",Machine Learning Scientist,"Masters or PhD. Degree in computer science, engineering, physics, applied mathematics or a related field.
+Efficient and scalable algorithm design and problem solving skills.
+Hands-on experience and proficiency in software prototyping.
+Innovative researcher with passion for working on cutting-edge technologies.
+Ability to work in a dynamic and fast-paced environment.
+Team player with positive and collaborative mindset.
+Excellent written and oral communication skills.
+Strong record of research publications.
+Our current focus areas include geospatial and spatiotemporal data mining, largescale microsimulation, medical image analysis, computer vision, and knowledge-based reasoning. Prior research in one or more of these areas is a plus.",character(0),"c(""Hybrid"", ""remote"")",
+Glassdoor,https://www.glassdoor.com/partner/jobListing.htm?pos=125&ao=1110586&s=58&guid=00000186e77165ce810cf2325bec57c6&src=GD_JOB_AD&t=SR&vt=w&cs=1_c84ea48b&cb=1678920214452&jobListingId=1008515047043&cpc=A0032DE20586B9BD&jrtk=3-0-1grjn2pfchaps801-1grjn2pg3227a000-8654a73e7c43a980--6NYlbfkN0DeKde-pU_olD4YUrw_gjyRI1n-4QX0HDStiN2-PsFXQbNScsEQqavu_Pyy036DCeMMLyaJ8bpvi2Pa6H4Jus1-YaAZPLT3S5HxW2qkGbOw6wmsm0MrxQ7DVDBCcbvn0sCSdnwlmRwVFYZ_oeeH7MyoErtvYtZWCsh0-pMViGuaXsJkAf31lU1WtrZx6qFHH2rCOrxV0C51TiVmuqKEdcDoVZq6eaZhP8TejYacrsgbpXxGFoEFYbRW2BT32J833_X-B6YnGJX4vVCBYV1aoJjqDy__Djyct21VHxt8JD5Rm-IFaX2XjDg--kih2wBLeZ9g59OVXg3gUoYfQb41f_3J4jON4SYRE4ACPXtJ2L7n6jta0bt-cdToWJFObHnQA1YL7kFsLi-RRUtkDIZo4GMGChKriF-tSAWdq32-91HV3K_jWkyG0ES8Ylu_kwOiy58pFN_knMAbzyOl14ejTYbJM4527BG4ixqF59luD6vtYWRfxWBarDsWzKIl33SB6MZUCrqH4fpPsrcL-MnnsmBW5rQ6VlsmK6LNSamVpC66oS143X3b9SQXd1FgrnIm2fw42m7av7tQNUPztadr7_qEQ0k-ktgitDp3Hc5YfNtKnJ0Gf0YczrgJ1qEHcNw8smnTySt7wsVT2AvC8smj_6ej6fut095NeWTBrY9Iqgr8MkT9HS2j636iy6BcuRaFy8pqUhyrsREcMv770PKpRlL884-vms0KzXo%3D,CACI,,"Charlottesville, VA",Data Scientist,"Processing, cleaning, and tagging/labeling/parsing/indexing unstructured, semi-structured, and structured classified and unclassified data sets.
+Developing research designs (including formulating testable questions, identifying and defining key concept and variables, and matching appropriate methods to problems).
+Developing models and simulations of real and theoretical systems and processes.
+Data analysis and modeling (including manipulating datasets and interpreting findings using a mix of programs (such as R, Python, Matlab, Excel), environments (such as cloud computing and HPC), and techniques (e.g. text and pattern analysis, natural language processing, supervised and unsupervised data clustering, classification, change/anomaly detection, time-series, regression, geospatial, and/or social network analysis).
+Develop process flows, visualizations, and technical publications designed for both technical and non-technical audiences.
+Contribute to data-driven all-source analysis, assessment, and decision making and implement innovative methodologies which enhance production and dissemination activities.
+Use text/web data analytics for establishing and expanding keyword searches and using bibliometric analysis tools to perform horizon scans and deep dives into identified S&T research fields
+Provide knowledge/familiarity of technical language
+Provide experience with Big Data (parallel processing power and options for handling analysis of data)
+",character(0),character(0),
+SimplyHired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsAAQALAAAAAAAAAAAAAAAB%2FIvUeQEBAQYAmareOoxWAcXf23ee%2FX9nk3XhnrVlM7WA&job=sS_CVD95UEmptfrV5pR6ijX7ADr_MACweJ9P-G0EzMd-EU4_7DNDrg,Federal Reserve Bank of New York,Bank,"New York , NY",Data Scientist,"Strong experience with data science deliverables including model development, prototyping, and model calibration to meet business needs.
+ Demonstrated experience with maintenance of model performance and evaluation of newly trained models.
+ Demonstrated experience building and optimizing big data pipelines.
+ Demonstrated experience designing data and analytical strategies as well as communicating the vision to business stakeholders in support of the Data Analytics and Data Science practice lead.",NA,On Premise,NA
+SimplyHired,https://www.simplyhired.com/search?q=data+scientist&l=New+York+&job=xJrVOReMU1k34BaCKRUiGeh7fgCzsJutl7rERWVTO0E_GzL9hpB5yg,BrainStation,Education institue,"New York, NY","Educator, Data Scientist","* 3-5+ years experience as a Data Scientist or Analytics professional and a Bachelor's degree relevant to the subject matter OR 8+ years work experience in the vocation
+ * Strong command of querying and programming languages (SQL, R and python - numpy, pandas, sklearn, TensorFlow & Keras), and visualization tools (Excel, Tableau, matplotlib/seaborn/plotly in python packages
+ * Experience applying various methods of numerical and categorical modelling techniques and supervised and unsupervised machine learning methods (OLS regression and GLMs, logistic regression, KNN, SVM, decision trees/random forest, clustering and cluster analysis, dimensionality reduction, neural networks)
+ * Hands-on development experience working with version control systems (we use Git) and Big Data and Cloud platforms (Hadoop, Spark, Amazon Web Services (AWS), Google Cloud (GCP)) a strong asset regression and machine learning principles
+ * Practical experience designing and applying data science processes to conduct experiments using a variety of tools and methods, and can speak to their complexities in a simple and logical manner
+ * Experience building and leading technical teams
+ * Experience in a teaching role, and are comfortable speaking to large groups and mentoring others on the job
+ * A strong work ethic with the utmost integrity and desire to excel and succeed
+ * An empathetic, inclusive, enthusiastic personality, and is someone who enjoys helping others and facilitating learning
+ * A passion for teaching and mentoring others and creating positive learning experiences",Mid level,On Premise,3 years
+SimplyHired,https://www.simplyhired.com/search?q=data+scientist&l=New+York+&job=NO4Tx3oyfggbTr8vz4_06X147LnN-Ay_XPzACokANiw2XFs6JDmEsA,CVS Health,Pharmacy,"New York, NY",Data Scientist,"Master’s degree (or foreign equivalent) in Computer Science, Data Science, Statistics, Mathematics, Analytics, or a related field and one (1) year of experience in each of the following: CI/CD, Jenkins, or GIT; Programming in R, Hadoop, or Python; XML, JSON, HTML, CSS, or JavaScript; REST, SOAP, or Web Service APIs; Writing clean, high quality, high performing, scalable code; Analyzing large data sets from multiple data sources; and Machine learning, statistical analysis, and predictive modeling",Entry Level,NA,1 year
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=New+York+&job=DQ73S7g20ld18UEYJN6tues9wnXEeJDH-1R6LVTRbKXbN4TdC-31mQ,PepsiCo,Food Industry,"New York , NY",eCommerce Senior Data Scientist,"Position requires a Master’s degree (U.S. or foreign equivalent) in Computer Science, Data Science, Data Analytics, Operations Research, or related field. Must have working knowledge of the following skills gained through coursework or experience: Python programming and machine learning libraries including scikit-learn, Git, shell script, and SQL; Scala or PySpark; Linear Algebra, Statistics, Probabilities, Mathematical programming, and Optimizations; end-to-end knowledge data science problems, including handling large-scale data with best practices and processing large- and small-scale data; AWS, Azure, Databricks, Google Cloud Platform, and Snowflake data science, and machine learning services; Non-structural data analyses and advanced modeling including text mining and image processing; deep learning frameworks including TensorFlow, Keras, and PyTorch; on time series analysis and anomaly detection; deploying and managing production-grade Big Data systems; mentoring junior data scientists; web scrapping and machine learning model deployment.",NA,Hybrid,NA
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=New+York+&job=J8GfPd_13aRt3bnU0NeuBlNDDQ2yTHgMXkbJ4WMjdZJHVAyOzZ2afQ,Capital One,Bank,"New York , NY","Manager, Machine Learning Engineering","Master's or doctoral degree in computer science, electrical engineering, mathematics, or a similar field
+ 
+ 3+ years of experience building production-ready data pipelines that feed ML models
+ 
+ 3+ years of on-the-job experience with an industry recognized ML framework such as scikit-learn, PyTorch, Dask, Spark, or TensorFlow
+ 
+ 2+ years of experience developing performant, resilient, and maintainable code
+ 
+ 2+ years of experience with data gathering and preparation for ML models
+ 
+ 1+ years of experience leading teams developing ML solutions using industry best practices, patterns, and automation
+ 
+ 1+ years of experience developing and deploying ML solutions in a public cloud such as AWS, Azure, or Google Cloud Platform
+ 
+ Experience designing, implementing, and scaling complex data pipelines for ML models and evaluating their performance
+ 
+ ML industry impact through conference presentations, papers, blog posts, open source contributions, or patents",NA,Remote,3 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=New+York+&cursor=AAsAAQALAAAAAAAAAAAAAAAB%2FIJqbQEBAQYQYmX0ixI7ryq9hH204mbzrlJqmgEe7g%3D%3D&job=X9fdw3Tirx2tLr4SGz0J7-2kii5oX3drNX7fOJ8GJPZVucbD4UlpvA,Deloitte,data science consulting firm,"New York , NY","Senior Software Engineer, AI/ML - SFL Scientific","Bachelor's or Master's degree in a STEM field or equivalent experience (Computer Science, Engineering, Physics etc.); Master's degree preferred
+ 4+ years of software development experience in python for data science applications
+ 2+ years of experience building software on top of major container technology (Kubernetes, Docker, or similar)
+ Expert with modern software development best practices, CI/CD processes, and version control processes
+ Expert in working with both on-prem and cloud environments such as AWS, Azure, GCP, etc.
+ Proficient in additional programming languages such as, SQL, C/C++
+ Live within commuting distance to one of Deloitte's consulting offices
+ Excellent communication skills, both written and verbal
+ Ability to travel 10%, on average, based on the work you do and the clients and industries/sectors you serve
+ Limited immigration sponsorship may be available",,,4 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=New+Jersey&job=XoPJejkourRh_FsINc7zXYbOlakDqIsSU6qCkF7QsH3Mw6uuJtFgkA,Sanofi,Healthcare company,"Bridgewater, NJ",Senior Data Scientist,"5+ years or more experience in Data Scientist Role.
+ 
+ Experience working in FMCG
+ 
+ Experience using scripting languages such as Python or R, and common libraries such as scikit-learn, pandas, xgboost, etc.
+ 
+ Experience applying & implementing solutions with the following data science concepts and domains: Classification, Regression, Deep Learning, NLP, Feature Engineering.
+ 
+ 3+ years of hands-on experience working with large scale data and advance analytics life cycle, including data discovery, business intelligence, data quality management, metadata management, and related disciplines.
+ 
+ Hands-on experience with relational databases, data warehouses, operational data stores, in-memory databases, SQL and noSQL technologies and concepts.
+ 
+ Experience in Bayesian models and Bayesian inference a plus.
+ 
+ Experience in Marketing Mix Models a plus.
+ 
+ Problem-solving skills, creative thinking, and ability to implement creative solutions that tackle business problems.",Mid-Senior level,NA,5 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&job=SmOGi52w_PgY8QksdoHf-74qyJFX_Tk-npPv6aKZWJ8U4ecKUJPTmw,Rockefeller University,University,"New York, NY",Director ( Data Science Resource Center),"M.S. required, Ph.D. preferred in data science, computer science, statistical genetics, or other related quantitative fields.
+ 
+ A minimum of four years of experience with Python and/or R. At least two years of supervisory experience is needed.
+ 
+ Must possess expert knowledge of concepts and techniques in machine learning AI, including decision trees, k-NN, linear regression, etc. Must possess expert knowledge of supervised and unsupervised learning methods, probabilistic graphical models, etc. Excellent communication and interpersonal skills.",Entry Level,On Premise,2~4 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsAAgAWAAAAAAAAAAAAAAAB%2FIbMVwEBAQcHPdRc6hOqBd%2F8emIxYn%2FXmI4jUOBOy%2FpEzlv%2Ff%2BSkusuP4FxZp5AZtQ%3D%3D&job=5VunIn5qp2rffEDSSOZcFXT9CpWjOh0OCDQh1pEmzuStOTys_MHD1g,Floodbase,climate tech start-up,"New York , NY",Climate Data Scientist,"B.S in a quantitative field with 5+ years of experience, or M.S. with 2+ years of experience, or PhD with 0+ years of experience.
+ Expert level programming skills for environmental and climate modeling.
+ Experience merging dynamic models with data.
+ Apply machine learning, computational and/or statistical modeling for a diverse range of complex, high-dimensional problems.
+ Work in a wide range of interdisciplinary disciplines, with some experience in geophysical science.
+ Keep up with state-of-the-art modeling techniques, and identify practical approaches for scalable solutions to environmental problems.",NA,remote,NA
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsAAwAhAAAAAAAAAAAAAAAB%2FIbMVwEBAQcL5bFBTNDijVJBG%2FST6BjCXlXUpg0HHAdq7VEcUjB42XXq8eKDK0IcznSZpgfPkaMva4mCteejqQ%3D%3D&job=xYipjTuqpihr0MaHIc1tioILApTmWHllpvqw38X6SQByF4868T6Wpw,Warner Music Group,Music company,"New York, NY",Senior Data Analyst,"You have 2-3 years experience as a data analyst, with a focus on actionable insights and creative analyses
+ You are comfortable creating a data narrative with compelling visualizations and actionable takeaways
+ You have demonstrably strong analytical skills and problem-solving ability; portfolio of relevant work appreciated
+ You are SQL proficient, with a comfortability navigating relational databases
+ You have expertise with at least one BI tool such as Tableau, Looker, or similar
+ Ability to synthesize data from multiple sources
+ You enjoy being an independent operator who can employ critical thinking and problem solving, but knows how to use the resources at their disposal to get the job done
+ You are relentlessly curious about what insights exist within large data sets, and the ability to communicate those insight to a non-technical audience",NA,Hybrid,NA
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsAAwAhAAAAAAAAAAAAAAAB%2FIbMVwEBAQcL5bFBTNDijVJBG%2FST6BjCXlXUpg0HHAdq7VEcUjB42XXq8eKDK0IcznSZpgfPkaMva4mCteejqQ%3D%3D&job=bi3qj022Gv-lnsiQI32A419UlVxNYSqClxmGBbvaMF6uAfKxThUYbg,Perchwell,Real estate company,"New York , NY",Senior Data Analyst,"4+ years of experience in data analytics, including at least 2 years of experience as a senior analyst (preferably leading junior analysts on projects)
+ Ability to communicate insights to both technical and non-technical audiences
+ Strong SQL & Python skills
+ Previous experience in an AWS environment utilizing the breadth of tools available",,On Premise,4 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsAAwAhAAAAAAAAAAAAAAAB%2FIbMVwEBAQcL5bFBTNDijVJBG%2FST6BjCXlXUpg0HHAdq7VEcUjB42XXq8eKDK0IcznSZpgfPkaMva4mCteejqQ%3D%3D&job=Ms_wa8KI4lOxcgg6onxL2Mzx2ebSKbZ1iFlgJfnNsh6v9l1hgyBhBQ,JPMorgan Chase Bank,Bank,"New York , NY","VP, CB Assignments Data Scientist","Have a Master's degree or PhD in related field.
+ 5+ years of experience with an analytical programming language (R/Python preferred)
+ 5+ years of experience writing SQL (Teradata experience preferred)
+ Like to focus on practically solving real business problems, not just boosting model performance curves
+ Are a strong communicator who can translate technical topics into intuitive business language
+ Have a track record of working with and influencing cross-functional business partners
+ Are excited about working in a fast paced environment with the ability to deliver at a high level while juggling a large book of work",Mid to Senior level,NA,5 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsAAwAhAAAAAAAAAAAAAAAB%2FIbMVwEBAQcL5bFBTNDijVJBG%2FST6BjCXlXUpg0HHAdq7VEcUjB42XXq8eKDK0IcznSZpgfPkaMva4mCteejqQ%3D%3D&job=AU0gKeBV8SOKUgbl71O8s4KQpRRY3BYazVUASYEGjEG7hZNfN_O7Sg,NYC Health + Hospitals,public health care system,"New York , NY",Junior Data Scientist,"Python: 1 year (Required)
+ SQL: 1 year (Required)
+ R: 1 year (Required)
+ Data science fundamentals (statistical analysis, data manipulation, modeling, visualization, transforming raw data into actionable business intelligence)
+ Proficiency automating data processing tasks (scripting, including Python, R, Excel/Access/VBA, macros, or SQL)
+ Database migration
+ Working knowledge of data governance and ability to document processes, data models, and systems",Entry Level,NA,1 year
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsABAAsAAAAAAAAAAAAAAAB%2FIbMVwECAQcSB0wzlGGnKCPO1n4OCCvtc%2BAM1Rin7qbi0RpR3WL1s4VRaEN0tct0Z415RACKbDL4lJY2Gjsjfwd9gu3Jn2yWDuugEQBaKA%3D%3D&job=h2cqBAlEoXihtD9i4XGKg9CrGmNYsl9-jTWKPhaVGyJaxTPsi90TJQ,Peloton,exercise equipment company,"New York , NY","Data Scientist, Product Analytics","BA/BS degree, preferably in a technical field
+ Have 3+ years of overall experience in an analytics capacity with a focus on problem-solving and providing concrete insights; some experience conducting analysis with a product/UX focus is desirable (an advanced degree may contribute to years of experience)
+ Have solid technical skills when it comes to data wrangling and handling large datasets: can use SQL for data extraction (including sophisticated joins, CTE, and query optimization), and have a solid understanding of Python syntax required for data cleaning and exploratory analysis (e.g. pandas, numpy)
+ Have experience with A/B testing and have demonstrated experience designing and assessing experiments
+ Have an understanding of statistics and data science methodologies (e.g. hypothesis testing, regressions, and other machine learning techniques such as clustering)
+ Have proven experience defining and owning project success metrics
+ Have a passion for data storytelling via decks and dashboards and a proven ability to efficiently relay your insights to non-technical audiences and senior leadership
+ Comfortable handling your project timelines, prioritizing tasks with user and business impact in mind, assessing speed/precision tradeoffs, and proactively communicating project statuses to collaborators and teammates
+ Work well collaboratively, both in a cross-functional context - with Product Managers, Project Managers, User Researchers, Designers, and Engineers - and as a part of joint research projects with Product Analytics teammates
+ Are curious, ask good questions, are always excited to learn new methods, approaches, and perspectives, and are eager to investigate exciting trends in the data",0,0,3 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsABAAsAAAAAAAAAAAAAAAB%2FIbMVwECAQcSBypyoo1udXHv%2FqNRuRkATd8uKL4fwPeS7s8k08VcW2fX9%2FaCIHGNzJcd9ndHqsv1HRLpcWY3%2Fj2faFi1oCBmDiA5JcQ%3D&job=JbOZZ0wJhtGRp5ax1Low__eL4vRD0jR_MvRMnenwxKYumEMiBoVnmw,Mount Sinai,Hospital,"New York , NY",Data Scientist/Bioinformatician,"The post holder will have a highly quantitative, computational background and be extremely familiar with managing, processing and analyzing large complex data sets of different types.
+ Bachelor's in Computer Science, Science or related field
+ The post holder will have strong skills and experience working in a Unix-based environmental, ideally involving the management of server space, and an excellent understanding big data science, preferably having performed research projects on large complex data.
+ The ability to communicate clearly and present the structure and content of the data commons as it develops in the future will be critical, given the wide spectrum of investigators at Mount Sinai who will interact with the resource.
+ The post holder should be able to work extremely well on their own and have the initiative and vision to take the Data Ark forwards in ways that will most empower science and medical advances at Mount Sinai",NA,On Premise,NA
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsABQA3AAAAAAAAAAAAAAAB%2FIbMVwECAQcQCAWM9kUss8csgMvooAk78%2B%2Bmc2s6rdUUcYevOdClQ3plMib18MF0XQae2zPHfyjXLvzTBZ4MIvSKdZV%2B4URQd%2F2bGuyJLKmloAIsbPmac%2FHj&job=eJmjnEI26isEuj8Gdb29eCH5m1DefNNhi-6OksGiQ8DsLybRb-6xmw,Meta,Social Media Company,"New York , NY","Research Data Scientist, Machine Learning","MS in a quantitative field such as Computer Science, Quantitative Finance, Math, Statistics, Physics, or a related Engineering degree.
+ Experience with machine learning and statistical methods such as forecasting, time series analysis, hypothesis testing, classification, clustering, regression, or other advanced analytics techniques.
+ Experience testable and production-level code and shipping code into production.
+ Experience using version control tools such as git or mercurial.
+ 7+ years experience in building models and developing algorithms for machine learning, statistics, mathematical programming, and simulation in industry and/or academia.
+ 7+ years experience in managing and analyzing large-scale structured and unstructured data using R or Python.
+ 7+ years experience in SQL in big data environments (i.e. Hadoop) and data modeling.
+ Experience with scientific computing and analysis packages such as NumPy, SciPy, Pandas, scikit-learn, dplyr, or ggplot2.
+ Experience with machine learning libraries and packages such as PyTorch, Caffe2, TensorFlow, Keras or Theano.
+ Experience with data visualization libraries such as Matplotlib, Pyplot, ggplot2.",Mid to Senior level,NA,7 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsABQA3AAAAAAAAAAAAAAAB%2FIbMVwECAQcQCAWM9kUss8csgMvooAk78%2B%2Bmc2s6rdUUcYevOdClQ3plMib18MF0XQae2zPHfyjXLvzTBZ4MIvSKdZV%2B4URQd%2F2bGuyJLKmloAIsbPmac%2FHj&job=sFA67o7GfHH_UzgN80QDMLDwqffi3BeLCgGTGcnqvmdprfViP4sLKQ,Pontera,FinTech SaaS company,"New York , NY",Senior Data Analyst,"4+ years of experience working as a Data Analyst, preferably at a tech startup
+ Proven experience working with Tableau (or other similar front-end data tools)
+ Expert level of SQL
+ Strong analytical skills
+ Great communication and interpersonal skills
+ Curious, independent, and self-motivated",0,0,4 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsABgBCAAAAAAAAAAAAAAAB%2FIbMVwEDAQcQCB4GAZOJzE8ly0ES8obKbVb5bugmO3n347UKZzk27snqjJ81PCYhJOTRs%2BjfeylKi3bh3kOWU6bp6tN2Ln7HHX%2BYqmjm08t7CoVy1BYMi7ZwcUJqJAKXRBPRu0k%3D&job=Ujf5udZedubaePGw5YbFjyQ4xKWMfKIOsYBtZsKNXvjc0qnIsYdOmg,Columbia University,University,"New York , NY",Data Scientist,"Requires a bachelor's degree or equivalent in education and experience, plus two years of related experience
+ MSc degree in data science or equivalent qualification.
+ Development of analysis pipelines (Python preferred).
+ Experience with Bayesian Generalized Linear Models (NumPyro, RSTAN preferred).
+ Experience with developing visualization of electrophysiological data (e.g. tableu, matlab, matplotlib).
+ Experience with git and ability to work collaboratively on software.",Entry Level,NA,0~2 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsABwBNAAAAAAAAAAAAAAAB%2FIbMVwECAQ8wBx7%2BP1ypYvN6GkXAV9sOwlvHL4XZIJ%2FBFYjgMXbB9kuriiKvJ6MlScDKmsoKgJwij74AbYsCJ5jpq7AeuuljvwvIJzwznrUiUxDga9BIo2rHaBeZsnmWfff%2FivBM0R0RaWe3CA%3D%3D&job=_9WEXKHvb1OdYtJFxqtcC8dKXABqnERgc789_ED-OPxjCcldpkEl9g,Paypal,Financial service company,"New York , NY","Data Science Mng, Marketing Analytics","If you are a fast learner, are willing to learn and grow, have a can-do attitude, and wants to solve problems in the most pragmatic way
+ 
+ You are curious and inquisitive: love digging into data and uncovering insights
+ 
+ You are hyper-analytical and intellectually honest, truly believing in data-driven decisions and communicating your ideas through storytelling
+ 
+ You are familiar with data science and machine learning techniques to improve product experiences
+ 
+ You are a highly motivated, result-oriented self-starter, enjoy working in a fast-paced environment, and can deliver successful results with minimal guidance
+ 
+ You are a fun-loving, adventurous team player; we would like to talk with you.",NA,NA,NA
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsABwBNAAAAAAAAAAAAAAAB%2FIbMVwECAQ8wBx7%2BP1ypYvN6GkXAV9sOwlvHL4XZIJ%2FBFYjgMXbB9kuriiKvJ6MlScDKmsoKgJwij74AbYsCJ5jpq7AeuuljvwvIJzwznrUiUxDga9BIo2rHaBeZsnmWfff%2FivBM0R0RaWe3CA%3D%3D&job=wXYsDzuvntXSCa1mPDhdWRA2GX5pDTrivTy4lzZ916JGZn0rjhqF1Q,Weill Cornell Medicine,Hospital,"New York , NY",Senior Report & Data Analyst,"Demonstrated proficiency in the Structured Query Language (SQL) required.
+ Promotes and maintains a favorable work environment for yourself and others to assist in the overall mission of the medical colleges and hospital.
+ Strong analytical, organizational, and problem solving skills required.
+ Advocates within the organization(s) for the projects to which you are assigned and the business and strategic goals they are intended to meet.
+ Demonstrated ability to develop proficiency with unfamiliar toolsets is required.
+ Attention to detail, patience, and a positive, customer centric attitude are required.
+ Information systems background with experience in using Crystal Business Object, Cognos, MS office products, MS SQL server as it relates to reporting and analysis.
+ Excellent written, verbal communication skills are required.",Mid level,NA,4~5 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsACABYAAAAAAAAAAAAAAAB%2FIbMVwEDAQ8wBxgHAkHW8jHnfgO%2BflD%2FrMB45lbsSNPaseLYmd1iiDoDqZ9AkHcv0QQM2ExHXjXwwW6pld%2FPFQT5C%2B4ZpISFBeoNsEb2QVUXqeJN6GZQFHm8yfwWRoDXfjC4fdkApzS3kpDcEA0hXyvmEcibA6Fry2M%3D&job=o_ZMQoYyz5Cg-Ql8JxmchvSUR_3ruPD27C3jFGBzwSrrxc5b4v6Bfw,Mount Sinai,Hospital,"New York , NY",Data Science Analyst I - Genetics,"Candidates should have a Masters or PhD-level degree in any computationally-oriented field
+ Solid background in programming and computational techniques.
+ Strong interest in participating in research in big data and computational biomedicine",NA,NA,NA
+Simply Hired,https://www.indeed.com/jobs?q=Exarca+Inc&l=New+York%2C+NY&nc=jasx&vjk=a7be1324afbc457a,EXARCA,Software Development,"New York , NY",Associate Director,"5+ years' experience in a quantitative, Data Science or other advanced data & predictive analytics role
+ Must have a software development background in order to prototype custom analytics/tooling
+ Practical experience with data analysis and exploration, especially with diverse data sets
+ Experience in streaming and/or batch analytics (e.g. Kafka, Spark, Flink)
+ Architect and work closely with other team members to develop scalable cloud-based data analytic solutions
+ Capable of applying the latest technologies and methodologies in machine learning, data mining, and predictive analytics to correlate disparate datasets and events, and derive value.
+ Practical experience with data mining, machine learning techniques, natural language processing, and data visualization
+ Experience of working on end-to-end data science pipelines: problem scoping, data gathering, exploratory data analysis, modelling, insights, visualizations, monitoring and maintenance
+ Typically requires a Graduate Degree in Math, Statistics, Engineering, Operational Research, or related field
+ 
+ Hands on experience with implementing statistical models and Machine Learning techniques in a specific business application context
+ Experience in applying optimization and numerical methods
+ Expert Proficiency in Python or R
+ Applied Machine Learning models such as decision trees random forest, neural networks
+ Databases: SQL and any of SQL Server, Oracle, Snowflake, Postgres
+ Shown success in using large amounts of data to solve analytical problems
+ Experience with Natural Language Processing techniques, TensorFlow or PyTorch, SpaCy for entity recognition",Mid level,NA,5 years
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsACgBuAAAAAAAAAAAAAAAB%2FIbMVwEDARIwBxoIG2iwq%2FdRvOzxosVTKgXWK1%2Fffl4eeDABpP%2BZgEEdufX7IMceR8dYb4Emck9Qog1jEHIFwRvZHyHEyofdnCOGuFvUt2lktwIF7HETtW9IU%2F6ekPAWsTbgkgCy83%2B%2BQR9WC9I6lfARR9onq5EydfUEMw3u0%2B5EUIxXtETogamnW12UYnU%3D&job=tVIxr0jA1_V7yKqdyCCaixwwbVTwRnxCsyEEzdPEqUjoTr_i1rPU0w,Albert Einstein College of Medicine,College,"New York , NY",Data Scientist,"Bachelor’s degree in Data Science, Computer Science, Applied Math, Statistics, or other quantitative discipline.
+ Master’s degree preferred.
+ Outstanding quantitative modeling and statistical analysis skills (minimum of 1 years industry experience). 3 years preferred.
+ Adept with Python.
+ Excellent verbal and written communication skills with the ability to effectively advocate technical solutions to research scientists, engineering teams and hospital stakeholders.
+ 
+ Experienced with the python scientific ecosystem (pandas, scikit-learn, matplotlib, numpy, scipy)
+ Worked on software projects using a language such as Python, Java, or Javascript
+ Proficiency with databases, both distributed and single, and using a query language such as SQL or Hive
+ Experience with distributed analytical frameworks such as Spark or Dask
+ Experience with deep learning machine learning frameworks like PyTorch or Keras
+ An interest in not only building ML models but contributing to our ML tool stack
+ Experience with containerization using Docker and Kubernetes",Entry Level,0,1 year
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsACwB5AAAAAAAAAAAAAAAB%2FIvUeQEDARIwByQJWFSEzQvtGnibKuIZ4XsynuNUzjgXZkngnCoMTC70JKspAQfL%2BFW2fF%2BVqHLcoTPv9CMvXdHW%2F9%2BF%2F4hBQA08HumXcU36OOZtgPPZIX1z7CUqvtsIgKJJg%2BYEO%2BAaihl5%2FBDQc5zLkYy1jLRkk2ZWw%2Bdc14YyLmwJ2FfHMFd4ZO3rmDb91fkM&job=csuu8VWfG6sIQLqoXA7x38SlGgTmRJOOqXYpMXraptWrmjEuqbNwiw,Research Foundation of The City University of New York,University,"New York , NY",Data Scientist,"Bachelor’s degree in computer science, statistics, quantitative social science (public policy, criminal justice/criminology, or sociology), or other relevant discipline with minimum three years of experience with relevant quantitative research required; OR:
+ Master’s degree in the one of the above fields (preferred).
+ Proven ability in statistical analysis and technical expertise in data mining.
+ Proven proficiency with SQL queries and analysis is required; knowledge of relational databases and data warehousing architecture also required; hands-on ETL development experience is a plus.
+ Proven proficiency with at least one statistical programming languages (R, Python) is required.
+ Experience with reporting and visualizing complex research products; hands-on experience with Tableau is a plus.
+ Experience with cloud environments (AWS, Azure) is a plus.
+ Excellent oral and written communication skills.",NA,Hybrid,3 year
+Simply Hired,https://www.simplyhired.com/search?q=data+scientist&l=new+york+&cursor=AAsADwClAAAAAAAAAAAAAAAB%2FIvUeQEDARcwDB4XAKaJVjZgeBixyzbvDMbvCWZcrTpUtH1kLb3sMRo%2B3t%2BCllKm7vBSSxgIjnQVr8kGCEH8crhUmkxQ%2BtqAE8i5B25gBWCGWLSYeie%2FTu7MjWwmQlI34SvED0yJU9mYsJ69A5D7OZe8Z%2B95fBROPMxRz5sFp6j6aYmx03STq8i6hfFYBV9Ga%2B8k2Ta%2BHnk7QfGxVJmbmJHQf52aFYCKJUU2&job=j_VWCdI-Cn8PJdnq8cciqtRh-xMX2SrYdLav_75t04g9Blpyg2qPzg,New York City Department of Housing Preservation & Development,New York City Government,"New York , NY",Senior Data Analyst,"Advanced ability to manage and analyze large datasets and write code in R, Stata, SAS, or Python, including querying enterprise-level databases using SQL;
+ Ability to synthesize complex ideas and deliver them in written communications, verbal presentations, and visualizations;
+ Strong ability to work creatively, thoughtfully, and productively in a solution-oriented, team-based environment;
+ Strong attention to detail and ability to independently validate data integrity and analysis results;
+ Strong ability to think creatively about available data to shape responses to complex policy research questions;
+ Knowledge of statistical methods and ability to apply sound statistics to quantitative research;
+ SQL: 1 year expereince",Entry Level,NA,1~2 years
+Monster,www.monster.com/job-openings/lead-data-scientist-boston-ma--4af78777-3022-4e5b-9964-d791cccfc15d?sid=ff0d19ac-605a-4ac8-8423-4c702e78544e&amp;jvo=m.l.sc.1&amp;so=m.h.s&amp;promoted=LEXEME_PAID,"S&P Global, Inc.",,"Boston, MA",Lead Data Scientist,"Advanced statistics and modeling knowledge.
+
+Strong data visualization skills (e.g., Tableau).
+
+Programming skills in Python.
+
+Detail-oriented, can identify and fix own bugs, and write code that runs efficiently.
+
+Good experience with applying Big Data technologies (e.g., MapReduce, Hadoop, Spark) to large quantities of data.
+
+Good experience using relational databases and SQL.",,,
+Monster,https://www.monster.com/job-openings/data-scientist-grand-junction-co--4560a6a9-d1de-480c-a87d-64c7a93d7039?sid=ff0d19ac-605a-4ac8-8423-4c702e78544e&jvo=m.l.sc.2&so=m.h.s&promoted=LEXEME_PAID,Visit Grand Junction,,"Grand Junction, CO",Data Scientist,"Three (3) years of experience manipulating data sets and building statistical models, including one (1) year of supervisory experience. Bachelor’s degree in Statistics, Mathematics, Computer Science, or another quantitative field.  Depth and breadth in quantitative knowledge. Excellent machine learning, statistical analysis and strong problem-solving analysis.  Intellectual curiosity; staying current with the latest best practices in data science, data technology tools, and rapidly changing marketing trends and consumer insights. Expertise preparation of a variety of clear and concise analytical summaries and other reports and written correspondence. Demonstratable track record of dealing well with ambiguity, prioritizing needs, and delivering results in a fast-paced environment.  Superior verbal and written communication skills with the ability to effectively advocate technical solutions to business audiences.",,,
+Monster,https://www.monster.com/job-openings/director-data-science-dorchester-ma--e6cc4022-758f-4b67-bd38-4ca512b0ef16?sid=ff0d19ac-605a-4ac8-8423-4c702e78544e&jvo=m.l.sc.3&so=m.h.s&promoted=LEXEME_PAID,"Santander Bank, N.A.",Business Services - Other,"Dorchester, MA","Director, Data Science",,,,
+Monster,https://www.monster.com/job-openings/associate-data-scientist-raleigh-nc--577c9c71-0e04-46fc-8572-5f339b3af43f?sid=ff0d19ac-605a-4ac8-8423-4c702e78544e&jvo=m.l.sc.4&so=m.h.s&promoted=LEXEME_PAID,Carpenter Technology,,"Raleigh, NC",Associate Data Scientist,"BA in computer science, mathematics, statistics, operations research or related field required.  MS/PhD preferred. 0-3 years of experience in data science, analytics, and model building roles. Experienced in programming in Python, R, Julia, MATLAB and SAS. Knowledge of other programming languages and analysis tools (e.g. Scala, Java, Ruby, JavaScript, shell scripting). Experience using big data frameworks and tools (e.g. Hadoop, Spark, MapReduce, Hive, Pig, Luigi/Airflow, Kafka, Data streaming, NoSQL, SQL). Familiarity with cloud-based solutions (e.g. Azure, AWS EMR). Knowledge of analytical techniques and methodologies (e.g. machine learning, segmentation, mix and time series modeling, response modeling, lift modeling, experimental design, neural networks, data mining, optimization techniques). Experience with data profiling and data cleansing techniques.",,,
+Monster,https://www.monster.com/job-openings/data-scientist-los-altos-ca--7fb47485-7c0a-4123-b000-466766edb9a0?sid=ff0d19ac-605a-4ac8-8423-4c702e78544e&jvo=m.l.sc.5&so=m.h.s&promoted=LEXEME_PAID,"Alto Neuroscience, Inc.",,"Los Altos, CA",Data Scientist,"Master or PhD degree in Engineering, Neuroscience, Bioinformatics, or other quantitative fields with strong analysis and programming experience  3+ years of machine learning experience using health/biosignals Excellent understanding of machine learning techniques and algorithms Strong data engineering skills Experience with common data science toolkits and libraries, such as scikit-learn, Pandas, NumPy, SciPy, Pytorch, TensorFlow, etc. Working knowledge of Linux OS 2+ years of Python programming and product development experience A team player focused first on the company mission Strong organizational, problem-solving, and analytical skills, communication, and interpersonal skills; able to manage priorities and workflow. Versatility, flexibility, and a willingness to work within constantly changing priorities with enthusiasm Self-motivated and curious with a strong desire for continuous learning Strong business acumen",,,
+Monster,https://www.monster.com/job-openings/director-i-data-science-remote-seattle-wa--09d7aeb8-0859-413c-a76b-dcd21593cb9d?sid=ff0d19ac-605a-4ac8-8423-4c702e78544e&jvo=m.l.sc.6&so=m.h.s&promoted=LEXEME_PAID,Liberty Mutual Insurance,Insurance,"Seattle, WA","Director I, Data Science","Broad knowledge of predictive analytic techniques and statistical diagnostics of models. Advanced knowledge of predictive toolset; reflects as expert resource for tool development. Demonstrated ability to exchange ideas and convey complex information clearly and concisely. Ability to establish and build relationships within and outside the organization.  Ability to give effective training and presentations to management and other groups. Ability to use results of analysis to persuade team, department management or senior management to a particular course of action. Broad knowledge of business drivers and market context. Has a value driven perspective with regard to understanding of work context and impact. Competencies typically acquired through a Ph.D. degree (in Statistics, Mathematics, Economics, Actuarial Science or other scientific field of study) and a minimum of 3 years of relevant experience, a Master`s degree (scientific field of study) and a minimum of  6 years of relevant experience or may be acquired through a Bachelor`s degree (scientific field of study) and a minimum of  8 years of relevant experience. NLP and CV experience preferred.",,Remote,
+Monster,https://www.monster.com/job-openings/head-of-data-science-advanced-analytics-new-york-city-ny--cdff2219-750d-485d-983c-10294e229872?sid=ff0d19ac-605a-4ac8-8423-4c702e78544e&jvo=m.l.sc.7&so=m.h.s&promoted=LEXEME_PAID,Vaco,Staffing/Employment Agencies,"New York, NY",Head of Data Science & Advanced Analytics,"Masters or PhD in mathematics, computer science, statistics or machine learning  Deep understanding of data science including behavioral analytics, statistical analyses and machine learning Experience in leading, building and managing teams of data scientists Independent and creative thinker who can maintain diligent attention to detail Ability to communicate with investment management business professionals to understand requirements and solve problems Expertise In asset management process-related data Familiarity with cloud data stores. (IE: SQL, Snowlake, cosmos)  Machine Learning Expertise NOTE - reword the published job description & add to skills above",,,
+Monster,https://www.monster.com/job-openings/actuary-insurance-dir-ii-data-science-management-boston-ma--a6afe762-e821-417b-9311-f5ee90354b3e?sid=ff0d19ac-605a-4ac8-8423-4c702e78544e&jvo=m.l.sc.8&so=m.h.s&promoted=LEXEME_PAID,Liberty Mutual Insurance,Insurance,"Boston, MA","Actuary, Insurance: Dir II, Data Science Management","Actuarial function experience or designation (ACAS or FCAS) or prior data science work required 5-7 years prior relevant experience in an insurance setting and with exposure or involvement to modelling or advanced analytics  Advanced proficiency in Excel and PowerPoint and familiarity with SAS, SQL, R, Python and other big data and emerging technology tools Strong business acumen, communication skills, ability to influence stakeholders and project management skills Proven ability to quickly grasp new concepts and technologies and adapt to changes and demands in fast-paced, dynamic environment Bachelor's degree in statistics, economics or related quantitative field required",,,
+Monster,https://www.monster.com/job-openings/analyst-data-science-commercial-modeling-state-auto-columbus-oh--748fa10e-238d-4503-bf41-7bafef5dcfcc?sid=ff0d19ac-605a-4ac8-8423-4c702e78544e&jvo=m.l.sc.9&so=m.h.s&promoted=LEXEME_PAID,Liberty Mutual Insurance,Insurance,"Columbus, OH","Analyst, Data Science, Commercial Modeling, State Auto","Solid knowledge of predictive analytics techniques and statistical diagnostics of models.  Advance knowledge of predictive toolset; expert resource for tool development.  Demonstrated ability to exchange ideas and convey complex information clearly and concisely. Has a value-driven perspective with regard to understanding of work context and impact. Competencies typically acquired through 0-1 yrs. of related experience with a Ph.D., a minimum of 2-3 yrs. of experience with a master’s degree, a minimum of 4+ yrs. of experience with a bachelor’s degree.",,,
+Monster,https://www.monster.com/job-openings/sr-manager-data-science-mclean-va--ca717bd9-9de9-4df0-a6e9-a34fb47c324f?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sc.9&so=m.h.s&promoted=LEXEME_PAID,Capital One,,"McLean, VA","Sr. Manager, Data Science","Bachelor’s Degree plus 7 years of experience in data analytics, or Master’s Degree plus 5 years of experience in data analytics, or PhD plus 2 years of experience in data analytics At least 3 years’ experience in open source programming languages for large scale data analysis  At least 3 years’ experience with machine learning At least 3 years’ experience with relational databases",,,
+Monster,https://www.monster.com/job-openings/senior-data-science-analyst-new-york-city-ny--f7afb162-bf1f-4f10-8c7a-f3424d3f0913?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sc.10&so=m.h.s&promoted=LEXEME_PAID,Randstad USA,Staffing/Employment Agencies,"New York, NY",Senior Data Science Analyst,,,,
+Monster,https://www.monster.com/job-openings/data-science-software-engineer-beloit-wi--9c92ff08-32bf-4354-bb47-91386e90ca84?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sc.11&so=m.h.s&promoted=LEXEME_PAID,Randstad USA,Staffing/Employment Agencies,"Beloit, WI",Data Science Software Engineer,"Modern Web Development JavaScript HTML and CSS  DevOps best practices Experience with data engineering with python is a huge plus. Experience with React, Azure DevOps, GIT, and cloud-based applications (especially Microsoft Azure), are preferred but not required",,,
+Monster,https://www.monster.com/job-openings/data-science-analyst-i-new-york-city-ny--d37f6860-1050-4e1c-ae9e-0d7c638f21e0?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sc.12&so=m.h.s&promoted=LEXEME_PAID,Randstad USA,Staffing/Employment Agencies,"New York, NY",Data Science Analyst I,,,,
+Monster,https://www.monster.com/job-openings/consultant-biopharma-biometrics-statistical-programming-data-science-systems-new-haven-ct--15ede7a6-2920-4c8d-b621-287b42a1852c?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sc.13&so=m.h.s&promoted=LEXEME_PAID,Eliassen Group,Computer/IT Services,"New Haven, CT","Consultant, Biopharma, Biometrics, Statistical Programming, Data Science Systems","Deep understanding of Clinical Data Science and functions involved including performing clinical trials Phases I through IV, storing, analyzing, and reporting study results Proficient in CDISC especially SDTM and ADaM  Advanced SAS and SAS systems or environments running on both Linux and Windows Must have a very high level of SAS macro programming skills. Deep proficiency in working with very large datasets  Strong Programming Experience: R programming sufficient to help with R to/from SAS conversions  Java programming for Linux and Windows: Standalone applications for both OS, creating and maintaining SAS Java Objects, developing secure session applications, building automations Linux systems programming including filesystems and shell programming (cron, bash, etc.) Strong systems architecture and applications: ability to trouble-shoot programs and systems at all levels, good understanding of systems architectures and design. Data, file, network and systems security, and building application Strong administration and managerial skills in terms of vendor relations, software licenses, and handling related documentation  Ability to use various REST APIs from curl, SAS, R and Java applications",,Remote,
+Monster,https://www.monster.com/job-openings/vice-president-of-data-science-boston-ma--598cc1d6-b66f-4e75-9e04-842545245680?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sc.14&so=m.h.s&promoted=LEXEME_PAID,Piper Companies,Staffing/Employment Agencies,"Boston, MA",Vice President of Data Science,"7+ years of relevant machine learning experience Comfortable being remaining hands-on while also managing a team PhD in Computer Science or equivalent  Prior experience with Deep Learning preferably in the context of document and text processing, computer vision, joint vision, and text models  Established track record of performing applied research and publications within Machine Learning Demonstrated experience leading data science teams. Strong written and verbal communication skills ",,,
+Monster,https://www.monster.com/job-openings/director-of-algorithm-data-science-san-jose-ca--afe8c603-f38f-4d54-99ca-f72a81df7a27?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sc.16&so=m.h.s&promoted=LEXEME_PAID,"Vital Connect, Inc.",,"San Jose, CA",Director of Algorithm & Data Science,,,,
+Monster,https://www.monster.com/job-openings/principal-associate-data-science-people-analytics-richmond-va--76341755-fb12-41d8-8589-db1c359b607d?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sc.17&so=m.h.s&promoted=LEXEME_PAID,Capital One,,"Richmond, VA","Principal Associate, Data Science - People Analytics","Bachelor’s Degree plus 5 years of experience in data analytics, or Master’s Degree plus 3 years in data analytics, or PhD  At least 1 year of experience in open source programming languages for large scale data analysis  At least 1 year of experience with machine learning At least 1 year of experience with relational databases 
+",,,
+Monster,https://www.monster.com/job-openings/retail-bank-price-and-policy-optimization-data-science-lead-senior-manager-mclean-va--1157356c-1c8b-474e-a8c3-bda3cbb4aaed?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sc.18&so=m.h.s&promoted=LEXEME_PAID,Capital One,,"McLean, VA",Retail Bank Price and Policy Optimization Data Science Lead - Senior Manager,"Bachelor’s Degree plus 7 years of experience in data analytics, or Master’s Degree plus 5 years of experience in data analytics, or PhD plus 2 years of experience in data analytics  At least 3 years’ experience in open source programming languages for large scale data analysis At least 3 years’ experience with machine learning  At least 3 years’ experience with relational databases
+",,,
+Monster,https://www.monster.com/job-openings/data-scientist-johnston-ri--f8d13dac-53fe-4938-8ea8-1b4891318a81?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sg.25&so=m.h.s&promoted=LEXEME_PAID,Citizens,,"Johnston, RI",Data Scientist,"Master’s or doctorate degree in statistics, economics, data science, or related field  Advanced technical programming experience, including Python and SQL, and statistical languages such as R, SAS, or Stata A strong sense of intellectual curiosity and ability to thrive and deliver value in an entrepreneurial working environment; flexibility to take on new roles and responsibilities as initiatives evolve.  Ability to work in a high-performance professional environment, with quick turn-around and evolving priorities.  Commitment to intellectual rigor and observance of compliance and data privacy controls.  A disciplined approach to making decisions and setting expectations.  Experience working with large datasets (greater than 1 million records) and applying techniques to efficiently manage big data.  Experience working with technical collaboration tools such as Git and Jira (preferred).  Experience working with financial or demographic datasets (preferred)",,,
+Monster,https://www.monster.com/job-openings/manager-data-science-bellevue-wa--db4cf8fc-93a8-40de-9856-a9cb6f32dec6?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sg.47&so=m.h.s&hidesmr=1&promoted=LEXEME_PAID,Harman Connected Services Corporation India Private Limited,,"Bellevue, WA",Manager Data Science,"Bachelor’s degree in engineering/ mathematics/ statistics.  MBA in finance or strategy with expertise in formulating information from raw data is must. Overall 8-10+ year of experience required.  3-5 years of program & project management experience in data science/ analytics space.  Any reporting tool like Power BI, Excel, Tableau.  SQL Server, Oracle, must be able to write complex queries.  Excellent documentation skill using PPT, Word, Visio.  Advanced understanding of probability, statistics, machine learning, data science.  Expertise in data correlation/feature analysis, analysis of machine learning models, and optimizing models for accuracy.  Ability to research and manipulate complex and large data sets (both distributed and non-distributed).  Strong ability to synthesize complex information.  Knowledge of anomalies/outlier’s detection using unsupervised algorithms – clustering, Local Outlier Factor, Isolation Forest , etc.  Strong written and verbal communication skills.    Experience in stakeholder management.Experience using data and metrics to determine and drive improvements.  Should be data enthusiast and love working with data.",,,
+Monster,https://www.monster.com/job-openings/data-scientist-ii-irving-tx--3b6d9744-32b2-48ae-b116-fcdd29950c3a?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sg.48&so=m.h.s&hidesmr=1&promoted=LEXEME_PAID,CHRISTUS Health,Healthcare Services,"Irving, TX",Data Scientist II,"Master’s degree or PhD in Statistics ,Analytics, Computer Science, Math or a related discipline is required.  Must have communication skills and the ability to develop and present solutions to all levels of management (including executive levels). 
+Must demonstrate exceptional analytical skills with business acumen 
+Experience working in the healthcare setting and utilizing healthcare data to generate insights 
+Demonstrate good understanding of healthcare data analytics terminology and concept ,e.g. ICD, CPT, MS-DRG, MDC, LOS, GMLOS, OBS and etc.  
+Experience working in the healthcare setting and utilizing healthcare data to generate insights 
+Proficiency with programming languages, automation tools and stats packages (e.g. R, python, SAS, hive)is required
+Must be able to interact effectively and patiently with customers especially while under pressure.  
+Must be able to manage multiple projects simultaneously to meet objectives and deadlines 
+Experience with BI/visualization packages, preferably MicroStrategy 
+Ability to establish and maintain positive working relationships with other employees. 
+ Sound knowledge and experience in Statistical Models and Data Mining is required 
+Must have demonstrated the ability to solve complex problems with minimal direction. 
+Experience creating and using advanced machine learning algorithms and statistics: regression, simulation, scenario analysis, modeling, clustering, decision trees, neural networks etc.is required ",,,
+Monster,https://www.monster.com/job-openings/data-science-engineer-aurora-co--4ee22b16-ce0c-4d0f-a727-ebe6c2c75868?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sg.49&so=m.h.s&hidesmr=1&promoted=LEXEME_PAID,Flexential Corp,,"Aurora, CO",Data Science Engineer,"Bachelor of Computer Science, Data Science, or related field, or equivalent experience. 
+5 years of experience:
+Creating custom business intelligence solutions that leverage data from multiple sources and span multiple technologies including Tableau, Python, and SQL RDBMS platforms.
+Collaborating with technical counterparts to deliver cross functional solutions.
+Capable of performing business analysis tasks to meet highly technical needs that business functions may not be fully capable of expressing.
+For example, decoding the data architecture within a net new platform to the organization to allow for analysis of key data and enable organization-wide usage of data that would otherwise be unavailable outside of the source system.
+Capable of independently
+Coordinating complex project work across multiple teams to effectively craft data-centric solutions.
+Discuss impacts of technical decisions with the Enterprise Data Architect to ensure sound data strategy.
+Building fully scalable solutions that do more than just ‘work’ but are robust, traceable, optimized and follow ITIL recommendations.
+Trouble shooting and remedying various technical failures or performance maladies related to internal data operations (SPROC’s joins, and general trouble shooting and data tracing).
+Expertise in:
+Data analysis amp visualization
+T-SQL
+Microsoft SQL Server
+RDBMS Normal Forms and Database Theory
+Various advanced analytical paradigms (i.e., machine learning statistical analysis, and predictive analytics)
+Experience with performance tuning, architecture, and troubleshooting distributed systems.
+Champion scientific rigor and mathematical transparency.
+Experience in Solution Architecture and Software Delivery using Python/Java to deliver data science solutions.
+Python development for data manipulation amp analysis.
+Experience with GIT.
+Experience with Tableau amp Qlik Sense.
+Bachelor of Computer Science, Applied Mathematics or related field, or equivalent experience or learning.
+",,,
+Monster,https://www.monster.com/job-openings/data-scientist-social-circle-ga--6e3cfc39-3f98-4bd3-961b-2af2307b3add?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sg.50&so=m.h.s&hidesmr=1&promoted=LEXEME_PAID,Takeda Pharmaceutical,,"Social Circle, GA",Data Scientist,"University degree of science/business/engineering: Advanced degree (Bachelor or Master) in quantitive field, e.g. in Engineering, Mathematics, IT, Economics or Physics with focus on either Control Theory/Statistics/Mechatronics, Information/Operation, Management/Strategy/Economics, Technology and Innovation Management.
+2+ years work experience in data analysis related position or equivalent academic experience/course record.
+Hands-on experience applying and executing Artificial Intelligence/Deep Learning, Machine Learning, Big Data and Digital with respective programming knowledge.
+Contribution to github repositories and stackoverflow and participations in competitions, e.g. on kaggle, data challenges, hackathons are advantageous.
+Demonstrated contribution or interest to ethics of Artificial Intelligence.
+Fluent in English.
+Experience in Artificial Intelligence/Deep Learning, Machine Learning, Big Data and Digital.
+Respective programming knowledge in Python/R/C is required. Further programming experience is advantageous.
+Proficiency in database languages (SQL), understanding of data models and databases.
+Compositional data analysis and analyzing time series data.
+Distributed computing, stochastic modelling, sampling methods and randomized algorithms.
+Explainable Artificial Intelligence methods.",,,
+Monster,https://www.monster.com/job-openings/data-scientist-boston-ma--e010009f-a8b4-4236-a8e8-40d8b4a4345a?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sg.54&so=m.h.s&promoted=LEXEME_PAID,"The Hollister Group, Inc.",Staffing/Employment Agencies,"Boston, MA",Data Scientist,"Bachelor’s degree with three years of relevant work experience required, or an advanced degree, ideally in Computer Science or other relevant scientific degree
+2 to 3 years of relevant full stack development and/or data science experience
+Significant experience working within a Linux environment preferred, as well as containerization technologies such as Docker
+Experience in backend service development (.NET, Python)
+Experience in front-end development using a JavaScript framework",,,
+Monster,https://www.monster.com/job-openings/sr-data-scientist-washington-dc--00b43e63-98af-440a-af43-84a98ef92cf5?sid=ab1e1648-dda0-4ea7-b241-b3293855da3b&jvo=m.l.sg.55&so=m.h.s&promoted=LEXEME_PAID,PlanIT Group,,"Washington, DC",Sr. Data Scientist,"10 or more years of prior relevant experience
+Master's degree in computer science or engineering
+Experience in a data analytics, open-source tools, cloud computing, machine learning and data visualization
+Advance ability to use/code in a language applicable to the project or task order
+Expert understanding of Client techniques & algorithms, such as k-NN, Naive Bayes, SVM, Decision Forests
+Advanced experience with data science toolkits, such as R, Weka, NumPy, Apache Hadoop, Python, MatLab
+Skilled experience analyzing and manipulating data sets to understand patterns and provide insights
+Expert experience using data visualization and reporting tools such as Tableau, MicroStrategy, Looker, Domo
+Advanced statistical and data analysis/modeling experience (e.g. significance testing, regression modeling)
+Skilled experience with data visualization tools, such as D3.js, GGplot
+Advanced proficiency in using query languages such as SQL, Hive, Pig
+Experience with NoSQL databases, such as MongoDB, Cassandra, HBase
+Good scripting and programming skills
+Excellent applied statistics skills, such as distributions, statistical testing, regression
+Advanced experience with machine learning techniques
+Proven excellence at formulating, understanding, and solving complex, non-routine quantitative problems
+Aptitude for learning new theory and new technology
+Strong written and verbal communication skills
+Hands-on attitude toward problem-solving, including a willingness to dig into terabytes of data and quickly construct tools or models
+Ability to work and support a highly interactive, collaborative, fluid environment
+",,,

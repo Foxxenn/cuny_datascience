@@ -1,0 +1,533 @@
+---
+title: "Data Science Skills"
+author: "Kory Martin, Joe Garcia, Peiming Chen, Genesis Middleton"
+date: "2023-03-13"
+output: 
+  html_document:
+    toc: true
+---
+## Introduction
+For this project we focused on answering the question "What skills are important in Data Science?". Our method for answering this question was to collect data from a number of Data Science and Analysis related job postings and query that data to try and identify the skills that are the most prominent across these postings. 
+
+Overall Process: 
+
+1. Data Collection - collect job postings from various job boards to create our initial corpus of data science skills. 
+
+2. Data Cleaning - clean the raw job postings data by creating a single row of data for each of the skills requirements listed in the job posts. Also, once this has been completed, then we created a data frame of just the skills for each of the job postings. Finally, we took those skills and cleaned the data by a) removing any non-alphanumeric characters, b) removing any extra white space; c) converting all words to lower case; and d) removing any stop words from the postings
+
+3. Word Tokenization - using the job skills data, we then created a corpus of discrete words that are included in the various posts, by taking each of the listed job skills and then breaking them into their separate words, and creating word groups of size n = {1,2,3,4,5}
+
+4. Word Classification - next we used our new corpus of job skills and exported the data as a .csv file so that we can go through the manual process of labeling the words that were actual skills associated with Data Science vs. those that were not.
+
+5. Labeling Original Data - now that we had our classification corpus of words that were associated with Data Science skills, we then returned to the original posts and labeled each job skill with the various discrete skills we identified in our dictionary of skills. For each job requirement, we flagged up to seven different skills. 
+
+6. Tidy Data - finally we then took the new data frame and converted it from wide to long. 
+
+7. Export to Database - now that we have our data in a structured format, we are able to export it to a database. 
+
+8. Data Analysis - now that our data is structured in a tidy format, we were able to begin the process of tidying the data. 
+
+
+## Load Packages
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(RPostgres)
+```
+
+## Database Connection
+
+```{r}
+
+## KORY - Need to confirm with Gen that the database connection is working correctly
+
+dsn_database = 'postgres'
+dsn_hostname = 'data607-project3.cjhjyn2ym2hc.us-east-2.rds.amazonaws.com'
+dsn_port = 5432
+dsn_uid = 'postgres'
+dsn_pwd = 'Team5Project3'
+
+con <- dbConnect(Postgres(),
+                 dbname = dsn_database,
+                 host = dsn_hostname, 
+                 port = dsn_port,
+                 user = dsn_uid,
+                 password = dsn_pwd)
+
+
+```
+
+### Data Collection 
+We initiated this project by assigning each member of our team to a different job board and tasked them with collecting 25 job postings each (~100 postings). This raw data was used to generate our overall corpus of job skills across different jobs that 
+
+
+## Data Cleaning
+
+Core steps: 
+1. Input job postings from .csv file
+2. Break out the job skills for each job posting for each new line
+
+```{r}
+
+## KORY - Update location of raw data file
+
+path = '../input/Job Postings Data.csv'
+
+jobs_raw <-  read.csv(path)
+  
+jobs_df <- jobs_raw %>% separate_rows(Skills, sep= "\n")
+
+skills_list <- jobs_df %>% 
+  select(Skills)
+
+skills_list <- skills_list %>% 
+  mutate(Skills = str_squish(Skills)) %>%
+  filter(Skills != "")
+
+#clean the skills list data
+skills_list <- skills_list %>% 
+  mutate(Skills = tolower(Skills)) %>%
+  mutate(Skills = str_replace_all(Skills, '[^[:alnum:]]', ' '))
+
+skills_list <- skills_list %>% 
+  mutate(Skills = str_squish(Skills))
+
+
+```
+
+## Word Tokenization
+1. Create a function that can be used to get strings of multiple lengths
+2. Create a list of the skills words
+3. Remove the stop words from the data
+
+```{r}
+
+#Import list of stop words
+
+stop_words_list = 'https://raw.githubusercontent.com/igorbrigadir/stopwords/ab85d86c3fac0360020a921b91ccf9d697b54757/en/terrier.txt'
+
+
+stop_words <- read.table(stop_words_list)
+stop_words <- stop_words$V1
+
+
+# Create function to capture word groups
+get_words <- function(vec, vec_length, word_size) {
+  words_vec = data.frame()
+  
+  start_index = 1
+  end_index = start_index + (word_size-1)
+  
+  while(end_index <= vec_length) {
+    str = paste(vec[start_index:end_index],collapse=" ")
+    str_df <- data.frame(str)
+    words_vec = rbind(words_vec,str_df)
+    start_index = start_index+1
+    end_index = end_index+1
+  }
+  
+  return(words_vec)
+}
+
+
+max_word_groups = 5
+
+skills_vec = data.frame()
+
+
+## Generate list of skills from the job postings
+for(i in 1:nrow(skills_list)) {
+  skill = skills_list[[i,1]]
+  
+  if(skill != "") {
+    skill_split <- strsplit(skill," ")
+
+    skills = skill_split[[1]]
+    skills <- skills[! skills %in% stop_words]
+    
+    vec_length = length(skills)
+    
+    for(word_size in 1:max_word_groups) {
+      words <- get_words(skills,vec_length,word_size)
+      skills_vec = rbind(skills_vec, words)  
+    }
+    
+    
+  }
+  
+}  
+
+```
+
+## Word Classification
+
+### Clean Skills DataFrame
+The first step was to conduct a series of steps to clean the tokened Data Science skills list 
+
+```{r}
+
+# Rename the skill str column to skill
+skills_vec <- skills_vec %>%
+  rename(skill = str)
+
+# Convert skills to lower case
+skills_df <- skills_vec %>% mutate(skill = tolower(skill))
+
+# Remove special characters from skills list
+skills_df <- skills_df %>% 
+  mutate(skill = str_replace_all(skill, '[^[:alnum:]]', ' '))
+
+# Remove leading and trailing white space characters 
+skills_df <- skills_df %>% 
+  mutate(skill = str_squish(skill))
+
+# Generate distinct list of skills words
+distinct_skills <- skills_df %>%
+  distinct(skill)
+```
+
+### Create metrics to show how frequent the terms appear in the original skills list
+
+```{r}
+# Loop through distinct skills and determine the number of job postings that have the word
+word_count = data.frame()
+
+for(i in 1:nrow(distinct_skills)) {
+  word <- distinct_skills[[i,1]]
+  num_posts <- skills_list %>%
+    filter(grepl(word,Skills)) %>%
+    nrow()
+  
+  word_count = rbind(word_count,num_posts)
+}
+
+skills_data <- cbind(distinct_skills, word_count)
+
+columns <- c("skill", "num_postings")
+
+colnames(skills_data) <- columns 
+
+# Remove skills words that do not appear in any of the postings
+skills_data <- skills_data %>% 
+  filter(num_postings >= 1) 
+
+
+skills_data <- skills_data %>%
+  mutate(pct_postings = round(num_postings/nrow(skills_list),4))
+
+skills_data %>%
+  arrange(desc(pct_postings))
+
+# Filter the list to remove the stop words but keep the R and C since those could be in reference to the coding languages. Also remove any blank skills
+
+safe_words = c("r", "c")
+
+skills_data <- skills_data %>%
+  filter(skill %in% safe_words | !skill %in% stop_words) %>%
+  filter(skill != "") %>%
+  arrange(desc(pct_postings))
+
+#how many times is a word nested in other skills
+
+word_occurrence = data.frame()
+
+for(i in 1:nrow(skills_data)) {
+  num_occurrences = 0
+  word = skills_data[[i,"skill"]]
+  print(word)
+  
+  num_occurrences <- skills_data %>%
+    filter(grepl(word, skill)) %>%
+    nrow()
+    
+  print(num_occurrences)
+  
+  word_occurrence <- rbind(word_occurrence, num_occurrences)
+  
+}
+
+skills_data <- cbind(skills_data, word_occurrence)
+
+skills_data <- data.frame(skills_data)
+
+columns = c("skill", "num_postings", "pct_postings", "num_occurence")
+
+colnames(skills_data) <- columns
+
+skills_data <- as_tibble(skills_data) 
+
+skills_data <- skills_data %>% mutate(pct_occurence = round(num_occurence/n(),4))
+
+# KORY - Need to update this to use locally referenced documents
+
+## Export skills_data to be able to manually code terms
+write_csv(skills_data, '../output/skills_data.csv')
+```
+
+## Word Classification
+
+Now, using our new corpus of Data Science skills, we can now go back to our original list of job skills, and identify the job skills that are included in each of the posts. 
+
+## Label job postings data set
+
+1. I manually went through the skills_data rows and set which ones would be considered a skill. 
+2. Remove NA values
+3. Sort through the original data postings and set the skill to the labeled skill if the word is in the job posting
+4. Tally the skills
+5. Conducted manual review and audit of the data to ensure we weren't excluding anything and then revised the data appropriately
+```{r}
+
+
+skills_path = '../input/skills_df.csv'
+
+skills_labeled <- read_csv(skills_path)
+
+skills_labeled <- skills_labeled %>% 
+  mutate(is_skill = tolower(is_skill))
+
+#Remove unlabeled skills from dataset
+skills_labeled_filtered <- skills_labeled %>%
+  filter(!is.na(is_skill))
+
+
+#Take original skills_list and flag the skill if the skill is in our labeled dataset
+
+skills_list_labeled <- skills_list %>% 
+  mutate(skill_short1 = NA,
+         skill_short2 = NA,
+         skill_short3 = NA, 
+         skill_short4 = NA,
+         skill_short5 = NA,
+         skill_short6 = NA,
+         skill_short7 = NA)
+
+for(i in 1:nrow(skills_labeled_filtered)) {
+  skill = skills_labeled_filtered[[i,1]]
+  skill_regex = paste0("\\b", skill, "\\b")
+  
+  #Set first skill_short value
+  skills_list_labeled <- skills_list_labeled %>%
+    mutate(skill_short1 = ifelse(is.na(skill_short1) & str_detect(Skills, skill_regex),skill,skill_short1))
+  
+  #Set second skill_short value
+  skills_list_labeled <- skills_list_labeled %>%
+    mutate(skill_short2 = ifelse(!is.na(skill_short1) & skill_short1 != skill & is.na(skill_short2) & str_detect(Skills, skill_regex),
+                                 skill,skill_short2))
+  
+  #Set third skill_short value
+  skills_list_labeled <- skills_list_labeled %>%
+    mutate(skill_short3 = ifelse(!is.na(skill_short2) & skill_short2 != skill & is.na(skill_short3) & str_detect(Skills, skill_regex),
+                                 skill,skill_short3))
+  
+  
+  #Set fourth skill_short value
+  skills_list_labeled <- skills_list_labeled %>%
+    mutate(skill_short4 = ifelse(!is.na(skill_short3) & skill_short3 != skill & is.na(skill_short4) & str_detect(Skills, skill_regex),
+                                 skill,skill_short4))
+  
+  
+  #Set fifth skill_short value
+  skills_list_labeled <- skills_list_labeled %>%
+    mutate(skill_short5 = ifelse(!is.na(skill_short4) & skill_short4 != skill & is.na(skill_short5) & str_detect(Skills, skill_regex),
+                                 skill,skill_short5))
+  
+  #Set sixth skill_short value
+  skills_list_labeled <- skills_list_labeled %>%
+    mutate(skill_short6 = ifelse(!is.na(skill_short5) & skill_short5 != skill & is.na(skill_short6) & str_detect(Skills, skill_regex),
+                                 skill,skill_short6))
+  
+  #Set seventh skill_short value
+  skills_list_labeled <- skills_list_labeled %>%
+    mutate(skill_short7 = ifelse(!is.na(skill_short6) & skill_short6 != skill & is.na(skill_short7) & str_detect(Skills, skill_regex),
+                                 skill,skill_short7))
+  
+  
+}  
+
+```
+
+## Tidy Data
+
+Now that we have a labeled list of skills requirements from the original job postings, we can then join these new fields with the original data. 
+
+### Join Tables
+
+```{r}
+jobs_df_clean <- jobs_df %>%
+  filter(Skills != "") %>%
+  mutate(Skills = tolower(Skills)) %>%
+  mutate(Skills = str_replace_all(Skills, '[^[:alnum:]]', ' ')) %>%
+  mutate(Skills = str_squish(Skills))
+
+  
+j1 <- left_join(jobs_df_clean, skills_list_labeled, by=c("Skills"="Skills"), multiple = "all")
+
+
+head(j1)
+
+j1_pivot <- j1 %>% pivot_longer(cols = c("skill_short1", "skill_short2", "skill_short3", "skill_short4", "skill_short5", "skill_short6", "skill_short7"),
+                    names_to = "skill_number", 
+                    values_to = "discrete_skill")
+
+colnames(j1_pivot)
+
+columns = c("Job Board", "Post URL", "Company", "Industry", "Company Location", 
+            "Job Title", "Listed Skill", "Seniority Level", "Job Type",
+            "Years Experience", "skill_number", "discrete_skill")
+
+colnames(j1_pivot) <- columns
+
+j1_pivot <- janitor::clean_names(j1_pivot)
+
+
+
+## Export cleaned data frame
+write_csv(j1_pivot, '../output/jobs_data_clean.csv')
+```
+
+## Clean data to prepare for importing into database
+
+```{r}
+head(j1_pivot)
+
+str(j1_pivot)
+
+company_df <- j1_pivot %>%
+  select(company, industry, company_location) %>%
+  distinct() %>%
+  mutate(company_id = row_number())
+
+job_board_df <- j1_pivot %>%
+  select(job_board) %>%
+  distinct() %>%
+  mutate(job_board_id = row_number())
+
+job_posting_df <- j1_pivot %>%
+  group_by(job_board, post_url, company, job_title) %>%
+  summarize(posting_id = cur_group_id())
+
+
+skills_df <- j1_pivot %>%
+  select(discrete_skill) %>%
+  distinct() %>%
+  na.omit(discrete_skill) %>%
+  arrange(discrete_skill) %>%
+  mutate(skill_id = row_number())
+
+
+j2 <- left_join(j1_pivot,job_posting_df) 
+j3 <- left_join(j2, skills_df)
+j4 <- left_join(j3, company_df)
+j5 <- left_join(j4, job_board_df)
+
+
+company_data <- j5 %>%
+  select(company_id, company, company_location, industry) %>%
+  distinct()
+
+posting_data <- j5 %>%
+  select(posting_id, company_id, job_board_id, job_title, job_type, seniority_level, years_experience) %>%
+  distinct() %>%
+  arrange(posting_id)
+
+#Clean up the job type field
+
+posting_data <- posting_data %>%
+  mutate(job_type = case_when(
+    str_detect(job_type,"\\bHybrid\\b") ~ "Hybrid",
+    str_detect(job_type, "\\b[rR]emote\\b") ~ "Remote",
+    str_detect(job_type, "\\bIn [pP]erson\\b") ~ "On-Site",
+    job_type == 'On Premise' ~ 'On-Site',
+    job_type == 'character(0)' ~ NA,
+    job_type == '0' ~ NA,
+    TRUE ~ job_type
+  ))
+
+#Clean up the seniority_level field
+
+posting_data <- posting_data %>%
+  mutate(seniority_level = case_when(
+    str_detect(seniority_level,"(Entry|Assistant)") ~ 'Entry Level',
+    str_detect(seniority_level, "(Mid|Manager|Supervisor)") ~ 'Mid Level',
+    str_detect(seniority_level, "(Senior)") ~ 'Senior Level',
+    seniority_level == 'character(0)' ~ NA,
+    seniority_level == '0' ~ NA,
+    TRUE ~ seniority_level
+  ))
+
+
+# Clean up the years experience field
+posting_data <- posting_data %>%
+  mutate(years_experience = str_match(years_experience, '[\\d][~]*[\\d]*')) %>%
+  mutate(years_experience = str_replace(years_experience, "~", "-"))
+  
+#Impute seniority level based on years experience
+
+posting_data <- posting_data %>%
+  mutate(seniority_level = ifelse(seniority_level == "" | is.na(seniority_level),
+    case_when(
+      years_experience %in% c("0","1","2") ~ 'Entry Level',
+      years_experience %in% c("3","4") ~ 'Mid Level',
+      TRUE ~ seniority_level
+    ),seniority_level))
+
+job_board_data <- j5 %>%
+  select(job_board_id, job_board) %>%
+  distinct()
+
+job_skills_data <- j5 %>%
+  select(skill_id, posting_id, discrete_skill) %>%
+  distinct() %>%
+  arrange(skill_id)
+
+
+
+```
+
+## Import dataframe into database
+
+Now that we've cleaned the data and created our dataframes, we want to create the relevant tables in our PostgresSQL database and then import the data from the dataframe into these tables
+
+```{r}
+
+
+#Queries to Build data tables in database
+q1 = "CREATE TABLE IF NOT EXISTS company (company_id INT PRIMARY KEY, company_name VARCHAR(75) UNIQUE NOT NULL, company_location VARCHAR(75) NOT NULL, industry VARCHAR(75) NOT NULL)"
+
+q2 = "CREATE TABLE IF NOT EXISTS job_board (job_board_id INT PRIMARY KEY, job_board_name VARCHAR(75) UNIQUE NOT NULL)"
+
+q3 = "CREATE TABLE IF NOT EXISTS skills (skill_id INT primary key, job_posting_id INT not null, skill VARCHAR(75) unique not null)"
+
+q4 = "CREATE TABLE IF NOT EXISTS job_posting (posting_id INT primary key, company_id INT not null, job_board_id INT not null, job_title VARCHAR(75) not null, job_type VARCHAR(75) not null, seniority_level VARCHAR(75) not null)"
+
+dbSendQuery(con, q1)
+dbSendQuery(con, q2)
+dbSendQuery(con, q3)
+dbSendQuery(con, q4)
+
+## Write data to database
+dbWriteTable(con, "job_board", job_board_data, overwrite=TRUE)
+dbWriteTable(con, "company", company_data, overwrite=TRUE)
+dbWriteTable(con, "skills", job_skills_data, overwrite=TRUE)
+dbWriteTable(con, "job_posting", posting_data, overwrite=TRUE)
+
+
+
+```
+
+## Analysis of Data
+
+For this project, we set out to answer the following four questions: 
+(a) What skills are the most commonly listed across all job positions? 
+(b) Are there differences in skills based on position/title?
+(c) What skills are the most commonly listed across jobs based on seniority level?
+(d) What are the top skills across different skill types?
+
+```{r}
+
+
+
+```
+
+## Conclusion
