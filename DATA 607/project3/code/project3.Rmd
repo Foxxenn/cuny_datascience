@@ -1,5 +1,5 @@
 ---
-title: "Data Science Skills"
+title: "Most Valued Data Science Skills"
 author: "Kory Martin, Joe Garcia, Peiming Chen, Genesis Middleton"
 date: "2023-03-13"
 output: 
@@ -7,7 +7,7 @@ output:
     toc: true
 ---
 ## Introduction
-For this project we focused on answering the question "What skills are important in Data Science?". 
+For this project we focused on answering the question "What are the most valued data science skills?". 
 
 Our method for answering this question was to collect data from a number of Data Science and Analysis related job postings and query that data to try and identify the skills that are the most prominent across these postings. 
 
