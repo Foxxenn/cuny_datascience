@@ -1,397 +1,402 @@
 skill,num_postings,pct_postings,num_occurence,pct_occurence
-experience,285,0.4136,412,0.0443
-data,211,0.30620000000000003,996,0.107
-ci,186,0.27,774,0.0832
-iv,170,0.2467,587,0.0631
-ts,150,0.2177,418,0.0449
-bi,130,0.1887,295,0.0317
-ba,109,0.1582,321,0.0345
-work,108,0.1567,307,0.033
-tech,103,0.1495,290,0.0312
-sci,98,0.1422,503,0.054
-ability,95,0.1379,65,0.007
-skill,91,0.1321,187,0.0201
-ip,90,0.1306,298,0.032
-bu,88,0.1277,303,0.0326
-skills,85,0.1234,159,0.0171
-year,85,0.1234,119,0.0128
-model,84,0.1219,357,0.0384
-years,80,0.1161,105,0.0113
-os,80,0.1161,362,0.0389
-ms,79,0.1147,332,0.0357
-statistic,78,0.1132,313,0.0336
-learn,76,0.1103,425,0.0457
-able,75,0.1089,273,0.0293
-chi,75,0.1089,234,0.0251
-science,74,0.1074,320,0.0344
-ai,74,0.1074,286,0.0307
-analytic,73,0.106,239,0.0257
-python,66,0.0958,119,0.0128
-analysis,66,0.0958,235,0.0252
-learning,64,0.0929,331,0.0356
-act,63,0.0914,223,0.024
-develop,61,0.0885,175,0.0188
-strong,58,0.0842,154,0.0165
-degree,57,0.0827,54,0.0058
-machine,54,0.0784,188,0.0202
-edge,53,0.0769,90,0.0097
-knowledge,52,0.0755,86,0.0092
-sql,52,0.0755,142,0.0153
-machine learning,52,0.0755,122,0.0131
-tool,49,0.0711,160,0.0172
-put,48,0.0697,160,0.0172
-analytics,47,0.0682,165,0.0177
-excel,46,0.0668,113,0.0121
-statistical,45,0.0653,136,0.0146
-data science,45,0.0653,124,0.0133
-using,43,0.0624,252,0.0271
-business,43,0.0624,154,0.0165
-manage,43,0.0624,180,0.0193
-ols,43,0.0624,149,0.016
-problem,42,0.061,125,0.0134
-prefer,42,0.061,112,0.012
-ph,42,0.061,158,0.017
-require,42,0.061,81,0.0087
-statistics,41,0.0595,174,0.0187
-field,41,0.0595,49,0.0053
-models,41,0.0595,124,0.0133
-language,41,0.0595,90,0.0097
-tools,41,0.0595,133,0.0143
-line,41,0.0595,144,0.0155
-working,40,0.0581,44,0.0047
-techniques,40,0.0581,109,0.0117
-process,40,0.0581,154,0.0165
-program,39,0.0566,127,0.0136
-communication,38,0.0552,57,0.0061
-environment,38,0.0552,111,0.0119
-advance,38,0.0552,114,0.0122
-set,37,0.0537,84,0.009
-including,36,0.0522,326,0.035
-project,36,0.0522,116,0.0125
-aster,36,0.0522,22,0.0024
-programming,35,0.0508,118,0.0127
-computer,35,0.0508,107,0.0115
+r,674,0.9782,6553,0.6925
+c,645,0.9361,5689,0.6012
+experience,285,0.4136,426,0.045
+data,211,0.30620000000000003,999,0.1056
+ci,186,0.27,779,0.0823
+iv,170,0.2467,589,0.0622
+ts,150,0.2177,420,0.0444
+bi,130,0.1887,296,0.0313
+ba,109,0.1582,324,0.0342
+work,108,0.1567,307,0.0324
+tech,103,0.1495,290,0.0306
+sci,98,0.1422,503,0.0532
+ability,95,0.1379,65,0.0069
+skill,91,0.1321,187,0.0198
+ip,90,0.1306,303,0.032
+bu,88,0.1277,303,0.032
+skills,85,0.1234,159,0.0168
+year,85,0.1234,121,0.0128
+model,84,0.1219,357,0.0377
+years,80,0.1161,105,0.0111
+os,80,0.1161,363,0.0384
+ms,79,0.1147,332,0.0351
+statistic,78,0.1132,320,0.0338
+learn,76,0.1103,425,0.0449
+able,75,0.1089,285,0.0301
+chi,75,0.1089,234,0.0247
+science,74,0.1074,320,0.0338
+ai,74,0.1074,286,0.0302
+analytic,73,0.106,241,0.0255
+python,66,0.0958,187,0.0198
+analysis,66,0.0958,235,0.0248
+learning,64,0.0929,331,0.035
+act,63,0.0914,223,0.0236
+develop,61,0.0885,175,0.0185
+strong,58,0.0842,159,0.0168
+degree,57,0.0827,54,0.0057
+machine,54,0.0784,188,0.0199
+edge,53,0.0769,90,0.0095
+knowledge,52,0.0755,86,0.0091
+sql,52,0.0755,158,0.0167
+machine learning,52,0.0755,122,0.0129
+tool,49,0.0711,160,0.0169
+put,48,0.0697,166,0.0175
+analytics,47,0.0682,165,0.0174
+excel,46,0.0668,125,0.0132
+statistical,45,0.0653,143,0.0151
+data science,45,0.0653,124,0.0131
+using,43,0.0624,259,0.0274
+business,43,0.0624,154,0.0163
+manage,43,0.0624,180,0.019
+ols,43,0.0624,149,0.0157
+problem,42,0.061,125,0.0132
+prefer,42,0.061,119,0.0126
+ph,42,0.061,158,0.0167
+require,42,0.061,82,0.0087
+statistics,41,0.0595,174,0.0184
+field,41,0.0595,49,0.0052
+models,41,0.0595,124,0.0131
+language,41,0.0595,121,0.0128
+tools,41,0.0595,133,0.0141
+line,41,0.0595,144,0.0152
+working,40,0.0581,44,0.0046
+techniques,40,0.0581,109,0.0115
+process,40,0.0581,154,0.0163
+program,39,0.0566,152,0.0161
+communication,38,0.0552,57,0.006
+environment,38,0.0552,112,0.0118
+advance,38,0.0552,114,0.012
+set,37,0.0537,85,0.009
+including,36,0.0522,336,0.0355
+project,36,0.0522,116,0.0123
+aster,36,0.0522,22,0.0023
+programming,35,0.0508,139,0.0147
+computer,35,0.0508,113,0.0119
 master,35,0.0508,20,0.0021
-preferred,35,0.0508,83,0.0089
-advanced,34,0.0493,103,0.0111
-technical,34,0.0493,86,0.0092
-end,34,0.0493,87,0.0093
-modeling,33,0.0479,139,0.0149
-large,33,0.0479,78,0.0084
-required,33,0.0479,67,0.0072
-excellent,33,0.0479,68,0.0073
-table,32,0.0464,130,0.014
-computer science,31,0.045,66,0.0071
+preferred,35,0.0508,90,0.0095
+advanced,34,0.0493,103,0.0109
+technical,34,0.0493,86,0.0091
+end,34,0.0493,87,0.0092
+modeling,33,0.0479,139,0.0147
+large,33,0.0479,78,0.0082
+required,33,0.0479,68,0.0072
+excellent,33,0.0479,68,0.0072
+table,32,0.0464,142,0.015
+computer science,31,0.045,66,0.007
 bachelor,31,0.045,14,0.0015
-solution,31,0.045,100,0.0107
-search,31,0.045,115,0.0124
-ead,31,0.045,102,0.011
-rstan,31,0.045,70,0.0075
-team,30,0.0435,89,0.0096
-understand,30,0.0435,61,0.0066
-math,29,0.0421,155,0.0167
-research,29,0.0421,105,0.0113
-3,29,0.0421,65,0.007
-ml,28,0.0406,129,0.0139
-development,28,0.0406,96,0.0103
-management,28,0.0406,118,0.0127
-2,28,0.0406,75,0.0081
-stem,28,0.0406,115,0.0124
-visualization,27,0.0392,83,0.0089
-quantitative,27,0.0392,84,0.009
-analytical,27,0.0392,60,0.0064
-solutions,27,0.0392,80,0.0086
-art,27,0.0392,80,0.0086
-communication skills,26,0.0377,22,0.0024
-complex,26,0.0377,96,0.0103
-system,26,0.0377,112,0.012
-inter,26,0.0377,51,0.0055
-nn,26,0.0377,117,0.0126
-expert,25,0.0363,52,0.0056
-deep,25,0.0363,124,0.0133
-solving,25,0.0363,61,0.0066
-source,25,0.0363,68,0.0073
-design,25,0.0363,103,0.0111
+solution,31,0.045,100,0.0106
+search,31,0.045,115,0.0122
+ead,31,0.045,102,0.0108
+rstan,31,0.045,70,0.0074
+team,30,0.0435,89,0.0094
+understand,30,0.0435,61,0.0064
+math,29,0.0421,155,0.0164
+research,29,0.0421,105,0.0111
+3,29,0.0421,65,0.0069
+ml,28,0.0406,129,0.0136
+development,28,0.0406,96,0.0101
+management,28,0.0406,118,0.0125
+2,28,0.0406,75,0.0079
+stem,28,0.0406,115,0.0122
+visualization,27,0.0392,83,0.0088
+quantitative,27,0.0392,84,0.0089
+analytical,27,0.0392,62,0.0066
+solutions,27,0.0392,80,0.0085
+art,27,0.0392,80,0.0085
+communication skills,26,0.0377,22,0.0023
+complex,26,0.0377,96,0.0101
+system,26,0.0377,112,0.0118
+inter,26,0.0377,51,0.0054
+nn,26,0.0377,117,0.0124
+expert,25,0.0363,52,0.0055
+deep,25,0.0363,124,0.0131
+solving,25,0.0363,61,0.0064
+source,25,0.0363,68,0.0072
+design,25,0.0363,103,0.0109
 5,25,0.0363,47,0.005
-build,25,0.0363,84,0.009
-perform,25,0.0363,95,0.0102
-algorithm,24,0.0348,79,0.0085
-5 years,24,0.0348,22,0.0024
-database,24,0.0348,76,0.0082
-sets,24,0.0348,49,0.0053
-demonstrate,24,0.0348,40,0.0043
-languages,23,0.0334,33,0.0035
-high,23,0.0334,79,0.0085
+build,25,0.0363,84,0.0089
+perform,25,0.0363,95,0.01
+algorithm,24,0.0348,79,0.0083
+5 years,24,0.0348,22,0.0023
+database,24,0.0348,76,0.008
+sets,24,0.0348,50,0.0053
+demonstrate,24,0.0348,40,0.0042
+r c,24,0.0348,26,0.0027
+languages,23,0.0334,53,0.0056
+high,23,0.0334,79,0.0083
 understanding,23,0.0334,45,0.0048
-engineer,23,0.0334,115,0.0124
-big,22,0.0319,78,0.0084
+engineer,23,0.0334,115,0.0122
+big,22,0.0319,78,0.0082
 problem solving,22,0.0319,33,0.0035
 written,22,0.0319,27,0.0029
-lead,22,0.0319,61,0.0066
-engineering,21,0.0305,92,0.0099
-algorithms,21,0.0305,55,0.0059
-methods,21,0.0305,67,0.0072
+lead,22,0.0319,61,0.0064
+engineering,21,0.0305,92,0.0097
+algorithms,21,0.0305,55,0.0058
+methods,21,0.0305,67,0.0071
 proven,21,0.0305,27,0.0029
 demonstrated,21,0.0305,28,0.003
-present,21,0.0305,58,0.0062
-live,21,0.0305,69,0.0074
-ark,21,0.0305,97,0.0104
-can,20,0.029,75,0.0081
-technologies,20,0.029,52,0.0056
-building,20,0.029,75,0.0081
+present,21,0.0305,58,0.0061
+live,21,0.0305,69,0.0073
+ark,21,0.0305,97,0.0103
+can,20,0.029,75,0.0079
+technologies,20,0.029,52,0.0055
+building,20,0.029,75,0.0079
 proficiency,20,0.029,16,0.0017
-product,20,0.029,85,0.0091
-cloud,20,0.029,77,0.0083
-1,20,0.029,33,0.0035
-relevant,20,0.029,53,0.0057
-insights,20,0.029,37,0.004
-deliver,20,0.029,68,0.0073
-report,20,0.029,37,0.004
-tell,20,0.029,74,0.008
-insight,20,0.029,39,0.0042
+product,20,0.029,85,0.009
+cloud,20,0.029,77,0.0081
+1,20,0.029,36,0.0038
+relevant,20,0.029,53,0.0056
+insights,20,0.029,37,0.0039
+deliver,20,0.029,68,0.0072
+report,20,0.029,37,0.0039
+tell,20,0.029,74,0.0078
+insight,20,0.029,39,0.0041
 phd,19,0.0276,29,0.0031
-processing,19,0.0276,92,0.0099
-regression,19,0.0276,147,0.0158
-software,19,0.0276,55,0.0059
-take,19,0.0276,38,0.0041
+processing,19,0.0276,92,0.0097
+regression,19,0.0276,147,0.0155
+software,19,0.0276,58,0.0061
+take,19,0.0276,38,0.004
 plus,19,0.0276,28,0.003
-projects,19,0.0276,36,0.0039
+projects,19,0.0276,36,0.0038
 effective,19,0.0276,46,0.0049
-mathematics,19,0.0276,94,0.0101
-works,19,0.0276,139,0.0149
-fun,19,0.0276,71,0.0076
-net,19,0.0276,130,0.014
-tableau,18,0.0261,70,0.0075
-big data,18,0.0261,49,0.0053
-problems,18,0.0261,54,0.0058
-decision,18,0.0261,80,0.0086
-test,18,0.0261,87,0.0093
-3 years,18,0.0261,22,0.0024
+mathematics,19,0.0276,94,0.0099
+works,19,0.0276,139,0.0147
+fun,19,0.0276,71,0.0075
+net,19,0.0276,130,0.0137
+tableau,18,0.0261,82,0.0087
+big data,18,0.0261,49,0.0052
+problems,18,0.0261,54,0.0057
+decision,18,0.0261,80,0.0085
+test,18,0.0261,87,0.0092
+3 years,18,0.0261,22,0.0023
 verbal,17,0.0247,29,0.0031
-systems,17,0.0247,82,0.0088
+systems,17,0.0247,82,0.0087
 familiar,17,0.0247,19,0.002
-function,17,0.0247,54,0.0058
+function,17,0.0247,54,0.0057
 holder,17,0.0247,32,0.0034
-spark,16,0.0232,62,0.0067
-databases,16,0.0232,36,0.0039
-deep learning,16,0.0232,60,0.0064
+spark,16,0.0232,62,0.0066
+databases,16,0.0232,36,0.0038
+deep learning,16,0.0232,60,0.0063
 discipline,16,0.0232,20,0.0021
-developing,16,0.0232,52,0.0056
-processes,16,0.0232,34,0.0037
+developing,16,0.0232,52,0.0055
+processes,16,0.0232,34,0.0036
 git,16,0.0232,32,0.0034
-concept,16,0.0232,23,0.0025
+concept,16,0.0232,23,0.0024
 detail,15,0.0218,31,0.0033
-tensorflow,15,0.0218,62,0.0067
+tensorflow,15,0.0218,62,0.0066
 experience working,15,0.0218,15,0.0016
 effectively,15,0.0218,28,0.003
 apply,15,0.0218,29,0.0031
-data analysis,15,0.0218,34,0.0037
+data analysis,15,0.0218,34,0.0036
 experience work,15,0.0218,17,0.0018
 architect,15,0.0218,31,0.0033
-multi,15,0.0218,78,0.0084
-rest,15,0.0218,67,0.0072
-part,15,0.0218,38,0.0041
-level,14,0.0203,41,0.0044
-time,14,0.0203,68,0.0073
-sas,14,0.0203,45,0.0048
-service,14,0.0203,70,0.0075
-non,14,0.0203,39,0.0042
-results,14,0.0203,23,0.0025
-programming language,14,0.0203,13,0.0014
+multi,15,0.0218,78,0.0082
+rest,15,0.0218,67,0.0071
+part,15,0.0218,38,0.004
+level,14,0.0203,43,0.0045
+time,14,0.0203,68,0.0072
+sas,14,0.0203,64,0.0068
+service,14,0.0203,70,0.0074
+non,14,0.0203,39,0.0041
+results,14,0.0203,23,0.0024
+programming language,14,0.0203,24,0.0025
 drive,14,0.0203,30,0.0032
-new,14,0.0203,53,0.0057
+new,14,0.0203,53,0.0056
 equivalent,14,0.0203,18,0.0019
-multiple,14,0.0203,51,0.0055
-based,14,0.0203,72,0.0077
+multiple,14,0.0203,51,0.0054
+based,14,0.0203,72,0.0076
 stake,14,0.0203,28,0.003
-prior,14,0.0203,62,0.0067
-torch,14,0.0203,51,0.0055
-script,14,0.0203,64,0.0069
-result,14,0.0203,35,0.0038
-data analytic,14,0.0203,37,0.004
+prior,14,0.0203,62,0.0066
+torch,14,0.0203,51,0.0054
+script,14,0.0203,69,0.0073
+result,14,0.0203,35,0.0037
+data analytic,14,0.0203,37,0.0039
 communicate,13,0.0189,19,0.002
-strategy,13,0.0189,50,0.0054
+strategy,13,0.0189,50,0.0053
 performance,13,0.0189,27,0.0029
-azure,13,0.0189,70,0.0075
-action,13,0.0189,39,0.0042
-technology,13,0.0189,37,0.004
-aws,13,0.0189,61,0.0066
+azure,13,0.0189,70,0.0074
+action,13,0.0189,39,0.0041
+r python,13,0.0189,24,0.0025
+technology,13,0.0189,37,0.0039
+aws,13,0.0189,61,0.0064
 2 years,13,0.0189,9,0.001
 data analytics,13,0.0189,30,0.0032
 large data,13,0.0189,18,0.0019
-implement,13,0.0189,33,0.0035
-stakeholder,13,0.0189,26,0.0028
-oriented,12,0.0174,59,0.0063
+implement,13,0.0189,38,0.004
+stakeholder,13,0.0189,26,0.0027
+oriented,12,0.0174,59,0.0062
 experience using,12,0.0174,47,0.005
-pytorch,12,0.0174,49,0.0053
+pytorch,12,0.0174,49,0.0052
 years experience,12,0.0174,10,0.0011
 solving skills,12,0.0174,14,0.0015
 problem solving skills,12,0.0174,9,0.001
 well,12,0.0174,12,0.0013
-scale,12,0.0174,50,0.0054
-testing,12,0.0174,57,0.0061
+scale,12,0.0174,50,0.0053
+testing,12,0.0174,57,0.006
 hands,12,0.0174,11,0.0012
 expertise,12,0.0174,30,0.0032
-cross,12,0.0174,50,0.0054
-functional,12,0.0174,42,0.0045
-think,12,0.0174,37,0.004
-architecture,12,0.0174,24,0.0026
-predictive,12,0.0174,35,0.0038
-programming languages,12,0.0174,9,0.001
-structure,12,0.0174,45,0.0048
-network,12,0.0174,104,0.0112
-ask,12,0.0174,52,0.0056
-applying,11,0.016,21,0.0023
+cross,12,0.0174,50,0.0053
+functional,12,0.0174,42,0.0044
+think,12,0.0174,37,0.0039
+architecture,12,0.0174,24,0.0025
+predictive,12,0.0174,35,0.0037
+programming languages,12,0.0174,14,0.0015
+structure,12,0.0174,46,0.0049
+network,12,0.0174,104,0.011
+ask,12,0.0174,53,0.0056
+applying,11,0.016,21,0.0022
 familiarity,11,0.016,11,0.0012
-personal,11,0.016,25,0.0027
-teams,11,0.016,39,0.0042
+personal,11,0.016,25,0.0026
+teams,11,0.016,39,0.0041
 applied,11,0.016,45,0.0048
-scikit,11,0.016,77,0.0083
-scikit learn,11,0.016,56,0.006
-datasets,11,0.016,24,0.0026
+scikit,11,0.016,77,0.0081
+scikit learn,11,0.016,56,0.0059
+datasets,11,0.016,25,0.0026
 least,11,0.016,16,0.0017
 concepts,11,0.016,16,0.0017
-pandas,11,0.016,59,0.0063
-statistical analysis,11,0.016,23,0.0025
+pandas,11,0.016,59,0.0062
+statistical analysis,11,0.016,23,0.0024
 holders,11,0.016,13,0.0014
 analyzing,11,0.016,28,0.003
 intelligence,11,0.016,46,0.0049
 data sets,11,0.016,16,0.0017
 will,11,0.016,17,0.0018
-practice,11,0.016,49,0.0053
+practice,11,0.016,49,0.0052
 framework,11,0.016,47,0.005
-0,11,0.016,25,0.0027
+0,11,0.016,25,0.0026
 data visualization,10,0.0145,20,0.0021
-code,10,0.0145,30,0.0032
+code,10,0.0145,31,0.0033
 relational,10,0.0145,14,0.0015
 relational databases,10,0.0145,9,0.001
-industry,10,0.0145,42,0.0045
+industry,10,0.0145,42,0.0044
 fields,10,0.0145,20,0.0021
 packages,10,0.0145,32,0.0034
-transform,10,0.0145,35,0.0038
+transform,10,0.0145,35,0.0037
 non technical,10,0.0145,6,6e-4
-practical,10,0.0145,25,0.0027
+practical,10,0.0145,25,0.0026
 client,10,0.0145,30,0.0032
 maintain,10,0.0145,31,0.0033
-mining,10,0.0145,43,0.0046
-scala,10,0.0145,48,0.0052
-practices,10,0.0145,43,0.0046
-control,10,0.0145,39,0.0042
+mining,10,0.0145,43,0.0045
+scala,10,0.0145,49,0.0052
+practices,10,0.0145,43,0.0045
+control,10,0.0145,39,0.0041
 methodologies,10,0.0145,29,0.0031
 record,10,0.0145,18,0.0019
-learning techniques,10,0.0145,23,0.0025
-numpy,10,0.0145,65,0.007
+learning techniques,10,0.0145,23,0.0024
+numpy,10,0.0145,68,0.0072
 stakeholders,10,0.0145,11,0.0012
 leader,10,0.0145,15,0.0016
 sources,10,0.0145,27,0.0029
-power,10,0.0145,51,0.0055
-leading,10,0.0145,41,0.0044
-cluster,10,0.0145,85,0.0091
-economic,10,0.0145,49,0.0053
+power,10,0.0145,54,0.0057
+leading,10,0.0145,41,0.0043
+cluster,10,0.0145,85,0.009
+economic,10,0.0145,49,0.0052
 demonstrated experience,10,0.0145,15,0.0016
 focus,10,0.0145,27,0.0029
-presentation,10,0.0145,35,0.0038
+presentation,10,0.0145,35,0.0037
 depend,10,0.0145,17,0.0018
-1 year,10,0.0145,13,0.0014
-frameworks,9,0.0131,42,0.0045
+1 year,10,0.0145,15,0.0016
+frameworks,9,0.0131,42,0.0044
 economics,9,0.0131,47,0.005
 quantitative field,9,0.0131,14,0.0015
-minimum,9,0.0131,8,9e-4
+minimum,9,0.0131,8,8e-4
 reporting,9,0.0131,14,0.0015
 written communication,9,0.0131,5,5e-4
+python r,9,0.0131,34,0.0036
 self,9,0.0131,28,0.003
-extract,9,0.0131,34,0.0037
-environments,9,0.0131,23,0.0025
+extract,9,0.0131,34,0.0036
+environments,9,0.0131,24,0.0025
 highly,9,0.0131,32,0.0034
 collaborative,9,0.0131,28,0.003
-quality,9,0.0131,50,0.0054
+quality,9,0.0131,50,0.0053
 solve,9,0.0131,18,0.0019
-data mining,9,0.0131,25,0.0027
-pattern,9,0.0131,25,0.0027
+data mining,9,0.0131,25,0.0026
+pattern,9,0.0131,25,0.0026
 proven ability,9,0.0131,6,6e-4
-neural,9,0.0131,97,0.0104
-java,9,0.0131,52,0.0056
-track,9,0.0131,24,0.0026
-linear,9,0.0131,52,0.0056
-clustering,9,0.0131,67,0.0072
+neural,9,0.0131,97,0.0103
+java,9,0.0131,63,0.0067
+track,9,0.0131,24,0.0025
+linear,9,0.0131,52,0.0055
+clustering,9,0.0131,67,0.0071
 creating,9,0.0131,30,0.0032
 meet,9,0.0131,17,0.0018
-creative,9,0.0131,25,0.0027
+creative,9,0.0131,25,0.0026
 leaders,9,0.0131,9,0.001
-web,9,0.0131,56,0.006
+web,9,0.0131,56,0.0059
 application,9,0.0131,47,0.005
-audience,9,0.0131,7,8e-4
-oral,9,0.0131,39,0.0042
-comfort,9,0.0131,26,0.0028
-7,9,0.0131,22,0.0024
-scientist,9,0.0131,36,0.0039
+audience,9,0.0131,7,7e-4
+oral,9,0.0131,39,0.0041
+comfort,9,0.0131,26,0.0027
+7,9,0.0131,22,0.0023
+scientist,9,0.0131,36,0.0038
 7 years,9,0.0131,14,0.0015
 clear,9,0.0131,17,0.0018
-organization,9,0.0131,34,0.0037
-object,9,0.0131,49,0.0053
+organization,9,0.0131,34,0.0036
+object,9,0.0131,49,0.0052
 text,9,0.0131,31,0.0033
-document,9,0.0131,44,0.0047
-oop,9,0.0131,32,0.0034
-neural network,9,0.0131,64,0.0069
-serve,9,0.0131,22,0.0024
-custom,9,0.0131,37,0.004
-operation,9,0.0131,57,0.0061
-programming skills,8,0.0116,21,0.0023
+document,9,0.0131,44,0.0046
+oop,9,0.0131,34,0.0036
+neural network,9,0.0131,64,0.0068
+serve,9,0.0131,22,0.0023
+custom,9,0.0131,37,0.0039
+operation,9,0.0131,57,0.006
+programming skills,8,0.0116,21,0.0022
 identify,8,0.0116,16,0.0017
-hadoop,8,0.0116,30,0.0032
-series,8,0.0116,51,0.0055
-time series,8,0.0116,35,0.0038
-risk,8,0.0116,48,0.0052
-matlab,8,0.0116,28,0.003
+hadoop,8,0.0116,32,0.0034
+series,8,0.0116,51,0.0054
+time series,8,0.0116,35,0.0037
+risk,8,0.0116,53,0.0056
+matlab,8,0.0116,58,0.0061
 proficient,8,0.0116,10,0.0011
 written communication skills,8,0.0116,1,1e-4
-scripting,8,0.0116,35,0.0038
+scripting,8,0.0116,40,0.0042
 open,8,0.0116,29,0.0031
-open source,8,0.0116,21,0.0023
+open source,8,0.0116,21,0.0022
 fast,8,0.0116,11,0.0012
 impact,8,0.0116,12,0.0013
-thinking,8,0.0116,24,0.0026
+thinking,8,0.0116,24,0.0025
 personal skills,8,0.0116,11,0.0012
 large scale,8,0.0116,17,0.0018
-networks,8,0.0116,88,0.0095
-neural networks,8,0.0116,60,0.0064
+networks,8,0.0116,88,0.0093
+neural networks,8,0.0116,60,0.0063
 solid,8,0.0116,13,0.0014
 large datasets,8,0.0116,9,0.001
-interpersonal,8,0.0116,7,8e-4
-natural,8,0.0116,36,0.0039
-question,8,0.0116,44,0.0047
-experiment,8,0.0116,24,0.0026
-tree,8,0.0116,61,0.0066
-forest,8,0.0116,58,0.0062
-support,8,0.0116,21,0.0023
+interpersonal,8,0.0116,7,7e-4
+natural,8,0.0116,36,0.0038
+question,8,0.0116,44,0.0046
+experiment,8,0.0116,24,0.0025
+tree,8,0.0116,61,0.0064
+forest,8,0.0116,58,0.0061
+support,8,0.0116,21,0.0022
 critical,8,0.0116,31,0.0033
-strong analytical,8,0.0116,8,9e-4
-presentations,8,0.0116,24,0.0026
+strong analytical,8,0.0116,8,8e-4
+presentations,8,0.0116,24,0.0025
 services,8,0.0116,45,0.0048
-leadership,8,0.0116,8,9e-4
+leadership,8,0.0116,8,8e-4
 recommendation,8,0.0116,11,0.0012
-machine learning techniques,8,0.0116,7,8e-4
+machine learning techniques,8,0.0116,7,7e-4
 4,8,0.0116,6,6e-4
-writing,8,0.0116,52,0.0056
+writing,8,0.0116,52,0.0055
 desire,8,0.0116,10,0.0011
-class,8,0.0116,62,0.0067
-platform,8,0.0116,26,0.0028
-pipeline,8,0.0116,34,0.0037
-task,8,0.0116,39,0.0042
+class,8,0.0116,62,0.0066
+platform,8,0.0116,26,0.0027
+pipeline,8,0.0116,34,0.0036
+task,8,0.0116,40,0.0042
 independent,8,0.0116,13,0.0014
 predictive analytic,8,0.0116,14,0.0015
 add,8,0.0116,33,0.0035
-relations,8,0.0116,25,0.0027
+relations,8,0.0116,25,0.0026
 follow,8,0.0116,19,0.002
-amp,8,0.0116,39,0.0042
+amp,8,0.0116,39,0.0041
 experience building,7,0.0102,11,0.0012
 physics,7,0.0102,46,0.0049
 credit,7,0.0102,32,0.0034
-customer,7,0.0102,24,0.0026
+customer,7,0.0102,24,0.0025
 ideas,7,0.0102,10,0.0011
 levels,7,0.0102,10,0.0011
 decisions,7,0.0102,12,0.0013
-simulation,7,0.0102,39,0.0042
+simulation,7,0.0102,39,0.0041
 scientific,7,0.0102,27,0.0029
 paced,7,0.0102,19,0.002
 reports,7,0.0102,11,0.0012
@@ -403,37 +408,37 @@ experienced,7,0.0102,6,6e-4
 relationship,7,0.0102,19,0.002
 production,7,0.0102,30,0.0032
 curious,7,0.0102,5,5e-4
-10,7,0.0102,8,9e-4
+10,7,0.0102,8,8e-4
 track record,7,0.0102,9,0.001
 interpersonal skills,7,0.0102,3,3e-4
 supervised,7,0.0102,33,0.0035
 unsupervised,7,0.0102,28,0.003
 optimization,7,0.0102,31,0.0033
 following,7,0.0102,16,0.0017
-natural language,7,0.0102,24,0.0026
-language processing,7,0.0102,24,0.0026
+natural language,7,0.0102,24,0.0025
+language processing,7,0.0102,24,0.0025
 natural language processing,7,0.0102,15,0.0016
-nlp,7,0.0102,36,0.0039
+nlp,7,0.0102,36,0.0038
 libraries,7,0.0102,19,0.002
 recommendations,7,0.0102,10,0.0011
-executive,7,0.0102,18,0.0019
-performing,7,0.0102,56,0.006
-partner,7,0.0102,21,0.0023
+executive,7,0.0102,19,0.002
+performing,7,0.0102,56,0.0059
+partner,7,0.0102,21,0.0022
 create,7,0.0102,12,0.0013
-scalable,7,0.0102,42,0.0045
+scalable,7,0.0102,42,0.0044
 success,7,0.0102,17,0.0018
 cross functional,7,0.0102,18,0.0019
 variety,7,0.0102,1,1e-4
-oracle,7,0.0102,34,0.0037
+oracle,7,0.0102,34,0.0036
 working knowledge,7,0.0102,1,1e-4
 senior,7,0.0102,10,0.0011
-verbal communication,7,0.0102,8,9e-4
+verbal communication,7,0.0102,8,8e-4
 verbal communication skills,7,0.0102,5,5e-4
 excellent communication,7,0.0102,2,2e-4
 background,7,0.0102,11,0.0012
 4 years,7,0.0102,3,3e-4
 predictive analytics,7,0.0102,12,0.0013
-structured,7,0.0102,34,0.0037
+structured,7,0.0102,35,0.0037
 data scientist,7,0.0102,16,0.0017
 technical audience,7,0.0102,4,4e-4
 non technical audience,7,0.0102,2,2e-4
@@ -443,20 +448,20 @@ managing,7,0.0102,13,0.0014
 distributed,7,0.0102,28,0.003
 computation,7,0.0102,32,0.0034
 comfortable,7,0.0102,20,0.0021
-area,7,0.0102,24,0.0026
-public,7,0.0102,25,0.0027
-query,7,0.0102,25,0.0027
-lake,7,0.0102,43,0.0046
-ux,7,0.0102,25,0.0027
-resource,7,0.0102,24,0.0026
+area,7,0.0102,24,0.0025
+public,7,0.0102,25,0.0026
+query,7,0.0102,25,0.0026
+lake,7,0.0102,43,0.0045
+ux,7,0.0102,25,0.0026
+resource,7,0.0102,24,0.0025
 dig,7,0.0102,16,0.0017
-health,6,0.0087,24,0.0026
-value,6,0.0087,7,8e-4
-automation,6,0.0087,24,0.0026
-linux,6,0.0087,21,0.0023
+health,6,0.0087,24,0.0025
+value,6,0.0087,7,7e-4
+automation,6,0.0087,24,0.0025
+linux,6,0.0087,21,0.0022
 audiences,6,0.0087,4,4e-4
 term,6,0.0087,30,0.0032
-questions,6,0.0087,23,0.0025
+questions,6,0.0087,23,0.0024
 paced environment,6,0.0087,11,0.0012
 fast paced environment,6,0.0087,5,5e-4
 course,6,0.0087,12,0.0013
@@ -464,21 +469,21 @@ innovation,6,0.0087,9,0.001
 proven experience,6,0.0087,6,6e-4
 google,6,0.0087,30,0.0032
 agile,6,0.0087,17,0.0018
-snowflake,6,0.0087,25,0.0027
-similar,6,0.0087,8,9e-4
+snowflake,6,0.0087,25,0.0026
+similar,6,0.0087,8,8e-4
 professional,6,0.0087,19,0.002
-keras,6,0.0087,23,0.0025
-random,6,0.0087,51,0.0055
+keras,6,0.0087,23,0.0024
+random,6,0.0087,51,0.0054
 areas,6,0.0087,16,0.0017
 critical thinking,6,0.0087,15,0.0016
-best,6,0.0087,39,0.0042
-best practices,6,0.0087,25,0.0027
+best,6,0.0087,39,0.0041
+best practices,6,0.0087,25,0.0026
 computational,6,0.0087,28,0.003
 work experience,6,0.0087,10,0.0011
 positive,6,0.0087,17,0.0018
 relationships,6,0.0087,14,0.0015
-trees,6,0.0087,35,0.0038
-attention,6,0.0087,8,9e-4
+trees,6,0.0087,35,0.0037
+attention,6,0.0087,8,8e-4
 analyses,6,0.0087,19,0.002
 visualization tools,6,0.0087,11,0.0012
 matplotlib,6,0.0087,33,0.0035
@@ -486,104 +491,105 @@ passion,6,0.0087,1,1e-4
 project management,6,0.0087,10,0.0011
 relevant experience,6,0.0087,6,6e-4
 experience leading,6,0.0087,16,0.0017
-like,6,0.0087,42,0.0045
-3 5,6,0.0087,8,9e-4
+like,6,0.0087,42,0.0044
+3 5,6,0.0087,8,8e-4
 3 5 years,6,0.0087,5,5e-4
 role,6,0.0087,17,0.0018
-advanced analytic,6,0.0087,21,0.0023
-unstructured,6,0.0087,16,0.0017
-cd,6,0.0087,23,0.0025
-common,6,0.0087,23,0.0025
-computing,6,0.0087,26,0.0028
+advanced analytic,6,0.0087,21,0.0022
+unstructured,6,0.0087,17,0.0018
+cd,6,0.0087,23,0.0024
+common,6,0.0087,23,0.0024
+computing,6,0.0087,26,0.0027
 actionable,6,0.0087,12,0.0013
-clean,6,0.0087,35,0.0038
+clean,6,0.0087,35,0.0037
 modern,6,0.0087,17,0.0018
 visualizations,6,0.0087,16,0.0017
-way,6,0.0087,8,9e-4
+way,6,0.0087,8,8e-4
 ml model,6,0.0087,9,0.001
-plan,6,0.0087,22,0.0024
-who,6,0.0087,43,0.0046
-full,6,0.0087,25,0.0027
-container,6,0.0087,23,0.0025
+plan,6,0.0087,22,0.0023
+who,6,0.0087,43,0.0045
+full,6,0.0087,25,0.0026
+container,6,0.0087,23,0.0024
 server,6,0.0087,19,0.002
-change,6,0.0087,22,0.0024
+change,6,0.0087,22,0.0023
 scale data,6,0.0087,13,0.0014
 preferably,6,0.0087,28,0.003
 willing,6,0.0087,4,4e-4
 visio,6,0.0087,28,0.003
 write,5,0.0073,12,0.0013
 hadoop spark,5,0.0073,16,0.0017
-finance,5,0.0073,23,0.0025
+finance,5,0.0073,23,0.0024
 strategies,5,0.0073,12,0.0013
-requirement,5,0.0073,7,8e-4
+requirement,5,0.0073,7,7e-4
 technical audiences,5,0.0073,2,2e-4
 non technical audiences,5,0.0073,1,1e-4
 initiative,5,0.0073,20,0.0021
-documentation,5,0.0073,35,0.0038
+documentation,5,0.0073,35,0.0037
 degree preferred,5,0.0073,4,4e-4
-sound,5,0.0073,22,0.0024
+sound,5,0.0073,22,0.0023
 look,5,0.0073,12,0.0013
 real,5,0.0073,13,0.0014
 logical,5,0.0073,10,0.0011
-synthesize,5,0.0073,8,9e-4
+synthesize,5,0.0073,8,8e-4
 key,5,0.0073,13,0.0014
 skilled,5,0.0073,4,4e-4
 group,5,0.0073,11,0.0012
 wide,5,0.0073,17,0.0018
-using data,5,0.0073,24,0.0026
+using data,5,0.0073,24,0.0025
 extensive,5,0.0073,12,0.0013
 google cloud,5,0.0073,16,0.0017
 unit,5,0.0073,18,0.0019
 challenges,5,0.0073,13,0.0014
 masters,5,0.0073,12,0.0013
-science statistics,5,0.0073,24,0.0026
-mathematical,5,0.0073,25,0.0027
-graph,5,0.0073,36,0.0039
+science statistics,5,0.0073,24,0.0025
+mathematical,5,0.0073,25,0.0026
+graph,5,0.0073,36,0.0038
 deploying,5,0.0073,16,0.0017
 bayes,5,0.0073,31,0.0033
 decision tree,5,0.0073,32,0.0034
-random forest,5,0.0073,36,0.0039
+random forest,5,0.0073,36,0.0038
 pandas numpy,5,0.0073,18,0.0019
 demonstrated ability,5,0.0073,3,3e-4
-scientists,5,0.0073,25,0.0027
+scientists,5,0.0073,25,0.0026
 manager,5,0.0073,32,0.0034
 operations,5,0.0073,32,0.0034
-programming experience,5,0.0073,14,0.0015
-tasks,5,0.0073,23,0.0025
+programming experience,5,0.0073,20,0.0021
+tasks,5,0.0073,24,0.0025
 willingness,5,0.0073,3,3e-4
-modelling,5,0.0073,41,0.0044
-development experience,5,0.0073,7,8e-4
-detailed,5,0.0073,23,0.0025
+modelling,5,0.0073,41,0.0043
+development experience,5,0.0073,7,7e-4
+detailed,5,0.0073,23,0.0024
 excellent written,5,0.0073,4,4e-4
 patterns,5,0.0073,15,0.0016
-science data,5,0.0073,23,0.0025
-power bi,5,0.0073,26,0.0028
+science data,5,0.0073,23,0.0024
+power bi,5,0.0073,27,0.0029
 applications,5,0.0073,31,0.0033
 statistical models,5,0.0073,6,6e-4
 business intelligence,5,0.0073,17,0.0018
-intellectual,5,0.0073,21,0.0023
+intellectual,5,0.0073,21,0.0022
 excellent communication skills,5,0.0073,1,1e-4
 independently,5,0.0073,5,5e-4
 general,5,0.0073,28,0.003
 artificial,5,0.0073,19,0.002
 artificial intelligence,5,0.0073,13,0.0014
 learning model,5,0.0073,16,0.0017
-machine learning model,5,0.0073,8,9e-4
+machine learning model,5,0.0073,8,8e-4
 position,5,0.0073,6,6e-4
 dynamic,5,0.0073,18,0.0019
 complex data,5,0.0073,11,0.0012
 across,5,0.0073,27,0.0029
-docker,5,0.0073,8,9e-4
-classification,5,0.0073,52,0.0056
+docker,5,0.0073,8,8e-4
+classification,5,0.0073,52,0.0055
 cloud environment,5,0.0073,9,0.001
+using r,5,0.0073,19,0.002
 deal,5,0.0073,16,0.0017
 large data sets,5,0.0073,5,5e-4
 uses,5,0.0073,32,0.0034
-direct,5,0.0073,8,9e-4
+direct,5,0.0073,8,8e-4
 students,5,0.0073,4,4e-4
-social,5,0.0073,21,0.0023
+social,5,0.0073,21,0.0022
 assist,5,0.0073,5,5e-4
-data engineer,5,0.0073,23,0.0025
+data engineer,5,0.0073,23,0.0024
 ml models,5,0.0073,6,6e-4
 active,5,0.0073,20,0.0021
 vision,5,0.0073,16,0.0017
@@ -594,49 +600,51 @@ media,5,0.0073,17,0.0018
 analytical skills,5,0.0073,6,6e-4
 ggplot,5,0.0073,18,0.0019
 establish,5,0.0073,11,0.0012
-especially,5,0.0073,24,0.0026
-publication,5,0.0073,7,8e-4
+especially,5,0.0073,24,0.0025
+publication,5,0.0073,7,7e-4
 sql server,5,0.0073,14,0.0015
-efficient,5,0.0073,8,9e-4
+efficient,5,0.0073,8,8e-4
 handling,5,0.0073,18,0.0019
-javascript,5,0.0073,24,0.0026
+sql r,5,0.0073,13,0.0014
+javascript,5,0.0073,24,0.0025
 large scale data,5,0.0073,4,4e-4
 raw,5,0.0073,17,0.0018
 bs,5,0.0073,17,0.0018
-context,5,0.0073,8,9e-4
-post,5,0.0073,22,0.0024
+context,5,0.0073,8,8e-4
+post,5,0.0073,22,0.0023
 applied math,5,0.0073,19,0.002
 setting,5,0.0073,9,0.001
+r programming,5,0.0073,10,0.0011
 quick,5,0.0073,14,0.0015
 los,5,0.0073,32,0.0034
 data architect,5,0.0073,9,0.001
 forms,5,0.0073,16,0.0017
 strong data,4,0.0058,11,0.0012
-efficiently,4,0.0058,7,8e-4
+efficiently,4,0.0058,7,7e-4
 experience applying,4,0.0058,5,5e-4
 science engineering,4,0.0058,17,0.0018
 8,4,0.0058,6,6e-4
 model development,4,0.0058,17,0.0018
-forecasting,4,0.0058,26,0.0028
-logistic,4,0.0058,43,0.0046
+forecasting,4,0.0058,26,0.0027
+logistic,4,0.0058,43,0.0045
 modeling techniques,4,0.0058,13,0.0014
 logistic regression,4,0.0058,32,0.0034
 issues,4,0.0058,12,0.0013
 interact,4,0.0058,14,0.0015
 requirements,4,0.0058,5,5e-4
 experience developing,4,0.0058,6,6e-4
-products,4,0.0058,24,0.0026
+products,4,0.0058,24,0.0025
 event,4,0.0058,20,0.0021
 workflow,4,0.0058,18,0.0019
 deliverable,4,0.0058,30,0.0032
 excellent verbal,4,0.0058,1,1e-4
 consumer,4,0.0058,17,0.0018
-user,4,0.0058,21,0.0023
-financial,4,0.0058,7,8e-4
+user,4,0.0058,21,0.0022
+financial,4,0.0058,7,7e-4
 data driven,4,0.0058,6,6e-4
 quickly,4,0.0058,12,0.0013
 automate,4,0.0058,12,0.0013
-implementation,4,0.0058,12,0.0013
+implementation,4,0.0058,17,0.0018
 sense,4,0.0058,6,6e-4
 objectives,4,0.0058,5,5e-4
 partners,4,0.0058,11,0.0012
@@ -646,16 +654,16 @@ presenting,4,0.0058,9,0.001
 training,4,0.0058,20,0.0021
 cloud environments,4,0.0058,6,6e-4
 quantitative fields,4,0.0058,10,0.0011
-computer science statistics,4,0.0058,8,9e-4
-standard,4,0.0058,8,9e-4
+computer science statistics,4,0.0058,8,8e-4
+standard,4,0.0058,8,8e-4
 deep understanding,4,0.0058,3,3e-4
 tensorflow keras,4,0.0058,10,0.0011
 linear regression,4,0.0058,17,0.0018
 scipy,4,0.0058,28,0.003
 numpy scipy,4,0.0058,19,0.002
-data drive,4,0.0058,7,8e-4
-clients,4,0.0058,7,8e-4
-help,4,0.0058,8,9e-4
+data drive,4,0.0058,7,7e-4
+clients,4,0.0058,7,7e-4
+help,4,0.0058,8,8e-4
 quantitative discipline,4,0.0058,1,1e-4
 operations research,4,0.0058,17,0.0018
 hypothesis,4,0.0058,30,0.0032
@@ -664,9 +672,9 @@ phd degree,4,0.0058,1,1e-4
 manage multiple,4,0.0058,6,6e-4
 multiple projects,4,0.0058,4,4e-4
 previous,4,0.0058,15,0.0016
-numerical,4,0.0058,6,6e-4
-creatively,4,0.0058,7,8e-4
-deadlines,4,0.0058,7,8e-4
+numerical,4,0.0058,8,8e-4
+creatively,4,0.0058,7,7e-4
+deadlines,4,0.0058,7,7e-4
 senior management,4,0.0058,3,3e-4
 queries,4,0.0058,16,0.0017
 experience using data,4,0.0058,10,0.0011
@@ -683,21 +691,21 @@ intellectual curiosity,4,0.0058,10,0.0011
 story,4,0.0058,11,0.0012
 management skills,4,0.0058,10,0.0011
 publications,4,0.0058,5,5e-4
-desired,4,0.0058,8,9e-4
+desired,4,0.0058,8,8e-4
 implementing,4,0.0058,12,0.0013
 strong written,4,0.0058,4,4e-4
 successful,4,0.0058,12,0.0013
 applied mathematics,4,0.0058,12,0.0013
 recognition,4,0.0058,17,0.0018
 5 years experience,4,0.0058,4,4e-4
-svm,4,0.0058,37,0.004
-testing regression,4,0.0058,8,9e-4
+svm,4,0.0058,37,0.0039
+testing regression,4,0.0058,8,8e-4
 mathematics statistics,4,0.0058,17,0.0018
-unstructured data,4,0.0058,3,3e-4
-segment,4,0.0058,26,0.0028
+unstructured data,4,0.0058,4,4e-4
+segment,4,0.0058,26,0.0027
 enterprise,4,0.0058,19,0.002
 prior experience,4,0.0058,4,4e-4
-azure data,4,0.0058,21,0.0023
+azure data,4,0.0058,21,0.0022
 additional,4,0.0058,13,0.0014
 experience preferred,4,0.0058,9,0.001
 gcp,4,0.0058,15,0.0016
@@ -705,9 +713,9 @@ architectures,4,0.0058,10,0.0011
 devops,4,0.0058,18,0.0019
 ci cd,4,0.0058,11,0.0012
 practical experience,4,0.0058,4,4e-4
-access,4,0.0058,14,0.0015
+access,4,0.0058,20,0.0021
 warehouse,4,0.0058,28,0.003
-coding,4,0.0058,9,0.001
+coding,4,0.0058,13,0.0014
 domain,4,0.0058,10,0.0011
 interest,4,0.0058,2,2e-4
 engineering mathematics,4,0.0058,13,0.0014
@@ -719,85 +727,87 @@ statistics mathematics,4,0.0058,18,0.0019
 apis,4,0.0058,16,0.0017
 platforms,4,0.0058,13,0.0014
 analysis tools,4,0.0058,6,6e-4
-priorities,4,0.0058,21,0.0023
+priorities,4,0.0058,21,0.0022
 social science,4,0.0058,14,0.0015
-detection,4,0.0058,26,0.0028
+detection,4,0.0058,26,0.0027
 top,4,0.0058,10,0.0011
 cloud platform,4,0.0058,11,0.0012
 maintenance,4,0.0058,16,0.0017
 deadline,4,0.0058,9,0.001
-asset,4,0.0058,8,9e-4
+asset,4,0.0058,8,8e-4
 abilities,4,0.0058,17,0.0018
 ways,4,0.0058,3,3e-4
 semi,4,0.0058,17,0.0018
-data architecture,4,0.0058,7,8e-4
+data architecture,4,0.0058,7,7e-4
 mentoring,4,0.0058,15,0.0016
 resources,4,0.0058,20,0.0021
 theory,4,0.0058,18,0.0019
-paper,4,0.0058,23,0.0025
+paper,4,0.0058,23,0.0024
 principles,4,0.0058,6,6e-4
-healthcare,4,0.0058,8,9e-4
+healthcare,4,0.0058,8,8e-4
 requires,4,0.0058,4,4e-4
 type,4,0.0058,11,0.0012
-data process,4,0.0058,24,0.0026
-disciplines,4,0.0058,8,9e-4
-range,4,0.0058,8,9e-4
+data process,4,0.0058,24,0.0025
+disciplines,4,0.0058,8,8e-4
+range,4,0.0058,8,8e-4
 utilizing,4,0.0058,6,6e-4
 analyzing large,4,0.0058,14,0.0015
 software development,4,0.0058,12,0.0013
 current,4,0.0058,28,0.003
 designing,4,0.0058,9,0.001
 experience designing,4,0.0058,6,6e-4
-decision trees,4,0.0058,22,0.0024
+decision trees,4,0.0058,22,0.0023
 version,4,0.0058,17,0.0018
 aws azure,4,0.0058,13,0.0014
+c c,4,0.0058,6,6e-4
 0 years,4,0.0058,3,3e-4
 merging,4,0.0058,18,0.0019
 analyst,4,0.0058,16,0.0017
 employ,4,0.0058,16,0.0017
-hive,4,0.0058,18,0.0019
+hive,4,0.0058,19,0.002
 learning experience,4,0.0058,17,0.0018
 toolset,4,0.0058,14,0.0015
 trouble,4,0.0058,10,0.0011
 shoot,4,0.0058,11,0.0012
-approach,4,0.0058,8,9e-4
-word,4,0.0058,38,0.0041
+approach,4,0.0058,8,8e-4
+word,4,0.0058,38,0.004
 10 year,4,0.0058,4,4e-4
 science math,4,0.0058,19,0.002
 computer science math,4,0.0058,11,0.0012
 healthcare data,4,0.0058,5,5e-4
 fully,4,0.0058,14,0.0015
-contribution,4,0.0058,7,8e-4
+contribution,4,0.0058,7,7e-4
 detail oriented,3,0.0044,3,3e-4
 write code,3,0.0044,1,1e-4
 mapreduce,3,0.0044,14,0.0015
-computer science engineering,3,0.0044,8,9e-4
+computer science engineering,3,0.0044,8,8e-4
 8 years,3,0.0044,3,3e-4
 learning frameworks,3,0.0044,18,0.0019
 expert level,3,0.0044,5,5e-4
 signal,3,0.0044,20,0.0021
-credit risk,3,0.0044,7,8e-4
-stata,3,0.0044,12,0.0013
+credit risk,3,0.0044,7,7e-4
+stata,3,0.0044,14,0.0015
 advanced proficiency,3,0.0044,3,3e-4
-python sas,3,0.0044,6,6e-4
+python sas,3,0.0044,13,0.0014
 include,3,0.0044,12,0.0013
 probability,3,0.0044,6,6e-4
 ml algorithms,3,0.0044,2,2e-4
 excellent analytical,3,0.0044,3,3e-4
 effectively communicate,3,0.0044,6,6e-4
 customer service,3,0.0044,3,3e-4
-analyze,3,0.0044,8,9e-4
-volume,3,0.0044,7,8e-4
+analyze,3,0.0044,8,8e-4
+volume,3,0.0044,7,7e-4
 quantitative analysis,3,0.0044,2,2e-4
 analysis modeling,3,0.0044,16,0.0017
-including python,3,0.0044,8,9e-4
+including python,3,0.0044,18,0.0019
+r matlab,3,0.0044,25,0.0026
 windows,3,0.0044,6,6e-4
 consult,3,0.0044,6,6e-4
 long,3,0.0044,18,0.0019
 short,3,0.0044,20,0.0021
 short term,3,0.0044,14,0.0015
-degree plus,3,0.0044,7,8e-4
-design develop,3,0.0044,7,8e-4
+degree plus,3,0.0044,7,7e-4
+design develop,3,0.0044,7,7e-4
 generate,3,0.0044,2,2e-4
 normal,3,0.0044,20,0.0021
 standards,3,0.0044,3,3e-4
@@ -805,40 +815,40 @@ evaluation,3,0.0044,2,2e-4
 improvement,3,0.0044,6,6e-4
 opportunities,3,0.0044,3,3e-4
 business impact,3,0.0044,3,3e-4
-world,3,0.0044,8,9e-4
+world,3,0.0044,8,8e-4
 real world,3,0.0044,4,4e-4
-generalize,3,0.0044,23,0.0025
+generalize,3,0.0044,23,0.0024
 collaborate,3,0.0044,1,1e-4
 deep neural,3,0.0044,19,0.002
 deep neural networks,3,0.0044,11,0.0012
-python java,3,0.0044,6,6e-4
+python java,3,0.0044,9,0.001
 extensive experience,3,0.0044,4,4e-4
 planning,3,0.0044,11,0.0012
 excited,3,0.0044,1,1e-4
 education,3,0.0044,4,4e-4
 10 years,3,0.0044,2,2e-4
 learning algorithm,3,0.0044,11,0.0012
-strong problem,3,0.0044,8,9e-4
+strong problem,3,0.0044,8,8e-4
 strong problem solving,3,0.0044,5,5e-4
 statistical methods,3,0.0044,6,6e-4
-reinforcement,3,0.0044,36,0.0039
+reinforcement,3,0.0044,36,0.0038
 using advanced,3,0.0044,12,0.0013
 papers,3,0.0044,19,0.002
-answering,3,0.0044,21,0.0023
-inference,3,0.0044,8,9e-4
-segmentation,3,0.0044,24,0.0026
+answering,3,0.0044,21,0.0022
+inference,3,0.0044,8,8e-4
+segmentation,3,0.0044,24,0.0025
 gbm,3,0.0044,32,0.0034
-naive,3,0.0044,22,0.0024
+naive,3,0.0044,22,0.0023
 naive bayes,3,0.0044,16,0.0017
 pyspark,3,0.0044,9,0.001
 advanced analytics,3,0.0044,11,0.0012
 business problems,3,0.0044,11,0.0012
-strong programming,3,0.0044,15,0.0016
+strong programming,3,0.0044,18,0.0019
 using python,3,0.0044,15,0.0016
-python sql,3,0.0044,7,8e-4
+python sql,3,0.0044,10,0.0011
 thinking skills,3,0.0044,5,5e-4
 critical thinking skills,3,0.0044,4,4e-4
-executives,3,0.0044,3,3e-4
+executives,3,0.0044,4,4e-4
 storytelling,3,0.0044,3,3e-4
 agency,3,0.0044,16,0.0017
 exploratory,3,0.0044,27,0.0029
@@ -851,30 +861,31 @@ trends,3,0.0044,10,0.0011
 ensure,3,0.0044,12,0.0013
 delivery,3,0.0044,13,0.0014
 science mathematics,3,0.0044,15,0.0016
-computer science mathematics,3,0.0044,8,9e-4
+computer science mathematics,3,0.0044,8,8e-4
 analysis results,3,0.0044,3,3e-4
 validation,3,0.0044,14,0.0015
 manipulation,3,0.0044,19,0.002
-scripting language,3,0.0044,5,5e-4
+scripting language,3,0.0044,6,6e-4
 data manipulation,3,0.0044,12,0.0013
 manage multiple projects,3,0.0044,2,2e-4
 direction,3,0.0044,5,5e-4
 teach,3,0.0044,3,3e-4
+r java,3,0.0044,7,7e-4
 deliverables,3,0.0044,16,0.0017
 manner,3,0.0044,5,5e-4
 data processing,3,0.0044,16,0.0017
 maintaining,3,0.0044,9,0.001
 teradata,3,0.0044,19,0.002
-conduct,3,0.0044,8,9e-4
+conduct,3,0.0044,8,8e-4
 behavior,3,0.0044,20,0.0021
 changes,3,0.0044,5,5e-4
 being,3,0.0044,16,0.0017
-data engineering,3,0.0044,8,9e-4
+data engineering,3,0.0044,8,8e-4
 dashboards,3,0.0044,3,3e-4
 making,3,0.0044,5,5e-4
 strategic,3,0.0044,11,0.0012
 initiatives,3,0.0044,17,0.0018
-collaboration,3,0.0044,7,8e-4
+collaboration,3,0.0044,7,7e-4
 science analytics,3,0.0044,9,0.001
 data science analytics,3,0.0044,6,6e-4
 multiple sources,3,0.0044,1,1e-4
@@ -885,8 +896,8 @@ data science toolkits,3,0.0044,2,2e-4
 starter,3,0.0044,12,0.0013
 self starter,3,0.0044,9,0.001
 accuracy,3,0.0044,3,3e-4
-compelling,3,0.0044,7,8e-4
-continuous,3,0.0044,7,8e-4
+compelling,3,0.0044,7,7e-4
+continuous,3,0.0044,7,7e-4
 project management skills,3,0.0044,4,4e-4
 travel,3,0.0044,3,3e-4
 office,3,0.0044,20,0.0021
@@ -896,21 +907,21 @@ needed,3,0.0044,6,6e-4
 predictive modeling,3,0.0044,3,3e-4
 svm decision,3,0.0044,16,0.0017
 programs,3,0.0044,4,4e-4
-functions,3,0.0044,8,9e-4
+functions,3,0.0044,8,8e-4
 microsoft,3,0.0044,11,0.0012
 focused,3,0.0044,9,0.001
 operational,3,0.0044,20,0.0021
-measurable,3,0.0044,8,9e-4
+measurable,3,0.0044,8,8e-4
 streaming,3,0.0044,16,0.0017
 foreign,3,0.0044,2,2e-4
 foreign equivalent,3,0.0044,1,1e-4
 etl,3,0.0044,13,0.0014
 writing sql,3,0.0044,9,0.001
 data warehouse,3,0.0044,13,0.0014
-bricks,3,0.0044,26,0.0028
-microstrategy,3,0.0044,21,0.0023
+bricks,3,0.0044,26,0.0027
+microstrategy,3,0.0044,21,0.0022
 looker,3,0.0044,10,0.0011
-sql python,3,0.0044,7,8e-4
+sql python,3,0.0044,9,0.001
 cloud computing,3,0.0044,11,0.0012
 ideally,3,0.0044,12,0.0013
 data visualization tools,3,0.0044,1,1e-4
@@ -922,21 +933,21 @@ convey,3,0.0044,4,4e-4
 order,3,0.0044,2,2e-4
 convey complex,3,0.0044,3,3e-4
 actionable insights,3,0.0044,3,3e-4
-large complex,3,0.0044,8,9e-4
+large complex,3,0.0044,8,8e-4
 statistics economics,3,0.0044,6,6e-4
 mathematics computer,3,0.0044,9,0.001
 mathematics computer science,3,0.0044,5,5e-4
 define,3,0.0044,14,0.0015
 sampling,3,0.0044,18,0.0019
-understandable,3,0.0044,7,8e-4
+understandable,3,0.0044,7,7e-4
 desirable,3,0.0044,2,2e-4
 cleaning,3,0.0044,15,0.0016
-manipulate,3,0.0044,7,8e-4
+manipulate,3,0.0044,7,7e-4
 research projects,3,0.0044,3,3e-4
 collaboratively,3,0.0044,5,5e-4
-lits,3,0.0044,7,8e-4
+lits,3,0.0044,7,7e-4
 quantitative research,3,0.0044,5,5e-4
-statistical software,3,0.0044,2,2e-4
+statistical software,3,0.0044,3,3e-4
 response,3,0.0044,16,0.0017
 faculty,3,0.0044,1,1e-4
 diverse,3,0.0044,6,6e-4
@@ -945,11 +956,11 @@ emerging,3,0.0044,12,0.0013
 python programming,3,0.0044,2,2e-4
 model performance,3,0.0044,9,0.001
 airflow,3,0.0044,27,0.0029
-possess,3,0.0044,8,9e-4
-security,3,0.0044,8,9e-4
+possess,3,0.0044,8,8e-4
+security,3,0.0044,8,8e-4
 groups,3,0.0044,4,4e-4
 computer vision,3,0.0044,11,0.0012
-python preferred,3,0.0044,3,3e-4
+python preferred,3,0.0044,8,8e-4
 kafka,3,0.0044,18,0.0019
 data experience,3,0.0044,14,0.0015
 department,3,0.0044,11,0.0012
@@ -957,23 +968,24 @@ strong analytical skills,3,0.0044,2,2e-4
 organize,3,0.0044,6,6e-4
 express,3,0.0044,16,0.0017
 data scientists,3,0.0044,11,0.0012
+r statistical,3,0.0044,2,2e-4
 analytics data,3,0.0044,11,0.0012
-junior,3,0.0044,24,0.0026
-data structure,3,0.0044,7,8e-4
+junior,3,0.0044,24,0.0025
+data structure,3,0.0044,7,7e-4
 field required,3,0.0044,5,5e-4
-organizational,3,0.0044,21,0.0023
+organizational,3,0.0044,21,0.0022
 designs,3,0.0044,15,0.0016
 feature,3,0.0044,17,0.0018
-extraction,3,0.0044,21,0.0023
-draw,3,0.0044,8,9e-4
+extraction,3,0.0044,21,0.0022
+draw,3,0.0044,8,8e-4
 govern,3,0.0044,11,0.0012
-acquire,3,0.0044,7,8e-4
+acquire,3,0.0044,7,7e-4
 approaches,3,0.0044,6,6e-4
 prototyping,3,0.0044,12,0.0013
-apache,3,0.0044,17,0.0018
+apache,3,0.0044,19,0.002
 learn pandas,3,0.0044,12,0.0013
 scikit learn pandas,3,0.0044,5,5e-4
-kubernetes,3,0.0044,8,9e-4
+kubernetes,3,0.0044,8,8e-4
 dask,3,0.0044,11,0.0012
 pandas scikit,3,0.0044,18,0.0019
 pandas scikit learn,3,0.0044,12,0.0013
@@ -987,34 +999,34 @@ team player,3,0.0044,6,6e-4
 medical,3,0.0044,17,0.0018
 formulating,3,0.0044,15,0.0016
 manipulating,3,0.0044,11,0.0012
-mix,3,0.0044,7,8e-4
+mix,3,0.0044,7,7e-4
 communicating,3,0.0044,6,6e-4
-version control,3,0.0044,8,9e-4
+version control,3,0.0044,8,8e-4
 web service,3,0.0044,17,0.0018
-learning statistical,3,0.0044,7,8e-4
+learning statistical,3,0.0044,7,7e-4
 machine learning statistical,3,0.0044,5,5e-4
 learning statistical analysis,3,0.0044,3,3e-4
 machine learning statistical analysis,3,0.0044,2,2e-4
-shell,3,0.0044,26,0.0028
+shell,3,0.0044,26,0.0027
 1 years,3,0.0044,4,4e-4
 equivalent experience,3,0.0044,4,4e-4
-life,3,0.0044,25,0.0027
+life,3,0.0044,25,0.0026
 nosql,3,0.0044,14,0.0015
 environmental,3,0.0044,10,0.0011
 dimensional,3,0.0044,17,0.0018
 data analyst,3,0.0044,3,3e-4
 bi tool,3,0.0044,10,0.0011
 enjoy,3,0.0044,14,0.0015
-who can,3,0.0044,25,0.0027
+who can,3,0.0044,25,0.0026
 just,3,0.0044,15,0.0016
 high level,3,0.0044,2,2e-4
-year required,3,0.0044,4,4e-4
-1 year required,3,0.0044,3,3e-4
+year required,3,0.0044,5,5e-4
+1 year required,3,0.0044,4,4e-4
 comes,3,0.0044,4,4e-4
-cte,3,0.0044,8,9e-4
+cte,3,0.0044,8,8e-4
 mind,3,0.0044,9,0.001
 post holder,3,0.0044,2,2e-4
-mount,3,0.0044,8,9e-4
+mount,3,0.0044,8,8e-4
 math statistics,3,0.0044,13,0.0014
 7 years experience,3,0.0044,1,1e-4
 motivated,3,0.0044,11,0.0012
@@ -1024,19 +1036,19 @@ mission,3,0.0044,13,0.0014
 business object,3,0.0044,11,0.0012
 cloud based,3,0.0044,13,0.0014
 capable,3,0.0044,2,2e-4
-typically,3,0.0044,7,8e-4
-advocate,3,0.0044,7,8e-4
+typically,3,0.0044,7,7e-4
+advocate,3,0.0044,7,7e-4
 learning machine,3,0.0044,13,0.0014
-deep learning machine,3,0.0044,7,8e-4
+deep learning machine,3,0.0044,7,7e-4
 learning machine learning,3,0.0044,9,0.001
 deep learning machine learning,3,0.0044,4,4e-4
 stack,3,0.0044,9,0.001
 strong ability,3,0.0044,3,3e-4
 concise,3,0.0044,5,5e-4
-manipulating data,3,0.0044,7,8e-4
+manipulating data,3,0.0044,7,7e-4
 acumen,3,0.0044,16,0.0017
 business acumen,3,0.0044,12,0.0013
-machine learning experience,3,0.0044,7,8e-4
+machine learning experience,3,0.0044,7,7e-4
 regard,3,0.0044,1,1e-4
 plus 5,3,0.0044,4,4e-4
 source programming,3,0.0044,4,4e-4
@@ -1048,10 +1060,11 @@ scale data analysis,3,0.0044,2,2e-4
 degree plus 5 years,3,0.0044,1,1e-4
 open source programming languages,3,0.0044,1,1e-4
 large scale data analysis,3,0.0044,1,1e-4
-factor,3,0.0044,39,0.0042
+experience r,3,0.0044,15,0.0016
+factor,3,0.0044,39,0.0041
 enthusiast,3,0.0044,9,0.001
-obs,3,0.0044,8,9e-4
-shooting,3,0.0044,7,8e-4
+obs,3,0.0044,8,8e-4
+shooting,3,0.0044,7,7e-4
 advanced statistics,2,0.0029,1,1e-4
 modeling knowledge,2,0.0029,1,1e-4
 visualization skills,2,0.0029,3,3e-4
@@ -1094,30 +1107,31 @@ underwriting,2,0.0029,19,0.002
 analytics including,2,0.0029,10,0.0011
 including model,2,0.0029,17,0.0018
 including model development,2,0.0029,10,0.0011
-matlab tableau,2,0.0029,7,8e-4
+matlab tableau,2,0.0029,13,0.0014
 sql required,2,0.0029,5,5e-4
 loss,2,0.0029,16,0.0017
 default,2,0.0029,13,0.0014
 scoring,2,0.0029,13,0.0014
 produce,2,0.0029,4,4e-4
-credit scoring,2,0.0029,7,8e-4
-multivariate,2,0.0029,22,0.0024
+credit scoring,2,0.0029,7,7e-4
+multivariate,2,0.0029,22,0.0023
 monte,2,0.0029,4,4e-4
 carlo,2,0.0029,3,3e-4
 regression multivariate,2,0.0029,16,0.0017
 monte carlo,2,0.0029,2,2e-4
-advanced ml,2,0.0029,7,8e-4
+advanced ml,2,0.0029,7,7e-4
 deserve,2,0.0029,2,2e-4
 creation,2,0.0029,2,2e-4
 personnel,2,0.0029,5,5e-4
 building statistical,2,0.0029,3,3e-4
-python matlab,2,0.0029,6,6e-4
-clearance,2,0.0029,8,9e-4
+including python r,2,0.0029,10,0.0011
+python r matlab,2,0.0029,11,0.0012
+clearance,2,0.0029,8,8e-4
 ts sci,2,0.0029,6,6e-4
 sci clearance,2,0.0029,6,6e-4
 ts sci clearance,2,0.0029,4,4e-4
 commercial,2,0.0029,2,2e-4
-load,2,0.0029,7,8e-4
+load,2,0.0029,7,7e-4
 linux os,2,0.0029,4,4e-4
 balance,2,0.0029,5,5e-4
 defined,2,0.0029,13,0.0014
@@ -1137,23 +1151,25 @@ procedures,2,0.0029,16,0.0017
 exercise,2,0.0029,2,2e-4
 significance,2,0.0029,4,4e-4
 high quality,2,0.0029,11,0.0012
-unix,2,0.0029,8,9e-4
-modeling data,2,0.0029,7,8e-4
+unix,2,0.0029,8,8e-4
+modeling data,2,0.0029,7,7e-4
 analytical tool,2,0.0029,6,6e-4
 sql sas,2,0.0029,5,5e-4
 world problems,2,0.0029,2,2e-4
 real world problems,2,0.0029,1,1e-4
 speed,2,0.0029,9,0.001
 business objectives,2,0.0029,2,2e-4
-small,2,0.0029,7,8e-4
+small,2,0.0029,7,7e-4
 retrieval,2,0.0029,5,5e-4
 matrix,2,0.0029,16,0.0017
 machines,2,0.0029,29,0.0031
 applied machine,2,0.0029,4,4e-4
 applied machine learning,2,0.0029,3,3e-4
 structures,2,0.0029,5,5e-4
+java r,2,0.0029,11,0.0012
+r scala,2,0.0029,1,1e-4
 data structures,2,0.0029,4,4e-4
-learning deep,2,0.0029,8,9e-4
+learning deep,2,0.0029,8,8e-4
 tensorflow pytorch,2,0.0029,9,0.001
 machine learning deep,2,0.0029,4,4e-4
 jira,2,0.0029,4,4e-4
@@ -1165,35 +1181,35 @@ candidate,2,0.0029,6,6e-4
 strongly,2,0.0029,3,3e-4
 topics,2,0.0029,9,0.001
 bandits,2,0.0029,16,0.0017
-probabilistic,2,0.0029,22,0.0024
+probabilistic,2,0.0029,22,0.0023
 graphical,2,0.0029,20,0.0021
 probabilistic graphical,2,0.0029,15,0.0016
 graphical models,2,0.0029,12,0.0013
 reinforcement learning,2,0.0029,19,0.002
-probabilistic graphical models,2,0.0029,8,9e-4
+probabilistic graphical models,2,0.0029,8,8e-4
 statistics data,2,0.0029,6,6e-4
 technical discipline,2,0.0029,2,2e-4
 professional experience,2,0.0029,4,4e-4
 statistics data science,2,0.0029,3,3e-4
-learning algorithms,2,0.0029,7,8e-4
+learning algorithms,2,0.0029,7,7e-4
 causal,2,0.0029,10,0.0011
 question answering,2,0.0029,13,0.0014
 learning knowledge,2,0.0029,11,0.0012
 causal inference,2,0.0029,5,5e-4
 h2o,2,0.0029,11,0.0012
 experience deploying,2,0.0029,6,6e-4
-cnn,2,0.0029,23,0.0025
-rnn,2,0.0029,24,0.0026
+cnn,2,0.0029,23,0.0024
+rnn,2,0.0029,24,0.0025
 memory,2,0.0029,16,0.0017
 lstm,2,0.0029,20,0.0021
 transformers,2,0.0029,6,6e-4
 excellent knowledge,2,0.0029,1,1e-4
-applying statistical,2,0.0029,7,8e-4
+applying statistical,2,0.0029,7,7e-4
 learning concepts,2,0.0029,3,3e-4
 deep learning concepts,2,0.0029,2,2e-4
 strong programming skills,2,0.0029,6,6e-4
-pandas numpy scipy,2,0.0029,8,9e-4
-analytical critical,2,0.0029,8,9e-4
+pandas numpy scipy,2,0.0029,8,8e-4
+analytical critical,2,0.0029,8,8e-4
 synthesize data,2,0.0029,3,3e-4
 analytical critical thinking,2,0.0029,5,5e-4
 superior,2,0.0029,9,0.001
@@ -1219,7 +1235,7 @@ subject matter,2,0.0029,2,2e-4
 engineers,2,0.0029,11,0.0012
 account,2,0.0029,10,0.0011
 bioinformatics,2,0.0029,16,0.0017
-electrical,2,0.0029,21,0.0023
+electrical,2,0.0029,21,0.0022
 industrial,2,0.0029,13,0.0014
 statistics operations,2,0.0029,9,0.001
 electrical engineering,2,0.0029,14,0.0015
@@ -1227,8 +1243,8 @@ research experience,2,0.0029,2,2e-4
 statistics operations research,2,0.0029,5,5e-4
 years work,2,0.0029,6,6e-4
 years work experience,2,0.0029,3,3e-4
-using statistics,2,0.0029,8,9e-4
-skills ability,2,0.0029,7,8e-4
+using statistics,2,0.0029,8,8e-4
+skills ability,2,0.0029,7,7e-4
 company,2,0.0029,6,6e-4
 experimental,2,0.0029,17,0.0018
 experimental design,2,0.0029,12,0.0013
@@ -1239,15 +1255,15 @@ translate,2,0.0029,14,0.0015
 learn new,2,0.0029,4,4e-4
 covering,2,0.0029,15,0.0016
 limited,2,0.0029,4,4e-4
-generalized,2,0.0029,22,0.0024
+generalized,2,0.0029,22,0.0023
 gain,2,0.0029,4,4e-4
 models including,2,0.0029,6,6e-4
-implementations,2,0.0029,8,9e-4
+implementations,2,0.0029,13,0.0014
 think creatively,2,0.0029,1,1e-4
 proactive,2,0.0029,6,6e-4
 entrepreneurial,2,0.0029,5,5e-4
-controls,2,0.0029,7,8e-4
-plans,2,0.0029,7,8e-4
+controls,2,0.0029,7,7e-4
+plans,2,0.0029,7,7e-4
 discuss,2,0.0029,4,4e-4
 ongoing,2,0.0029,4,4e-4
 technologies including,2,0.0029,17,0.0018
@@ -1265,7 +1281,10 @@ delivering,2,0.0029,4,4e-4
 functional team,2,0.0029,5,5e-4
 transforming,2,0.0029,13,0.0014
 analyzing data,2,0.0029,2,2e-4
-cognos,2,0.0029,25,0.0027
+languages r,2,0.0029,13,0.0014
+languages r python,2,0.0029,7,7e-4
+r python sql,2,0.0029,3,3e-4
+cognos,2,0.0029,25,0.0026
 techniques algorithms,2,0.0029,4,4e-4
 advanced statistical,2,0.0029,2,2e-4
 partnering,2,0.0029,4,4e-4
@@ -1280,12 +1299,12 @@ able work,2,0.0029,4,4e-4
 managerial,2,0.0029,3,3e-4
 model building,2,0.0029,5,5e-4
 solutions using,2,0.0029,18,0.0019
-backend,2,0.0029,8,9e-4
+backend,2,0.0029,8,8e-4
 oral communication skills,2,0.0029,1,1e-4
 cluster analysis,2,0.0029,13,0.0014
 series modeling,2,0.0029,9,0.001
 time series modeling,2,0.0029,5,5e-4
-mathematics economics,2,0.0029,8,9e-4
+mathematics economics,2,0.0029,8,8e-4
 pattern recognition,2,0.0029,3,3e-4
 modeling experience,2,0.0029,4,4e-4
 powerpoint,2,0.0029,6,6e-4
@@ -1293,7 +1312,7 @@ powerpoint,2,0.0029,6,6e-4
 forests,2,0.0029,5,5e-4
 solid understanding,2,0.0029,1,1e-4
 nn naive,2,0.0029,4,4e-4
-bayes svm,2,0.0029,8,9e-4
+bayes svm,2,0.0029,8,8e-4
 decision forests,2,0.0029,4,4e-4
 nn naive bayes,2,0.0029,3,3e-4
 naive bayes svm,2,0.0029,5,5e-4
@@ -1316,33 +1335,33 @@ distributions statistical testing,2,0.0029,2,2e-4
 statistical testing regression,2,0.0029,2,2e-4
 excellent applied statistics skills,2,0.0029,1,1e-4
 distributions statistical testing regression,2,0.0029,1,1e-4
-amazon,2,0.0029,25,0.0027
+amazon,2,0.0029,25,0.0026
 learning services,2,0.0029,12,0.0013
 amazon web,2,0.0029,16,0.0017
 web services,2,0.0029,13,0.0014
 services aws,2,0.0029,11,0.0012
 machine learning services,2,0.0029,5,5e-4
 amazon web services,2,0.0029,9,0.001
-web services aws,2,0.0029,7,8e-4
+web services aws,2,0.0029,7,7e-4
 amazon web services aws,2,0.0029,4,4e-4
 people,2,0.0029,3,3e-4
 years project,2,0.0029,3,3e-4
 people leadership,2,0.0029,2,2e-4
 leadership experience,2,0.0029,2,2e-4
 people leadership experience,2,0.0029,1,1e-4
-business analysis,2,0.0029,7,8e-4
+business analysis,2,0.0029,7,7e-4
 analytic solutions,2,0.0029,5,5e-4
 guidance,2,0.0029,2,2e-4
 experience creating,2,0.0029,2,2e-4
 types,2,0.0029,1,1e-4
-data using,2,0.0029,3,3e-4
+data using,2,0.0029,5,5e-4
 consulting,2,0.0029,5,5e-4
 microsoft azure,2,0.0029,4,4e-4
 least 7,2,0.0029,2,2e-4
 least 7 years,2,0.0029,1,1e-4
 sagemaker,2,0.0029,13,0.0014
 classification regression,2,0.0029,15,0.0016
-deploying ml,2,0.0029,7,8e-4
+deploying ml,2,0.0029,7,7e-4
 operating,2,0.0029,2,2e-4
 experience operating,2,0.0029,1,1e-4
 transformation,2,0.0029,6,6e-4
@@ -1363,7 +1382,7 @@ strong interest,2,0.0029,1,1e-4
 dimensionality,2,0.0029,11,0.0012
 reduction,2,0.0029,11,0.0012
 unsupervised learning,2,0.0029,5,5e-4
-dimensionality reduction,2,0.0029,8,9e-4
+dimensionality reduction,2,0.0029,8,8e-4
 scripting languages,2,0.0029,4,4e-4
 confident,2,0.0029,5,5e-4
 individual,2,0.0029,5,5e-4
@@ -1372,11 +1391,12 @@ work well,2,0.0029,2,2e-4
 technical field,2,0.0029,2,2e-4
 science experience,2,0.0029,3,3e-4
 data science experience,2,0.0029,2,2e-4
-statistical analyses,2,0.0029,7,8e-4
-tableau power,2,0.0029,6,6e-4
-tableau power bi,2,0.0029,4,4e-4
+statistical analyses,2,0.0029,7,7e-4
+sas r,2,0.0029,10,0.0011
+tableau power,2,0.0029,9,0.001
+tableau power bi,2,0.0029,5,5e-4
 proven track,2,0.0029,2,2e-4
-leading teams,2,0.0029,7,8e-4
+leading teams,2,0.0029,7,7e-4
 proven track record,2,0.0029,1,1e-4
 business stakeholders,2,0.0029,1,1e-4
 using sql,2,0.0029,5,5e-4
@@ -1386,14 +1406,14 @@ fluent,2,0.0029,1,1e-4
 data management,2,0.0029,13,0.0014
 modern data,2,0.0029,5,5e-4
 pull,2,0.0029,12,0.0013
-communicate data,2,0.0029,7,8e-4
+communicate data,2,0.0029,7,7e-4
 english,2,0.0029,1,1e-4
 local,2,0.0029,16,0.0017
 options,2,0.0029,2,2e-4
 algorithm design,2,0.0029,3,3e-4
 executive levels,2,0.0029,3,3e-4
 leading team,2,0.0029,9,0.001
-strong experience,2,0.0029,1,1e-4
+strong experience,2,0.0029,2,2e-4
 warehousing,2,0.0029,6,6e-4
 data warehousing,2,0.0029,4,4e-4
 solid knowledge,2,0.0029,1,1e-4
@@ -1418,16 +1438,16 @@ working relationships,2,0.0029,5,5e-4
 analysts,2,0.0029,6,6e-4
 military,2,0.0029,6,6e-4
 linux environment,2,0.0029,2,2e-4
-containerized,2,0.0029,8,9e-4
+containerized,2,0.0029,8,8e-4
 demonstrated proficiency,2,0.0029,1,1e-4
 tuning,2,0.0029,11,0.0012
 mlflow,2,0.0029,9,0.001
-managers,2,0.0029,24,0.0026
+managers,2,0.0029,24,0.0025
 troubleshooting,2,0.0029,4,4e-4
 obtain,2,0.0029,3,3e-4
 poly,2,0.0029,3,3e-4
 s3,2,0.0029,12,0.0013
-julia,2,0.0029,2,2e-4
+julia,2,0.0029,9,0.001
 toolsets,2,0.0029,6,6e-4
 db2,2,0.0029,17,0.0018
 fluency,2,0.0029,6,6e-4
@@ -1435,31 +1455,31 @@ stored,2,0.0029,13,0.0014
 oracle db2,2,0.0029,13,0.0014
 db2 preferred,2,0.0029,11,0.0012
 sql queries,2,0.0029,2,2e-4
-oracle db2 preferred,2,0.0029,8,9e-4
+oracle db2 preferred,2,0.0029,8,8e-4
 employees,2,0.0029,1,1e-4
-preferred experience,2,0.0029,7,8e-4
+preferred experience,2,0.0029,7,7e-4
 performance analysis,2,0.0029,2,2e-4
 crystal,2,0.0029,12,0.0013
-learning big,2,0.0029,7,8e-4
+learning big,2,0.0029,7,7e-4
 machine learning big,2,0.0029,5,5e-4
 learning big data,2,0.0029,3,3e-4
 big data experience,2,0.0029,5,5e-4
 machine learning big data,2,0.0029,2,2e-4
 depth,2,0.0029,4,4e-4
 excels,2,0.0029,1,1e-4
-integrated,2,0.0029,8,9e-4
+integrated,2,0.0029,8,8e-4
 status,2,0.0029,6,6e-4
 trade,2,0.0029,6,6e-4
-control systems,2,0.0029,8,9e-4
+control systems,2,0.0029,8,8e-4
 significant,2,0.0029,4,4e-4
-personality,2,0.0029,7,8e-4
-enthusiastic,2,0.0029,7,8e-4
+personality,2,0.0029,7,7e-4
+enthusiastic,2,0.0029,7,7e-4
 mindset,2,0.0029,4,4e-4
 high performance,2,0.0029,4,4e-4
-distributed systems,2,0.0029,8,9e-4
+distributed systems,2,0.0029,8,8e-4
 source tools,2,0.0029,10,0.0011
 open source tools,2,0.0029,6,6e-4
-rapid,2,0.0029,7,8e-4
+rapid,2,0.0029,7,7e-4
 largescale,2,0.0029,15,0.0016
 communications,2,0.0029,6,6e-4
 internal,2,0.0029,4,4e-4
@@ -1473,7 +1493,7 @@ statistical analysis skills,2,0.0029,3,3e-4
 experience analyzing,2,0.0029,3,3e-4
 content,2,0.0029,5,5e-4
 entity,2,0.0029,19,0.002
-nlp feature,2,0.0029,7,8e-4
+nlp feature,2,0.0029,7,7e-4
 feature engineering,2,0.0029,4,4e-4
 entity recognition,2,0.0029,9,0.001
 nlp feature engineering,2,0.0029,3,3e-4
@@ -1483,35 +1503,35 @@ repositories,2,0.0029,4,4e-4
 coursework,2,0.0029,2,2e-4
 inquisitive,2,0.0029,3,3e-4
 thinker,2,0.0029,11,0.0012
-thinker who,2,0.0029,8,9e-4
+thinker who,2,0.0029,8,8e-4
 science solutions,2,0.0029,4,4e-4
 data science solutions,2,0.0029,3,3e-4
 data extraction,2,0.0029,5,5e-4
 first,2,0.0029,11,0.0012
 explain,2,0.0029,9,0.001
-advanced analytical,2,0.0029,8,9e-4
+advanced analytical,2,0.0029,8,8e-4
 quantitative modeling,2,0.0029,2,2e-4
 events,2,0.0029,11,0.0012
-objects,2,0.0029,22,0.0024
+objects,2,0.0029,22,0.0023
 interdisciplinary,2,0.0029,3,3e-4
 broad,2,0.0029,5,5e-4
 domains,2,0.0029,6,6e-4
 contributions,2,0.0029,5,5e-4
 developing algorithms,2,0.0029,3,3e-4
-semi structured,2,0.0029,7,8e-4
+semi structured,2,0.0029,7,7e-4
 analyzing large data,2,0.0029,5,5e-4
 analyzing large data sets,2,0.0029,2,2e-4
 excellent oral,2,0.0029,2,2e-4
 databricks,2,0.0029,18,0.0019
 cloud data,2,0.0029,5,5e-4
 azure databricks,2,0.0029,12,0.0013
-learn pandas numpy,2,0.0029,8,9e-4
+learn pandas numpy,2,0.0029,8,8e-4
 scikit learn pandas numpy,2,0.0029,3,3e-4
 software delivery,2,0.0029,6,6e-4
 parallel,2,0.0029,12,0.0013
-data parallel,2,0.0029,8,9e-4
+data parallel,2,0.0029,8,8e-4
 parallel processing,2,0.0029,9,0.001
-apache hadoop,2,0.0029,10,0.0011
+apache hadoop,2,0.0029,11,0.0012
 big data parallel,2,0.0029,4,4e-4
 data parallel processing,2,0.0029,6,6e-4
 big data parallel processing,2,0.0029,3,3e-4
@@ -1524,7 +1544,7 @@ unfamiliar,2,0.0029,3,3e-4
 new concepts,2,0.0029,5,5e-4
 collaborating,2,0.0029,1,1e-4
 strong desire,2,0.0029,1,1e-4
-ms sql,2,0.0029,8,9e-4
+ms sql,2,0.0029,8,8e-4
 ms sql server,2,0.0029,4,4e-4
 engineering physics,2,0.0029,9,0.001
 science engineering physics,2,0.0029,6,6e-4
@@ -1535,18 +1555,19 @@ image,2,0.0029,18,0.0019
 testable,2,0.0029,13,0.0014
 defining,2,0.0029,5,5e-4
 anomaly,2,0.0029,16,0.0017
-modeling including,2,0.0029,8,9e-4
+modeling including,2,0.0029,8,8e-4
+python matlab,2,0.0029,9,0.001
 anomaly detection,2,0.0029,11,0.0012
 develop process,2,0.0029,4,4e-4
 optimizing,2,0.0029,5,5e-4
 demonstrated experience designing,2,0.0029,2,2e-4
 querying,2,0.0029,12,0.0013
-languages sql,2,0.0029,5,5e-4
+languages sql,2,0.0029,7,7e-4
 excel tableau,2,0.0029,18,0.0019
 learning methods,2,0.0029,14,0.0015
 trees random,2,0.0029,12,0.0013
-decision trees random,2,0.0029,7,8e-4
-trees random forest,2,0.0029,8,9e-4
+decision trees random,2,0.0029,7,7e-4
+trees random forest,2,0.0029,8,8e-4
 decision trees random forest,2,0.0029,4,4e-4
 speak,2,0.0029,4,4e-4
 teaching,2,0.0029,2,2e-4
@@ -1555,13 +1576,13 @@ integrity,2,0.0029,5,5e-4
 experiences,2,0.0029,6,6e-4
 html,2,0.0029,12,0.0013
 css,2,0.0029,9,0.001
-grade,2,0.0029,21,0.0023
-learning libraries,2,0.0029,7,8e-4
+grade,2,0.0029,21,0.0022
+learning libraries,2,0.0029,7,7e-4
 shell script,2,0.0029,14,0.0015
-mathematical programming,2,0.0029,7,8e-4
+mathematical programming,2,0.0029,7,7e-4
 handling large,2,0.0029,11,0.0012
 series analysis,2,0.0029,9,0.001
-data science data,2,0.0029,8,9e-4
+data science data,2,0.0029,8,8e-4
 machine learning libraries,2,0.0029,3,3e-4
 google cloud platform,2,0.0029,3,3e-4
 time series analysis,2,0.0029,5,5e-4
@@ -1569,16 +1590,17 @@ gathering,2,0.0029,15,0.0016
 preparation,2,0.0029,4,4e-4
 data gathering,2,0.0029,10,0.0011
 ml solutions,2,0.0029,11,0.0012
-major,2,0.0029,7,8e-4
-cycle,2,0.0029,26,0.0028
+major,2,0.0029,7,7e-4
+sql c,2,0.0029,4,4e-4
+cycle,2,0.0029,26,0.0027
 cycle including,2,0.0029,19,0.002
 stores,2,0.0029,6,6e-4
 data stores,2,0.0029,5,5e-4
-bayesian,2,0.0029,7,8e-4
-marketing,2,0.0029,8,9e-4
+bayesian,2,0.0029,7,7e-4
+marketing,2,0.0029,8,8e-4
 science computer,2,0.0029,10,0.0011
 data science computer,2,0.0029,4,4e-4
-science computer science,2,0.0029,8,9e-4
+science computer science,2,0.0029,8,8e-4
 data science computer science,2,0.0029,3,3e-4
 supervisory,2,0.0029,3,3e-4
 supervisory experience,2,0.0029,2,2e-4
@@ -1587,13 +1609,13 @@ scalable solutions,2,0.0029,3,3e-4
 narrative,2,0.0029,5,5e-4
 data narrative,2,0.0029,3,3e-4
 relevant work,2,0.0029,4,4e-4
-analyst preferably,2,0.0029,8,9e-4
+analyst preferably,2,0.0029,8,8e-4
 breadth,2,0.0029,1,1e-4
 sql teradata,2,0.0029,15,0.0016
 sql 1,2,0.0029,4,4e-4
 sql 1 year,2,0.0029,3,3e-4
 raw data,2,0.0029,4,4e-4
-migration,2,0.0029,8,9e-4
+migration,2,0.0029,8,8e-4
 data models,2,0.0029,3,3e-4
 joins,2,0.0029,9,0.001
 assessing,2,0.0029,9,0.001
@@ -1605,31 +1627,31 @@ holder will,2,0.0029,2,2e-4
 post holder will,2,0.0029,1,1e-4
 large complex data,2,0.0029,4,4e-4
 space,2,0.0029,5,5e-4
-excellent understanding,2,0.0029,7,8e-4
-sinai,2,0.0029,8,9e-4
+excellent understanding,2,0.0029,7,7e-4
+sinai,2,0.0029,8,8e-4
 mount sinai,2,0.0029,4,4e-4
 analytics techniques,2,0.0029,3,3e-4
 ggplot2,2,0.0029,3,3e-4
 front,2,0.0029,10,0.0011
-front end,2,0.0029,8,9e-4
+front end,2,0.0029,8,8e-4
 end data,2,0.0029,9,0.001
 great,2,0.0029,5,5e-4
 self motivated,2,0.0029,2,2e-4
 grow,2,0.0029,2,2e-4
 solve problems,2,0.0029,2,2e-4
 love,2,0.0029,5,5e-4
-hyper,2,0.0029,7,8e-4
+hyper,2,0.0029,7,7e-4
 minimal,2,0.0029,3,3e-4
 hospital,2,0.0029,2,2e-4
 centric,2,0.0029,13,0.0014
 latest,2,0.0029,4,4e-4
 learning data,2,0.0029,11,0.0012
-machine learning data,2,0.0029,7,8e-4
+machine learning data,2,0.0029,7,7e-4
 learning models,2,0.0029,3,3e-4
 machine learning models,2,0.0029,2,2e-4
 science applied,2,0.0029,11,0.0012
-computer science applied,2,0.0029,7,8e-4
-science applied math,2,0.0029,7,8e-4
+computer science applied,2,0.0029,7,7e-4
+science applied math,2,0.0029,7,7e-4
 computer science applied math,2,0.0029,4,4e-4
 experience 3,2,0.0029,11,0.0012
 experience 3 years,2,0.0029,6,6e-4
@@ -1643,17 +1665,18 @@ ml tool,2,0.0029,6,6e-4
 containerization,2,0.0029,4,4e-4
 policy,2,0.0029,19,0.002
 proven proficiency,2,0.0029,1,1e-4
+r stata,2,0.0029,2,2e-4
 synthesize complex,2,0.0029,2,2e-4
 based environment,2,0.0029,10,0.0011
 changing,2,0.0029,9,0.001
 technology tools,2,0.0029,10,0.0011
 manipulating data sets,2,0.0029,2,2e-4
-roles,2,0.0029,7,8e-4
+roles,2,0.0029,7,7e-4
 pig,2,0.0029,16,0.0017
 hive pig,2,0.0029,11,0.0012
 flexibility,2,0.0029,6,6e-4
 strong business,2,0.0029,14,0.0015
-strong business acumen,2,0.0029,8,9e-4
+strong business acumen,2,0.0029,8,8e-4
 diagnostics,2,0.0029,2,2e-4
 exchange,2,0.0029,2,2e-4
 concisely,2,0.0029,2,2e-4
@@ -1683,7 +1706,7 @@ tool development demonstrated ability,2,0.0029,1,1e-4
 impact competencies typically acquired,2,0.0029,1,1e-4
 grasp,2,0.0029,12,0.0013
 adapt,2,0.0029,16,0.0017
-prior relevant,2,0.0029,7,8e-4
+prior relevant,2,0.0029,7,7e-4
 quickly grasp,2,0.0029,6,6e-4
 prior relevant experience,2,0.0029,3,3e-4
 models advance,2,0.0029,4,4e-4
@@ -1698,9 +1721,10 @@ least 3 years,2,0.0029,2,2e-4
 degree plus 7 years,2,0.0029,1,1e-4
 phd plus 2 years,2,0.0029,1,1e-4
 least 3 years experience,2,0.0029,1,1e-4
-macro,2,0.0029,13,0.0014
+macro,2,0.0029,14,0.0015
 secure,2,0.0029,18,0.0019
 session,2,0.0029,16,0.0017
+r sas,2,0.0029,1,1e-4
 trouble shoot,2,0.0029,4,4e-4
 rigor,2,0.0029,4,4e-4
 experience required,2,0.0029,6,6e-4
@@ -1732,10 +1756,10 @@ advanced experience,2,0.0029,1,1e-4
 skilled experience,2,0.0029,2,2e-4
 js,2,0.0029,13,0.0014
 construct,2,0.0029,6,6e-4
-statistics modeling,1,0.0015,8,9e-4
+statistics modeling,1,0.0015,8,8e-4
 msc phd,1,0.0015,1,1e-4
 sensing,1,0.0015,2,2e-4
-years industry,1,0.0015,7,8e-4
+years industry,1,0.0015,7,7e-4
 health sensing,1,0.0015,1,1e-4
 health technologies,1,0.0015,1,1e-4
 years industry experience,1,0.0015,5,5e-4
@@ -1750,9 +1774,9 @@ expert level python pytorch,1,0.0015,1,1e-4
 listed,1,0.0015,2,2e-4
 equally,1,0.0015,3,3e-4
 master degree,1,0.0015,1,1e-4
-preferred math,1,0.0015,7,8e-4
-math physics,1,0.0015,8,9e-4
-physics finance,1,0.0015,7,8e-4
+preferred math,1,0.0015,7,7e-4
+math physics,1,0.0015,8,8e-4
+physics finance,1,0.0015,7,7e-4
 finance economics,1,0.0015,4,4e-4
 fields listed,1,0.0015,1,1e-4
 equally quantitative,1,0.0015,2,2e-4
@@ -1766,8 +1790,8 @@ preferred math physics finance,1,0.0015,3,3e-4
 math physics finance economics,1,0.0015,2,2e-4
 discipline preferred math physics finance,1,0.0015,1,1e-4
 preferred math physics finance economics,1,0.0015,1,1e-4
-risk analytics,1,0.0015,7,8e-4
-development underwriting,1,0.0015,7,8e-4
+risk analytics,1,0.0015,7,7e-4
+development underwriting,1,0.0015,7,7e-4
 underwriting strategies,1,0.0015,4,4e-4
 reporting analytics,1,0.0015,1,1e-4
 credit risk analytics,1,0.0015,3,3e-4
@@ -1787,10 +1811,11 @@ including model development underwriting strategies,1,0.0015,1,1e-4
 hard,1,0.0015,2,2e-4
 statistical analytical,1,0.0015,2,2e-4
 analytical packages,1,0.0015,2,2e-4
-sas spark,1,0.0015,7,8e-4
-spark stata,1,0.0015,8,9e-4
-stata matlab,1,0.0015,7,8e-4
-tableau sql,1,0.0015,9,0.001
+sas spark,1,0.0015,7,7e-4
+spark stata,1,0.0015,8,8e-4
+stata matlab,1,0.0015,7,7e-4
+tableau r,1,0.0015,6,6e-4
+r sql,1,0.0015,1,1e-4
 required python,1,0.0015,2,2e-4
 hard requirement,1,0.0015,1,1e-4
 statistical analytical packages,1,0.0015,1,1e-4
@@ -1805,9 +1830,9 @@ spark stata matlab tableau,1,0.0015,2,2e-4
 python sas spark stata matlab,1,0.0015,1,1e-4
 sas spark stata matlab tableau,1,0.0015,1,1e-4
 loss forecasting,1,0.0015,4,4e-4
-forecasting credit,1,0.0015,7,8e-4
-credit underwriting,1,0.0015,8,9e-4
-underwriting default,1,0.0015,7,8e-4
+forecasting credit,1,0.0015,7,7e-4
+credit underwriting,1,0.0015,8,8e-4
+underwriting default,1,0.0015,7,7e-4
 default management,1,0.0015,4,4e-4
 risk modeling,1,0.0015,4,4e-4
 modeling reporting,1,0.0015,3,3e-4
@@ -1829,7 +1854,7 @@ credit risk modeling reporting,1,0.0015,1,1e-4
 include credit scoring models,1,0.0015,1,1e-4
 loss forecasting credit underwriting default,1,0.0015,1,1e-4
 forecasting credit underwriting default management,1,0.0015,1,1e-4
-scoring modeling,1,0.0015,7,8e-4
+scoring modeling,1,0.0015,7,7e-4
 techniques including,1,0.0015,10,0.0011
 including logistic,1,0.0015,10,0.0011
 multivariate analysis,1,0.0015,4,4e-4
@@ -1883,13 +1908,21 @@ reconcile large volume,1,0.0015,1,1e-4
 developing requirements,1,0.0015,2,2e-4
 simulation models,1,0.0015,1,1e-4
 experience developing requirements,1,0.0015,1,1e-4
-arena,1,0.0015,3,3e-4
+arena,1,0.0015,5,5e-4
 scientific languages,1,0.0015,1,1e-4
-software including,1,0.0015,2,2e-4
-matlab risk,1,0.0015,2,2e-4
-risk arena,1,0.0015,2,2e-4
-software including python,1,0.0015,1,1e-4
-matlab risk arena,1,0.0015,1,1e-4
+software including,1,0.0015,4,4e-4
+matlab risk,1,0.0015,7,7e-4
+risk arena,1,0.0015,4,4e-4
+software including python,1,0.0015,3,3e-4
+r matlab risk,1,0.0015,5,5e-4
+matlab risk arena,1,0.0015,3,3e-4
+software including python r,1,0.0015,2,2e-4
+including python r matlab,1,0.0015,3,3e-4
+python r matlab risk,1,0.0015,3,3e-4
+r matlab risk arena,1,0.0015,2,2e-4
+software including python r matlab,1,0.0015,1,1e-4
+including python r matlab risk,1,0.0015,1,1e-4
+python r matlab risk arena,1,0.0015,1,1e-4
 polygraph,1,0.0015,1,1e-4
 free,1,0.0015,4,4e-4
 discrete,1,0.0015,5,5e-4
@@ -1959,7 +1992,7 @@ environment composing,1,0.0015,9,0.001
 composing client,1,0.0015,10,0.0011
 client deliverable,1,0.0015,10,0.0011
 deliverable quality,1,0.0015,9,0.001
-quality documentation,1,0.0015,7,8e-4
+quality documentation,1,0.0015,7,7e-4
 documentation analysis,1,0.0015,4,4e-4
 flexible take initiative,1,0.0015,1,1e-4
 paced environment composing,1,0.0015,5,5e-4
@@ -1988,9 +2021,9 @@ paypal,1,0.0015,5,5e-4
 makes,1,0.0015,12,0.0013
 maintain data,1,0.0015,3,3e-4
 paypal consumer,1,0.0015,4,4e-4
-consumer risk,1,0.0015,7,8e-4
+consumer risk,1,0.0015,7,7e-4
 management makes,1,0.0015,9,0.001
-makes sound,1,0.0015,7,8e-4
+makes sound,1,0.0015,7,7e-4
 sound decisions,1,0.0015,4,4e-4
 balance risk,1,0.0015,3,3e-4
 risk user,1,0.0015,4,4e-4
@@ -2108,7 +2141,7 @@ logical thinking,1,0.0015,2,2e-4
 thinking ability,1,0.0015,2,2e-4
 logical thinking ability,1,0.0015,1,1e-4
 proficiently,1,0.0015,2,2e-4
-focuses,1,0.0015,8,9e-4
+focuses,1,0.0015,8,8e-4
 primarily,1,0.0015,5,5e-4
 achieve,1,0.0015,1,1e-4
 work proficiently,1,0.0015,1,1e-4
@@ -2124,8 +2157,8 @@ defined projects focuses primarily,1,0.0015,2,2e-4
 well defined projects focuses primarily,1,0.0015,1,1e-4
 remote,1,0.0015,3,3e-4
 effective inter,1,0.0015,4,4e-4
-inter personal,1,0.0015,7,8e-4
-skills manage,1,0.0015,7,8e-4
+inter personal,1,0.0015,7,7e-4
+skills manage,1,0.0015,7,7e-4
 manage relationship,1,0.0015,4,4e-4
 key partners,1,0.0015,2,2e-4
 partners able,1,0.0015,2,2e-4
@@ -2167,7 +2200,7 @@ factorization,1,0.0015,18,0.0019
 word2vec,1,0.0015,15,0.0016
 learning familiar,1,0.0015,3,3e-4
 collaborative filtering,1,0.0015,4,4e-4
-filtering matrix,1,0.0015,7,8e-4
+filtering matrix,1,0.0015,7,7e-4
 matrix factorization,1,0.0015,9,0.001
 factorization factorization,1,0.0015,10,0.0011
 factorization machines,1,0.0015,10,0.0011
@@ -2199,25 +2232,28 @@ factorization factorization machines word2vec deep,1,0.0015,1,1e-4
 factorization machines word2vec deep neural,1,0.0015,1,1e-4
 machines word2vec deep neural networks,1,0.0015,1,1e-4
 word2vec deep neural networks wide,1,0.0015,1,1e-4
-language python,1,0.0015,4,4e-4
-scale training,1,0.0015,7,8e-4
-training using,1,0.0015,8,9e-4
-programming language python,1,0.0015,2,2e-4
-language python java,1,0.0015,2,2e-4
+language python,1,0.0015,6,6e-4
+scale training,1,0.0015,7,7e-4
+training using,1,0.0015,8,8e-4
+programming language python,1,0.0015,3,3e-4
+language python java,1,0.0015,4,4e-4
+python java r,1,0.0015,3,3e-4
 large scale training,1,0.0015,3,3e-4
 scale training using,1,0.0015,5,5e-4
 training using data,1,0.0015,5,5e-4
 using data structures,1,0.0015,3,3e-4
-programming language python java,1,0.0015,1,1e-4
+programming language python java,1,0.0015,2,2e-4
+language python java r,1,0.0015,2,2e-4
 large scale training using,1,0.0015,2,2e-4
 scale training using data,1,0.0015,3,3e-4
 training using data structures,1,0.0015,2,2e-4
+programming language python java r,1,0.0015,1,1e-4
 large scale training using data,1,0.0015,1,1e-4
 scale training using data structures,1,0.0015,1,1e-4
 lightgbm,1,0.0015,9,0.001
-learning packages,1,0.0015,7,8e-4
+learning packages,1,0.0015,7,7e-4
 packages scikit,1,0.0015,9,0.001
-learn lightgbm,1,0.0015,7,8e-4
+learn lightgbm,1,0.0015,7,7e-4
 lightgbm tensorflow,1,0.0015,4,4e-4
 learning deep learning,1,0.0015,4,4e-4
 deep learning packages,1,0.0015,3,3e-4
@@ -2233,9 +2269,9 @@ scikit learn lightgbm tensorflow,1,0.0015,2,2e-4
 deep learning packages scikit learn,1,0.0015,1,1e-4
 learning packages scikit learn lightgbm,1,0.0015,1,1e-4
 packages scikit learn lightgbm tensorflow,1,0.0015,1,1e-4
-environments including,1,0.0015,7,8e-4
-including azure,1,0.0015,8,9e-4
-azure google,1,0.0015,7,8e-4
+environments including,1,0.0015,7,7e-4
+including azure,1,0.0015,8,8e-4
+azure google,1,0.0015,7,7e-4
 cloud environments including,1,0.0015,3,3e-4
 environments including azure,1,0.0015,5,5e-4
 including azure google,1,0.0015,5,5e-4
@@ -2251,9 +2287,9 @@ solid mlops,1,0.0015,3,3e-4
 mlops practices,1,0.0015,4,4e-4
 practices including,1,0.0015,3,3e-4
 design documentation,1,0.0015,4,4e-4
-documentation unit,1,0.0015,7,8e-4
-unit testing,1,0.0015,8,9e-4
-testing integration,1,0.0015,7,8e-4
+documentation unit,1,0.0015,7,7e-4
+unit testing,1,0.0015,8,8e-4
+testing integration,1,0.0015,7,7e-4
 integration testing,1,0.0015,4,4e-4
 source code,1,0.0015,3,3e-4
 code control,1,0.0015,4,4e-4
@@ -2310,14 +2346,14 @@ fields masters phd preferred,1,0.0015,2,2e-4
 computer science statistics physics mathematics,1,0.0015,1,1e-4
 quantitative fields masters phd preferred,1,0.0015,1,1e-4
 enriching,1,0.0015,2,2e-4
-years relevant,1,0.0015,8,9e-4
+years relevant,1,0.0015,8,8e-4
 relevant hands,1,0.0015,1,1e-4
 algorithm development,1,0.0015,3,3e-4
 processing enriching,1,0.0015,1,1e-4
 extracting value,1,0.0015,1,1e-4
 learning algorithm development,1,0.0015,2,2e-4
 machine learning algorithm development,1,0.0015,1,1e-4
-demonstrates,1,0.0015,8,9e-4
+demonstrates,1,0.0015,8,8e-4
 candidate demonstrates,1,0.0015,4,4e-4
 demonstrates strong,1,0.0015,6,6e-4
 candidate demonstrates strong,1,0.0015,3,3e-4
@@ -2344,7 +2380,7 @@ standard statistical methods including commonly,1,0.0015,1,1e-4
 representation,1,0.0015,9,0.001
 sequence,1,0.0015,2,2e-4
 user representation,1,0.0015,4,4e-4
-representation learning,1,0.0015,7,8e-4
+representation learning,1,0.0015,7,7e-4
 techniques deep,1,0.0015,9,0.001
 sequence modeling,1,0.0015,1,1e-4
 language models,1,0.0015,1,1e-4
@@ -2362,11 +2398,11 @@ user representation learning techniques deep,1,0.0015,1,1e-4
 representation learning techniques deep learning,1,0.0015,1,1e-4
 learning techniques deep learning techniques,1,0.0015,1,1e-4
 ml topics,1,0.0015,4,4e-4
-learning bandits,1,0.0015,7,8e-4
+learning bandits,1,0.0015,7,7e-4
 bandits probabilistic,1,0.0015,9,0.001
 models reinforcement,1,0.0015,10,0.0011
 learning optimization,1,0.0015,9,0.001
-optimization algorithms,1,0.0015,7,8e-4
+optimization algorithms,1,0.0015,7,7e-4
 algorithms preferred,1,0.0015,4,4e-4
 experience using advanced,1,0.0015,3,3e-4
 using advanced ml,1,0.0015,4,4e-4
@@ -2399,9 +2435,9 @@ models reinforcement learning optimization algorithms,1,0.0015,1,1e-4
 reinforcement learning optimization algorithms preferred,1,0.0015,1,1e-4
 following technologies,1,0.0015,1,1e-4
 plus spark,1,0.0015,4,4e-4
-spark pytorch,1,0.0015,7,8e-4
+spark pytorch,1,0.0015,7,7e-4
 tensorflow scikit,1,0.0015,10,0.0011
-learn snowflake,1,0.0015,7,8e-4
+learn snowflake,1,0.0015,7,7e-4
 snowflake python,1,0.0015,4,4e-4
 plus spark pytorch,1,0.0015,3,3e-4
 spark pytorch tensorflow,1,0.0015,5,5e-4
@@ -2422,7 +2458,7 @@ extensive research,1,0.0015,2,2e-4
 research papers,1,0.0015,2,2e-4
 similar technical,1,0.0015,2,2e-4
 least 5,1,0.0015,4,4e-4
-relevant professional,1,0.0015,7,8e-4
+relevant professional,1,0.0015,7,7e-4
 extensive research papers,1,0.0015,1,1e-4
 science statistics data,1,0.0015,4,4e-4
 similar technical discipline,1,0.0015,1,1e-4
@@ -2444,15 +2480,15 @@ machine learning deep learning algorithms,1,0.0015,1,1e-4
 comprehension,1,0.0015,12,0.0013
 conversational,1,0.0015,15,0.0016
 following quantitative,1,0.0015,4,4e-4
-fields natural,1,0.0015,8,9e-4
+fields natural,1,0.0015,8,8e-4
 retrieval machine,1,0.0015,4,4e-4
-machine comprehension,1,0.0015,7,8e-4
+machine comprehension,1,0.0015,7,7e-4
 comprehension question,1,0.0015,9,0.001
 answering conversational,1,0.0015,10,0.0011
 conversational ai,1,0.0015,10,0.0011
 ai reinforcement,1,0.0015,10,0.0011
 knowledge graph,1,0.0015,9,0.001
-graph causal,1,0.0015,7,8e-4
+graph causal,1,0.0015,7,7e-4
 following quantitative fields,1,0.0015,3,3e-4
 quantitative fields natural,1,0.0015,5,5e-4
 fields natural language,1,0.0015,5,5e-4
@@ -2519,7 +2555,7 @@ vector,1,0.0015,15,0.0016
 dnn,1,0.0015,15,0.0016
 convolutional,1,0.0015,15,0.0016
 recurrent,1,0.0015,15,0.0016
-regression logistic,1,0.0015,7,8e-4
+regression logistic,1,0.0015,7,7e-4
 regression clustering,1,0.0015,10,0.0011
 clustering segmentation,1,0.0015,10,0.0011
 segmentation decision,1,0.0015,10,0.0011
@@ -2541,7 +2577,7 @@ networks rnn,1,0.0015,10,0.0011
 rnn long,1,0.0015,10,0.0011
 term memory,1,0.0015,10,0.0011
 memory lstm,1,0.0015,9,0.001
-lstm networks,1,0.0015,7,8e-4
+lstm networks,1,0.0015,7,7e-4
 networks transformers,1,0.0015,4,4e-4
 linear regression logistic,1,0.0015,3,3e-4
 regression logistic regression,1,0.0015,5,5e-4
@@ -2640,9 +2676,9 @@ rnn long short term memory,1,0.0015,1,1e-4
 long short term memory lstm,1,0.0015,1,1e-4
 short term memory lstm networks,1,0.0015,1,1e-4
 term memory lstm networks transformers,1,0.0015,1,1e-4
-statistical advanced,1,0.0015,7,8e-4
-analytics machine,1,0.0015,7,8e-4
-learning ai,1,0.0015,7,8e-4
+statistical advanced,1,0.0015,7,7e-4
+analytics machine,1,0.0015,7,7e-4
+learning ai,1,0.0015,7,7e-4
 ai deep,1,0.0015,3,3e-4
 solve business,1,0.0015,4,4e-4
 problems strong,1,0.0015,9,0.001
@@ -2683,7 +2719,7 @@ skills using python sql pyspark,1,0.0015,1,1e-4
 recommender,1,0.0015,9,0.001
 processing nlp,1,0.0015,9,0.001
 nlp deep,1,0.0015,10,0.0011
-learning recommender,1,0.0015,7,8e-4
+learning recommender,1,0.0015,7,7e-4
 recommender systems,1,0.0015,4,4e-4
 highly preferred,1,0.0015,1,1e-4
 language processing nlp,1,0.0015,5,5e-4
@@ -2737,9 +2773,9 @@ calculus linear algebra,1,0.0015,2,2e-4
 calculus linear algebra statistics,1,0.0015,1,1e-4
 utilization,1,0.0015,1,1e-4
 gans,1,0.0015,5,5e-4
-cnns,1,0.0015,8,9e-4
+cnns,1,0.0015,8,8e-4
 rnns,1,0.0015,9,0.001
-lstms,1,0.0015,8,9e-4
+lstms,1,0.0015,8,8e-4
 apply state,1,0.0015,1,1e-4
 art methods,1,0.0015,1,1e-4
 learning including,1,0.0015,2,2e-4
@@ -2755,7 +2791,7 @@ gans cnns rnns lstms,1,0.0015,2,2e-4
 cnns rnns lstms bert,1,0.0015,2,2e-4
 gans cnns rnns lstms bert,1,0.0015,1,1e-4
 whitepapers,1,0.0015,5,5e-4
-briefings,1,0.0015,8,9e-4
+briefings,1,0.0015,8,8e-4
 materials,1,0.0015,1,1e-4
 ai thought,1,0.0015,3,3e-4
 thought leader,1,0.0015,4,4e-4
@@ -2783,7 +2819,7 @@ federal clients,1,0.0015,2,2e-4
 high autonomy,1,0.0015,1,1e-4
 ai strategy,1,0.0015,1,1e-4
 development including,1,0.0015,4,4e-4
-including understanding,1,0.0015,7,8e-4
+including understanding,1,0.0015,7,7e-4
 understanding agency,1,0.0015,9,0.001
 agency needs,1,0.0015,10,0.0011
 needs performing,1,0.0015,10,0.0011
@@ -2860,9 +2896,9 @@ functionally,1,0.0015,3,3e-4
 work cross,1,0.0015,2,2e-4
 cross functionally,1,0.0015,2,2e-4
 scientists data,1,0.0015,4,4e-4
-data engineers,1,0.0015,7,8e-4
-engineers federal,1,0.0015,8,9e-4
-federal account,1,0.0015,7,8e-4
+data engineers,1,0.0015,7,7e-4
+engineers federal,1,0.0015,8,8e-4
+federal account,1,0.0015,7,7e-4
 account manager,1,0.0015,4,4e-4
 help ensure,1,0.0015,3,3e-4
 ensure project,1,0.0015,4,4e-4
@@ -2888,7 +2924,7 @@ computational biology,1,0.0015,10,0.0011
 biology computer,1,0.0015,10,0.0011
 mathematics physics,1,0.0015,10,0.0011
 physics electrical,1,0.0015,10,0.0011
-engineering industrial,1,0.0015,7,8e-4
+engineering industrial,1,0.0015,7,7e-4
 industrial engineering,1,0.0015,4,4e-4
 equivalent research,1,0.0015,2,2e-4
 operations research bioinformatics,1,0.0015,5,5e-4
@@ -2928,7 +2964,7 @@ mathematics physics electrical engineering industrial,1,0.0015,1,1e-4
 physics electrical engineering industrial engineering,1,0.0015,1,1e-4
 distinctive,1,0.0015,4,4e-4
 articulating,1,0.0015,5,5e-4
-pulling,1,0.0015,8,9e-4
+pulling,1,0.0015,8,8e-4
 arrive,1,0.0015,1,1e-4
 distinctive problem,1,0.0015,3,3e-4
 articulating product,1,0.0015,4,4e-4
@@ -2964,9 +3000,9 @@ experimental design hypothesis testing,1,0.0015,1,1e-4
 gradient,1,0.0015,12,0.0013
 boosted,1,0.0015,9,0.001
 means,1,0.0015,2,2e-4
-learning random,1,0.0015,7,8e-4
+learning random,1,0.0015,7,7e-4
 forest gradient,1,0.0015,9,0.001
-gradient boosted,1,0.0015,7,8e-4
+gradient boosted,1,0.0015,7,7e-4
 boosted trees,1,0.0015,4,4e-4
 means clustering,1,0.0015,1,1e-4
 development validation,1,0.0015,1,1e-4
@@ -2984,9 +3020,11 @@ forest gradient boosted trees,1,0.0015,2,2e-4
 deep learning random forest gradient,1,0.0015,1,1e-4
 learning random forest gradient boosted,1,0.0015,1,1e-4
 random forest gradient boosted trees,1,0.0015,1,1e-4
+r scripting,1,0.0015,2,2e-4
 language sql,1,0.0015,6,6e-4
 sql data,1,0.0015,2,2e-4
 pandas dplyr,1,0.0015,1,1e-4
+r scripting language,1,0.0015,1,1e-4
 paying,1,0.0015,2,2e-4
 paying attention,1,0.0015,1,1e-4
 translate analysis,1,0.0015,2,2e-4
@@ -3010,15 +3048,15 @@ severity,1,0.0015,14,0.0015
 pd,1,0.0015,14,0.0015
 lgd,1,0.0015,12,0.0013
 validation testing,1,0.0015,4,4e-4
-testing techniques,1,0.0015,7,8e-4
+testing techniques,1,0.0015,7,7e-4
 techniques covering,1,0.0015,9,0.001
 covering risk,1,0.0015,9,0.001
-risk models,1,0.0015,7,8e-4
-regression models,1,0.0015,7,8e-4
+risk models,1,0.0015,7,7e-4
+regression models,1,0.0015,7,7e-4
 models logistic,1,0.0015,9,0.001
 regression generalized,1,0.0015,10,0.0011
 generalized additive,1,0.0015,9,0.001
-additive models,1,0.0015,7,8e-4
+additive models,1,0.0015,7,7e-4
 models decision,1,0.0015,4,4e-4
 regression trees,1,0.0015,1,1e-4
 segmentation statistical,1,0.0015,4,4e-4
@@ -3026,12 +3064,12 @@ statistical tools,1,0.0015,6,6e-4
 tools previous,1,0.0015,6,6e-4
 previous familiarity,1,0.0015,4,4e-4
 default delinquency,1,0.0015,4,4e-4
-delinquency loss,1,0.0015,7,8e-4
+delinquency loss,1,0.0015,7,7e-4
 loss severity,1,0.0015,9,0.001
 severity modelling,1,0.0015,10,0.0011
 modelling pd,1,0.0015,10,0.0011
 pd lgd,1,0.0015,9,0.001
-lgd ead,1,0.0015,7,8e-4
+lgd ead,1,0.0015,7,7e-4
 ead models,1,0.0015,4,4e-4
 validation testing techniques,1,0.0015,3,3e-4
 testing techniques covering,1,0.0015,5,5e-4
@@ -3093,14 +3131,22 @@ model development experience,1,0.0015,2,2e-4
 relevant model development experience,1,0.0015,1,1e-4
 recent,1,0.0015,2,2e-4
 recent experience,1,0.0015,1,1e-4
-numerical implementations,1,0.0015,2,2e-4
-implementations python,1,0.0015,2,2e-4
-java sas,1,0.0015,1,1e-4
+numerical implementations,1,0.0015,4,4e-4
+implementations python,1,0.0015,7,7e-4
+java sas,1,0.0015,4,4e-4
 oracle sql,1,0.0015,1,1e-4
 statistical analysis modeling,1,0.0015,2,2e-4
 analysis modeling techniques,1,0.0015,2,2e-4
-numerical implementations python,1,0.0015,1,1e-4
+numerical implementations python,1,0.0015,3,3e-4
+implementations python r,1,0.0015,5,5e-4
+python r java,1,0.0015,5,5e-4
+r java sas,1,0.0015,3,3e-4
 statistical analysis modeling techniques,1,0.0015,1,1e-4
+numerical implementations python r,1,0.0015,2,2e-4
+implementations python r java,1,0.0015,3,3e-4
+python r java sas,1,0.0015,2,2e-4
+numerical implementations python r java,1,0.0015,1,1e-4
+implementations python r java sas,1,0.0015,1,1e-4
 sound problem,1,0.0015,4,4e-4
 sound problem solving,1,0.0015,3,3e-4
 solving skills ability,1,0.0015,3,3e-4
@@ -3114,9 +3160,9 @@ timely proactive,1,0.0015,1,1e-4
 entrepreneurial manner,1,0.0015,1,1e-4
 reliability,1,0.0015,11,0.0012
 credit data,1,0.0015,4,4e-4
-data reliability,1,0.0015,7,8e-4
-reliability analysis,1,0.0015,8,9e-4
-analysis quality,1,0.0015,7,8e-4
+data reliability,1,0.0015,7,7e-4
+reliability analysis,1,0.0015,8,8e-4
+analysis quality,1,0.0015,7,7e-4
 quality controls,1,0.0015,4,4e-4
 credit data reliability,1,0.0015,3,3e-4
 data reliability analysis,1,0.0015,5,5e-4
@@ -3170,10 +3216,10 @@ mssql,1,0.0015,12,0.0013
 execute,1,0.0015,3,3e-4
 acquiring,1,0.0015,2,2e-4
 array,1,0.0015,3,3e-4
-using database,1,0.0015,7,8e-4
+using database,1,0.0015,7,7e-4
 database technologies,1,0.0015,9,0.001
 including mssql,1,0.0015,9,0.001
-mssql teradata,1,0.0015,7,8e-4
+mssql teradata,1,0.0015,7,7e-4
 teradata oracle,1,0.0015,4,4e-4
 oracle snowflake,1,0.0015,6,6e-4
 execute database,1,0.0015,2,2e-4
@@ -3297,13 +3343,13 @@ competitor,1,0.0015,4,4e-4
 telecom industry,1,0.0015,1,1e-4
 help influence,1,0.0015,1,1e-4
 market strategic,1,0.0015,4,4e-4
-strategic roadmap,1,0.0015,7,8e-4
+strategic roadmap,1,0.0015,7,7e-4
 roadmap initiatives,1,0.0015,9,0.001
 initiatives including,1,0.0015,10,0.0011
 including new,1,0.0015,10,0.0011
 new markets,1,0.0015,10,0.0011
 markets device,1,0.0015,9,0.001
-device upgrades,1,0.0015,7,8e-4
+device upgrades,1,0.0015,7,7e-4
 upgrades based,1,0.0015,4,4e-4
 historical data,1,0.0015,3,3e-4
 data patterns,1,0.0015,4,4e-4
@@ -3368,19 +3414,25 @@ science data science analytics statistics,1,0.0015,1,1e-4
 experience transforming,1,0.0015,1,1e-4
 drive business,1,0.0015,2,2e-4
 business insights,1,0.0015,2,2e-4
-using statistical,1,0.0015,3,3e-4
-statistical computer,1,0.0015,4,4e-4
-computer languages,1,0.0015,3,3e-4
-languages python,1,0.0015,2,2e-4
+using statistical,1,0.0015,4,4e-4
+statistical computer,1,0.0015,7,7e-4
+computer languages,1,0.0015,9,0.001
 drive business insights,1,0.0015,1,1e-4
-using statistical computer,1,0.0015,2,2e-4
-statistical computer languages,1,0.0015,2,2e-4
-using statistical computer languages,1,0.0015,1,1e-4
+using statistical computer,1,0.0015,3,3e-4
+statistical computer languages,1,0.0015,5,5e-4
+computer languages r,1,0.0015,6,6e-4
+using statistical computer languages,1,0.0015,2,2e-4
+statistical computer languages r,1,0.0015,3,3e-4
+computer languages r python,1,0.0015,3,3e-4
+languages r python sql,1,0.0015,2,2e-4
+using statistical computer languages r,1,0.0015,1,1e-4
+statistical computer languages r python,1,0.0015,1,1e-4
+computer languages r python sql,1,0.0015,1,1e-4
 spreadsheets,1,0.0015,9,0.001
 data spreadsheets,1,0.0015,4,4e-4
-spreadsheets including,1,0.0015,7,8e-4
-including cognos,1,0.0015,8,9e-4
-cognos power,1,0.0015,7,8e-4
+spreadsheets including,1,0.0015,7,7e-4
+including cognos,1,0.0015,8,8e-4
+cognos power,1,0.0015,7,7e-4
 bi excel,1,0.0015,10,0.0011
 data spreadsheets including,1,0.0015,3,3e-4
 spreadsheets including cognos,1,0.0015,5,5e-4
@@ -3457,9 +3509,9 @@ learning model building,1,0.0015,2,2e-4
 machine learning model building,1,0.0015,1,1e-4
 rules,1,0.0015,12,0.0013
 engines,1,0.0015,9,0.001
-building solutions,1,0.0015,7,8e-4
+building solutions,1,0.0015,7,7e-4
 using rules,1,0.0015,9,0.001
-rules engines,1,0.0015,7,8e-4
+rules engines,1,0.0015,7,7e-4
 engines ml,1,0.0015,4,4e-4
 ai technology,1,0.0015,1,1e-4
 experience building solutions,1,0.0015,3,3e-4
@@ -3492,7 +3544,7 @@ solid statistical,1,0.0015,3,3e-4
 statistical skill,1,0.0015,4,4e-4
 skill set,1,0.0015,5,5e-4
 required like,1,0.0015,4,4e-4
-like multiple,1,0.0015,7,8e-4
+like multiple,1,0.0015,7,7e-4
 multiple linear,1,0.0015,9,0.001
 multivariate adaptive,1,0.0015,10,0.0011
 adaptive regression,1,0.0015,10,0.0011
@@ -3564,7 +3616,9 @@ excel powerpoint,1,0.0015,3,3e-4
 powerpoint sql,1,0.0015,4,4e-4
 excel powerpoint sql,1,0.0015,2,2e-4
 powerpoint sql sas,1,0.0015,2,2e-4
+programming languages r,1,0.0015,4,4e-4
 excel powerpoint sql sas,1,0.0015,1,1e-4
+programming languages r python,1,0.0015,2,2e-4
 concurrent,1,0.0015,4,4e-4
 comfort working,1,0.0015,1,1e-4
 dynamic research,1,0.0015,3,3e-4
@@ -3619,7 +3673,7 @@ technical experience,1,0.0015,2,2e-4
 years technical experience,1,0.0015,1,1e-4
 volumes,1,0.0015,3,3e-4
 using mathematics,1,0.0015,4,4e-4
-modeling business,1,0.0015,7,8e-4
+modeling business,1,0.0015,7,7e-4
 transform high,1,0.0015,2,2e-4
 high volumes,1,0.0015,2,2e-4
 using mathematics statistics,1,0.0015,3,3e-4
@@ -3693,15 +3747,15 @@ sql additional software experience,1,0.0015,2,2e-4
 additional software experience preferred,1,0.0015,2,2e-4
 sql additional software experience preferred,1,0.0015,1,1e-4
 prophet,1,0.0015,5,5e-4
-learning modeling,1,0.0015,7,8e-4
+learning modeling,1,0.0015,7,7e-4
 modeling classification,1,0.0015,9,0.001
-regression reinforcement,1,0.0015,7,8e-4
+regression reinforcement,1,0.0015,7,7e-4
 reinforcement across,1,0.0015,4,4e-4
 implementations linear,1,0.0015,4,4e-4
-linear neural,1,0.0015,7,8e-4
+linear neural,1,0.0015,7,7e-4
 networks svm,1,0.0015,10,0.0011
 svm tree,1,0.0015,9,0.001
-tree based,1,0.0015,7,8e-4
+tree based,1,0.0015,7,7e-4
 based bandits,1,0.0015,4,4e-4
 frameworks tensorflow,1,0.0015,4,4e-4
 pytorch sagemaker,1,0.0015,6,6e-4
@@ -3799,8 +3853,8 @@ technology experience,1,0.0015,1,1e-4
 saas,1,0.0015,5,5e-4
 years practical,1,0.0015,4,4e-4
 saas etl,1,0.0015,4,4e-4
-etl data,1,0.0015,7,8e-4
-processing database,1,0.0015,7,8e-4
+etl data,1,0.0015,7,7e-4
+processing database,1,0.0015,7,7e-4
 database programming,1,0.0015,4,4e-4
 3 years practical,1,0.0015,2,2e-4
 years practical experience,1,0.0015,2,2e-4
@@ -3819,8 +3873,11 @@ sql code,1,0.0015,2,2e-4
 access data,1,0.0015,1,1e-4
 experience writing sql,1,0.0015,3,3e-4
 writing sql code,1,0.0015,1,1e-4
-coding using,1,0.0015,1,1e-4
-ulizing,1,0.0015,8,9e-4
+coding using,1,0.0015,3,3e-4
+coding using r,1,0.0015,2,2e-4
+using r python,1,0.0015,2,2e-4
+coding using r python,1,0.0015,1,1e-4
+ulizing,1,0.0015,8,8e-4
 experience ulizing,1,0.0015,4,4e-4
 ulizing data,1,0.0015,6,6e-4
 data bricks,1,0.0015,6,6e-4
@@ -3842,9 +3899,9 @@ modeling skills,1,0.0015,2,2e-4
 excellent pattern recognition,1,0.0015,1,1e-4
 predictive modeling skills,1,0.0015,1,1e-4
 analytical tools,1,0.0015,4,4e-4
-tools like,1,0.0015,7,8e-4
+tools like,1,0.0015,7,7e-4
 bi microstrategy,1,0.0015,9,0.001
-microstrategy tableau,1,0.0015,7,8e-4
+microstrategy tableau,1,0.0015,7,7e-4
 analytical tools like,1,0.0015,3,3e-4
 tools like power,1,0.0015,5,5e-4
 power bi microstrategy,1,0.0015,6,6e-4
@@ -3965,7 +4022,7 @@ communication skills verbal written,1,0.0015,2,2e-4
 strong communication skills verbal written,1,0.0015,1,1e-4
 degree required,1,0.0015,2,2e-4
 relevant technical,1,0.0015,2,2e-4
-mathematics physical,1,0.0015,7,8e-4
+mathematics physical,1,0.0015,7,7e-4
 physical sciences,1,0.0015,4,4e-4
 degree required ph,1,0.0015,1,1e-4
 relevant technical field,1,0.0015,1,1e-4
@@ -3996,14 +4053,25 @@ sets statistical,1,0.0015,6,6e-4
 bi spotfire,1,0.0015,4,4e-4
 data sets statistical,1,0.0015,4,4e-4
 sets statistical analyses,1,0.0015,3,3e-4
-sql python sas,1,0.0015,1,1e-4
-matlab tableau power,1,0.0015,3,3e-4
+sql python sas,1,0.0015,3,3e-4
+python sas r,1,0.0015,5,5e-4
+sas r matlab,1,0.0015,6,6e-4
+r matlab tableau,1,0.0015,6,6e-4
+matlab tableau power,1,0.0015,6,6e-4
 power bi spotfire,1,0.0015,3,3e-4
 large data sets statistical,1,0.0015,2,2e-4
 data sets statistical analyses,1,0.0015,2,2e-4
-matlab tableau power bi,1,0.0015,2,2e-4
+sql python sas r,1,0.0015,2,2e-4
+python sas r matlab,1,0.0015,3,3e-4
+sas r matlab tableau,1,0.0015,3,3e-4
+r matlab tableau power,1,0.0015,3,3e-4
+matlab tableau power bi,1,0.0015,3,3e-4
 tableau power bi spotfire,1,0.0015,2,2e-4
 large data sets statistical analyses,1,0.0015,1,1e-4
+sql python sas r matlab,1,0.0015,1,1e-4
+python sas r matlab tableau,1,0.0015,1,1e-4
+sas r matlab tableau power,1,0.0015,1,1e-4
+r matlab tableau power bi,1,0.0015,1,1e-4
 matlab tableau power bi spotfire,1,0.0015,1,1e-4
 deliver measurable,1,0.0015,3,3e-4
 measurable business,1,0.0015,4,4e-4
@@ -4125,7 +4193,11 @@ position working,1,0.0015,1,1e-4
 drawing insights,1,0.0015,1,1e-4
 experience leading team,1,0.0015,4,4e-4
 modern programming,1,0.0015,2,2e-4
+languages python,1,0.0015,7,7e-4
+r strong,1,0.0015,2,2e-4
 modern programming languages,1,0.0015,1,1e-4
+languages python r,1,0.0015,5,5e-4
+r strong experience,1,0.0015,1,1e-4
 collection,1,0.0015,4,4e-4
 understand sampling,1,0.0015,3,3e-4
 sampling data,1,0.0015,4,4e-4
@@ -4180,7 +4252,7 @@ cleaning wrangling,1,0.0015,10,0.0011
 wrangling normalization,1,0.0015,10,0.0011
 normalization regular,1,0.0015,10,0.0011
 regular expressions,1,0.0015,9,0.001
-expressions web,1,0.0015,7,8e-4
+expressions web,1,0.0015,7,7e-4
 web scraping,1,0.0015,4,4e-4
 uses advanced skills,1,0.0015,1,1e-4
 data analysis data,1,0.0015,3,3e-4
@@ -4240,17 +4312,17 @@ course assignments,1,0.0015,1,1e-4
 require data,1,0.0015,2,2e-4
 require data analysis,1,0.0015,1,1e-4
 symbolic,1,0.0015,9,0.001
-center,1,0.0015,22,0.0024
+center,1,0.0015,22,0.0023
 qsr,1,0.0015,15,0.0016
 occ,1,0.0015,5,5e-4
 works collaboratively,1,0.0015,1,1e-4
 lits partners,1,0.0015,1,1e-4
 quantitative symbolic,1,0.0015,4,4e-4
-symbolic reasoning,1,0.0015,7,8e-4
+symbolic reasoning,1,0.0015,7,7e-4
 reasoning center,1,0.0015,9,0.001
 center qsr,1,0.0015,10,0.0011
 qsr oral,1,0.0015,10,0.0011
-communication center,1,0.0015,7,8e-4
+communication center,1,0.0015,7,7e-4
 center occ,1,0.0015,4,4e-4
 writing center,1,0.0015,1,1e-4
 quantitative symbolic reasoning,1,0.0015,3,3e-4
@@ -4319,8 +4391,8 @@ emerging data analysis research,1,0.0015,2,2e-4
 data analysis research tools,1,0.0015,2,2e-4
 emerging data analysis research tools,1,0.0015,1,1e-4
 combination,1,0.0015,2,2e-4
-scientist data,1,0.0015,7,8e-4
-engineer ml,1,0.0015,7,8e-4
+scientist data,1,0.0015,7,7e-4
+engineer ml,1,0.0015,7,7e-4
 ml engineer,1,0.0015,4,4e-4
 data analysts,1,0.0015,1,1e-4
 computer programming,1,0.0015,3,3e-4
@@ -4356,7 +4428,7 @@ message queues,1,0.0015,1,1e-4
 build containerized microservices,1,0.0015,1,1e-4
 hyperparameter,1,0.0015,5,5e-4
 tensorboard,1,0.0015,9,0.001
-wandb,1,0.0015,8,9e-4
+wandb,1,0.0015,8,8e-4
 performance testing,1,0.0015,3,3e-4
 hyperparameter tuning,1,0.0015,4,4e-4
 tuning tensorboard,1,0.0015,6,6e-4
@@ -4377,9 +4449,9 @@ experience training,1,0.0015,3,3e-4
 training ml,1,0.0015,4,4e-4
 gpu acceleration,1,0.0015,1,1e-4
 containerized environment,1,0.0015,4,4e-4
-environment using,1,0.0015,7,8e-4
-using common,1,0.0015,8,9e-4
-common ai,1,0.0015,7,8e-4
+environment using,1,0.0015,7,7e-4
+using common,1,0.0015,8,8e-4
+common ai,1,0.0015,7,7e-4
 ai frameworks,1,0.0015,4,4e-4
 experience training ml,1,0.0015,2,2e-4
 training ml models,1,0.0015,2,2e-4
@@ -4397,9 +4469,9 @@ workload,1,0.0015,5,5e-4
 slurm,1,0.0015,11,0.0012
 argo,1,0.0015,11,0.0012
 workload managers,1,0.0015,4,4e-4
-managers slurm,1,0.0015,7,8e-4
-slurm argo,1,0.0015,8,9e-4
-argo workflow,1,0.0015,7,8e-4
+managers slurm,1,0.0015,7,7e-4
+slurm argo,1,0.0015,8,8e-4
+argo workflow,1,0.0015,7,7e-4
 workflow airflow,1,0.0015,4,4e-4
 workload managers slurm,1,0.0015,3,3e-4
 managers slurm argo,1,0.0015,5,5e-4
@@ -4438,7 +4510,7 @@ prior experience working,1,0.0015,1,1e-4
 military intelligence unit,1,0.0015,1,1e-4
 iam,1,0.0015,5,5e-4
 bucket,1,0.0015,9,0.001
-ssh,1,0.0015,8,9e-4
+ssh,1,0.0015,8,8e-4
 vpn,1,0.0015,5,5e-4
 access management,1,0.0015,1,1e-4
 security groups,1,0.0015,1,1e-4
@@ -4460,6 +4532,11 @@ tensorflow object detection,1,0.0015,2,2e-4
 object detection apis,1,0.0015,2,2e-4
 tensorflow object detection apis,1,0.0015,1,1e-4
 additional languages,1,0.0015,1,1e-4
+preferred c,1,0.0015,4,4e-4
+c julia,1,0.0015,3,3e-4
+python preferred c,1,0.0015,2,2e-4
+preferred c julia,1,0.0015,2,2e-4
+python preferred c julia,1,0.0015,1,1e-4
 vertex,1,0.0015,4,4e-4
 platform ai,1,0.0015,6,6e-4
 ai ml,1,0.0015,6,6e-4
@@ -4485,14 +4562,14 @@ scratch,1,0.0015,5,5e-4
 views,1,0.0015,5,5e-4
 forth,1,0.0015,1,1e-4
 report writing,1,0.0015,4,4e-4
-writing experience,1,0.0015,7,8e-4
-experience 5,1,0.0015,8,9e-4
+writing experience,1,0.0015,7,7e-4
+experience 5,1,0.0015,8,8e-4
 sql oracle,1,0.0015,4,4e-4
 preferred fluency,1,0.0015,4,4e-4
 scratch creating,1,0.0015,4,4e-4
-creating stored,1,0.0015,7,8e-4
-stored procedures,1,0.0015,8,9e-4
-procedures creating,1,0.0015,7,8e-4
+creating stored,1,0.0015,7,7e-4
+stored procedures,1,0.0015,8,8e-4
+procedures creating,1,0.0015,7,7e-4
 creating views,1,0.0015,4,4e-4
 report writing experience,1,0.0015,3,3e-4
 writing experience 5,1,0.0015,5,5e-4
@@ -4526,10 +4603,12 @@ additional 4 years,1,0.0015,1,1e-4
 relevant experience may,1,0.0015,1,1e-4
 interface,1,0.0015,1,1e-4
 welders,1,0.0015,1,1e-4
-level executives,1,0.0015,1,1e-4
+c level,1,0.0015,2,2e-4
+level executives,1,0.0015,2,2e-4
+c level executives,1,0.0015,1,1e-4
 permissions,1,0.0015,4,4e-4
 database maintenance,1,0.0015,4,4e-4
-maintenance experience,1,0.0015,7,8e-4
+maintenance experience,1,0.0015,7,7e-4
 experience oracle,1,0.0015,9,0.001
 managing table,1,0.0015,3,3e-4
 table security,1,0.0015,4,4e-4
@@ -4630,7 +4709,7 @@ development simulation,1,0.0015,2,2e-4
 dynamic systems,1,0.0015,1,1e-4
 concept development simulation,1,0.0015,1,1e-4
 distributed control,1,0.0015,4,4e-4
-systems design,1,0.0015,8,9e-4
+systems design,1,0.0015,8,8e-4
 develop test,1,0.0015,4,4e-4
 new control,1,0.0015,2,2e-4
 control architectures,1,0.0015,2,2e-4
@@ -4690,15 +4769,23 @@ experience performing,1,0.0015,2,2e-4
 performing analysis,1,0.0015,2,2e-4
 experience performing analysis,1,0.0015,1,1e-4
 significant asset,1,0.0015,1,1e-4
-simulink,1,0.0015,4,4e-4
-coding languages,1,0.0015,2,2e-4
-matlab simulink,1,0.0015,2,2e-4
-simulink sql,1,0.0015,2,2e-4
-coding languages python,1,0.0015,1,1e-4
-matlab simulink sql,1,0.0015,1,1e-4
+simulink,1,0.0015,9,0.001
+coding languages,1,0.0015,4,4e-4
+matlab simulink,1,0.0015,7,7e-4
+simulink sql,1,0.0015,4,4e-4
+coding languages python,1,0.0015,3,3e-4
+r matlab simulink,1,0.0015,5,5e-4
+matlab simulink sql,1,0.0015,3,3e-4
+coding languages python r,1,0.0015,2,2e-4
+languages python r matlab,1,0.0015,3,3e-4
+python r matlab simulink,1,0.0015,3,3e-4
+r matlab simulink sql,1,0.0015,2,2e-4
+coding languages python r matlab,1,0.0015,1,1e-4
+languages python r matlab simulink,1,0.0015,1,1e-4
+python r matlab simulink sql,1,0.0015,1,1e-4
 analytics visualization,1,0.0015,4,4e-4
-tools tableau,1,0.0015,8,9e-4
-tableau ggplot,1,0.0015,7,8e-4
+tools tableau,1,0.0015,8,8e-4
+tableau ggplot,1,0.0015,7,7e-4
 ggplot matplotlib,1,0.0015,4,4e-4
 analytics visualization tools,1,0.0015,3,3e-4
 visualization tools tableau,1,0.0015,5,5e-4
@@ -4753,11 +4840,12 @@ internationally,1,0.0015,1,1e-4
 scientists minimum,1,0.0015,2,2e-4
 data scientists minimum,1,0.0015,1,1e-4
 technology computer,1,0.0015,2,2e-4
-science quantitative,1,0.0015,7,8e-4
+science quantitative,1,0.0015,7,7e-4
 technology computer science,1,0.0015,1,1e-4
 computer science quantitative,1,0.0015,3,3e-4
 performance algorithms,1,0.0015,2,2e-4
 high performance algorithms,1,0.0015,1,1e-4
+r statistical software,1,0.0015,1,1e-4
 industry data,1,0.0015,2,2e-4
 learning predictive,1,0.0015,6,6e-4
 predictive maintenance,1,0.0015,6,6e-4
@@ -4771,8 +4859,8 @@ learning predictive maintenance preferred,1,0.0015,2,2e-4
 machine learning predictive maintenance preferred,1,0.0015,1,1e-4
 capability,1,0.0015,1,1e-4
 architect highly,1,0.0015,4,4e-4
-highly scalable,1,0.0015,7,8e-4
-scalable distributed,1,0.0015,8,9e-4
+highly scalable,1,0.0015,7,7e-4
+scalable distributed,1,0.0015,8,8e-4
 systems using,1,0.0015,4,4e-4
 architect highly scalable,1,0.0015,3,3e-4
 highly scalable distributed,1,0.0015,5,5e-4
@@ -4817,7 +4905,7 @@ comfortable effective,1,0.0015,2,2e-4
 effective workplace,1,0.0015,2,2e-4
 comfortable effective workplace,1,0.0015,1,1e-4
 management governance,1,0.0015,4,4e-4
-governance data,1,0.0015,7,8e-4
+governance data,1,0.0015,7,7e-4
 management governance data,1,0.0015,3,3e-4
 governance data management,1,0.0015,5,5e-4
 data management data,1,0.0015,6,6e-4
@@ -4834,10 +4922,10 @@ data management data analytics data,1,0.0015,1,1e-4
 management data analytics data architecture,1,0.0015,1,1e-4
 presentation skills,1,0.0015,1,1e-4
 prioritize,1,0.0015,2,2e-4
-multiple priorities,1,0.0015,7,8e-4
+multiple priorities,1,0.0015,7,7e-4
 priorities multi,1,0.0015,9,0.001
 multi task,1,0.0015,9,0.001
-task across,1,0.0015,7,8e-4
+task across,1,0.0015,7,7e-4
 across projects,1,0.0015,4,4e-4
 effectively prioritize,1,0.0015,1,1e-4
 manage multiple priorities,1,0.0015,3,3e-4
@@ -4860,9 +4948,9 @@ experience understanding,1,0.0015,4,4e-4
 understanding cloud,1,0.0015,3,3e-4
 emerging analytics,1,0.0015,3,3e-4
 schemas especially,1,0.0015,4,4e-4
-especially data,1,0.0015,7,8e-4
-data vault,1,0.0015,8,9e-4
-vault aws,1,0.0015,7,8e-4
+especially data,1,0.0015,7,7e-4
+data vault,1,0.0015,8,8e-4
+vault aws,1,0.0015,7,7e-4
 aws s3,1,0.0015,4,4e-4
 proven experience understanding,1,0.0015,2,2e-4
 experience understanding cloud,1,0.0015,2,2e-4
@@ -4888,9 +4976,9 @@ business human resources psychology,1,0.0015,2,2e-4
 human resources psychology statistics,1,0.0015,2,2e-4
 business human resources psychology statistics,1,0.0015,1,1e-4
 industrial organizational,1,0.0015,4,4e-4
-organizational psychology,1,0.0015,7,8e-4
+organizational psychology,1,0.0015,7,7e-4
 statistics human,1,0.0015,10,0.0011
-resources data,1,0.0015,7,8e-4
+resources data,1,0.0015,7,7e-4
 industrial organizational psychology,1,0.0015,3,3e-4
 organizational psychology statistics,1,0.0015,5,5e-4
 psychology statistics human,1,0.0015,6,6e-4
@@ -4940,10 +5028,10 @@ area including theory methods,1,0.0015,2,2e-4
 content area including theory methods,1,0.0015,1,1e-4
 experience nlp,1,0.0015,2,2e-4
 text classification,1,0.0015,4,4e-4
-classification entity,1,0.0015,7,8e-4
+classification entity,1,0.0015,7,7e-4
 recognition entity,1,0.0015,10,0.0011
 entity extraction,1,0.0015,9,0.001
-extraction question,1,0.0015,7,8e-4
+extraction question,1,0.0015,7,7e-4
 text classification entity,1,0.0015,3,3e-4
 classification entity recognition,1,0.0015,5,5e-4
 entity recognition entity,1,0.0015,6,6e-4
@@ -5031,8 +5119,8 @@ creating visualizations,1,0.0015,2,2e-4
 experience creating visualizations,1,0.0015,1,1e-4
 complicated,1,0.0015,11,0.0012
 explain present,1,0.0015,4,4e-4
-present complicated,1,0.0015,7,8e-4
-complicated advanced,1,0.0015,8,9e-4
+present complicated,1,0.0015,7,7e-4
+complicated advanced,1,0.0015,8,8e-4
 analytical methodologies,1,0.0015,4,4e-4
 explain present complicated,1,0.0015,3,3e-4
 present complicated advanced,1,0.0015,5,5e-4
@@ -5115,8 +5203,8 @@ systems products,1,0.0015,1,1e-4
 machine learning knowledge,1,0.0015,1,1e-4
 machine learning ability,1,0.0015,1,1e-4
 documenting,1,0.0015,3,3e-4
-process events,1,0.0015,8,9e-4
-events objects,1,0.0015,7,8e-4
+process events,1,0.0015,8,8e-4
+events objects,1,0.0015,7,7e-4
 objects knowledge,1,0.0015,4,4e-4
 documenting logical,1,0.0015,2,2e-4
 logical relationships,1,0.0015,2,2e-4
@@ -5163,7 +5251,7 @@ methods processes,1,0.0015,6,6e-4
 processes algorithms,1,0.0015,4,4e-4
 extrapolate knowledge,1,0.0015,1,1e-4
 apply knowledge,1,0.0015,1,1e-4
-knowledge data,1,0.0015,7,8e-4
+knowledge data,1,0.0015,7,7e-4
 data across,1,0.0015,1,1e-4
 broad range,1,0.0015,1,1e-4
 application domains,1,0.0015,1,1e-4
@@ -5180,16 +5268,22 @@ scripting techniques,1,0.0015,1,1e-4
 presenting results,1,0.0015,1,1e-4
 technical personnel,1,0.0015,2,2e-4
 non technical personnel,1,0.0015,1,1e-4
-specialized,1,0.0015,3,3e-4
-programing,1,0.0015,1,1e-4
-specialized experience,1,0.0015,2,2e-4
-experience tableau,1,0.0015,2,2e-4
-specialized experience tableau,1,0.0015,1,1e-4
+specialized,1,0.0015,5,5e-4
+programing,1,0.0015,5,5e-4
+specialized experience,1,0.0015,4,4e-4
+experience tableau,1,0.0015,6,6e-4
+r programing,1,0.0015,4,4e-4
+specialized experience tableau,1,0.0015,3,3e-4
+experience tableau r,1,0.0015,4,4e-4
+tableau r programing,1,0.0015,3,3e-4
+specialized experience tableau r,1,0.0015,2,2e-4
+experience tableau r programing,1,0.0015,2,2e-4
+specialized experience tableau r programing,1,0.0015,1,1e-4
 facilitate,1,0.0015,4,4e-4
 science business,1,0.0015,4,4e-4
 intelligence experience,1,0.0015,2,2e-4
 algorithms predictive,1,0.0015,4,4e-4
-analytics statistical,1,0.0015,7,8e-4
+analytics statistical,1,0.0015,7,7e-4
 models experience,1,0.0015,2,2e-4
 complex designs,1,0.0015,1,1e-4
 unstructured structured,1,0.0015,1,1e-4
@@ -5230,8 +5324,8 @@ oop languages,1,0.0015,1,1e-4
 factory,1,0.0015,9,0.001
 schedule data,1,0.0015,2,2e-4
 apache airflow,1,0.0015,4,4e-4
-airflow azure,1,0.0015,7,8e-4
-data factory,1,0.0015,7,8e-4
+airflow azure,1,0.0015,7,7e-4
+data factory,1,0.0015,7,7e-4
 factory mlflow,1,0.0015,4,4e-4
 schedule data pipelines,1,0.0015,1,1e-4
 apache airflow azure,1,0.0015,3,3e-4
@@ -5261,7 +5355,7 @@ python based,1,0.0015,3,3e-4
 based ml,1,0.0015,4,4e-4
 ml libraries,1,0.0015,3,3e-4
 numpy keras,1,0.0015,9,0.001
-keras tensorflow,1,0.0015,7,8e-4
+keras tensorflow,1,0.0015,7,7e-4
 python based ml,1,0.0015,2,2e-4
 based ml libraries,1,0.0015,2,2e-4
 pandas numpy keras,1,0.0015,6,6e-4
@@ -5298,10 +5392,10 @@ github azure devops,1,0.0015,1,1e-4
 lifecycle,1,0.0015,12,0.0013
 waterfall,1,0.0015,12,0.0013
 devsecops,1,0.0015,2,2e-4
-development lifecycle,1,0.0015,7,8e-4
+development lifecycle,1,0.0015,7,7e-4
 lifecycle including,1,0.0015,9,0.001
 including waterfall,1,0.0015,9,0.001
-waterfall agile,1,0.0015,7,8e-4
+waterfall agile,1,0.0015,7,7e-4
 agile devops,1,0.0015,4,4e-4
 devsecops methodologies,1,0.0015,1,1e-4
 software development lifecycle,1,0.0015,3,3e-4
@@ -5347,8 +5441,8 @@ caret,1,0.0015,9,0.001
 highly skilled,1,0.0015,1,1e-4
 enabling statistical,1,0.0015,4,4e-4
 science packages,1,0.0015,4,4e-4
-learn h2o,1,0.0015,8,9e-4
-h2o caret,1,0.0015,7,8e-4
+learn h2o,1,0.0015,8,8e-4
+h2o caret,1,0.0015,7,7e-4
 caret ggplot,1,0.0015,4,4e-4
 enabling statistical data,1,0.0015,3,3e-4
 data science packages,1,0.0015,3,3e-4
@@ -5365,13 +5459,13 @@ pandas scikit learn h2o caret,1,0.0015,1,1e-4
 scikit learn h2o caret ggplot,1,0.0015,1,1e-4
 pca,1,0.0015,12,0.0013
 sampling regression,1,0.0015,4,4e-4
-regression pca,1,0.0015,7,8e-4
+regression pca,1,0.0015,7,7e-4
 pca time,1,0.0015,9,0.001
 series forecasting,1,0.0015,10,0.0011
 forecasting hypothesis,1,0.0015,9,0.001
 testing design,1,0.0015,4,4e-4
-network random,1,0.0015,7,8e-4
-forest gbm,1,0.0015,7,8e-4
+network random,1,0.0015,7,7e-4
+forest gbm,1,0.0015,7,7e-4
 gbm techniques,1,0.0015,4,4e-4
 sampling regression pca,1,0.0015,3,3e-4
 regression pca time,1,0.0015,5,5e-4
@@ -5403,7 +5497,7 @@ network random forest gbm techniques,1,0.0015,1,1e-4
 ms sql server oracle,1,0.0015,1,1e-4
 cloud technologies,1,0.0015,1,1e-4
 azure aws,1,0.0015,3,3e-4
-physics applied,1,0.0015,7,8e-4
+physics applied,1,0.0015,7,7e-4
 engineering physics applied,1,0.0015,5,5e-4
 physics applied mathematics,1,0.0015,3,3e-4
 science engineering physics applied,1,0.0015,3,3e-4
@@ -5433,7 +5527,7 @@ largescale microsimulation,1,0.0015,10,0.0011
 microsimulation medical,1,0.0015,10,0.0011
 medical image,1,0.0015,10,0.0011
 image analysis,1,0.0015,9,0.001
-analysis computer,1,0.0015,7,8e-4
+analysis computer,1,0.0015,7,7e-4
 knowledge based,1,0.0015,4,4e-4
 based reasoning,1,0.0015,6,6e-4
 reasoning prior,1,0.0015,6,6e-4
@@ -5479,10 +5573,10 @@ classified,1,0.0015,5,5e-4
 unclassified,1,0.0015,3,3e-4
 processing cleaning,1,0.0015,1,1e-4
 tagging labeling,1,0.0015,4,4e-4
-labeling parsing,1,0.0015,7,8e-4
+labeling parsing,1,0.0015,7,7e-4
 parsing indexing,1,0.0015,9,0.001
 indexing unstructured,1,0.0015,9,0.001
-unstructured semi,1,0.0015,7,8e-4
+unstructured semi,1,0.0015,7,7e-4
 structured structured,1,0.0015,2,2e-4
 structured classified,1,0.0015,1,1e-4
 unclassified data,1,0.0015,2,2e-4
@@ -5503,11 +5597,11 @@ identifying,1,0.0015,5,5e-4
 variables,1,0.0015,1,1e-4
 matching,1,0.0015,1,1e-4
 developing research,1,0.0015,4,4e-4
-research designs,1,0.0015,7,8e-4
+research designs,1,0.0015,7,7e-4
 designs including,1,0.0015,9,0.001
 including formulating,1,0.0015,10,0.0011
 formulating testable,1,0.0015,9,0.001
-testable questions,1,0.0015,7,8e-4
+testable questions,1,0.0015,7,7e-4
 questions identifying,1,0.0015,4,4e-4
 defining key,1,0.0015,2,2e-4
 key concept,1,0.0015,2,2e-4
@@ -5538,18 +5632,18 @@ including manipulating,1,0.0015,4,4e-4
 manipulating datasets,1,0.0015,3,3e-4
 interpreting findings,1,0.0015,2,2e-4
 findings using,1,0.0015,2,2e-4
-matlab excel,1,0.0015,4,4e-4
-excel environments,1,0.0015,3,3e-4
+matlab excel,1,0.0015,6,6e-4
+excel environments,1,0.0015,4,4e-4
 pattern analysis,1,0.0015,4,4e-4
-analysis natural,1,0.0015,7,8e-4
+analysis natural,1,0.0015,7,7e-4
 processing supervised,1,0.0015,4,4e-4
 unsupervised data,1,0.0015,4,4e-4
-data clustering,1,0.0015,7,8e-4
+data clustering,1,0.0015,7,7e-4
 clustering classification,1,0.0015,9,0.001
 classification change,1,0.0015,10,0.0011
 change anomaly,1,0.0015,10,0.0011
 detection time,1,0.0015,10,0.0011
-series regression,1,0.0015,7,8e-4
+series regression,1,0.0015,7,7e-4
 regression geospatial,1,0.0015,4,4e-4
 social network,1,0.0015,2,2e-4
 network analysis,1,0.0015,2,2e-4
@@ -5557,8 +5651,9 @@ data analysis modeling,1,0.0015,2,2e-4
 modeling including manipulating,1,0.0015,2,2e-4
 including manipulating datasets,1,0.0015,2,2e-4
 interpreting findings using,1,0.0015,1,1e-4
-python matlab excel,1,0.0015,2,2e-4
-matlab excel environments,1,0.0015,2,2e-4
+r python matlab,1,0.0015,3,3e-4
+python matlab excel,1,0.0015,4,4e-4
+matlab excel environments,1,0.0015,3,3e-4
 pattern analysis natural,1,0.0015,3,3e-4
 analysis natural language,1,0.0015,5,5e-4
 language processing supervised,1,0.0015,3,3e-4
@@ -5573,7 +5668,8 @@ time series regression,1,0.0015,5,5e-4
 series regression geospatial,1,0.0015,3,3e-4
 social network analysis,1,0.0015,1,1e-4
 modeling including manipulating datasets,1,0.0015,1,1e-4
-python matlab excel environments,1,0.0015,1,1e-4
+r python matlab excel,1,0.0015,2,2e-4
+python matlab excel environments,1,0.0015,2,2e-4
 pattern analysis natural language,1,0.0015,2,2e-4
 analysis natural language processing,1,0.0015,3,3e-4
 natural language processing supervised,1,0.0015,2,2e-4
@@ -5585,6 +5681,7 @@ change anomaly detection time,1,0.0015,3,3e-4
 anomaly detection time series,1,0.0015,3,3e-4
 detection time series regression,1,0.0015,3,3e-4
 time series regression geospatial,1,0.0015,2,2e-4
+r python matlab excel environments,1,0.0015,1,1e-4
 pattern analysis natural language processing,1,0.0015,1,1e-4
 analysis natural language processing supervised,1,0.0015,1,1e-4
 unsupervised data clustering classification change,1,0.0015,1,1e-4
@@ -5650,7 +5747,7 @@ parallel processing power,1,0.0015,3,3e-4
 data parallel processing power,1,0.0015,2,2e-4
 big data parallel processing power,1,0.0015,1,1e-4
 calibration,1,0.0015,2,2e-4
-science deliverables,1,0.0015,7,8e-4
+science deliverables,1,0.0015,7,7e-4
 deliverables including,1,0.0015,9,0.001
 development prototyping,1,0.0015,4,4e-4
 model calibration,1,0.0015,1,1e-4
@@ -5697,15 +5794,17 @@ seaborn,1,0.0015,9,0.001
 plotly,1,0.0015,5,5e-4
 strong command,1,0.0015,1,1e-4
 python numpy,1,0.0015,4,4e-4
-numpy pandas,1,0.0015,7,8e-4
-pandas sklearn,1,0.0015,8,9e-4
-sklearn tensorflow,1,0.0015,7,8e-4
-tools excel,1,0.0015,7,8e-4
+numpy pandas,1,0.0015,7,7e-4
+pandas sklearn,1,0.0015,8,8e-4
+sklearn tensorflow,1,0.0015,7,7e-4
+tools excel,1,0.0015,7,7e-4
 tableau matplotlib,1,0.0015,9,0.001
-matplotlib seaborn,1,0.0015,7,8e-4
+matplotlib seaborn,1,0.0015,7,7e-4
 seaborn plotly,1,0.0015,4,4e-4
 python packages,1,0.0015,1,1e-4
-programming languages sql,1,0.0015,1,1e-4
+programming languages sql,1,0.0015,2,2e-4
+languages sql r,1,0.0015,2,2e-4
+sql r python,1,0.0015,2,2e-4
 python numpy pandas,1,0.0015,3,3e-4
 numpy pandas sklearn,1,0.0015,5,5e-4
 pandas sklearn tensorflow,1,0.0015,5,5e-4
@@ -5715,6 +5814,7 @@ tools excel tableau,1,0.0015,5,5e-4
 excel tableau matplotlib,1,0.0015,6,6e-4
 tableau matplotlib seaborn,1,0.0015,5,5e-4
 matplotlib seaborn plotly,1,0.0015,3,3e-4
+programming languages sql r,1,0.0015,1,1e-4
 python numpy pandas sklearn,1,0.0015,2,2e-4
 numpy pandas sklearn tensorflow,1,0.0015,3,3e-4
 pandas sklearn tensorflow keras,1,0.0015,2,2e-4
@@ -5733,14 +5833,14 @@ knn,1,0.0015,14,0.0015
 categorical modelling,1,0.0015,2,2e-4
 modelling techniques,1,0.0015,2,2e-4
 unsupervised machine,1,0.0015,4,4e-4
-methods ols,1,0.0015,7,8e-4
+methods ols,1,0.0015,7,7e-4
 ols regression,1,0.0015,4,4e-4
 glms logistic,1,0.0015,4,4e-4
 regression knn,1,0.0015,9,0.001
 knn svm,1,0.0015,10,0.0011
 forest clustering,1,0.0015,4,4e-4
-analysis dimensionality,1,0.0015,7,8e-4
-reduction neural,1,0.0015,7,8e-4
+analysis dimensionality,1,0.0015,7,7e-4
+reduction neural,1,0.0015,7,7e-4
 categorical modelling techniques,1,0.0015,1,1e-4
 unsupervised machine learning,1,0.0015,3,3e-4
 machine learning methods,1,0.0015,5,5e-4
@@ -5779,7 +5879,7 @@ decision trees random forest clustering,1,0.0015,1,1e-4
 cluster analysis dimensionality reduction neural,1,0.0015,1,1e-4
 analysis dimensionality reduction neural networks,1,0.0015,1,1e-4
 cloud platforms,1,0.0015,4,4e-4
-platforms hadoop,1,0.0015,7,8e-4
+platforms hadoop,1,0.0015,7,7e-4
 spark amazon,1,0.0015,10,0.0011
 cloud gcp,1,0.0015,4,4e-4
 strong asset,1,0.0015,2,2e-4
@@ -5851,21 +5951,22 @@ creating positive learning,1,0.0015,2,2e-4
 positive learning experiences,1,0.0015,2,2e-4
 creating positive learning experiences,1,0.0015,1,1e-4
 jenkins,1,0.0015,4,4e-4
-xml,1,0.0015,8,9e-4
+xml,1,0.0015,8,8e-4
 json,1,0.0015,9,0.001
 soap,1,0.0015,3,3e-4
 mathematics analytics,1,0.0015,4,4e-4
 following ci,1,0.0015,3,3e-4
 cd jenkins,1,0.0015,3,3e-4
 git programming,1,0.0015,1,1e-4
-hadoop python,1,0.0015,7,8e-4
+r hadoop,1,0.0015,1,1e-4
+hadoop python,1,0.0015,7,7e-4
 python xml,1,0.0015,4,4e-4
 xml json,1,0.0015,6,6e-4
 json html,1,0.0015,6,6e-4
 html css,1,0.0015,4,4e-4
 javascript rest,1,0.0015,2,2e-4
 rest soap,1,0.0015,2,2e-4
-service apis,1,0.0015,7,8e-4
+service apis,1,0.0015,7,7e-4
 apis writing,1,0.0015,9,0.001
 writing clean,1,0.0015,10,0.0011
 clean high,1,0.0015,10,0.0011
@@ -5934,18 +6035,18 @@ optimizations,1,0.0015,2,2e-4
 structural,1,0.0015,12,0.0013
 scrapping,1,0.0015,5,5e-4
 position requires,1,0.0015,1,1e-4
-analytics operations,1,0.0015,7,8e-4
+analytics operations,1,0.0015,7,7e-4
 research field,1,0.0015,2,2e-4
 following skills,1,0.0015,2,2e-4
 skills gained,1,0.0015,2,2e-4
 libraries including,1,0.0015,9,0.001
 including scikit,1,0.0015,10,0.0011
 learn git,1,0.0015,9,0.001
-git shell,1,0.0015,7,8e-4
+git shell,1,0.0015,7,7e-4
 sql scala,1,0.0015,1,1e-4
 pyspark linear,1,0.0015,4,4e-4
 statistics probabilities,1,0.0015,9,0.001
-probabilities mathematical,1,0.0015,7,8e-4
+probabilities mathematical,1,0.0015,7,7e-4
 optimizations end,1,0.0015,1,1e-4
 end knowledge,1,0.0015,4,4e-4
 science problems,1,0.0015,10,0.0011
@@ -5958,23 +6059,23 @@ databricks google,1,0.0015,9,0.001
 snowflake data,1,0.0015,2,2e-4
 services non,1,0.0015,9,0.001
 non structural,1,0.0015,9,0.001
-structural data,1,0.0015,7,8e-4
+structural data,1,0.0015,7,7e-4
 data analyses,1,0.0015,4,4e-4
 advanced modeling,1,0.0015,4,4e-4
 including text,1,0.0015,6,6e-4
 text mining,1,0.0015,4,4e-4
 image processing,1,0.0015,4,4e-4
-processing deep,1,0.0015,7,8e-4
+processing deep,1,0.0015,7,7e-4
 frameworks including,1,0.0015,9,0.001
-including tensorflow,1,0.0015,7,8e-4
+including tensorflow,1,0.0015,7,7e-4
 detection deploying,1,0.0015,2,2e-4
 managing production,1,0.0015,4,4e-4
-production grade,1,0.0015,7,8e-4
+production grade,1,0.0015,7,7e-4
 grade big,1,0.0015,9,0.001
 systems mentoring,1,0.0015,10,0.0011
 mentoring junior,1,0.0015,10,0.0011
 junior data,1,0.0015,10,0.0011
-scientists web,1,0.0015,7,8e-4
+scientists web,1,0.0015,7,7e-4
 web scrapping,1,0.0015,4,4e-4
 model deployment,1,0.0015,3,3e-4
 science data analytics,1,0.0015,6,6e-4
@@ -6128,9 +6229,9 @@ science electrical engineering mathematics,1,0.0015,2,2e-4
 computer science electrical engineering mathematics,1,0.0015,1,1e-4
 ready,1,0.0015,11,0.0012
 feed,1,0.0015,3,3e-4
-building production,1,0.0015,7,8e-4
-production ready,1,0.0015,8,9e-4
-ready data,1,0.0015,7,8e-4
+building production,1,0.0015,7,7e-4
+production ready,1,0.0015,8,8e-4
+ready data,1,0.0015,7,7e-4
 feed ml,1,0.0015,2,2e-4
 experience building production,1,0.0015,3,3e-4
 building production ready,1,0.0015,5,5e-4
@@ -6213,7 +6314,7 @@ patents,1,0.0015,1,1e-4
 ml industry,1,0.0015,2,2e-4
 industry impact,1,0.0015,2,2e-4
 conference presentations,1,0.0015,4,4e-4
-presentations papers,1,0.0015,7,8e-4
+presentations papers,1,0.0015,7,7e-4
 papers blog,1,0.0015,9,0.001
 blog posts,1,0.0015,10,0.0011
 posts open,1,0.0015,9,0.001
@@ -6235,7 +6336,7 @@ presentations papers blog posts open,1,0.0015,1,1e-4
 papers blog posts open source,1,0.0015,1,1e-4
 blog posts open source contributions,1,0.0015,1,1e-4
 stem field,1,0.0015,1,1e-4
-experience computer,1,0.0015,7,8e-4
+experience computer,1,0.0015,7,7e-4
 equivalent experience computer,1,0.0015,3,3e-4
 experience computer science,1,0.0015,5,5e-4
 equivalent experience computer science,1,0.0015,2,2e-4
@@ -6284,6 +6385,7 @@ aws azure gcp,1,0.0015,1,1e-4
 cloud environments aws azure,1,0.0015,1,1e-4
 additional programming,1,0.0015,2,2e-4
 additional programming languages,1,0.0015,1,1e-4
+sql c c,1,0.0015,1,1e-4
 commuting,1,0.0015,2,2e-4
 distance,1,0.0015,2,2e-4
 deloitte,1,0.0015,1,1e-4
@@ -6346,7 +6448,7 @@ deep learning nlp feature engineering,1,0.0015,1,1e-4
 discovery,1,0.0015,15,0.0016
 metadata,1,0.0015,9,0.001
 advance analytics,1,0.0015,4,4e-4
-analytics life,1,0.0015,7,8e-4
+analytics life,1,0.0015,7,7e-4
 life cycle,1,0.0015,9,0.001
 including data,1,0.0015,10,0.0011
 data discovery,1,0.0015,10,0.0011
@@ -6354,7 +6456,7 @@ discovery business,1,0.0015,10,0.0011
 intelligence data,1,0.0015,10,0.0011
 data quality,1,0.0015,10,0.0011
 quality management,1,0.0015,9,0.001
-management metadata,1,0.0015,7,8e-4
+management metadata,1,0.0015,7,7e-4
 metadata management,1,0.0015,4,4e-4
 advance analytics life,1,0.0015,3,3e-4
 analytics life cycle,1,0.0015,5,5e-4
@@ -6390,10 +6492,10 @@ business intelligence data quality management,1,0.0015,1,1e-4
 intelligence data quality management metadata,1,0.0015,1,1e-4
 data quality management metadata management,1,0.0015,1,1e-4
 warehouses,1,0.0015,13,0.0014
-databases data,1,0.0015,7,8e-4
+databases data,1,0.0015,7,7e-4
 data warehouses,1,0.0015,9,0.001
 warehouses operational,1,0.0015,9,0.001
-operational data,1,0.0015,7,8e-4
+operational data,1,0.0015,7,7e-4
 memory databases,1,0.0015,2,2e-4
 nosql technologies,1,0.0015,1,1e-4
 relational databases data,1,0.0015,3,3e-4
@@ -6428,7 +6530,7 @@ problem solving skills creative,1,0.0015,2,2e-4
 solving skills creative thinking,1,0.0015,2,2e-4
 problem solving skills creative thinking,1,0.0015,1,1e-4
 genetics,1,0.0015,5,5e-4
-science statistical,1,0.0015,7,8e-4
+science statistical,1,0.0015,7,7e-4
 statistical genetics,1,0.0015,4,4e-4
 computer science statistical,1,0.0015,5,5e-4
 science statistical genetics,1,0.0015,3,3e-4
@@ -6438,10 +6540,10 @@ data science computer science statistical,1,0.0015,1,1e-4
 science computer science statistical genetics,1,0.0015,1,1e-4
 possess expert,1,0.0015,2,2e-4
 expert knowledge,1,0.0015,2,2e-4
-ai including,1,0.0015,8,9e-4
-including decision,1,0.0015,7,8e-4
+ai including,1,0.0015,8,8e-4
+including decision,1,0.0015,7,7e-4
 nn linear,1,0.0015,2,2e-4
-methods probabilistic,1,0.0015,8,9e-4
+methods probabilistic,1,0.0015,8,8e-4
 possess expert knowledge,1,0.0015,1,1e-4
 learning ai including,1,0.0015,5,5e-4
 ai including decision,1,0.0015,5,5e-4
@@ -6528,9 +6630,9 @@ knows,1,0.0015,1,1e-4
 disposal,1,0.0015,1,1e-4
 enjoy being,1,0.0015,1,1e-4
 independent operator,1,0.0015,4,4e-4
-operator who,1,0.0015,7,8e-4
+operator who,1,0.0015,7,7e-4
 can employ,1,0.0015,9,0.001
-employ critical,1,0.0015,7,8e-4
+employ critical,1,0.0015,7,7e-4
 independent operator who,1,0.0015,3,3e-4
 operator who can,1,0.0015,5,5e-4
 who can employ,1,0.0015,6,6e-4
@@ -6550,8 +6652,8 @@ insights exist,1,0.0015,1,1e-4
 communicate insight,1,0.0015,2,2e-4
 least 2,1,0.0015,2,2e-4
 senior analyst,1,0.0015,4,4e-4
-preferably leading,1,0.0015,8,9e-4
-leading junior,1,0.0015,7,8e-4
+preferably leading,1,0.0015,8,8e-4
+leading junior,1,0.0015,7,7e-4
 junior analysts,1,0.0015,4,4e-4
 data analytics including,1,0.0015,1,1e-4
 least 2 years,1,0.0015,1,1e-4
@@ -6574,9 +6676,18 @@ previous experience,1,0.0015,1,1e-4
 aws environment,1,0.0015,2,2e-4
 environment utilizing,1,0.0015,2,2e-4
 aws environment utilizing,1,0.0015,1,1e-4
-analytical programming,1,0.0015,2,2e-4
-analytical programming language,1,0.0015,1,1e-4
-teradata experience,1,0.0015,7,8e-4
+analytical programming,1,0.0015,4,4e-4
+language r,1,0.0015,8,8e-4
+analytical programming language,1,0.0015,3,3e-4
+programming language r,1,0.0015,5,5e-4
+language r python,1,0.0015,5,5e-4
+r python preferred,1,0.0015,3,3e-4
+analytical programming language r,1,0.0015,2,2e-4
+programming language r python,1,0.0015,3,3e-4
+language r python preferred,1,0.0015,2,2e-4
+analytical programming language r python,1,0.0015,1,1e-4
+programming language r python preferred,1,0.0015,1,1e-4
+teradata experience,1,0.0015,7,7e-4
 writing sql teradata,1,0.0015,5,5e-4
 sql teradata experience,1,0.0015,5,5e-4
 teradata experience preferred,1,0.0015,3,3e-4
@@ -6586,7 +6697,7 @@ sql teradata experience preferred,1,0.0015,2,2e-4
 experience writing sql teradata experience,1,0.0015,1,1e-4
 writing sql teradata experience preferred,1,0.0015,1,1e-4
 practically,1,0.0015,5,5e-4
-boosting,1,0.0015,8,9e-4
+boosting,1,0.0015,8,8e-4
 curves,1,0.0015,5,5e-4
 practically solving,1,0.0015,4,4e-4
 solving real,1,0.0015,6,6e-4
@@ -6609,9 +6720,9 @@ just boosting model performance curves,1,0.0015,1,1e-4
 communicator,1,0.0015,9,0.001
 intuitive,1,0.0015,3,3e-4
 strong communicator,1,0.0015,4,4e-4
-communicator who,1,0.0015,7,8e-4
+communicator who,1,0.0015,7,7e-4
 can translate,1,0.0015,9,0.001
-translate technical,1,0.0015,7,8e-4
+translate technical,1,0.0015,7,7e-4
 technical topics,1,0.0015,4,4e-4
 intuitive business,1,0.0015,2,2e-4
 business language,1,0.0015,2,2e-4
@@ -6645,13 +6756,16 @@ python 1,1,0.0015,3,3e-4
 python 1 year,1,0.0015,2,2e-4
 python 1 year required,1,0.0015,1,1e-4
 sql 1 year required,1,0.0015,1,1e-4
+r 1,1,0.0015,3,3e-4
+r 1 year,1,0.0015,2,2e-4
+r 1 year required,1,0.0015,1,1e-4
 fundamentals,1,0.0015,12,0.0013
-science fundamentals,1,0.0015,7,8e-4
+science fundamentals,1,0.0015,7,7e-4
 fundamentals statistical,1,0.0015,9,0.001
 manipulation modeling,1,0.0015,10,0.0011
 modeling visualization,1,0.0015,10,0.0011
 visualization transforming,1,0.0015,9,0.001
-transforming raw,1,0.0015,7,8e-4
+transforming raw,1,0.0015,7,7e-4
 actionable business,1,0.0015,2,2e-4
 data science fundamentals,1,0.0015,3,3e-4
 science fundamentals statistical,1,0.0015,5,5e-4
@@ -6682,34 +6796,46 @@ data manipulation modeling visualization transforming,1,0.0015,1,1e-4
 manipulation modeling visualization transforming raw,1,0.0015,1,1e-4
 modeling visualization transforming raw data,1,0.0015,1,1e-4
 automating,1,0.0015,9,0.001
-vba,1,0.0015,6,6e-4
-macros,1,0.0015,4,4e-4
+vba,1,0.0015,9,0.001
+macros,1,0.0015,5,5e-4
 proficiency automating,1,0.0015,4,4e-4
-automating data,1,0.0015,7,8e-4
+automating data,1,0.0015,7,7e-4
 processing tasks,1,0.0015,10,0.0011
-tasks scripting,1,0.0015,9,0.001
-scripting including,1,0.0015,7,8e-4
-excel access,1,0.0015,3,3e-4
-access vba,1,0.0015,4,4e-4
-vba macros,1,0.0015,3,3e-4
+tasks scripting,1,0.0015,10,0.0011
+scripting including,1,0.0015,10,0.0011
+r excel,1,0.0015,10,0.0011
+excel access,1,0.0015,9,0.001
+access vba,1,0.0015,7,7e-4
+vba macros,1,0.0015,4,4e-4
 proficiency automating data,1,0.0015,3,3e-4
 automating data processing,1,0.0015,5,5e-4
 data processing tasks,1,0.0015,6,6e-4
 processing tasks scripting,1,0.0015,6,6e-4
-tasks scripting including,1,0.0015,5,5e-4
-scripting including python,1,0.0015,3,3e-4
-excel access vba,1,0.0015,2,2e-4
-access vba macros,1,0.0015,2,2e-4
+tasks scripting including,1,0.0015,6,6e-4
+scripting including python,1,0.0015,6,6e-4
+python r excel,1,0.0015,6,6e-4
+r excel access,1,0.0015,6,6e-4
+excel access vba,1,0.0015,5,5e-4
+access vba macros,1,0.0015,3,3e-4
 proficiency automating data processing,1,0.0015,2,2e-4
 automating data processing tasks,1,0.0015,3,3e-4
 data processing tasks scripting,1,0.0015,3,3e-4
 processing tasks scripting including,1,0.0015,3,3e-4
-tasks scripting including python,1,0.0015,2,2e-4
-excel access vba macros,1,0.0015,1,1e-4
+tasks scripting including python,1,0.0015,3,3e-4
+scripting including python r,1,0.0015,3,3e-4
+including python r excel,1,0.0015,3,3e-4
+python r excel access,1,0.0015,3,3e-4
+r excel access vba,1,0.0015,3,3e-4
+excel access vba macros,1,0.0015,2,2e-4
 proficiency automating data processing tasks,1,0.0015,1,1e-4
 automating data processing tasks scripting,1,0.0015,1,1e-4
 data processing tasks scripting including,1,0.0015,1,1e-4
 processing tasks scripting including python,1,0.0015,1,1e-4
+tasks scripting including python r,1,0.0015,1,1e-4
+scripting including python r excel,1,0.0015,1,1e-4
+including python r excel access,1,0.0015,1,1e-4
+python r excel access vba,1,0.0015,1,1e-4
+r excel access vba macros,1,0.0015,1,1e-4
 database migration,1,0.0015,1,1e-4
 data governance,1,0.0015,1,1e-4
 document processes,1,0.0015,3,3e-4
@@ -6743,9 +6869,9 @@ syntax,1,0.0015,4,4e-4
 solid technical,1,0.0015,2,2e-4
 data wrangling,1,0.0015,1,1e-4
 datasets can,1,0.0015,3,3e-4
-extraction including,1,0.0015,7,8e-4
-including sophisticated,1,0.0015,8,9e-4
-sophisticated joins,1,0.0015,7,8e-4
+extraction including,1,0.0015,7,7e-4
+including sophisticated,1,0.0015,8,8e-4
+sophisticated joins,1,0.0015,7,7e-4
 joins cte,1,0.0015,4,4e-4
 query optimization,1,0.0015,1,1e-4
 python syntax,1,0.0015,2,2e-4
@@ -6782,7 +6908,7 @@ data storytelling,1,0.0015,1,1e-4
 efficiently relay,1,0.0015,1,1e-4
 senior leadership,1,0.0015,1,1e-4
 timelines,1,0.0015,6,6e-4
-precision,1,0.0015,8,9e-4
+precision,1,0.0015,8,8e-4
 tradeoffs,1,0.0015,5,5e-4
 proactively,1,0.0015,4,4e-4
 statuses,1,0.0015,4,4e-4
@@ -6814,10 +6940,10 @@ designers,1,0.0015,5,5e-4
 well collaboratively,1,0.0015,2,2e-4
 functional context,1,0.0015,2,2e-4
 product managers,1,0.0015,4,4e-4
-managers project,1,0.0015,7,8e-4
+managers project,1,0.0015,7,7e-4
 project managers,1,0.0015,9,0.001
 managers user,1,0.0015,9,0.001
-user researchers,1,0.0015,7,8e-4
+user researchers,1,0.0015,7,7e-4
 researchers designers,1,0.0015,4,4e-4
 joint research,1,0.0015,2,2e-4
 product analytics,1,0.0015,2,2e-4
@@ -6874,7 +7000,7 @@ based environmental,1,0.0015,6,6e-4
 environmental ideally,1,0.0015,6,6e-4
 ideally involving,1,0.0015,4,4e-4
 server space,1,0.0015,1,1e-4
-understanding big,1,0.0015,7,8e-4
+understanding big,1,0.0015,7,7e-4
 science preferably,1,0.0015,4,4e-4
 performed research,1,0.0015,2,2e-4
 unix based environmental,1,0.0015,3,3e-4
@@ -6940,7 +7066,7 @@ quantitative finance math statistics physics,1,0.0015,1,1e-4
 forecasting time,1,0.0015,4,4e-4
 analysis hypothesis,1,0.0015,10,0.0011
 testing classification,1,0.0015,9,0.001
-classification clustering,1,0.0015,7,8e-4
+classification clustering,1,0.0015,7,7e-4
 clustering regression,1,0.0015,4,4e-4
 forecasting time series,1,0.0015,3,3e-4
 series analysis hypothesis,1,0.0015,6,6e-4
@@ -6988,14 +7114,16 @@ machine learning statistics mathematical programming,1,0.0015,1,1e-4
 scale structured,1,0.0015,3,3e-4
 analyzing large scale,1,0.0015,2,2e-4
 large scale structured,1,0.0015,2,2e-4
-unstructured data using,1,0.0015,1,1e-4
+unstructured data using,1,0.0015,2,2e-4
+data using r,1,0.0015,2,2e-4
 analyzing large scale structured,1,0.0015,1,1e-4
+unstructured data using r,1,0.0015,1,1e-4
 data environments,1,0.0015,2,2e-4
 data modeling,1,0.0015,1,1e-4
 big data environments,1,0.0015,1,1e-4
 scientific computing,1,0.0015,1,1e-4
 analysis packages,1,0.0015,1,1e-4
-scipy pandas,1,0.0015,7,8e-4
+scipy pandas,1,0.0015,7,7e-4
 learn dplyr,1,0.0015,4,4e-4
 numpy scipy pandas,1,0.0015,3,3e-4
 scipy pandas scikit,1,0.0015,5,5e-4
@@ -7043,9 +7171,9 @@ pipelines python preferred,1,0.0015,2,2e-4
 analysis pipelines python preferred,1,0.0015,1,1e-4
 numpyro,1,0.0015,12,0.0013
 bayesian generalized,1,0.0015,4,4e-4
-generalized linear,1,0.0015,7,8e-4
+generalized linear,1,0.0015,7,7e-4
 models numpyro,1,0.0015,9,0.001
-numpyro rstan,1,0.0015,7,8e-4
+numpyro rstan,1,0.0015,7,7e-4
 rstan preferred,1,0.0015,4,4e-4
 bayesian generalized linear,1,0.0015,3,3e-4
 generalized linear models,1,0.0015,5,5e-4
@@ -7095,10 +7223,10 @@ improve product,1,0.0015,2,2e-4
 product experiences,1,0.0015,2,2e-4
 improve product experiences,1,0.0015,1,1e-4
 highly motivated,1,0.0015,4,4e-4
-motivated result,1,0.0015,7,8e-4
+motivated result,1,0.0015,7,7e-4
 result oriented,1,0.0015,9,0.001
 oriented self,1,0.0015,10,0.0011
-starter enjoy,1,0.0015,7,8e-4
+starter enjoy,1,0.0015,7,7e-4
 enjoy working,1,0.0015,4,4e-4
 can deliver,1,0.0015,3,3e-4
 deliver successful,1,0.0015,4,4e-4
@@ -7122,7 +7250,7 @@ highly motivated result oriented self,1,0.0015,1,1e-4
 motivated result oriented self starter,1,0.0015,1,1e-4
 result oriented self starter enjoy,1,0.0015,1,1e-4
 oriented self starter enjoy working,1,0.0015,1,1e-4
-loving,1,0.0015,8,9e-4
+loving,1,0.0015,8,8e-4
 adventurous,1,0.0015,9,0.001
 talk,1,0.0015,1,1e-4
 fun loving,1,0.0015,4,4e-4
@@ -7150,7 +7278,7 @@ work environment,1,0.0015,2,2e-4
 medical colleges,1,0.0015,1,1e-4
 favorable work environment,1,0.0015,1,1e-4
 analytical organizational,1,0.0015,2,2e-4
-organizational problem,1,0.0015,7,8e-4
+organizational problem,1,0.0015,7,7e-4
 strong analytical organizational,1,0.0015,1,1e-4
 organizational problem solving,1,0.0015,3,3e-4
 solving skills required,1,0.0015,2,2e-4
@@ -7172,7 +7300,7 @@ positive customer centric attitude,1,0.0015,1,1e-4
 relates,1,0.0015,1,1e-4
 systems background,1,0.0015,1,1e-4
 using crystal,1,0.0015,4,4e-4
-crystal business,1,0.0015,7,8e-4
+crystal business,1,0.0015,7,7e-4
 object cognos,1,0.0015,10,0.0011
 cognos ms,1,0.0015,10,0.0011
 ms office,1,0.0015,10,0.0011
@@ -7247,7 +7375,7 @@ kafka spark flink,1,0.0015,1,1e-4
 members,1,0.0015,2,2e-4
 team members,1,0.0015,1,1e-4
 develop scalable,1,0.0015,4,4e-4
-scalable cloud,1,0.0015,7,8e-4
+scalable cloud,1,0.0015,7,7e-4
 develop scalable cloud,1,0.0015,3,3e-4
 scalable cloud based,1,0.0015,5,5e-4
 cloud based data,1,0.0015,6,6e-4
@@ -7270,9 +7398,9 @@ derive value,1,0.0015,1,1e-4
 learning data mining,1,0.0015,2,2e-4
 correlate disparate datasets,1,0.0015,1,1e-4
 machine learning data mining,1,0.0015,1,1e-4
-mining machine,1,0.0015,7,8e-4
+mining machine,1,0.0015,7,7e-4
 techniques natural,1,0.0015,9,0.001
-processing data,1,0.0015,8,9e-4
+processing data,1,0.0015,8,8e-4
 data mining machine,1,0.0015,3,3e-4
 mining machine learning,1,0.0015,5,5e-4
 learning techniques natural,1,0.0015,6,6e-4
@@ -7295,7 +7423,7 @@ scoping data,1,0.0015,10,0.0011
 gathering exploratory,1,0.0015,10,0.0011
 analysis modelling,1,0.0015,10,0.0011
 modelling insights,1,0.0015,9,0.001
-insights visualizations,1,0.0015,7,8e-4
+insights visualizations,1,0.0015,7,7e-4
 visualizations monitoring,1,0.0015,4,4e-4
 end data science,1,0.0015,3,3e-4
 data science pipelines,1,0.0015,5,5e-4
@@ -7355,7 +7483,7 @@ business application context,1,0.0015,2,2e-4
 specific business application context,1,0.0015,1,1e-4
 applying optimization,1,0.0015,1,1e-4
 numerical methods,1,0.0015,1,1e-4
-forest neural,1,0.0015,7,8e-4
+forest neural,1,0.0015,7,7e-4
 random forest neural,1,0.0015,5,5e-4
 forest neural networks,1,0.0015,3,3e-4
 applied machine learning models,1,0.0015,1,1e-4
@@ -7364,7 +7492,7 @@ random forest neural networks,1,0.0015,2,2e-4
 decision trees random forest neural,1,0.0015,1,1e-4
 trees random forest neural networks,1,0.0015,1,1e-4
 postgres,1,0.0015,5,5e-4
-sql sql,1,0.0015,8,9e-4
+sql sql,1,0.0015,8,8e-4
 snowflake postgres,1,0.0015,4,4e-4
 server oracle snowflake,1,0.0015,4,4e-4
 oracle snowflake postgres,1,0.0015,3,3e-4
@@ -7422,10 +7550,10 @@ research scientists engineering,1,0.0015,2,2e-4
 scientists engineering teams,1,0.0015,2,2e-4
 research scientists engineering teams,1,0.0015,1,1e-4
 python scientific,1,0.0015,4,4e-4
-scientific ecosystem,1,0.0015,7,8e-4
+scientific ecosystem,1,0.0015,7,7e-4
 ecosystem pandas,1,0.0015,9,0.001
 learn matplotlib,1,0.0015,9,0.001
-matplotlib numpy,1,0.0015,7,8e-4
+matplotlib numpy,1,0.0015,7,7e-4
 python scientific ecosystem,1,0.0015,3,3e-4
 scientific ecosystem pandas,1,0.0015,5,5e-4
 ecosystem pandas scikit,1,0.0015,6,6e-4
@@ -7454,7 +7582,7 @@ using query language,1,0.0015,2,2e-4
 distributed analytical,1,0.0015,2,2e-4
 analytical frameworks,1,0.0015,2,2e-4
 distributed analytical frameworks,1,0.0015,1,1e-4
-frameworks like,1,0.0015,7,8e-4
+frameworks like,1,0.0015,7,7e-4
 like pytorch,1,0.0015,4,4e-4
 machine learning frameworks,1,0.0015,6,6e-4
 learning frameworks like,1,0.0015,5,5e-4
@@ -7483,7 +7611,7 @@ quantitative social,1,0.0015,10,0.0011
 science public,1,0.0015,10,0.0011
 public policy,1,0.0015,10,0.0011
 policy criminal,1,0.0015,9,0.001
-criminal justice,1,0.0015,7,8e-4
+criminal justice,1,0.0015,7,7e-4
 justice criminology,1,0.0015,4,4e-4
 relevant discipline,1,0.0015,1,1e-4
 relevant quantitative,1,0.0015,3,3e-4
@@ -7522,8 +7650,10 @@ required hands,1,0.0015,1,1e-4
 etl development,1,0.0015,2,2e-4
 data warehousing architecture,1,0.0015,1,1e-4
 etl development experience,1,0.0015,1,1e-4
-statistical programming,1,0.0015,2,2e-4
-statistical programming languages,1,0.0015,1,1e-4
+statistical programming,1,0.0015,4,4e-4
+statistical programming languages,1,0.0015,3,3e-4
+statistical programming languages r,1,0.0015,2,2e-4
+statistical programming languages r python,1,0.0015,1,1e-4
 visualizing,1,0.0015,5,5e-4
 visualizing complex,1,0.0015,4,4e-4
 complex research,1,0.0015,6,6e-4
@@ -7537,14 +7667,16 @@ complex research products hands,1,0.0015,2,2e-4
 visualizing complex research products hands,1,0.0015,1,1e-4
 advanced ability,1,0.0015,1,1e-4
 analyze large,1,0.0015,2,2e-4
-stata sas,1,0.0015,1,1e-4
+code r,1,0.0015,3,3e-4
+stata sas,1,0.0015,2,2e-4
 python including,1,0.0015,4,4e-4
-including querying,1,0.0015,7,8e-4
+including querying,1,0.0015,7,7e-4
 querying enterprise,1,0.0015,9,0.001
 enterprise level,1,0.0015,10,0.0011
 level databases,1,0.0015,9,0.001
-databases using,1,0.0015,7,8e-4
+databases using,1,0.0015,7,7e-4
 analyze large datasets,1,0.0015,1,1e-4
+r stata sas,1,0.0015,1,1e-4
 python including querying,1,0.0015,3,3e-4
 including querying enterprise,1,0.0015,5,5e-4
 querying enterprise level,1,0.0015,6,6e-4
@@ -7610,7 +7742,7 @@ sql 1 year expereince,1,0.0015,1,1e-4
 staying,1,0.0015,9,0.001
 rapidly,1,0.0015,4,4e-4
 summaries,1,0.0015,3,3e-4
-correspondence,1,0.0015,8,9e-4
+correspondence,1,0.0015,8,8e-4
 demonstratable,1,0.0015,9,0.001
 dealing,1,0.0015,2,2e-4
 ambiguity,1,0.0015,3,3e-4
@@ -7618,11 +7750,11 @@ experience manipulating,1,0.0015,3,3e-4
 experience bachelor,1,0.0015,2,2e-4
 field depth,1,0.0015,2,2e-4
 quantitative knowledge,1,0.0015,4,4e-4
-knowledge excellent,1,0.0015,7,8e-4
+knowledge excellent,1,0.0015,7,7e-4
 excellent machine,1,0.0015,9,0.001
 solving analysis,1,0.0015,9,0.001
 analysis intellectual,1,0.0015,10,0.0011
-curiosity staying,1,0.0015,7,8e-4
+curiosity staying,1,0.0015,7,7e-4
 staying current,1,0.0015,4,4e-4
 latest best,1,0.0015,2,2e-4
 data technology,1,0.0015,6,6e-4
@@ -7707,23 +7839,24 @@ emr,1,0.0015,6,6e-4
 lift,1,0.0015,15,0.0016
 profiling,1,0.0015,2,2e-4
 cleansing,1,0.0015,4,4e-4
-required ms,1,0.0015,7,8e-4
+required ms,1,0.0015,7,7e-4
 ms phd,1,0.0015,9,0.001
 preferred 0,1,0.0015,9,0.001
-0 3,1,0.0015,7,8e-4
+0 3,1,0.0015,7,7e-4
 building roles,1,0.0015,4,4e-4
 roles experienced,1,0.0015,3,3e-4
-julia matlab,1,0.0015,1,1e-4
+r julia,1,0.0015,4,4e-4
+julia matlab,1,0.0015,3,3e-4
 sas knowledge,1,0.0015,1,1e-4
 scala java,1,0.0015,4,4e-4
-java ruby,1,0.0015,7,8e-4
+java ruby,1,0.0015,7,7e-4
 ruby javascript,1,0.0015,9,0.001
 javascript shell,1,0.0015,10,0.0011
 shell scripting,1,0.0015,10,0.0011
 scripting experience,1,0.0015,10,0.0011
 using big,1,0.0015,9,0.001
 data frameworks,1,0.0015,4,4e-4
-spark mapreduce,1,0.0015,7,8e-4
+spark mapreduce,1,0.0015,7,7e-4
 mapreduce hive,1,0.0015,9,0.001
 pig luigi,1,0.0015,10,0.0011
 luigi airflow,1,0.0015,10,0.0011
@@ -7731,7 +7864,7 @@ airflow kafka,1,0.0015,10,0.0011
 kafka data,1,0.0015,10,0.0011
 data streaming,1,0.0015,10,0.0011
 streaming nosql,1,0.0015,9,0.001
-nosql sql,1,0.0015,7,8e-4
+nosql sql,1,0.0015,7,7e-4
 sql familiarity,1,0.0015,4,4e-4
 based solutions,1,0.0015,2,2e-4
 aws emr,1,0.0015,4,4e-4
@@ -7747,7 +7880,7 @@ modeling experimental,1,0.0015,10,0.0011
 design neural,1,0.0015,10,0.0011
 networks data,1,0.0015,10,0.0011
 mining optimization,1,0.0015,9,0.001
-optimization techniques,1,0.0015,7,8e-4
+optimization techniques,1,0.0015,7,7e-4
 techniques experience,1,0.0015,4,4e-4
 data profiling,1,0.0015,1,1e-4
 data cleansing,1,0.0015,2,2e-4
@@ -7761,6 +7894,8 @@ preferred 0 3,1,0.0015,5,5e-4
 0 3 years,1,0.0015,3,3e-4
 model building roles,1,0.0015,2,2e-4
 building roles experienced,1,0.0015,2,2e-4
+python r julia,1,0.0015,2,2e-4
+r julia matlab,1,0.0015,2,2e-4
 scala java ruby,1,0.0015,3,3e-4
 java ruby javascript,1,0.0015,5,5e-4
 ruby javascript shell,1,0.0015,6,6e-4
@@ -7808,6 +7943,7 @@ ms phd preferred 0,1,0.0015,3,3e-4
 phd preferred 0 3,1,0.0015,3,3e-4
 preferred 0 3 years,1,0.0015,2,2e-4
 model building roles experienced,1,0.0015,1,1e-4
+python r julia matlab,1,0.0015,1,1e-4
 scala java ruby javascript,1,0.0015,2,2e-4
 java ruby javascript shell,1,0.0015,3,3e-4
 ruby javascript shell scripting,1,0.0015,3,3e-4
@@ -7885,17 +8021,17 @@ neuroscience bioinformatics,1,0.0015,2,2e-4
 strong analysis,1,0.0015,1,1e-4
 using health,1,0.0015,10,0.0011
 health biosignals,1,0.0015,9,0.001
-biosignals excellent,1,0.0015,7,8e-4
+biosignals excellent,1,0.0015,7,7e-4
 algorithms strong,1,0.0015,4,4e-4
 common data,1,0.0015,3,3e-4
-scipy pytorch,1,0.0015,7,8e-4
+scipy pytorch,1,0.0015,7,7e-4
 os 2,1,0.0015,4,4e-4
 product development,1,0.0015,2,2e-4
 player focused,1,0.0015,4,4e-4
 focused first,1,0.0015,3,3e-4
 company mission,1,0.0015,4,4e-4
-mission strong,1,0.0015,7,8e-4
-strong organizational,1,0.0015,8,9e-4
+mission strong,1,0.0015,7,7e-4
+strong organizational,1,0.0015,8,8e-4
 skills communication,1,0.0015,2,2e-4
 skills able,1,0.0015,2,2e-4
 manage priorities,1,0.0015,1,1e-4
@@ -8018,8 +8154,8 @@ note,1,0.0015,9,0.001
 reword,1,0.0015,5,5e-4
 published,1,0.0015,4,4e-4
 description,1,0.0015,6,6e-4
-statistics machine,1,0.0015,7,8e-4
-science including,1,0.0015,7,8e-4
+statistics machine,1,0.0015,7,7e-4
+science including,1,0.0015,7,7e-4
 including behavioral,1,0.0015,9,0.001
 behavioral analytics,1,0.0015,9,0.001
 leading building,1,0.0015,1,1e-4
@@ -8027,7 +8163,7 @@ managing teams,1,0.0015,1,1e-4
 scientists independent,1,0.0015,2,2e-4
 creative thinker,1,0.0015,4,4e-4
 can maintain,1,0.0015,9,0.001
-maintain diligent,1,0.0015,7,8e-4
+maintain diligent,1,0.0015,7,7e-4
 diligent attention,1,0.0015,4,4e-4
 investment management,1,0.0015,3,3e-4
 management business,1,0.0015,4,4e-4
@@ -8038,10 +8174,10 @@ asset management,1,0.0015,2,2e-4
 management process,1,0.0015,2,2e-4
 data familiarity,1,0.0015,1,1e-4
 sql snowlake,1,0.0015,4,4e-4
-snowlake cosmos,1,0.0015,7,8e-4
+snowlake cosmos,1,0.0015,7,7e-4
 cosmos machine,1,0.0015,9,0.001
 learning expertise,1,0.0015,9,0.001
-expertise note,1,0.0015,7,8e-4
+expertise note,1,0.0015,7,7e-4
 note reword,1,0.0015,4,4e-4
 published job,1,0.0015,3,3e-4
 job description,1,0.0015,4,4e-4
@@ -8115,7 +8251,7 @@ required 5,1,0.0015,10,0.0011
 years prior,1,0.0015,9,0.001
 insurance setting,1,0.0015,1,1e-4
 analytics advanced,1,0.0015,4,4e-4
-sas sql,1,0.0015,1,1e-4
+sas sql,1,0.0015,3,3e-4
 emerging technology,1,0.0015,4,4e-4
 tools strong,1,0.0015,9,0.001
 acumen communication,1,0.0015,9,0.001
@@ -8136,6 +8272,7 @@ required 5 7,1,0.0015,6,6e-4
 years prior relevant,1,0.0015,5,5e-4
 advanced analytics advanced,1,0.0015,2,2e-4
 analytics advanced proficiency,1,0.0015,2,2e-4
+sas sql r,1,0.0015,2,2e-4
 emerging technology tools,1,0.0015,3,3e-4
 technology tools strong,1,0.0015,5,5e-4
 tools strong business,1,0.0015,6,6e-4
@@ -8158,6 +8295,7 @@ required 5 7 years,1,0.0015,3,3e-4
 7 years prior relevant,1,0.0015,3,3e-4
 years prior relevant experience,1,0.0015,2,2e-4
 advanced analytics advanced proficiency,1,0.0015,1,1e-4
+sas sql r python,1,0.0015,1,1e-4
 emerging technology tools strong,1,0.0015,2,2e-4
 technology tools strong business,1,0.0015,3,3e-4
 tools strong business acumen,1,0.0015,3,3e-4
@@ -8210,9 +8348,9 @@ huge plus,1,0.0015,2,2e-4
 plus experience,1,0.0015,2,2e-4
 react azure,1,0.0015,3,3e-4
 devops git,1,0.0015,3,3e-4
-based applications,1,0.0015,7,8e-4
-applications especially,1,0.0015,8,9e-4
-especially microsoft,1,0.0015,7,8e-4
+based applications,1,0.0015,7,7e-4
+applications especially,1,0.0015,8,8e-4
+especially microsoft,1,0.0015,7,7e-4
 modern web development,1,0.0015,3,3e-4
 web development javascript,1,0.0015,4,4e-4
 development javascript html,1,0.0015,3,3e-4
@@ -8247,7 +8385,7 @@ cdisc,1,0.0015,3,3e-4
 sdtm,1,0.0015,3,3e-4
 adam,1,0.0015,3,3e-4
 running,1,0.0015,2,2e-4
-sufficient,1,0.0015,2,2e-4
+sufficient,1,0.0015,5,5e-4
 conversions,1,0.0015,6,6e-4
 standalone,1,0.0015,4,4e-4
 automations,1,0.0015,15,0.0016
@@ -8259,13 +8397,13 @@ administration,1,0.0015,4,4e-4
 terms,1,0.0015,1,1e-4
 vendor,1,0.0015,4,4e-4
 licenses,1,0.0015,4,4e-4
-curl,1,0.0015,2,2e-4
+curl,1,0.0015,3,3e-4
 clinical data,1,0.0015,2,2e-4
 functions involved,1,0.0015,4,4e-4
-involved including,1,0.0015,7,8e-4
+involved including,1,0.0015,7,7e-4
 including performing,1,0.0015,9,0.001
 performing clinical,1,0.0015,9,0.001
-clinical trials,1,0.0015,7,8e-4
+clinical trials,1,0.0015,7,7e-4
 trials phases,1,0.0015,4,4e-4
 iv storing,1,0.0015,2,2e-4
 storing analyzing,1,0.0015,2,2e-4
@@ -8279,11 +8417,11 @@ advanced sas,1,0.0015,2,2e-4
 sas systems,1,0.0015,1,1e-4
 environments running,1,0.0015,1,1e-4
 sas macro,1,0.0015,4,4e-4
-macro programming,1,0.0015,7,8e-4
-skills deep,1,0.0015,7,8e-4
+macro programming,1,0.0015,7,7e-4
+skills deep,1,0.0015,7,7e-4
 deep proficiency,1,0.0015,4,4e-4
-datasets strong,1,0.0015,6,6e-4
-programming sufficient,1,0.0015,1,1e-4
+datasets strong,1,0.0015,7,7e-4
+programming sufficient,1,0.0015,4,4e-4
 sas conversions,1,0.0015,3,3e-4
 conversions java,1,0.0015,4,4e-4
 java programming,1,0.0015,3,3e-4
@@ -8291,7 +8429,7 @@ windows standalone,1,0.0015,2,2e-4
 standalone applications,1,0.0015,2,2e-4
 os creating,1,0.0015,1,1e-4
 maintaining sas,1,0.0015,4,4e-4
-sas java,1,0.0015,7,8e-4
+sas java,1,0.0015,7,7e-4
 java objects,1,0.0015,9,0.001
 objects developing,1,0.0015,10,0.0011
 developing secure,1,0.0015,10,0.0011
@@ -8302,7 +8440,7 @@ building automations,1,0.0015,10,0.0011
 automations linux,1,0.0015,10,0.0011
 linux systems,1,0.0015,10,0.0011
 systems programming,1,0.0015,9,0.001
-programming including,1,0.0015,7,8e-4
+programming including,1,0.0015,7,7e-4
 including filesystems,1,0.0015,4,4e-4
 shell programming,1,0.0015,3,3e-4
 programming cron,1,0.0015,4,4e-4
@@ -8325,7 +8463,7 @@ relations software,1,0.0015,4,4e-4
 software licenses,1,0.0015,3,3e-4
 documentation ability,1,0.0015,1,1e-4
 rest apis,1,0.0015,1,1e-4
-curl sas,1,0.0015,1,1e-4
+curl sas,1,0.0015,2,2e-4
 java applications,1,0.0015,1,1e-4
 clinical data science,1,0.0015,1,1e-4
 functions involved including,1,0.0015,3,3e-4
@@ -8343,8 +8481,11 @@ macro programming skills,1,0.0015,5,5e-4
 programming skills deep,1,0.0015,5,5e-4
 skills deep proficiency,1,0.0015,3,3e-4
 large datasets strong,1,0.0015,3,3e-4
-datasets strong programming,1,0.0015,4,4e-4
-strong programming experience,1,0.0015,3,3e-4
+datasets strong programming,1,0.0015,5,5e-4
+strong programming experience,1,0.0015,6,6e-4
+programming experience r,1,0.0015,6,6e-4
+experience r programming,1,0.0015,5,5e-4
+r programming sufficient,1,0.0015,3,3e-4
 sas conversions java,1,0.0015,2,2e-4
 conversions java programming,1,0.0015,2,2e-4
 windows standalone applications,1,0.0015,1,1e-4
@@ -8371,6 +8512,7 @@ building application strong,1,0.0015,2,2e-4
 application strong administration,1,0.0015,2,2e-4
 vendor relations software,1,0.0015,2,2e-4
 relations software licenses,1,0.0015,2,2e-4
+curl sas r,1,0.0015,1,1e-4
 functions involved including performing,1,0.0015,2,2e-4
 involved including performing clinical,1,0.0015,3,3e-4
 including performing clinical trials,1,0.0015,3,3e-4
@@ -8380,7 +8522,10 @@ sas macro programming skills,1,0.0015,2,2e-4
 macro programming skills deep,1,0.0015,3,3e-4
 programming skills deep proficiency,1,0.0015,2,2e-4
 large datasets strong programming,1,0.0015,2,2e-4
-datasets strong programming experience,1,0.0015,2,2e-4
+datasets strong programming experience,1,0.0015,3,3e-4
+strong programming experience r,1,0.0015,3,3e-4
+programming experience r programming,1,0.0015,3,3e-4
+experience r programming sufficient,1,0.0015,2,2e-4
 sas conversions java programming,1,0.0015,1,1e-4
 maintaining sas java objects,1,0.0015,2,2e-4
 sas java objects developing,1,0.0015,3,3e-4
@@ -8404,6 +8549,9 @@ including performing clinical trials phases,1,0.0015,1,1e-4
 sas macro programming skills deep,1,0.0015,1,1e-4
 macro programming skills deep proficiency,1,0.0015,1,1e-4
 large datasets strong programming experience,1,0.0015,1,1e-4
+datasets strong programming experience r,1,0.0015,1,1e-4
+strong programming experience r programming,1,0.0015,1,1e-4
+programming experience r programming sufficient,1,0.0015,1,1e-4
 maintaining sas java objects developing,1,0.0015,1,1e-4
 sas java objects developing secure,1,0.0015,1,1e-4
 java objects developing secure session,1,0.0015,1,1e-4
@@ -8420,25 +8568,25 @@ established,1,0.0015,9,0.001
 relevant machine,1,0.0015,4,4e-4
 experience comfortable,1,0.0015,10,0.0011
 comfortable being,1,0.0015,9,0.001
-being remaining,1,0.0015,7,8e-4
+being remaining,1,0.0015,7,7e-4
 remaining hands,1,0.0015,4,4e-4
 managing team,1,0.0015,2,2e-4
 team phd,1,0.0015,1,1e-4
 equivalent prior,1,0.0015,2,2e-4
 learning preferably,1,0.0015,2,2e-4
 text processing,1,0.0015,4,4e-4
-processing computer,1,0.0015,7,8e-4
-vision joint,1,0.0015,7,8e-4
+processing computer,1,0.0015,7,7e-4
+vision joint,1,0.0015,7,7e-4
 joint vision,1,0.0015,4,4e-4
 text models,1,0.0015,4,4e-4
 models established,1,0.0015,6,6e-4
 established track,1,0.0015,6,6e-4
 performing applied,1,0.0015,2,2e-4
 applied research,1,0.0015,2,2e-4
-learning demonstrated,1,0.0015,7,8e-4
+learning demonstrated,1,0.0015,7,7e-4
 leading data,1,0.0015,10,0.0011
 science teams,1,0.0015,9,0.001
-teams strong,1,0.0015,7,8e-4
+teams strong,1,0.0015,7,7e-4
 relevant machine learning,1,0.0015,3,3e-4
 learning experience comfortable,1,0.0015,6,6e-4
 experience comfortable being,1,0.0015,6,6e-4
@@ -8515,7 +8663,7 @@ records,1,0.0015,3,3e-4
 demographic,1,0.0015,3,3e-4
 economics data,1,0.0015,4,4e-4
 field advanced,1,0.0015,4,4e-4
-advanced technical,1,0.0015,7,8e-4
+advanced technical,1,0.0015,7,7e-4
 technical programming,1,0.0015,9,0.001
 statistical languages,1,0.0015,1,1e-4
 strong sense,1,0.0015,1,1e-4
@@ -8543,7 +8691,7 @@ datasets greater,1,0.0015,2,2e-4
 million records,1,0.0015,2,2e-4
 applying techniques,1,0.0015,1,1e-4
 efficiently manage,1,0.0015,4,4e-4
-manage big,1,0.0015,7,8e-4
+manage big,1,0.0015,7,7e-4
 technical collaboration,1,0.0015,2,2e-4
 collaboration tools,1,0.0015,2,2e-4
 jira preferred,1,0.0015,3,3e-4
@@ -8593,7 +8741,7 @@ efficiently manage big data experience,1,0.0015,1,1e-4
 manage big data experience working,1,0.0015,1,1e-4
 mba,1,0.0015,4,4e-4
 ppt,1,0.0015,15,0.0016
-correlation,1,0.0015,8,9e-4
+correlation,1,0.0015,8,8e-4
 anomalies,1,0.0015,2,2e-4
 outlier,1,0.0015,15,0.0016
 isolation,1,0.0015,9,0.001
@@ -8603,11 +8751,12 @@ statistics mba,1,0.0015,3,3e-4
 8 10,1,0.0015,2,2e-4
 required 3,1,0.0015,6,6e-4
 program project,1,0.0015,3,3e-4
-management experience,1,0.0015,8,9e-4
+management experience,1,0.0015,8,8e-4
 analytics space,1,0.0015,3,3e-4
-tool like,1,0.0015,7,8e-4
+tool like,1,0.0015,7,7e-4
+tableau sql,1,0.0015,9,0.001
 write complex,1,0.0015,4,4e-4
-complex queries,1,0.0015,7,8e-4
+complex queries,1,0.0015,7,7e-4
 queries excellent,1,0.0015,9,0.001
 excellent documentation,1,0.0015,10,0.0011
 documentation skill,1,0.0015,10,0.0011
@@ -8615,7 +8764,7 @@ skill using,1,0.0015,10,0.0011
 using ppt,1,0.0015,10,0.0011
 ppt word,1,0.0015,10,0.0011
 word visio,1,0.0015,9,0.001
-visio advanced,1,0.0015,7,8e-4
+visio advanced,1,0.0015,7,7e-4
 advanced understanding,1,0.0015,4,4e-4
 probability statistics,1,0.0015,4,4e-4
 science expertise,1,0.0015,4,4e-4
@@ -8629,13 +8778,13 @@ non distributed,1,0.0015,3,3e-4
 distributed strong,1,0.0015,4,4e-4
 anomalies outlier,1,0.0015,1,1e-4
 detection using,1,0.0015,4,4e-4
-using unsupervised,1,0.0015,7,8e-4
+using unsupervised,1,0.0015,7,7e-4
 unsupervised algorithms,1,0.0015,9,0.001
 algorithms clustering,1,0.0015,10,0.0011
 clustering local,1,0.0015,10,0.0011
 local outlier,1,0.0015,10,0.0011
 outlier factor,1,0.0015,9,0.001
-factor isolation,1,0.0015,7,8e-4
+factor isolation,1,0.0015,7,7e-4
 isolation forest,1,0.0015,4,4e-4
 stakeholder management,1,0.0015,4,4e-4
 drive improvements,1,0.0015,1,1e-4
@@ -8772,11 +8921,11 @@ mdc,1,0.0015,14,0.0015
 gmlos,1,0.0015,9,0.001
 analytics terminology,1,0.0015,3,3e-4
 icd cpt,1,0.0015,4,4e-4
-cpt ms,1,0.0015,7,8e-4
+cpt ms,1,0.0015,7,7e-4
 ms drg,1,0.0015,9,0.001
 drg mdc,1,0.0015,10,0.0011
 mdc los,1,0.0015,9,0.001
-los gmlos,1,0.0015,7,8e-4
+los gmlos,1,0.0015,7,7e-4
 gmlos obs,1,0.0015,4,4e-4
 healthcare data analytics,1,0.0015,2,2e-4
 data analytics terminology,1,0.0015,2,2e-4
@@ -8799,11 +8948,13 @@ drg mdc los gmlos obs,1,0.0015,1,1e-4
 stats,1,0.0015,2,2e-4
 languages automation,1,0.0015,4,4e-4
 stats packages,1,0.0015,1,1e-4
-sas hive,1,0.0015,2,2e-4
+sas hive,1,0.0015,3,3e-4
 programming languages automation,1,0.0015,2,2e-4
 languages automation tools,1,0.0015,2,2e-4
-python sas hive,1,0.0015,1,1e-4
+r python sas,1,0.0015,2,2e-4
+python sas hive,1,0.0015,2,2e-4
 programming languages automation tools,1,0.0015,1,1e-4
+r python sas hive,1,0.0015,1,1e-4
 patiently,1,0.0015,1,1e-4
 customers,1,0.0015,2,2e-4
 interact effectively,1,0.0015,1,1e-4
@@ -8830,12 +8981,12 @@ minimal direction,1,0.0015,1,1e-4
 scenario,1,0.0015,14,0.0015
 advanced machine,1,0.0015,6,6e-4
 statistics regression,1,0.0015,4,4e-4
-regression simulation,1,0.0015,7,8e-4
+regression simulation,1,0.0015,7,7e-4
 simulation scenario,1,0.0015,9,0.001
 scenario analysis,1,0.0015,10,0.0011
 modeling clustering,1,0.0015,10,0.0011
 clustering decision,1,0.0015,10,0.0011
-trees neural,1,0.0015,7,8e-4
+trees neural,1,0.0015,7,7e-4
 using advanced machine,1,0.0015,3,3e-4
 advanced machine learning,1,0.0015,4,4e-4
 machine learning algorithms,1,0.0015,3,3e-4
@@ -8872,8 +9023,8 @@ custom business,1,0.0015,6,6e-4
 intelligence solutions,1,0.0015,4,4e-4
 leverage data,1,0.0015,1,1e-4
 span multiple,1,0.0015,4,4e-4
-multiple technologies,1,0.0015,7,8e-4
-including tableau,1,0.0015,7,8e-4
+multiple technologies,1,0.0015,7,7e-4
+including tableau,1,0.0015,7,7e-4
 tableau python,1,0.0015,4,4e-4
 sql rdbms,1,0.0015,2,2e-4
 rdbms platforms,1,0.0015,2,2e-4
@@ -8935,11 +9086,11 @@ enable organization wide,1,0.0015,2,2e-4
 organization wide usage,1,0.0015,2,2e-4
 enable organization wide usage,1,0.0015,1,1e-4
 coordinating,1,0.0015,5,5e-4
-craft,1,0.0015,8,9e-4
+craft,1,0.0015,8,8e-4
 coordinating complex,1,0.0015,4,4e-4
 project work,1,0.0015,9,0.001
 work across,1,0.0015,9,0.001
-across multiple,1,0.0015,7,8e-4
+across multiple,1,0.0015,7,7e-4
 multiple teams,1,0.0015,4,4e-4
 effectively craft,1,0.0015,4,4e-4
 craft data,1,0.0015,6,6e-4
@@ -9061,8 +9212,8 @@ university,1,0.0015,2,2e-4
 quantitive,1,0.0015,2,2e-4
 mechatronics,1,0.0015,4,4e-4
 university degree,1,0.0015,1,1e-4
-business engineering,1,0.0015,7,8e-4
-engineering advanced,1,0.0015,8,9e-4
+business engineering,1,0.0015,7,7e-4
+engineering advanced,1,0.0015,8,8e-4
 degree bachelor,1,0.0015,4,4e-4
 quantitive field,1,0.0015,1,1e-4
 control theory,1,0.0015,3,3e-4
@@ -9091,7 +9242,7 @@ management strategy economics technology,1,0.0015,2,2e-4
 science business engineering advanced degree,1,0.0015,1,1e-4
 business engineering advanced degree bachelor,1,0.0015,1,1e-4
 operation management strategy economics technology,1,0.0015,1,1e-4
-academic,1,0.0015,8,9e-4
+academic,1,0.0015,8,8e-4
 equivalent academic,1,0.0015,4,4e-4
 academic experience,1,0.0015,6,6e-4
 experience course,1,0.0015,6,6e-4
@@ -9122,6 +9273,7 @@ data challenges hackathons,1,0.0015,2,2e-4
 kaggle data challenges hackathons,1,0.0015,1,1e-4
 ethics,1,0.0015,1,1e-4
 demonstrated contribution,1,0.0015,1,1e-4
+python r c,1,0.0015,1,1e-4
 database languages,1,0.0015,3,3e-4
 sql understanding,1,0.0015,3,3e-4
 database languages sql,1,0.0015,2,2e-4
@@ -9136,9 +9288,9 @@ analyzing time series data,1,0.0015,1,1e-4
 stochastic,1,0.0015,11,0.0012
 randomized,1,0.0015,2,2e-4
 distributed computing,1,0.0015,4,4e-4
-computing stochastic,1,0.0015,7,8e-4
-stochastic modelling,1,0.0015,8,9e-4
-modelling sampling,1,0.0015,7,8e-4
+computing stochastic,1,0.0015,7,7e-4
+stochastic modelling,1,0.0015,8,8e-4
+modelling sampling,1,0.0015,7,7e-4
 sampling methods,1,0.0015,4,4e-4
 randomized algorithms,1,0.0015,1,1e-4
 distributed computing stochastic,1,0.0015,3,3e-4
@@ -9191,9 +9343,9 @@ javascript framework,1,0.0015,1,1e-4
 front end development,1,0.0015,2,2e-4
 end development using,1,0.0015,2,2e-4
 front end development using,1,0.0015,1,1e-4
-analytics open,1,0.0015,7,8e-4
+analytics open,1,0.0015,7,7e-4
 tools cloud,1,0.0015,10,0.0011
-computing machine,1,0.0015,7,8e-4
+computing machine,1,0.0015,7,7e-4
 data analytics open,1,0.0015,3,3e-4
 analytics open source,1,0.0015,5,5e-4
 source tools cloud,1,0.0015,6,6e-4
@@ -9218,16 +9370,20 @@ task order,1,0.0015,1,1e-4
 expert understanding,1,0.0015,1,1e-4
 client techniques,1,0.0015,2,2e-4
 client techniques algorithms,1,0.0015,1,1e-4
-weka,1,0.0015,5,5e-4
-weka numpy,1,0.0015,4,4e-4
-numpy apache,1,0.0015,7,8e-4
-weka numpy apache,1,0.0015,3,3e-4
-numpy apache hadoop,1,0.0015,5,5e-4
+weka,1,0.0015,9,0.001
+r weka,1,0.0015,4,4e-4
+weka numpy,1,0.0015,7,7e-4
+numpy apache,1,0.0015,9,0.001
+r weka numpy,1,0.0015,3,3e-4
+weka numpy apache,1,0.0015,5,5e-4
+numpy apache hadoop,1,0.0015,6,6e-4
 apache hadoop python,1,0.0015,5,5e-4
 hadoop python matlab,1,0.0015,3,3e-4
-weka numpy apache hadoop,1,0.0015,2,2e-4
+r weka numpy apache,1,0.0015,2,2e-4
+weka numpy apache hadoop,1,0.0015,3,3e-4
 numpy apache hadoop python,1,0.0015,3,3e-4
 apache hadoop python matlab,1,0.0015,2,2e-4
+r weka numpy apache hadoop,1,0.0015,1,1e-4
 weka numpy apache hadoop python,1,0.0015,1,1e-4
 numpy apache hadoop python matlab,1,0.0015,1,1e-4
 understand patterns,1,0.0015,1,1e-4
@@ -9270,9 +9426,9 @@ routine,1,0.0015,11,0.0012
 proven excellence,1,0.0015,1,1e-4
 formulating understanding,1,0.0015,1,1e-4
 solving complex,1,0.0015,4,4e-4
-complex non,1,0.0015,7,8e-4
-non routine,1,0.0015,8,9e-4
-routine quantitative,1,0.0015,7,8e-4
+complex non,1,0.0015,7,7e-4
+non routine,1,0.0015,8,8e-4
+routine quantitative,1,0.0015,7,7e-4
 quantitative problems,1,0.0015,4,4e-4
 solving complex non,1,0.0015,3,3e-4
 complex non routine,1,0.0015,5,5e-4
@@ -9294,8 +9450,8 @@ quickly construct,1,0.0015,2,2e-4
 construct tools,1,0.0015,2,2e-4
 problem solving including,1,0.0015,1,1e-4
 quickly construct tools,1,0.0015,1,1e-4
-interactive,1,0.0015,8,9e-4
-fluid,1,0.0015,8,9e-4
+interactive,1,0.0015,8,8e-4
+fluid,1,0.0015,8,8e-4
 highly interactive,1,0.0015,4,4e-4
 interactive collaborative,1,0.0015,6,6e-4
 collaborative fluid,1,0.0015,6,6e-4

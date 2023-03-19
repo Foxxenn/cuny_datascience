@@ -743,7 +743,7 @@ data product architectures,1,0.0024,3,9.00E-04,
 data readily,1,0.0024,1,3.00E-04,
 data reliability,1,0.0024,4,0.0012,
 data reliability analysis,1,0.0024,2,6.00E-04,
-data science,16,0.0383,24,0.0069,y
+data science,16,0.0383,24,0.0069,
 data science analysis,1,0.0024,3,9.00E-04,
 data science analysis including,1,0.0024,2,6.00E-04,
 data science analysis including workshops,1,0.0024,1,3.00E-04,
@@ -754,7 +754,7 @@ data science packages,1,0.0024,3,9.00E-04,
 data science programming,1,0.0024,2,6.00E-04,y
 data science programming skills,1,0.0024,1,3.00E-04,y
 data science solutions,1,0.0024,2,6.00E-04,
-data science toolkits,1,0.0024,1,3.00E-04,y
+data science toolkits,1,0.0024,1,3.00E-04,
 data scientist,3,0.0072,2,6.00E-04,
 data scientists,1,0.0024,1,3.00E-04,
 data sets,4,0.0096,5,0.0014,
@@ -3430,3 +3430,148 @@ years relevant professional,1,0.0024,5,0.0014,
 years relevant professional experience,1,0.0024,2,6.00E-04,
 years technical,1,0.0024,2,6.00E-04,
 years technical experience,1,0.0024,1,3.00E-04,
+r,674,0.9782,,,y
+tableau r,1,0.0015,,,y
+r sql,1,0.0015,,,y
+python r,9,0.0131,,,y
+r matlab,3,0.0044,,,y
+including python r,2,0.0029,,,y
+python r matlab,2,0.0029,,,y
+r matlab risk,1,0.0015,,,y
+software including python r,1,0.0015,,,y
+including python r matlab,1,0.0015,,,y
+python r matlab risk,1,0.0015,,,y
+r matlab risk arena,1,0.0015,,,y
+software including python r matlab,1,0.0015,,,y
+including python r matlab risk,1,0.0015,,,y
+python r matlab risk arena,1,0.0015,,,y
+java r,2,0.0029,,,y
+r scala,2,0.0029,,,y
+python java r,1,0.0015,,,y
+language python java r,1,0.0015,,,y
+programming language python java r,1,0.0015,,,y
+r scripting,1,0.0015,,,y
+r scripting language,1,0.0015,,,y
+r java,3,0.0044,,,y
+implementations python r,1,0.0015,,,y
+python r java,1,0.0015,,,y
+r java sas,1,0.0015,,,y
+numerical implementations python r,1,0.0015,,,y
+implementations python r java,1,0.0015,,,y
+python r java sas,1,0.0015,,,y
+numerical implementations python r java,1,0.0015,,,y
+implementations python r java sas,1,0.0015,,,y
+languages r,2,0.0029,,,y
+r python,13,0.0189,,,y
+computer languages r,1,0.0015,,,y
+languages r python,2,0.0029,,,y
+r python sql,2,0.0029,,,y
+statistical computer languages r,1,0.0015,,,y
+computer languages r python,1,0.0015,,,y
+languages r python sql,1,0.0015,,,y
+using statistical computer languages r,1,0.0015,,,y
+statistical computer languages r python,1,0.0015,,,y
+computer languages r python sql,1,0.0015,,,y
+programming languages r,1,0.0015,,,y
+programming languages r python,1,0.0015,,,y
+using r,5,0.0073,,,y
+coding using r,1,0.0015,,,y
+using r python,1,0.0015,,,y
+coding using r python,1,0.0015,,,y
+sas r,2,0.0029,,,y
+python sas r,1,0.0015,,,y
+sas r matlab,1,0.0015,,,y
+r matlab tableau,1,0.0015,,,y
+sql python sas r,1,0.0015,,,y
+python sas r matlab,1,0.0015,,,y
+sas r matlab tableau,1,0.0015,,,y
+r matlab tableau power,1,0.0015,,,y
+sql python sas r matlab,1,0.0015,,,y
+python sas r matlab tableau,1,0.0015,,,y
+sas r matlab tableau power,1,0.0015,,,y
+r matlab tableau power bi,1,0.0015,,,y
+r strong,1,0.0015,,,y
+languages python r,1,0.0015,,,y
+r strong experience,1,0.0015,,,y
+r matlab simulink,1,0.0015,,,y
+coding languages python r,1,0.0015,,,y
+languages python r matlab,1,0.0015,,,y
+python r matlab simulink,1,0.0015,,,y
+r matlab simulink sql,1,0.0015,,,y
+coding languages python r matlab,1,0.0015,,,y
+languages python r matlab simulink,1,0.0015,,,y
+python r matlab simulink sql,1,0.0015,,,y
+r statistical,3,0.0044,,,y
+r statistical software,1,0.0015,,,y
+r programing,1,0.0015,,,y
+experience tableau r,1,0.0015,,,y
+tableau r programing,1,0.0015,,,y
+specialized experience tableau r,1,0.0015,,,y
+experience tableau r programing,1,0.0015,,,y
+specialized experience tableau r programing,1,0.0015,,,y
+r python matlab,1,0.0015,,,y
+r python matlab excel,1,0.0015,,,y
+r python matlab excel environments,1,0.0015,,,y
+sql r,5,0.0073,,,y
+languages sql r,1,0.0015,,,y
+sql r python,1,0.0015,,,y
+programming languages sql r,1,0.0015,,,y
+r hadoop,1,0.0015,,,y
+language r,1,0.0015,,,y
+programming language r,1,0.0015,,,y
+language r python,1,0.0015,,,y
+r python preferred,1,0.0015,,,y
+analytical programming language r,1,0.0015,,,y
+programming language r python,1,0.0015,,,y
+language r python preferred,1,0.0015,,,y
+analytical programming language r python,1,0.0015,,,y
+programming language r python preferred,1,0.0015,,,y
+r 1,1,0.0015,,,y
+r 1 year,1,0.0015,,,y
+r 1 year required,1,0.0015,,,y
+r excel,1,0.0015,,,y
+python r excel,1,0.0015,,,y
+r excel access,1,0.0015,,,y
+scripting including python r,1,0.0015,,,y
+including python r excel,1,0.0015,,,y
+python r excel access,1,0.0015,,,y
+r excel access vba,1,0.0015,,,y
+tasks scripting including python r,1,0.0015,,,y
+scripting including python r excel,1,0.0015,,,y
+including python r excel access,1,0.0015,,,y
+python r excel access vba,1,0.0015,,,y
+r excel access vba macros,1,0.0015,,,y
+data using r,1,0.0015,,,y
+unstructured data using r,1,0.0015,,,y
+statistical programming languages r,1,0.0015,,,y
+statistical programming languages r python,1,0.0015,,,y
+code r,1,0.0015,,,y
+r stata,2,0.0029,,,y
+r stata sas,1,0.0015,,,y
+r julia,1,0.0015,,,y
+python r julia,1,0.0015,,,y
+r julia matlab,1,0.0015,,,y
+python r julia matlab,1,0.0015,,,y
+sas sql r,1,0.0015,,,y
+sas sql r python,1,0.0015,,,y
+experience r,3,0.0044,,,y
+r programming,5,0.0073,,,y
+r sas,2,0.0029,,,y
+programming experience r,1,0.0015,,,y
+experience r programming,1,0.0015,,,y
+r programming sufficient,1,0.0015,,,y
+curl sas r,1,0.0015,,,y
+strong programming experience r,1,0.0015,,,y
+programming experience r programming,1,0.0015,,,y
+experience r programming sufficient,1,0.0015,,,y
+datasets strong programming experience r,1,0.0015,,,y
+strong programming experience r programming,1,0.0015,,,y
+programming experience r programming sufficient,1,0.0015,,,y
+r python sas,1,0.0015,,,y
+r python sas hive,1,0.0015,,,y
+r c,24,0.0348,,,y
+python r c,1,0.0015,,,y
+r weka,1,0.0015,,,y
+r weka numpy,1,0.0015,,,y
+r weka numpy apache,1,0.0015,,,y
+r weka numpy apache hadoop,1,0.0015,,,y
