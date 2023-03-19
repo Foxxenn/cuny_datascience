@@ -32,8 +32,13 @@ Overall Process:
 ```{r setup}
 knitr::opts_chunk$set(echo = TRUE)
 
+rm(list=ls())
+
 library(tidyverse)
 library(RPostgres)
+library(knitr)
+library(kableExtra)
+library(ggwordcloud)
 ```
 
 ## Database Connection
@@ -46,7 +51,7 @@ dsn_database = 'postgres'
 dsn_hostname = 'data607-project3.cjhjyn2ym2hc.us-east-2.rds.amazonaws.com'
 dsn_port = 5432
 dsn_uid = 'postgres'
-dsn_pwd = 'Team5Project3'
+dsn_pwd = 'Team5Project3' 
 
 con <- dbConnect(Postgres(),
                  dbname = dsn_database,
@@ -235,7 +240,7 @@ word_occurrence = data.frame()
 for(i in 1:nrow(skills_data)) {
   num_occurrences = 0
   word = skills_data[[i,"skill"]]
-  print(word)
+  #print(word)
   
   num_occurrences <- skills_data %>%
     filter(grepl(word, skill)) %>%
@@ -364,8 +369,6 @@ jobs_df_clean <- jobs_df %>%
 j1 <- left_join(jobs_df_clean, skills_list_labeled, by=c("Skills"="Skills"), multiple = "all")
 
 
-head(j1)
-
 j1_pivot <- j1 %>% pivot_longer(cols = c("skill_short1", "skill_short2", "skill_short3", "skill_short4", "skill_short5", "skill_short6", "skill_short7"),
                     names_to = "skill_number", 
                     values_to = "discrete_skill")
@@ -380,6 +383,58 @@ colnames(j1_pivot) <- columns
 
 j1_pivot <- janitor::clean_names(j1_pivot)
 
+j1_pivot <- j1_pivot %>%
+  mutate(discrete_skill = case_when(
+    str_detect(discrete_skill, '(communication|communicate)') ~ 'communication skills',
+    str_detect(discrete_skill, 'visualization') ~ 'data visualization skills',
+    str_detect(discrete_skill, 'stat') ~ 'applied statistics', 
+    str_detect(discrete_skill,'\\bai\\b') ~ 'artificial intelligence',
+    str_detect(discrete_skill,'agile') ~ 'agile development',
+    str_detect(discrete_skill, '(^analys|analyz)') ~ 'analysis skills',
+    str_detect(discrete_skill, '^analyt') ~ 'analytics skills',
+    str_detect(discrete_skill, '(machine learning|ml)') ~ 'machine learning',
+    str_detect(discrete_skill, '\\bci\\b') ~ 'ci',
+    str_detect(discrete_skill, 'strat') ~ 'strategy skills',
+    str_detect(discrete_skill, 'workflow') ~ 'worklow automation',
+    str_detect(discrete_skill, '\\bcloud\\b') ~ 'cloud computing',
+    str_detect(discrete_skill, 'cluster') ~ 'cluster analysis',
+    str_detect(discrete_skill, 'critical') ~ 'critical thinking skills',
+    str_detect(discrete_skill, 'project') ~ 'project management skills',
+    str_detect(discrete_skill, 'customer') ~ 'customer service skills',
+    str_detect(discrete_skill, 'data science') ~ 'data science skills',
+    str_detect(discrete_skill, 'database') ~ 'database management',
+    str_detect(discrete_skill, 'big data') ~ 'big data',
+    str_detect(discrete_skill, 'deep') ~ 'deep learning',
+    str_detect(discrete_skill, '\\betl\\b') ~ 'etl',
+    str_detect(discrete_skill, 'python') ~ 'python programming',
+    str_detect(discrete_skill, 'innov') ~ 'innovative',
+    str_detect(discrete_skill, 'regression') ~ 'regression modeling',
+    str_detect(discrete_skill, 'ggplot') ~ 'ggplot',
+    str_detect(discrete_skill, 'model') ~ 'model development',
+    str_detect(discrete_skill, 'data transformation') ~ 'data transformation',
+    str_detect(discrete_skill, '\\bsql\\b') ~ 'sql',
+    str_detect(discrete_skill, '(\\bbi\\b|business intelligence)') ~ 'business intelligence skills',
+    str_detect(discrete_skill, '\\bai\\b') ~ 'artificial intelligence',
+    str_detect(discrete_skill, 'neural') ~ 'neural networks',
+    str_detect(discrete_skill, 'keras') ~ 'keras',
+    str_detect(discrete_skill, '(sas|saas)') ~ 'saas',
+    str_detect(discrete_skill, 'software development') ~ 'software development',
+    str_detect(discrete_skill, 'algorithm') ~ 'algorithm design',
+    str_detect(discrete_skill, '(\\bmip\\b|\\bqp\\b)') ~ 'mixed-interger programming',
+    str_detect(discrete_skill, '\\bnlp\\b') ~ 'natural language programming',
+    str_detect(discrete_skill, '(\\boop\\b|object)') ~ 'object oriented programming',
+    str_detect(discrete_skill, 'consulting') ~ 'consulting',
+    str_detect(discrete_skill, 'predictive') ~ 'predictive modeling',
+    str_detect(discrete_skill, 'curio') ~ 'curiosity',
+    str_detect(discrete_skill, 'data cleaning') ~ 'data wrangling',
+    str_detect(discrete_skill, 'probab') ~ 'probabilistic modeling',
+    str_detect(discrete_skill, '(programming|scripting|coding)') & !str_detect(skill, '(python|sql|database)') ~ 'computer programming',
+    str_detect(discrete_skill, 'solving') ~ 'problem solving',
+    str_detect(discrete_skill, 'team') ~ 'teamwork skills',
+    str_detect(discrete_skill, 'unsupervised') ~ 'unsupervised learning',
+    TRUE ~ discrete_skill
+  ))
+  
 
 
 ## Export cleaned data frame
@@ -398,6 +453,13 @@ company_df <- j1_pivot %>%
   distinct() %>%
   mutate(company_id = row_number())
 
+skills_df <- j1_pivot %>%
+  select(discrete_skill) %>%
+  distinct(discrete_skill) %>%
+  na.omit(discrete_skill) %>%
+  arrange(discrete_skill) %>%
+  mutate(skill_id = row_number())
+
 job_board_df <- j1_pivot %>%
   select(job_board) %>%
   distinct() %>%
@@ -408,12 +470,7 @@ job_posting_df <- j1_pivot %>%
   summarize(posting_id = cur_group_id())
 
 
-skills_df <- j1_pivot %>%
-  select(discrete_skill) %>%
-  distinct() %>%
-  na.omit(discrete_skill) %>%
-  arrange(discrete_skill) %>%
-  mutate(skill_id = row_number())
+
 
 
 j2 <- left_join(j1_pivot,job_posting_df) 
@@ -438,9 +495,9 @@ posting_data <- posting_data %>%
     str_detect(job_type,"\\bHybrid\\b") ~ "Hybrid",
     str_detect(job_type, "\\b[rR]emote\\b") ~ "Remote",
     str_detect(job_type, "\\bIn [pP]erson\\b") ~ "On-Site",
-    job_type == 'On Premise' ~ 'On-Site',
-    job_type == 'character(0)' ~ NA,
-    job_type == '0' ~ NA,
+    str_detect(job_type, 'On Premise') ~ 'On-Site',
+    str_detect(job_type, "character(0)") ~ "",
+    str_detect(job_type, '0') ~ "",
     TRUE ~ job_type
   ))
 
@@ -451,8 +508,8 @@ posting_data <- posting_data %>%
     str_detect(seniority_level,"(Entry|Assistant)") ~ 'Entry Level',
     str_detect(seniority_level, "(Mid|Manager|Supervisor)") ~ 'Mid Level',
     str_detect(seniority_level, "(Senior)") ~ 'Senior Level',
-    seniority_level == 'character(0)' ~ NA,
-    seniority_level == '0' ~ NA,
+    seniority_level == 'character(0)' ~ "",
+    seniority_level == '0' ~ "",
     TRUE ~ seniority_level
   ))
 
@@ -471,6 +528,18 @@ posting_data <- posting_data %>%
       years_experience %in% c("3","4") ~ 'Mid Level',
       TRUE ~ seniority_level
     ),seniority_level))
+
+
+posting_data <- posting_data %>%
+  mutate(job_title_category = case_when(
+    str_detect(job_title, "(Analyst|Analytics)") ~ 'Data Analyst',
+    str_detect(job_title, "Data S") ~ 'Data Scientist',
+    str_detect(job_title, 'Engineer') ~ 'Data Engineer',
+    str_detect(job_title, 'Machine Learning') ~ 'Data Scientist',
+    TRUE ~ 'Other'
+  )) 
+  
+
 
 job_board_data <- j5 %>%
   select(job_board_id, job_board) %>%
@@ -491,6 +560,8 @@ Now that we've cleaned the data and created our dataframes, we want to create th
 
 ```{r}
 
+drop_query = "DROP TABLE company,job_board, skills, job_posting"
+dbSendQuery(con, drop_query)
 
 #Queries to Build data tables in database
 q1 = "CREATE TABLE IF NOT EXISTS company (company_id INT PRIMARY KEY, company_name VARCHAR(75) UNIQUE NOT NULL, company_location VARCHAR(75) NOT NULL, industry VARCHAR(75) NOT NULL)"
@@ -499,7 +570,7 @@ q2 = "CREATE TABLE IF NOT EXISTS job_board (job_board_id INT PRIMARY KEY, job_bo
 
 q3 = "CREATE TABLE IF NOT EXISTS skills (skill_id INT primary key, job_posting_id INT not null, skill VARCHAR(75) unique not null)"
 
-q4 = "CREATE TABLE IF NOT EXISTS job_posting (posting_id INT primary key, company_id INT not null, job_board_id INT not null, job_title VARCHAR(75) not null, job_type VARCHAR(75) not null, seniority_level VARCHAR(75) not null)"
+q4 = "CREATE TABLE IF NOT EXISTS job_posting (posting_id INT primary key, company_id INT not null, job_board_id INT not null, job_title VARCHAR(75) not null, job_title_cat VARCHAR(75), job_type VARCHAR(75) not null, seniority_level VARCHAR(75) not null)"
 
 dbSendQuery(con, q1)
 dbSendQuery(con, q2)
@@ -524,10 +595,247 @@ For this project, we set out to answer the following four questions:
 (c) What skills are the most commonly listed across jobs based on seniority level?
 (d) What are the top skills across different skill types?
 
+
+### Question 1
+
+What skills are the most commonly listed across all job positions? 
 ```{r}
+
+query = "SELECT * FROM skills"
+skills_data <- dbGetQuery(con, query)
+
+query = "SELECT * FROM job_posting"
+posting_data <- dbGetQuery(con,query)
+
+num_postings = posting_data %>% nrow()
+
+top50_skills <- skills_data %>%
+  group_by(discrete_skill) %>%
+  summarize(num_jobs = n_distinct(posting_id)) %>%
+  mutate(pct_of_jobs = num_jobs/n()) %>%
+  na.omit() %>%
+  arrange(desc(pct_of_jobs)) %>%
+  head(50)
+
+
+top25_skills <- skills_data %>%
+  group_by(discrete_skill) %>%
+  summarize(num_jobs = n_distinct(posting_id)) %>%
+  mutate(pct_of_jobs = num_jobs/num_postings) %>%
+  na.omit() %>%
+  arrange(desc(pct_of_jobs)) %>% 
+  head(25) %>%
+  mutate(discrete_skill = factor(discrete_skill, levels=discrete_skill, ordered=TRUE))
+  
+  
+## Table of top 25 Job Postings
+top25_skills %>%
+  mutate(pct_of_jobs = scales::percent(pct_of_jobs)) %>%
+  kable(
+    col.names = c("Skill", "No. Jobs", "Percent of Jobs"),
+    row.names = TRUE,
+    caption = "Top 25 Skills for Data Scientists & Data Professionals (N = 89 Postings)",
+    align = c("l", "c", "c")
+  ) %>%
+  kable_material(c("striped"))
+
+## Shows top 25 skills for Data Scientist
+ggplot(data = top25_skills, aes(x=reorder(discrete_skill, num_jobs), y=pct_of_jobs)) +
+  geom_bar(stat='identity', aes(fill=discrete_skill)) +
+  coord_flip() + 
+  labs(
+    x = "Job Skills",
+    y = "Percent of Jobs",
+    title = 'Top 25 Skills For Data Scientist and Data Professionals',
+    subtitle = 'N = 89 Postings',
+    fill = 'Skills'
+  ) + 
+  scale_y_continuous(labels = scales::percent)
+
+## Wordcloud of top 50 Skills
+ggplot(top50_skills, aes(label=discrete_skill, size=num_jobs)) + 
+  geom_text_wordcloud() + 
+  theme_minimal()
+
+
+```
+For this we pulled the top 25 skills that across each of our data science jobs, and found that of these the top 5 were 
+
+1. Analysis Skills - 58.4% of postings
+2. Python Programming - 57.3% of postings
+3. Communication Skills - 42.7% of postings
+4. Machine Learning - 42.7% of postings
+5. Analytics Skills - 41.6% of postings
+
+
+### Question 2
+
+Are there differences in skills based on position/title?
+```{r}
+
+query <- "SELECT * FROM skills LEFT JOIN job_posting ON skills.posting_id = job_posting.posting_id"
+
+combined_data <- dbGetQuery(con, query)
+
+combined_data <- combined_data %>%
+  select(-posting_id..4)
+
+num_postings_by_cat <- combined_data %>% 
+  group_by(job_title_category) %>%
+  summarize(total_postings = n_distinct(posting_id)) %>%
+  arrange(desc(total_postings))
+
+num_postings_by_skill <- combined_data %>%
+  group_by(job_title_category, discrete_skill) %>%
+  summarize(num_postings = n_distinct(posting_id)) %>%
+  ungroup()
+  
+  
+  
+combined_postings_by_cat <- left_join(num_postings_by_skill, num_postings_by_cat) %>%
+  mutate(pct_postings = num_postings/total_postings)
+
+
+            
+  
+top10_by_cat <- combined_postings_by_cat %>%
+  group_by(job_title_category) %>%
+  na.omit(discrete_skill) %>%
+  arrange(desc(num_postings)) %>%
+  filter(row_number() <= 10)
+  
+
+top10_by_cat %>%
+  ungroup() %>%
+  select(job_title_category, discrete_skill, pct_postings) %>%
+  mutate(pct_postings = scales::percent(round(pct_postings,3))) %>%
+  mutate(pct_postings = ifelse(pct_postings == 'NA',"-",pct_postings)) %>%
+  pivot_wider(names_from = job_title_category, values_from = pct_postings) %>%
+  mutate_at(c("Data Scientist", "Data Analyst", "Data Engineer", "Other"), ~replace_na(.,"-")) %>%
+  arrange(discrete_skill) %>% 
+  kable(
+    col.names = (c("Skill", "Data Scientist", "Data Analyst", "Data Engineer", "Other")),
+    row.names = TRUE,
+    caption = "Top Data Science Skills based on Category of Job Title",
+    align = c("l",rep("c",4))
+  ) %>%
+  kable_material(font_size = 15, c("striped", "condensed"))
+
+combined_postings_by_cat %>%
+  group_by(job_title_category) %>%
+  na.omit(discrete_skill) %>%
+  arrange(desc(num_postings)) %>%
+  ungroup() %>%
+  select(job_title_category, discrete_skill, pct_postings) %>%
+  mutate(pct_postings = scales::percent(round(pct_postings,3))) %>%
+  mutate(pct_postings = ifelse(pct_postings == 'NA',"-",pct_postings)) %>%
+  pivot_wider(names_from = job_title_category, values_from = pct_postings) %>%
+  na.omit() %>%
+  filter(row_number() <= 10) %>%
+  kable(
+    col.names = (c("Skill", "Data Scientist", "Data Analyst", "Data Engineer", "Other")),
+    row.names = TRUE,
+    caption = "Top 10 Data Science Skills Consistent Across Each Data Function/Title",
+    align = c("l",rep("c",4))
+  ) %>%
+  kable_material(font_size = 15, c("striped", "condensed"))
+
+```
+Overall there seemed to be similarity in the importance of skills across the functional role. However, as expected we do find some start differences between each position. For example, Data Engineers are expected to have more familiarity with cloud based architectures and technologies, such as AWS and Azure and there's a lot more focus on their programming skills (e.g. computer programming, and python programming). However, for Data Scientist and Data Analyst, there's more of focus on analytical skills and the abiity to develop models. 
+
+
+### Question 3
+
+What skills are the most commonly listed across jobs based on seniority level?
+```{r}
+
+query <- "SELECT * FROM skills LEFT JOIN job_posting ON skills.posting_id = job_posting.posting_id"
+
+combined_data <- dbGetQuery(con, query)
+
+combined_data <- combined_data %>%
+  select(-posting_id..4)
+
+filtered_posts <- combined_data %>%
+  filter(!is.na(seniority_level), seniority_level != "")
+
+
+group_by_seniority <- filtered_posts %>%
+  group_by(seniority_level) %>%
+  summarize(group_size = n_distinct(posting_id)) %>%
+  ungroup()
+
+
+
+group_by_skill <- filtered_posts %>%
+  group_by(seniority_level, discrete_skill) %>%
+  summarize(num_jobs = n_distinct(posting_id)) %>%
+  ungroup()
+  
+  
+combined_by_seniority <- left_join(group_by_skill, group_by_seniority)
+
+top10_by_level <- combined_by_seniority %>%
+  filter(!is.na(discrete_skill)) %>%
+  mutate(pct_postings = num_jobs/group_size) %>%
+  group_by(seniority_level) %>%
+  arrange(desc(num_jobs)) %>%
+  filter(row_number() <= 10)
+
+combined_by_seniority
+
+
+top10_by_level %>%
+  ungroup() %>%
+  select(seniority_level, discrete_skill, pct_postings) %>%
+  mutate(pct_postings = scales::percent(round(pct_postings,3))) %>%
+  mutate(pct_postings = ifelse(pct_postings == 'NA',"-",pct_postings)) %>%
+  pivot_wider(names_from = seniority_level, values_from = pct_postings) %>%
+  select(discrete_skill, 'Entry Level', 'Mid Level', 'Senior Level') %>%
+  mutate_at(c("Entry Level", "Mid Level", "Senior Level"), ~replace_na(.,"-")) %>%
+  arrange(discrete_skill) %>% 
+  kable(
+    col.names = (c("Skill", "Entry Level", "Mid Level", "Senior Level")),
+    row.names = TRUE,
+    caption = "Top Data Science Skills based on Seniority Level",
+    align = c("l",rep("c",3))
+  ) %>%
+  kable_material(c("striped", "condensed"))
+
+
+top10_by_level %>%
+  ungroup() %>%
+  select(seniority_level, discrete_skill, pct_postings) %>%
+  mutate(pct_postings = scales::percent(round(pct_postings,3))) %>%
+  mutate(pct_postings = ifelse(pct_postings == 'NA',"-",pct_postings)) %>%
+  pivot_wider(names_from = seniority_level, values_from = pct_postings) %>%
+  na.omit() %>%
+  select(discrete_skill, 'Entry Level', 'Mid Level', 'Senior Level') %>%
+  kable(
+      col.names = (c("Skill", "Entry Level", "Mid Level", "Senior Level")),
+      row.names = TRUE,
+      caption = "Top 5 Data Science Skills Common Amongst Each Seniority Level",
+      align = c("l",rep("c",3))
+    ) %>%
+    kable_material(c("striped", "condensed"))
+
 
 
 
 ```
+Across the different seniority levels, we see that the top skills that are common amongst each level of seniority are: 
+
+1. Python Programming 
+2. Communication Skills
+3. Analytics Skills
+4. Analysis Skills
+5. Data Science Skills
+
 
 ## Conclusion
+
+This project provided a very practical way for our team to explore the top skills that we should be developing on our journey towards becoming Data Science professionals. In addition to building up our knowledge and awareness of these core skills, this project provided a hands-on and practical way for us to go through the full Data Analysis and Data Science life-cycle to come up with a problem, pull our raw data, clean the data, import the data into a database, then analyze the data to answer the questions of importance. 
+
+I think that one of the key surprises throughout this project was the number of times we had to go back to the drawing board to account for data that was missing or difficult to acquire, or other challenges that we faced throughout the life of this project. Additionally, there were a number of manual pre-processing steps that given more time, we may have chosen to find a programmatic way to solve for. 
+
+Overall, this project was a great exercise and experience in working collaboratively and being able to work collaboratively in a remote manner. This project allows us to focus on meeting tight deadlines and leverage the strengths of each member of the team. 
