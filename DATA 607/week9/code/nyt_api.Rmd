@@ -1,0 +1,295 @@
+---
+title: "New York Times API"
+author: "Kory Martin"
+date: "2023-03-23"
+output: 
+  html_document:
+    toc: true
+---
+
+## Introduction
+
+For this project, I focused on importing data from the "Most Popular" API provided by the New York Times. The data set used in this assignment, looks at the most popular articles over the past 30-days based on the number of times they were emailed, shared, or viewed. 
+
+In addition to a number of pre-processing steps, for this project, I focused on analyzing the data to answer the following questions:
+
+1. Which writers generate the most favorited bylines?
+2. Which sections and subsections of the paper generated the most popular articles?
+3. Which topics were the most popular?
+4. Were there articles that were popular across email, views, and shared?
+
+
+## Setup
+
+```{r setup}
+#rm(list=ls())
+
+knitr::opts_chunk$set(echo = TRUE)
+
+library(httr)
+library(tidyverse)
+library(jsonlite)
+library(kableExtra)
+library(ggwordcloud)
+library(dotenv)
+
+```
+
+## Import Data from the Most Popular API 
+
+```{r}
+
+load_dot_env('../creds.env')
+
+
+url_base <- 'https://api.nytimes.com/svc/mostpopular/v2'
+
+num_days = 30
+
+viewed_favs <- paste0('/viewed/',num_days,'.json')
+emailed_favs <- paste0('/emailed/',num_days,'.json')
+shared_favs <- paste0('/shared/',num_days,'.json')
+
+
+api_call <- paste0(url_base,viewed_favs,'?api-key=',Sys.getenv("NYT_API_KEY"))
+res <- GET(api_call)
+data <- fromJSON(rawToChar(res$content))
+
+viewed_results <- data$results
+
+api_call <- paste0(url_base,emailed_favs,'?api-key=',Sys.getenv("NYT_API_KEY"))
+res <- GET(api_call)
+data <- fromJSON(rawToChar(res$content))
+
+emailed_results <- data$results
+
+api_call <- paste0(url_base,shared_favs,'?api-key=',Sys.getenv("NYT_API_KEY"))
+res <- GET(api_call)
+data <- fromJSON(rawToChar(res$content))
+
+shared_results <- data$results
+
+```
+
+## Create Common Dataframe
+
+Create a single dataframe that has the data from the 3 sub APIs, and create a new column "fav_category" that identifies which of the APIs the data is collected from.
+
+```{r}
+
+viewed_df <- viewed_results %>% 
+  select(c(5,6,8,9,11,13,15)) %>%
+  mutate(fav_category = "Viewed")
+
+emailed_df <- emailed_results %>% 
+  select(c(5,6,8,9,11,13,15)) %>%
+  mutate(fav_category = "Emailed")
+
+shared_df <- shared_results %>% 
+  select(c(5,6,8,9,11,13,15)) %>%
+  mutate(fav_category = "Shared")
+
+common_df <- rbind(viewed_df, shared_df) 
+common_df <- rbind(common_df, emailed_df)
+
+```
+
+## Analysis Questions:
+
+1. Which writers generate the most favorited bylines?
+2. Which sections and subsections of the paper generated the most popular articles?
+3. Which topics were the most popular? (Use the adx_keywords)
+4. Were there articles that were popular across email, views, and shared?
+
+### Question 1 - Which writers generate the most favorited bylines?
+
+```{r}
+
+## Create data frame of writers with bylines
+
+bylines <- common_df$byline
+
+writers_df = data.frame()
+
+for(i in 1:length(bylines)) {
+  clean_bylines <- str_replace(bylines[i], "By", "")
+  writers <- str_split(clean_bylines,",|and")
+  #print(writers)
+  
+  for(j in 1:length(writers[[1]])) {
+    writer <- str_squish(writers[[1]][j])
+    
+    if(writer != "" & !(writer %in% writers_df)) {
+      writers_df = rbind(writers_df,writer)
+    }
+  }  
+}
+
+colnames(writers_df) <- 'writer'
+
+## Determine number of times writer appears in a byline
+
+writers_df <- writers_df %>%
+  distinct(writer)
+
+writers_df <- writers_df %>%
+  mutate(num_bylines = NA)
+
+for(i in 1:nrow(writers_df)) {
+  selected_writer <- writers_df[i, 'writer']
+  
+  num_bylines_select <- common_df %>% 
+    filter(str_detect(byline, selected_writer)) %>% 
+    select(byline) %>% 
+    nrow()
+  
+  writers_df <- writers_df %>%
+    mutate(num_bylines = ifelse(writer == selected_writer,num_bylines_select,num_bylines))
+
+  }
+
+top10_writers <- writers_df %>%
+  arrange(desc(num_bylines)) %>%
+  filter(row_number() <= 10)
+
+top10_writers %>%
+  kable(
+    row.names = T,
+    col.names = c("Writer", "Count"),
+    caption = "Top 10 Writers Based on Number of Times They Appear in Bylines"
+  ) %>%
+  kable_material(c("striped"))
+
+
+ggplot(top10_writers, aes(x=reorder(writer, num_bylines), y=num_bylines, fill=writer)) +
+  geom_bar(stat='identity') +
+  labs(
+    y="Num Bylines",
+    x="",
+    title = "Top 10 Writers Based on Number of Contributions to Popular Articles"
+  ) +
+  coord_flip()
+
+```
+
+Answer: 
+Michael Levenson was the most popular writer with 4 articles appearing in the favorites list.
+
+
+### Question 2 - Which sections and subsections of the paper generated the most popular articles?
+
+
+```{r}
+common_df %>% 
+  count(section) %>%
+  arrange(desc(n)) %>%
+  kable(
+    col.names = c("Section", "Num Favorites"),
+    row.names = T,
+    caption = "Ranking of Categories Based on Number of Favorites"
+  ) %>%
+  kable_material(c("striped"))
+
+common_df %>% 
+  group_by(section, fav_category) %>%
+  summarize(num_favorites = n()) %>%
+  ungroup() %>%
+  pivot_wider(names_from = fav_category, values_from = num_favorites) %>%
+  mutate_at(c(2,3,4), ~replace_na(.,0)) %>%
+  mutate(total_favs = Shared+Viewed+Emailed) %>%
+  arrange(desc(total_favs)) %>%
+  kable(
+    row.names = T,
+    col.names =  c("Section", "Shared", "Viewed", "Emailed", "Total"),
+    caption = "Number of Favorite Appearances per Favorite Category",
+    align = c("l", c(rep("c",4)))
+  ) %>%
+  kable_material(c("striped"))
+
+
+common_df_summary <- common_df %>% 
+  group_by(section, fav_category) %>%
+  summarize(num_favorites = n()) %>%
+  mutate(total_favs = sum(num_favorites))
+
+
+ggplot(common_df_summary, aes(x=reorder(section,-total_favs), y=num_favorites, fill=fav_category)) + 
+  geom_bar(stat='identity') +
+  labs(
+    x="",
+    y="Total Favorites",
+    title = "Number of Favorites by Article Section and Favorite Type",
+    fill = 'Favorite Category'
+  ) +
+  theme(
+    axis.text.x = element_text(angle=90)
+  )
+```
+
+Answer:
+The US Section by far has the most contributions to popular articles, with 15 total across the three categories.
+
+### Question 3 - Which topics were the most popular?
+
+```{r}
+
+adx_keywords <- common_df$adx_keywords
+
+keywords_df = data.frame()
+
+for(i in 1:length(adx_keywords)) {
+  keywords <- strsplit(adx_keywords[[i]],";")
+  
+  for(j in 1:length(keywords[[1]])) {
+    keyword <- keywords[j]
+    keywords_df <- rbind(keywords_df, keyword)
+  }
+}
+
+colnames(keywords_df) <- 'keyword'
+
+keywords_df <- tibble(keywords_df)
+
+top15_keywords <- keywords_df %>%
+  group_by(keyword) %>%
+  summarize(n = n()) %>%
+  arrange(desc(n)) %>%
+  filter(row_number() <= 15)
+
+top15_keywords %>%
+  kable(
+    row.names = T,
+    col.names = c("Keyword", "Num Articles"),
+    caption = "Top 25 Most Topics based on Keywords"
+  ) %>%
+  kable_material(c("striped"))
+
+```
+
+### Question 4 - Were there articles that were popular across email, views, and shared?
+
+```{r}
+common_df %>%
+  group_by(title, fav_category) %>%
+  summarize(is_present = ifelse(n() >= 1, 'yes','no')) %>%
+  pivot_wider(names_from = fav_category, values_from = is_present) %>%
+  mutate_at(c(2,3,4), ~replace_na(.,"no")) %>%
+  mutate_at(c(2,3,4), str_to_title) %>%
+  mutate(num_categories = (Emailed == 'Yes')+(Shared == 'Yes') + (Viewed == 'Yes')) %>%
+  filter(num_categories >= 2) %>%
+  arrange(desc(num_categories)) %>%
+  select(c(1:4)) %>%
+  kable(
+    row.names = T,
+    col.names = c("Article Title", "Emailed", "Shared", "Viewed"),
+    align = c("l", c(rep("c",3))),
+    caption = "Articles That Are Popular Across 2 or More Categories"
+  ) %>%
+  kable_material(c("striped"))
+    
+  
+
+```
+
+Answer:
+There were 8 articles that were popular across 2 or more categories. 

@@ -1,0 +1,39 @@
+---
+title: "DATA 607 - Nobel Prize Extra Credit"
+author: "Kory Martin"
+date: "2023-03-21"
+output: html_document
+---
+
+## Setup 
+```{r setup, include=FALSE}
+
+rm(list=ls())
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(httr)
+
+prize_url <- "http://api.nobelprize.org/v1/prize.json"
+laureate_url <- "http://api.nobelprize.org/v1/laureate.json"
+country_url <- "http://api.nobelprize.org/v1/country.json"
+
+prize_data <- VERB("GET", prize_url, content_type("application/octet-stream"), accept("application/json"))
+
+laureate_data <- VERB("GET", laureate_url, content_type("application/octet-stream"), accept("application/json"))
+
+country_data <- VERB("GET", country_url, content_type("application/octet-stream"), accept("application/json"))
+
+
+prize_raw <- content(prize_data, "text")
+laureate_raw <- content(laureate_data, "text")
+country_raw <- content(country_data, "text")
+
+laureate_json <- fromJSON(laureate_raw)$laureate
+
+for(i in 1:5) {
+  print(i)
+}
+
+```
