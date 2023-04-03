@@ -1,0 +1,48 @@
+---
+title: "Data Science MS Final Project"
+author: "Kory Martin"
+date: "2023-04-02"
+output: html_document
+---
+
+## Import Libraries
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(dplyr)
+library(janitor)
+
+```
+
+## Import Data
+
+```{r}
+input_folder = '/Users/korymartin/Library/Mobile Documents/com~apple~CloudDocs/Grad Programs/CUNY SPS/cuny_datascience/Semester 1 - Final Project/input'
+
+#File directories
+schools_directory = 'pubschls.txt'
+student_enrollment = 'student_enrollment_2021_2022.txt'
+english_learners = 'englishlearners.txt'
+foster_youth = 'fyenrollbytype21.xlsx'
+
+college_going_rate = 'https://www3.cde.ca.gov/demo-downloads/cgr/cgr16mo20.txt'
+graduation_rate_outcome_data = 'https://www3.cde.ca.gov/demo-downloads/fycgr/fycgr22-v2.txt'
+chronic_absenteeism = 'https://www3.cde.ca.gov/demo-downloads/attendance/chronicabsenteeism22-v2.txt'
+school_expulsions = 'https://www3.cde.ca.gov/demo-downloads/discipline/expulsion22-v3.txt'
+school_suspensions = 'https://www3.cde.ca.gov/demo-downloads/discipline/suspension22-v2.txt'
+staff_demographics = 'https://www3.cde.ca.gov/demo-downloads/staffclass/StaffDemo18.txt'
+classified_staff_demogrpahics = 'https://www3.cde.ca.gov/demo-downloads/cbeds/cbedsora21a.txt'
+
+
+# Data Frames
+schools_df <- tibble(read.delim(file.path(input_folder,schools_directory), header=T,sep="\t"))
+enrollments_df <- tibble(read.delim(file.path(input_folder,student_enrollment), header=T,sep="\t"))
+cgr_df <- tibble(read.delim(college_going_rate, header=T, sep="\t"))
+grad_dropout_df <- tibble(read.delim(graduation_rate_outcome_data, header=T, sep="\t"))
+
+
+```
+
+

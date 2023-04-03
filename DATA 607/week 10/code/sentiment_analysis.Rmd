@@ -1,0 +1,202 @@
+---
+title: "Week 10 Assignment"
+author: "Kory Martin"
+date: "2023-04-01"
+output: html_document
+---
+
+## Introduction
+
+This assignment is focused on conducting a sentiment analysis of a text corpus using the same methodology and overall codebase introduced in [Chapter 2: Sentiment Analysis with Tidy Data](https://www.tidytextmining.com/sentiment.html) of the Text Mining with R text. 
+
+We extend this code by doing the following:
+a) Working with a different corpus of our choosing; and
+b) Incorporating at least one additional sentiment lexicon 
+
+## Import Libraries
+
+We begin by importing the necessary libraries that will allow us to manipulate our data and ensure it is setup in a Tidy format. Additionally, we load libraries that contain the additional corpus we will be using and the sentiment lexicons. 
+
+```{r setup}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidytext)
+library(janeaustenr)
+library(dplyr)
+library(stringr)
+library(tidyr)
+library(ggplot2)
+library(gutenbergr)
+```
+
+## Chapter 2 Tidy Data Code (Part 1):
+
+The code in Chapter 2 
+
+```{r}
+tidy_books <- austen_books() %>%
+  group_by(book) %>%
+  mutate(linenumber = row_number(),
+         chapter = cumsum(str_detect(text, regex("^chapter [\\divxlc]",ignore_case=TRUE)))) %>%
+  ungroup() %>%
+  unnest_tokens(word,text)
+
+
+nrc_joy <- get_sentiments('nrc') %>% 
+  filter(sentiment == 'joy')
+
+
+tidy_books %>% 
+  filter(book == 'Emma') %>% 
+  inner_join(nrc_joy) %>% 
+  count(word, sort=TRUE)
+
+janeaustensentiment <- tidy_books %>% 
+  inner_join(get_sentiments('bing')) %>%
+  count(book, index = linenumber %/% 80, sentiment) %>%
+  spread(sentiment, n, fill=0) %>%
+  mutate(sentiment = positive-negative)
+
+ggplot(janeaustensentiment, aes(index, sentiment, fill=book)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~book, ncol=2, scales="free_x")
+```
+
+## Chapter 2 Tidy Data Code (Part 2): 
+
+```{r}
+pride_prejudice <- tidy_books %>%
+  filter(book == 'Pride & Prejudice' )
+
+afinn <- pride_prejudice %>% 
+  inner_join(get_sentiments('afinn')) %>%
+  group_by(index = linenumber %/% 80) %>%
+  summarize(sentiment = sum(value)) %>%
+  mutate(method = "AFINN")
+
+bing <- pride_prejudice %>% 
+  inner_join(get_sentiments('bing')) %>%
+  mutate(method = "BING")
+
+nrc <- pride_prejudice %>% 
+  inner_join(get_sentiments('nrc')) %>%
+  filter(sentiment %in% c("positive", "negative")) %>%
+  mutate(method="NRC")
+  
+bing_and_nrc <- rbind(bing,nrc) %>%
+  count(method, index = linenumber %/% 80, sentiment) %>%
+  spread(sentiment, n, fill=0) %>%
+  mutate(sentiment = positive-negative)
+
+bind_rows(afinn, bing_and_nrc) %>%
+  ggplot(aes(index, sentiment, fill=method)) +
+  geom_col(show.legend=FALSE) +
+  facet_wrap(~method, ncol=1, scales="free_y")
+```
+
+## Extending Codebase: Choosing a Corpus
+
+For this portion of the analysis, I decided to utilize the Science Fiction book "The Lost World" to evaluate the sentiment of the book.
+
+```{r}
+gutenberg_works() %>%
+  count(gutenberg_bookshelf, sort = TRUE)
+
+gutenberg_works() %>%
+  filter(gutenberg_bookshelf == 'Science Fiction') %>%
+  select(title, author, gutenberg_id)
+  
+
+book_id <- (gutenberg_works() %>%
+  select(gutenberg_id, title, author) %>%
+  arrange(title) %>%
+  filter(title == 'The Lost World'))$gutenberg_id
+
+selected_book <- gutenberg_download(book_id)
+
+```
+
+## Extending Codebase: Sentiment Analysis using **Bing** sentiment lexicon
+
+```{r}
+tidy_book <- selected_book %>%
+  mutate(linenumber = row_number(),
+         chapter = cumsum(str_detect(text, "CHAPTER [\\w]+"))) %>%
+  select(-gutenberg_id) %>%
+  unnest_tokens(word, text)
+
+tidy_book %>%
+  mutate(index = linenumber %/% 40) %>%
+  inner_join(get_sentiments('bing')) %>%
+  count(index, sentiment) %>%
+  spread(sentiment,n,fill=0) %>%
+  mutate(sentiment = positive-negative,
+         sentiment_type = ifelse(sentiment > 0, 'positive', 'negative')) %>%
+  ggplot(aes(index,sentiment, fill=sentiment_type)) +
+  geom_col(show.legend = FALSE)
+
+
+
+```
+
+## Extending Codebase: Additional Lexicons
+
+In addition to the afinn, nrc, and bing lexicons, I also used the "loughran" lexicon. For the sections in this analysis, I used an index length of 80 lines. 
+
+```{r}
+index_length = 80
+
+
+bing <- tidy_book %>%
+  mutate(index = linenumber %/% index_length) %>%
+  inner_join(get_sentiments('bing')) %>%
+  count(index, sentiment) %>%
+  mutate(method = 'bing') %>%
+  spread(sentiment,n, fill=0) %>%
+  mutate(sentiment = positive-negative) %>%
+  select(index, sentiment, method)
+
+  
+nrc <- tidy_book %>%
+  mutate(index = linenumber %/% index_length) %>%
+  inner_join(get_sentiments('nrc')) %>%
+  filter(sentiment %in% c("positive", "negative")) %>%
+  count(index, sentiment) %>%
+  mutate(method = 'nrc') %>%
+  spread(sentiment,n, fill=0) %>%
+  mutate(sentiment = positive-negative) %>%
+  select(index, sentiment, method)
+
+
+loughran <- tidy_book %>%
+  mutate(index = linenumber %/% index_length) %>%
+  inner_join(get_sentiments('loughran')) %>%
+  filter(sentiment %in% c("positive","negative")) %>%
+  count(index, sentiment) %>%
+  mutate(method = 'loughran') %>%
+  spread(sentiment,n, fill=0) %>%
+  mutate(sentiment = positive-negative) %>%
+  select(index, sentiment, method)
+
+
+afinn <- tidy_book %>%
+  mutate(index = linenumber %/% index_length) %>%
+  inner_join(get_sentiments('afinn')) %>%
+  group_by(index) %>%
+  summarize(sentiment = sum(value)) %>%
+  mutate(method = 'afinn')
+
+rbind(loughran, nrc) %>% 
+  rbind(afinn) %>% 
+  rbind(bing) %>% 
+  ggplot(aes(index, sentiment, fill=method)) +
+  geom_col(show.legend = FALSE) +
+  facet_wrap(~method, ncol=2, nrow=2)
+
+
+```
+
+
+## Conclusion
+
+This project provided a very good opportunity to explore the possibilities for conducting sentiment analysis on a corpus of text using different sentiment lexicons. Overall there seems to be inconsistencies in the net sentiment associated with the book across the 4 lexicons. We find that afinn and nrc appears to generate a net positive sentiment for the text, whereas the bing and loughram lexicons appear to suggest a net negative sentiment for the text. 
